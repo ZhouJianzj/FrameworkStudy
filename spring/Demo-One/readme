@@ -1,0 +1,10 @@
+实现步骤
+1、创建maven项目
+2、加入maven的依赖
+    spring的依赖
+    junit单元测试依赖
+    这里可加可不加 一个插件就是编译xml的
+3、创建类（接口和他的实现类）和没用框架之前一样
+4、写完要把这些类交给spring
+5、新建springframework的配置文件，在resources目录下,alt + insert
+6、测试，创建一个类

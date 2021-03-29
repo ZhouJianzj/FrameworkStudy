@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    设置查看日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+<!--    default 写的是你要使用的数据库-->
+    <environments default="managerSystem">
+
+        <!--数据库的配置,可以配置多个数据库如测试使用的,id是数据库的名字-->
+        <environment id="managerSystem">
+            <!--数据库的事务-->
+            <transactionManager type="JDBC"/>
+            <!--数据源,Pooled是连接池-->
+            <dataSource type="POOLED">
+            <!--数据库的账户信息-->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/mangerSystem"/>
+                <property name="username" value="root"/>
+                <property name="password" value="123321"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <!--之前对应写的dao层方法的语句文件编译之后的地址也就是target文件下的，多个就写多个-->
+        <mapper resource="com/jianZhou/dao/StudentDao.xml"/>
+    </mappers>
+</configuration>

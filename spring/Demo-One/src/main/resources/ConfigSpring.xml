@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--
+    告诉spring创建对象
+        1、声明bean，
+        2、id是唯一的标识spring会通过id来找到对象的，class是全限定名称，不可以是接口或则是抽象类，因为底层是反射机制
+-->
+    <bean id="someServiceImple" class="com.JianZhou.service.impl.someServiceImple"></bean>
+</beans>
+<!--
+    spring配置文件的说明
+        1、beans：是根标签，Spring把对象生成beans
+        2、spring-beans.xsd 是约束文件，和mybatis的dtd文件一样约束的
+-->
