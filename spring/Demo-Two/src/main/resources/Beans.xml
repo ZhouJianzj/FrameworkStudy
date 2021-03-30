@@ -4,5 +4,9 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-<bean id="Student" class="entity.Student"/>
+<bean id="Student" class="entity.Student">
+<!-- 调用的是对象的set方法   -->
+    <property name="id" value="1002"/>
+    <property name="email" value="12341@sina.com"/>
+</bean>
 </beans>
