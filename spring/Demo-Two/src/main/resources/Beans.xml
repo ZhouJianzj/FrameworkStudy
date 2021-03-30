@@ -4,9 +4,26 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-<bean id="Student" class="entity.Student">
-<!-- 调用的是对象的set方法   -->
-    <property name="id" value="1002"/>
-    <property name="email" value="12341@sina.com"/>
-</bean>
+    <bean id="Student" class="entity.Student">
+    <!-- 先调用构造方法，在去调用的是对象的set方法 ，方法里面的代码是自己定义的也可以是赋值操作  -->
+        <property name="id" value="1002"/>
+        <property name="email" value="12341@sina.com"/>
+    </bean>
+<!--    引用数据类型的set注入-->
+    <bean id="studentSchool" class="entity.StudentSchool">
+        <property name="id" value="10001"/>
+        <!--ref的使用-->
+        <property name="school" ref="school"/>
+        <property name="name" value="周健"/>
+    </bean>
+    <bean id="school" class="entity.School">
+        <property name="schoolName" value="动力节点"/>
+        <property name="address" value="北京"/>
+    </bean>
+    <!--使用构造方法去实现注入-->
+    <bean id="stuClass" class="entity.StuClass">
+        <constructor-arg name="id" value="01"/>
+        <constructor-arg index="1" value="软件"/>
+        <constructor-arg name="school" ref="school"/>
+    </bean>
 </beans>

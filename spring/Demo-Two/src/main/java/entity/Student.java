@@ -2,11 +2,12 @@ package entity;
 
 public class Student {
     private int id;
-    private String name;
-    private int age;
+    private String name ;
+    private int age = 22;
     private String email;
 
     public Student() {
+        this.name = "zhouJian";
     }
 
     public Student(int id, String name, int age, String email) {
