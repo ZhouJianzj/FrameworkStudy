@@ -1,0 +1,5 @@
+entity\StuClass.class
+entity\Book.class
+entity\School.class
+entity\Student.class
+entity\StudentSchool.class

@@ -1,3 +1,4 @@
+import entity.Book;
 import entity.StuClass;
 import entity.Student;
 import entity.StudentSchool;
@@ -33,5 +34,34 @@ public class Test {
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         StuClass stuClass = (StuClass) ac.getBean("stuClass");
         System.out.println(stuClass);
+    }
+    @org.junit.Test
+    /**
+     * 测试使用byName
+     */
+    public void testByName(){
+             String config = "Beans.xml";
+             ApplicationContext ac =  new ClassPathXmlApplicationContext(config);
+             Book book =  (Book) ac.getBean("book");
+             System.out.println(book.toString());
+    }
+    @org.junit.Test
+    /**
+     * 测试使用byType
+     */
+    public void testBooks(){
+        String config = "Beans.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Book book2 = (Book) ac.getBean("book2");
+        System.out.println(book2.toString());
+    }
+
+
+    @org.junit.Test
+    public void testModel(){
+        String config = "Total.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Object sBook = ac.getBean("book");
+        System.out.println(sBook.toString());
     }
 }

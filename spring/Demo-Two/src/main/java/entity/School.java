@@ -1,11 +1,12 @@
 package entity;
 
 public class School {
-    private String schoolName;
+
+    private String name;
     private String address;
 
-    public void setSchoolName(String schoolName) {
-        this.schoolName = schoolName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setAddress(String address) {
