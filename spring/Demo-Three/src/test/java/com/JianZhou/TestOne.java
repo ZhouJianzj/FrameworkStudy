@@ -19,4 +19,11 @@ public class TestOne {
         Object book = ac.getBean("book");
         System.out.println(book);
     }
+    @Test
+    public void testByName(){
+        String config = "Beans.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Object studentBook = ac.getBean("studentBook");
+        System.out.println(studentBook);
+    }
 }
