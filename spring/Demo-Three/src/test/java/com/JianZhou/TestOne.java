@@ -12,4 +12,11 @@ public class TestOne {
         Object stu = ac.getBean("stu");
         System.out.println(stu);
     }
+    @Test
+    public  void testBook(){
+        String config = "Beans.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Object book = ac.getBean("book");
+        System.out.println(book);
+    }
 }
