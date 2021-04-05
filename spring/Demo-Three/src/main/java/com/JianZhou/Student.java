@@ -1,10 +1,13 @@
 package com.JianZhou;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component(value = "stu")
 public class Student {
+    @Value("zhouujian")
     private String name;
+    @Value("10001")
     private int id;
 
     public Student() {
