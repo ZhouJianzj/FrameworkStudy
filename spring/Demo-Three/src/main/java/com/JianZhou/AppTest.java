@@ -43,9 +43,11 @@ class Test implements InvocationHandler{
         Object invoke = null;
         //之前对象方法前所需要的添加的方法
         System.out.println("doOther方法之前执行的方法");
-        invoke = method.invoke(target, args);
         if ("doSome".equals(method.getName())){
+            invoke = method.invoke(target, args);
             System.out.println("====================");
+        }else {
+            invoke = method.invoke(target, args);
         }
         //之前对象方法之后所需要添加的方法
         System.out.println("doSome方法之后执行的方法");

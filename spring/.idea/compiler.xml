@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demo-Three" />
+        <module name="Demo-Aspectj" />
         <module name="Demo-Two" />
       </profile>
     </annotationProcessing>
