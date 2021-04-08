@@ -9,10 +9,12 @@
         <module name="Demo-Three" />
         <module name="Demo-Aspectj" />
         <module name="Demo-Two" />
+        <module name="spring-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring" target="1.8" />
+      <module name="Spring-mybatis" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

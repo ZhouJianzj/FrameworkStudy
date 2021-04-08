@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/Demo-Two/pom.xml" />
         <option value="$PROJECT_DIR$/Demo-Three/pom.xml" />
         <option value="$PROJECT_DIR$/Demo-Aspectj/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
