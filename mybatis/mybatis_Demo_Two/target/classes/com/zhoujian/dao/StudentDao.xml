@@ -6,9 +6,11 @@
     <select id="selectMethod" resultType="com.zhoujian.entity.Student">
         select * from student
     </select>
+
     <insert id="insertMethod">
         insert into student value( #{id},#{name},#{age},#{address})
     </insert>
+
     <update id="updateMethod">
         update student set name = #{name} where id = #{id}
     </update>

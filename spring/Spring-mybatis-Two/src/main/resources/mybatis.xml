@@ -8,14 +8,14 @@
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/managersystem"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/managersystem?characterEncoding=utf8"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123321"/>
             </dataSource>
         </environment>
     </environments>
-
     <mappers>
-        <mapper resource="com/zhoujian/dao/StudentDao.xml"/>
+<!--扫描dao包下的所有的xml文件-->
+   <package name="com.zhouJian.dao"/>
     </mappers>
 </configuration>

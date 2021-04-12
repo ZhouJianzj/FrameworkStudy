@@ -13,7 +13,7 @@
     </typeAliases>
     <mappers>
 <!--        也可以是package name  这个包下的所有xml文件都可以找到-->
-        <package name="com.Jianzhou.dao"/>
-<!--        <mapper resource="com.Jianzhou.dao.StudentDao.xml"/>-->
+<!--        <package name="com.Jianzhou.dao"/>-->
+        <mapper resource="com.Jianzhou.dao.StudentDao.xml"/>
     </mappers>
 </configuration>

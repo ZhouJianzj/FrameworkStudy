@@ -21,7 +21,7 @@ public interface StudentDao {
      */
     int insertMethod(Student student);
     /**
-     * 更新
+     * 更新, mybatis.xml文件中的变量与@param（id）中的id一样
      */
     int updateMethod(@Param("id")int id, @Param("name")String name);
 

@@ -1,0 +1,52 @@
+package com.zhouJian;
+
+import com.zhouJian.dao.BookDao;
+import com.zhouJian.entities.Book;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+
+public class TestOne {
+    @Test
+    public void TestBookNew(){
+        String config = "Spring.xml";
+        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        Object book = ac.getBean("book");
+        System.out.println(book.toString());
+    }
+    @Test
+    public void testMybatis() throws IOException {
+        String config = "mybatis.xml";
+        InputStream ac = Resources.getResourceAsStream(config);
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory factory = builder.build(ac);
+        SqlSession sqlSession = factory.openSession();
+        BookDao mapper = sqlSession.getMapper(BookDao.class);
+        List<Book> books = mapper.doSelect();
+        books.forEach(book -> System.out.println(book));
+
+    }
+    @Test
+    public void testdoInsert() throws IOException {
+        String config = "mybatis.xml";
+        InputStream ac = Resources.getResourceAsStream(config);
+        SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
+        SqlSessionFactory factory = builder.build(ac);
+        SqlSession sqlSession = factory.openSession(true);
+        BookDao mapper = sqlSession.getMapper(BookDao.class);
+        String springConfig = "Spring.xml";
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext(springConfig);
+        Book book = (Book) applicationContext.getBean("book");
+        int i = mapper.doInsert(book);
+        System.out.println(i);
+    }
+}
