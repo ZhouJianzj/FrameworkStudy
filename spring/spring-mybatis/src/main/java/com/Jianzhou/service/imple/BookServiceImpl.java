@@ -10,7 +10,19 @@ import java.util.List;
 public class BookServiceImpl implements BookService {
     private BookDao bookDao = null;
 
+    /**
+     * 使用构造方法注入
+     * @param bookDao
+     */
     public BookServiceImpl(BookDao bookDao) {
+        this.bookDao = bookDao;
+    }
+
+    /**
+     * 使用set注入
+     * @param bookDao
+     */
+    public void setBookDao(BookDao bookDao) {
         this.bookDao = bookDao;
     }
 

@@ -16,6 +16,9 @@ import java.util.List;
 
 
 public class TestOne {
+    /**
+     * spring 的复习
+     */
     @Test
     public void TestBookNew(){
         String config = "Spring.xml";
@@ -23,6 +26,11 @@ public class TestOne {
         Object book = ac.getBean("book");
         System.out.println(book.toString());
     }
+
+    /**
+     * mybatis的复习
+     * @throws IOException
+     */
     @Test
     public void testMybatis() throws IOException {
         String config = "mybatis.xml";
@@ -30,6 +38,7 @@ public class TestOne {
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory factory = builder.build(ac);
         SqlSession sqlSession = factory.openSession();
+        //不使用sqlid的方式去执行，而使用动态代理的方式
         BookDao mapper = sqlSession.getMapper(BookDao.class);
         List<Book> books = mapper.doSelect();
         books.forEach(book -> System.out.println(book));
@@ -43,6 +52,7 @@ public class TestOne {
         SqlSessionFactory factory = builder.build(ac);
         SqlSession sqlSession = factory.openSession(true);
         BookDao mapper = sqlSession.getMapper(BookDao.class);
+        //获取对象
         String springConfig = "Spring.xml";
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext(springConfig);
         Book book = (Book) applicationContext.getBean("book");

@@ -12,4 +12,12 @@ public class Book {
         this.id = id;
         this.name = name;
     }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
