@@ -1,6 +1,10 @@
 package com.Jianzhou.entites;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Book {
+
     private  Integer id;
 
     private String name;

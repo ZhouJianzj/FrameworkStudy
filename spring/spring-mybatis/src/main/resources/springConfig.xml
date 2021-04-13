@@ -17,4 +17,15 @@
         <property name="dataSource" ref="myDataSource"/>
         <property name="configLocation" value="classpath:mybatis.xml"/>
     </bean>
+<!--spring注解的对象扫描-->
+    <context:component-scan base-package="com.Jianzhou.service.imple"/>
+    <context:component-scan base-package="com.Jianzhou.entites"/>
+
+    <!--创建dao层的对象 使用到的是sqlSession的getMapper()方法生成dao层对象-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--配置sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
+        <!--所要生成的对象所在的包 getMapper方法都会执行一次生成对象放到spring容器中-->
+        <property name="basePackage" value="com.Jianzhou.dao"/>
+    </bean>
 </beans>
