@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-mybatis" />
+        <module name="Demo-Two" />
         <module name="Spring-mybatis-Two" />
         <module name="Demo-Three" />
         <module name="Demo-Aspectj" />
-        <module name="Demo-Two" />
-        <module name="spring-mybatis" />
+        <module name="spring-mybatis-trans" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

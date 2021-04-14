@@ -50,6 +50,7 @@ public class TestOne {
         InputStream ac = Resources.getResourceAsStream(config);
         SqlSessionFactoryBuilder builder = new SqlSessionFactoryBuilder();
         SqlSessionFactory factory = builder.build(ac);
+        //事务的自动提交，设置为false
         SqlSession sqlSession = factory.openSession(true);
         BookDao mapper = sqlSession.getMapper(BookDao.class);
         //获取对象
