@@ -1,9 +1,17 @@
 package com.Jianzhou.entities;
 
-public class sale {
+/**
+ * 销售表
+ */
+public class Sale {
     private  int id;
     private  int gId;
     private int saleNum;
+
+    public Sale(Integer gId, Integer saleNum) {
+        this.gId = gId;
+        this.saleNum = saleNum;
+    }
 
     public int getId() {
         return id;

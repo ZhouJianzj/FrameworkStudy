@@ -21,5 +21,6 @@ public class Test {
         //更新
         int jjjjj = stuDaoImple.updateMethod(1001, "jjjjj");
         System.out.println(jjjjj);
+        sqlSession.close();
     }
 }

@@ -31,8 +31,5 @@
         <property name="basePackage" value="com.Jianzhou.dao"/>
     </bean>
 
-<!--&lt;!&ndash;事务的处理,事务管理器的声明&ndash;&gt;-->
-<!--    <bean id="mybatisTrans" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">-->
 
-<!--    </bean>-->
 </beans>

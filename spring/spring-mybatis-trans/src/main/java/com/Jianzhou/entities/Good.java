@@ -1,5 +1,8 @@
 package com.Jianzhou.entities;
 
+/**
+ * 商品仓库
+ */
 public class Good {
     private int id;
     private String name;
