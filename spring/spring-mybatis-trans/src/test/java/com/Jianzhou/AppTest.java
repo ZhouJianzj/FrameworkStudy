@@ -18,7 +18,7 @@ public class AppTest
       String config ="spring-mybatis.xml";
       ApplicationContext ac = new ClassPathXmlApplicationContext(config);
       buyGoods buyGoodsImpl = (buyGoods) ac.getBean("buyGoodsImpl");
-      int buy = buyGoodsImpl.buy(1001, 10);
+      int buy = buyGoodsImpl.buy(1002, 10);
       if (buy == 1){
           System.out.println("购买成功！");
       }

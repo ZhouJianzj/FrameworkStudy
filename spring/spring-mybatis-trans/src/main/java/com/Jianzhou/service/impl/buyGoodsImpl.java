@@ -13,19 +13,21 @@ import org.springframework.transaction.annotation.Transactional;
 
 
 @Component
-@Transactional(
-//        注意 ：  为什么要加事务，是为了sale表中的插入的数据都是真是存在的，当goodDao类中的方法没有执行成功的时候，sale表中就不会插入数据
-//        事务的行为
-        propagation = Propagation.REQUIRED,
-//        事务的隔离级别
-        isolation = Isolation.DEFAULT,
-//        时候可读
-        readOnly = false,
-//        回滚的异常类型，是一个class类型的数组
-        rollbackFor = {
-                myException.class
-        }
-)
+//也可以直接使用这个标签
+//@Transactional
+//@Transactional(
+////        注意 ：  为什么要加事务，是为了sale表中的插入的数据都是真是存在的，当goodDao类中的方法没有执行成功的时候，sale表中就不会插入数据
+////        事务的行为
+//        propagation = Propagation.REQUIRED,
+////        事务的隔离级别
+//        isolation = Isolation.DEFAULT,
+////        时候可读
+//        readOnly = false,
+////        回滚的异常类型，是一个class类型的数组
+//        rollbackFor = {
+//                myException.class
+//        }
+//)
 public class buyGoodsImpl implements buyGoods {
     @Autowired
     private SaleDao saleDao ;
