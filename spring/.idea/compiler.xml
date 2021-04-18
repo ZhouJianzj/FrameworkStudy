@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-mybatis" />
+        <module name="spring-web" />
         <module name="Demo-Two" />
         <module name="Spring-mybatis-Two" />
         <module name="Demo-Three" />
