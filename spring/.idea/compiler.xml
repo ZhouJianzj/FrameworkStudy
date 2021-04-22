@@ -9,6 +9,7 @@
         <module name="spring-mybatis" />
         <module name="spring-web" />
         <module name="Demo-Two" />
+        <module name="TestPratice" />
         <module name="Spring-mybatis-Two" />
         <module name="Demo-Three" />
         <module name="Demo-Aspectj" />
