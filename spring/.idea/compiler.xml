@@ -9,9 +9,9 @@
         <module name="spring-mybatis" />
         <module name="spring-web" />
         <module name="Demo-Two" />
-        <module name="TestPratice" />
-        <module name="Spring-mybatis-Two" />
         <module name="Demo-Three" />
+        <module name="Spring-mybatis-Two" />
+        <module name="TestPratice" />
         <module name="Demo-Aspectj" />
         <module name="spring-mybatis-trans" />
       </profile>
