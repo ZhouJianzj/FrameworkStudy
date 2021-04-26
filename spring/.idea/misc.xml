@@ -4,6 +4,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../spring-web" />
     <file type="web" url="file://$PROJECT_DIR$/spring-web" />
+    <file type="web" url="file://$PROJECT_DIR$/../SpringMVC/DemoOne" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -18,6 +19,7 @@
         <option value="$PROJECT_DIR$/spring-mybatis-trans/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web/pom.xml" />
         <option value="$PROJECT_DIR$/TestPratice/pom.xml" />
+        <option value="$PROJECT_DIR$/../SpringMVC/DemoOne/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
