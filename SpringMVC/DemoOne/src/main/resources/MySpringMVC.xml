@@ -9,4 +9,11 @@
 
 <!--   组件扫描-->
     <context:component-scan base-package="com.zj"/>
+<!--   视图解析器，为了安全把文件放到WEB-INF/view下面，为了简化“WEB-INF/view/XXXX.jsp”代码的重复编写-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <!--前缀        -->
+        <property name="prefix" value="/WEB-INF/view/"/>
+    <!--后缀    -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
 </beans>
