@@ -13,7 +13,10 @@
     </facet>
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="fileset" name="MySpringMVC" removed="false">
+        <fileset id="web MyWebSpringMVC servlet context" name="MVC MyWebSpringMVC servlet context" removed="true">
+          <file>file://$MODULE_DIR$/src/main/resources/MySpringMVC.xml</file>
+        </fileset>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/resources/MySpringMVC.xml</file>
         </fileset>
       </configuration>
@@ -39,6 +42,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jcl:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:5.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:5.3.6" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:4.0.1" level="project" />
   </component>
 </module>
