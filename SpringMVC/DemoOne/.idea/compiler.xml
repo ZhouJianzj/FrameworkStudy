@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DemoTwo-Param" />
         <module name="DemoTwo-RequstMapping" />
         <module name="DemoOne" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="DemoOne" target="1.8" />
+      <module name="DemoTwo-Param" target="1.8" />
       <module name="DemoTwo-RequstMapping" target="1.8" />
     </bytecodeTargetLevel>
   </component>
