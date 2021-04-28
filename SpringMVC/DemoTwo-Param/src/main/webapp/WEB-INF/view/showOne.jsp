@@ -11,7 +11,9 @@
     <title>逐个参数传递</title>
 </head>
 <body>
-<p>信息： ${userName} <br>${userAge}</p>
+<p>信息： <br>
+名字：${userName} <br>
+年龄：${userAge}</p>
 
 </body>
 </html>
