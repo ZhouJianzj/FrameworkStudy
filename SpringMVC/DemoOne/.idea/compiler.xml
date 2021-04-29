@@ -8,10 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DemoTwo-Param" />
         <module name="DemoTwo-RequstMapping" />
+        <module name="DemoFour-Return" />
         <module name="DemoOne" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DemoFour-Return" target="1.8" />
       <module name="DemoOne" target="1.8" />
       <module name="DemoTwo-Param" target="1.8" />
       <module name="DemoTwo-RequstMapping" target="1.8" />
