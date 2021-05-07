@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/../DemoFive-BiasAndDo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../DemoFive-BiasAndDo/src/main/resources" charset="UTF-8" />
+=======
+>>>>>>> 2bd8d61df8de2137692906cbd95348e16b6fb59a
     <file url="file://$PROJECT_DIR$/../DemoFour-Return/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../DemoFour-Return/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+<<<<<<< HEAD
     <file url="file://$PROJECT_DIR$/../DemoThree-RequstMapping/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../DemoThree-RequstMapping/src/main/resources" charset="UTF-8" />
+=======
+>>>>>>> 2bd8d61df8de2137692906cbd95348e16b6fb59a
     <file url="file://$PROJECT_DIR$/../DemoTwo-Param/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../DemoTwo-Param/src/main/resources" charset="UTF-8" />
   </component>
