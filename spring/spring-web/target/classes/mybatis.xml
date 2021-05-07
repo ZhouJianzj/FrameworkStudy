@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 使mybatis执行的过程以日志的方法输出控制台-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <!--    为这个包下的所有的类取别名-->
+    <typeAliases>
+        <package name="com.JianZhou.entities"/>
+    </typeAliases>
+    <mappers>
+        <!--        也可以是package name  这个包下的所有xml文件都可以找到-->
+        <package name="com.JianZhou.dao"/>
+        <!--        <mapper resource="com.Jianzhou.dao.StudentDao.xml"/>-->
+    </mappers>
+</configuration>

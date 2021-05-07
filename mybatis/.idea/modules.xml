@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis_Demo/mybatis_Demo.iml" filepath="$PROJECT_DIR$/mybatis_Demo/mybatis_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_Demo_Two/mybatis_Demo (1).iml" filepath="$PROJECT_DIR$/mybatis_Demo_Two/mybatis_Demo (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis_DemoOne/mybatis_DemoOne.iml" filepath="$PROJECT_DIR$/mybatis_DemoOne/mybatis_DemoOne.iml" />
+    </modules>
+  </component>
+</project>

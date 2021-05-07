@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DemoTwo-RequstMapping:war">
+    <output-path>$PROJECT_DIR$/../DemoTwo-RequstMapping/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DemoTwo-RequstMapping</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DemoTwo-RequstMapping-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DemoTwo-RequstMapping:war exploded" />
+    </root>
+  </artifact>
+</component>

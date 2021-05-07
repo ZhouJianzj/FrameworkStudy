@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--导入数据库的配置信息-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+    <!--给连接池配置数据库-->
+    <bean id="myDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+         <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+        <property name="maxActive" value="${jdbc.maxActive}"/>
+    </bean>
+    <!--给sqlSessionFactory配置数据库连接池-->
+    <bean id="sqlSessionFactoryBean" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource"/>
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+    <!--创建dao层的对象 使用到的是sqlSession的getMapper()方法生成dao层对象-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--配置sqlSessionFactory -->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
+        <!--所要生成的对象所在的包-->
+        <property name="basePackage" value="com.Jianzhou.dao"/>
+    </bean>
+    <!--spring注解的对象扫描-->
+    <context:component-scan base-package="com.Jianzhou.service.impl"/>
+
+
+
+    <!--事务的处理,事务管理器的声明-->
+        <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+                <property name="dataSource" ref="myDataSource"/>
+        </bean>
+
+<!-- 方法一  -->
+    <!--配置注解事务驱动 ：适合中小型项目的开发，使用的事务是通过事务的注解的方法实现的-->
+<!--    <tx:annotation-driven transaction-manager="transactionManager" />-->
+
+
+
+
+<!-- 方法二  -->
+    <!--使用配置文件的方式去使用事务，合适大型项目开发-->
+    <tx:advice id="myAdvice" transaction-manager="transactionManager" >
+        <tx:attributes>
+            <tx:method name="buyGoodsImpl" isolation="DEFAULT" rollback-for="com.Jianzhou.exception.myException"/>
+        </tx:attributes>
+    </tx:advice>
+<!-- 当有是由通配符的时候多个service形式包下有相同名称匹配样式的方法名称时候，
+为指定特定的方法，使用事务增强的方式具体的实现是通过aop配置来实现配置的-->
+    <aop:config>
+       <!--aop的切入点的配置，这里是与之前的事务表达式是相反的这里代表是书写的是需要添加事务的业务方法-->
+        <aop:pointcut id="buyGoods" expression="execution(* *..service..*.*buy*(..))"/>
+       <!--aop配置 切入点和 事务-->
+        <aop:advisor advice-ref="myAdvice" pointcut-ref="buyGoods"/>
+    </aop:config>
+</beans>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DemoFour-Return (1):war">
+    <output-path>$PROJECT_DIR$/../DemoFive-BiasAndDo/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DemoFour-Return (1)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DemoFour-Return-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DemoFour-Return (1):war exploded" />
+    </root>
+  </artifact>
+</component>
