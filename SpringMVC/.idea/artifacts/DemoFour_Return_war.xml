@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DemoFour-Return:war">
+    <output-path>$PROJECT_DIR$/DemoFour-Return/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DemoFour-Return</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DemoFour-Return-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DemoFour-Return:war exploded" />
+    </root>
+  </artifact>
+</component>

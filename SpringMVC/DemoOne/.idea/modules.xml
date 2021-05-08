@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
-      <module fileurl="file://$PROJECT_DIR$/../DemoFive-BiasAndDo/DemoFive-BiasAndDo.iml" filepath="$PROJECT_DIR$/../DemoFive-BiasAndDo/DemoFive-BiasAndDo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DemoFour-Return/DemoFour-Return.iml" filepath="$PROJECT_DIR$/../DemoFour-Return/DemoFour-Return.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DemoOne.iml" filepath="$PROJECT_DIR$/DemoOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DemoThree-RequstMapping/DemoThree-RequstMapping.iml" filepath="$PROJECT_DIR$/../DemoThree-RequstMapping/DemoThree-RequstMapping.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DemoTwo-Param/DemoTwo-Param.iml" filepath="$PROJECT_DIR$/../DemoTwo-Param/DemoTwo-Param.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/../DemoFour-Return/DemoFour-Return.iml" filepath="$PROJECT_DIR$/../DemoFour-Return/DemoFour-Return.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DemoOne.iml" filepath="$PROJECT_DIR$/DemoOne.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DemoTwo-Param/DemoTwo-Param.iml" filepath="$PROJECT_DIR$/../DemoTwo-Param/DemoTwo-Param.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../DemoTwo-RequstMapping/DemoTwo-RequstMapping.iml" filepath="$PROJECT_DIR$/../DemoTwo-RequstMapping/DemoTwo-RequstMapping.iml" />
->>>>>>> 2bd8d61df8de2137692906cbd95348e16b6fb59a
+      <module fileurl="file://$PROJECT_DIR$/.idea/DemoOne.iml" filepath="$PROJECT_DIR$/.idea/DemoOne.iml" />
     </modules>
   </component>
 </project>

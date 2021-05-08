@@ -21,4 +21,15 @@
 <!--   加入数据转换注解驱动也就是ObjectMapping对象的writeStringAsJson()，可以将java对象转换成json、text、xml等，
         主意的是HttpMessageConverter接口的众多的实现类 -->
     <mvc:annotation-driven/>
+<!--    当使用的是“/”来处理servlet-mapping 的 url 时候需要使用到静态文件的时候中央调度其没有对应的控制器对象来处理
+        所以内部会使用请求转发机制来派遣给tomcat默认的default-servlet静态的资源请求处理处理
+        方法一和方法二只能存在一个-->
+
+    <!--第一种办法-->
+<!--    <mvc:default-servlet-handler/>-->
+
+    <!--第二种办法 ，SpringMVC3.0以上版本才可以的
+        mapping 表示的是访问静态资源文件的url地址  **表示的是表示Html目录的所以资源
+        location 表示的是静态资源的目录路径-->
+    <mvc:resources mapping="Html/**" location="/Html/"/>
 </beans>

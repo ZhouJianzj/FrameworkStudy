@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="DemoTwo-Param:war">
+    <output-path>$PROJECT_DIR$/DemoTwo-Param/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>DemoTwo-Param</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="DemoTwo-Param-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="DemoTwo-Param:war exploded" />
+    </root>
+  </artifact>
+</component>

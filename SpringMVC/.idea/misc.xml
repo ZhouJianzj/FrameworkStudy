@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/DemoFive-BiasAndDo" />
+    <file type="web" url="file://$PROJECT_DIR$/DemoFour-Return" />
+    <file type="web" url="file://$PROJECT_DIR$/DemoOne" />
+    <file type="web" url="file://$PROJECT_DIR$/DemoThree-RequstMapping" />
+    <file type="web" url="file://$PROJECT_DIR$/DemoTwo-Param" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DemoFive-BiasAndDo/pom.xml" />
+        <option value="$PROJECT_DIR$/DemoFour-Return/pom.xml" />
+        <option value="$PROJECT_DIR$/DemoOne/pom.xml" />
+        <option value="$PROJECT_DIR$/DemoThree-RequstMapping/pom.xml" />
+        <option value="$PROJECT_DIR$/DemoTwo-Param/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
