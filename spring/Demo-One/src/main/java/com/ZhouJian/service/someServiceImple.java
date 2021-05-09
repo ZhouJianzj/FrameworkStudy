@@ -6,7 +6,4 @@ public class someServiceImple implements someService {
         System.out.println("执行了接口的方法！");
     }
 
-    public static void main(String[] args) {
-        System.out.println("+++++++++++++++++++++++++++++++++++++");
-    }
 }

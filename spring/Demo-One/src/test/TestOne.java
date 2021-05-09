@@ -17,7 +17,7 @@ public void test01(){
         //spring获取配置文件
         String config = "ConfigSpring.xml";
         //使用class路径获取配置文件，返回的是一个容器
-        ApplicationContext ac = new ClassPathXmlApplicationContext(config);
+        ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext(config);
         //获取bean，然后根据之前的配置文件中的bean中的id创建对象
         someServiceImple someServiceImple = (someServiceImple) ac.getBean("someServiceImple");
         //执行对象中的方法

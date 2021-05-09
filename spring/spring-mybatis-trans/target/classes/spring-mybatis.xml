@@ -58,7 +58,7 @@
 <!-- 当有是由通配符的时候多个service形式包下有相同名称匹配样式的方法名称时候，
 为指定特定的方法，使用事务增强的方式具体的实现是通过aop配置来实现配置的-->
     <aop:config>
-       <!--aop的切入点的配置，这里是与之前的事务表达式是相反的这里表带是书写的是需要添加事务的业务方法-->
+       <!--aop的切入点的配置，这里是与之前的事务表达式是相反的这里代表是书写的是需要添加事务的业务方法-->
         <aop:pointcut id="buyGoods" expression="execution(* *..service..*.*buy*(..))"/>
        <!--aop配置 切入点和 事务-->
         <aop:advisor advice-ref="myAdvice" pointcut-ref="buyGoods"/>

@@ -7,6 +7,6 @@
         select * from student
     </select>
     <insert id="insertMethod">
-        insert into student value( #{id},#{name},#{age},#{address})
+        insert into student value(#{id},#{name},#{age},#{address})
     </insert>
 </mapper>
