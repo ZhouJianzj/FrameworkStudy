@@ -3,17 +3,18 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<!--    &lt;!&ndash; 使mybatis执行的过程以日志的方法输出控制台&ndash;&gt;-->
-<!--    <settings>-->
-<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
-<!--    </settings>-->
-    <!--    为这个包下的所有的类取别名，为了书写返回值的时候不要写那么长的全限定名称-->
+    <!-- 使mybatis执行的过程以日志的方法输出控制台-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <!--    为这个包下的所有的类取别名-->
     <typeAliases>
-        <package name="com.entities"/>
+        <package name="com.zj.doMain"/>
     </typeAliases>
+    <!--指定mapping文件的位置-->
     <mappers>
         <!--        也可以是package name  这个包下的所有xml文件都可以找到-->
-        <package name="com.dao"/>
+        <package name="com.zj.dao"/>
         <!--        <mapper resource="com.Jianzhou.dao.StudentDao.xml"/>-->
     </mappers>
 </configuration>

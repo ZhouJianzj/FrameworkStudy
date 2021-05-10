@@ -4,36 +4,38 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
-<!--    注册 中央调度器也就是springMVC的容器-->
+<!--配置中央调度器DispatcherServlet-->
     <servlet>
-        <servlet-name>mySpringMVCDispatcher</servlet-name>
+        <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--配置springMVC容器-->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:SpringMVC.xml</param-value>
+            <param-value>classpath:config/SpringMVC.xml</param-value>
         </init-param>
+        <!--首先加载-->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
-        <servlet-name>mySpringMVCDispatcher</servlet-name>
-        <!--使用/需要配置静态资源处理器-->
-        <url-pattern>/</url-pattern>
+        <servlet-name>dispatcherServlet</servlet-name>
+        <url-pattern>*.do</url-pattern>
     </servlet-mapping>
-<!--    注册监听器也就是配置 spring容器-->
+
+<!--注册监听器创建Spring容器-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:Spring.xml</param-value>
+        <param-value>classpath:config/Spring.xml</param-value>
     </context-param>
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-<!--    字符集过滤器-->
+<!--字符集过滤器-->
     <filter>
-        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
         <init-param>
             <param-name>encoding</param-name>
-            <param-value>UTF-8</param-value>
+            <param-value>utf-8</param-value>
         </init-param>
         <init-param>
             <param-name>forceRequestEncoding</param-name>
@@ -45,7 +47,7 @@
         </init-param>
     </filter>
     <filter-mapping>
-        <filter-name>CharacterEncodingFilter</filter-name>
+        <filter-name>characterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 </web-app>
