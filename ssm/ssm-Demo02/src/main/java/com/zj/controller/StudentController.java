@@ -7,9 +7,11 @@ import com.zj.service.StudentService;
 import org.springframework.stereotype.Controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 
 @Controller
@@ -27,5 +29,10 @@ public class StudentController {
         }
         modelAndView.setViewName("show");
         return modelAndView;
+    }
+    @RequestMapping("studentFind.do")
+    @ResponseBody
+    public List<Student> findStudent(){
+        return studentService.findStudents();
     }
 }

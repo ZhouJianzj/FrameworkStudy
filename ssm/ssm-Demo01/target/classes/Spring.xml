@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+<!--容器中有services dao 工具类-->
+
+<!--第一步配置好Mybatis三个对象，连接池、sqlSessionFactory、getMapping-->
+    <!--配置连接池-->
+    <bean id="druid" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+            destroy-method="close">
+        <!--也可以使用配置文件的形式去配置数据库的相关信息
+                <context:property-placeholder location="classpath:jdbc.properties"/>
+         -->
+        <property name="username" value="root"/>
+        <property name="password" value="123321"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/managersystem"/>
+        <property name="maxActive" value="20"/>
+    </bean>
+    <!--配置sqlSessionFactory对象-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="druid"/>
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+    </bean>
+    <!--配置Mapping扫描器，也就是扫描XML文件的-->
+    <bean id="mappingScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <property name="basePackage" value="com.dao"/>
+    </bean>
+
+<!--配置注解扫描器-->
+    <context:component-scan base-package="com.services"/>
+</beans>
