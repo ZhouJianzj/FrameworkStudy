@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/../../SpringMVC/DemoFour-Return/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ssm-Demo02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo03-Forward-Redirect/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo03-Forward-Redirect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo04-Exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo04-Exception/src/main/resources" charset="UTF-8" />
   </component>
 </project>

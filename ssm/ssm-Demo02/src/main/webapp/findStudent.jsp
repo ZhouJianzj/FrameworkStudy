@@ -11,6 +11,12 @@
     <title>查询学生</title>
     <script src="js/jquery-3.6.0.min.js"></script>
 <%--    base标签不写了--%>
+
+<%--    //可以根据响应的时机不同设置方方法执行，首先需要包装一下--%>
+<%--    //       1、需要给ajax函数写到外面--%>
+<%--    //       2、可以实现不同的时机去执行--%>
+
+    <%--   1）单击按钮去执行--%>
     <script type="text/javascript">
         $(function () {
             $("#btn").click(function(){
@@ -33,6 +39,31 @@
                 })
             })
         })
+    </script>
+<%--     //2）包装好方法可以在页面加载的时候去直接的执行，不需要点击点击--%>
+    <script type="text/javascript">
+        $(function () {
+            doAjax()
+        })
+        function doAjax() {
+            $.ajax({
+                url:"studentFind.do",
+                type:"get",
+                dataType:"json",
+                success:function (data) {
+                    // 每次查询删除旧的
+                    $("#info").html(" ")
+                    //i表示循环的一个参数 n表示对象
+                    $.each(data,function (i,n) {
+                        $("#info").append("<tr>")
+                            .append("<td>" + n.id + "</td>" )
+                            .append("<td>" + n.name + "</td>")
+                            .append("<td>" + n.age + "</td>")
+                            .append("</tr>")
+                    })
+                }
+            })
+        }
     </script>
 </head>
 <body>

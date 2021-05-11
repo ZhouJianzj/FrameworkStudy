@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ssm-Demo04-Exception" />
         <module name="ssm-Demo02" />
         <module name="ssm-Demo01" />
         <module name="DemoFour-Return" />
+        <module name="ssm-Demo03-Forward-Redirect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
