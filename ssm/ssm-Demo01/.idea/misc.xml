@@ -9,6 +9,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo04-Exception" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo05-Interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo06-MoreInterceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo07-Interceptor-Login" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-DemoTwo" />
   </component>
   <component name="MavenProjectsManager">
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/../ssm-Demo04-Exception/pom.xml" />
         <option value="$PROJECT_DIR$/../ssm-Demo05-Interceptor/pom.xml" />
         <option value="$PROJECT_DIR$/../ssm-Demo06-MoreInterceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm-Demo07-Interceptor-Login/pom.xml" />
       </list>
     </option>
   </component>

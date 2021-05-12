@@ -8,11 +8,12 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ssm-Demo02" />
         <module name="ssm-Demo01" />
-        <module name="ssm-Demo06-MoreInterceptor" />
-        <module name="DemoFour-Return" />
-        <module name="ssm-Demo03-Forward-Redirect" />
         <module name="ssm-Demo05-Interceptor" />
+        <module name="ssm-Demo03-Forward-Redirect" />
+        <module name="ssm-Demo06-MoreInterceptor" />
         <module name="ssm-Demo04-Exception" />
+        <module name="DemoFour-Return" />
+        <module name="ssm-Demo07-Interceptor-Login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

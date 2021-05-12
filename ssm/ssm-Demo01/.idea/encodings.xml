@@ -13,5 +13,7 @@
     <file url="file://$PROJECT_DIR$/../ssm-Demo05-Interceptor/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ssm-Demo06-MoreInterceptor/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ssm-Demo06-MoreInterceptor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo07-Interceptor-Login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm-Demo07-Interceptor-Login/src/main/resources" charset="UTF-8" />
   </component>
 </project>

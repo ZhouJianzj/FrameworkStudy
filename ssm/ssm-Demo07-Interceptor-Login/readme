@@ -1,0 +1,14 @@
+模拟实现用户登录
+1、使用的session 存放数据
+2、此项目拦截器的拦截对请求是所有的请求
+    总结：当多个控制器对象有一个共同功能的时候，可以使用拦截器去实现
+3、login.jsp文件设置session中的name参数值
+4、exit.jsp文件移除session中的name参数值
+5、index.jsp模拟请求，因为拦截器是拦截的所有dispacher派遣来的请求url，所以必须登录了才能去执行相关的操作，
+    静态资源可以使用过滤器去设置用户的访问权限，也可以给放到WEB-INF文件下
+6、tips.jsp seesion中的name不是zhoujian就会拦截跳转到tips.jsp提示
+7、show.jsp Controller正常的执行了跳转的页面
+8、正确的访问方式：
+先访问login.jsp===========》在跳转到index.jsp=============》
+模拟发送some.do请求，执行了Controller=============》show.jsp============》
+访问exit.jsp==============》推出登录
