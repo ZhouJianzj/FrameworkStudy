@@ -1,0 +1,17 @@
+多个interceptor的执行顺序
+1、按springMVC配置文件的配置顺序执行拦截器
+2、是类似盒子的执行机制
+示例：
+全为true
+1========proHandle
+2=========proHandle
+2========postHandle
+1========postHandle
+2========afterCompletion
+1========afterCompletion
+第一个为false
+1========proHandle
+第二个为false
+1========proHandle
+2=========proHandle
+1========afterCompletion

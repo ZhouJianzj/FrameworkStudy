@@ -19,7 +19,7 @@ public class GoabelException {
     public ModelAndView handledNameException(Exception exception){
         ModelAndView mv = new ModelAndView();
         mv.addObject("ex",exception);
-        mv.setViewName("exception");
+        mv.setViewName("excepti on");
         return mv;
     }
     @ExceptionHandler(AgeException.class)
