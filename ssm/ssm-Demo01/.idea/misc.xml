@@ -7,6 +7,7 @@
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo02" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo03-Forward-Redirect" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo04-Exception" />
+    <file type="web" url="file://$PROJECT_DIR$/../ssm-Demo05-Interceptor" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm-DemoTwo" />
   </component>
   <component name="MavenProjectsManager">
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/../../SpringMVC/DemoFour-Return/pom.xml" />
         <option value="$PROJECT_DIR$/../ssm-Demo03-Forward-Redirect/pom.xml" />
         <option value="$PROJECT_DIR$/../ssm-Demo04-Exception/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm-Demo05-Interceptor/pom.xml" />
       </list>
     </option>
   </component>

@@ -14,8 +14,8 @@ public class Test {
         ModelAndView modelAndView = new ModelAndView();
 //        当第一个抛出异常的时候就不会在执行下面的程序了，
 //        还需注意的是方法中throw子类的时候，方法上直接throws父类
-        if (!("zj".equals(name))){  
-            throw new NameException("姓名不是周健");
+        if (!("zj".equals(name))){
+            throw new NameException("姓名不是zj");
         }
         if (null == age || age >= 30){
             throw new AgeException("年龄大于30 或则 年龄为null");
