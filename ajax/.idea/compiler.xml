@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ajax01-wholeRefresh" />
         <module name="ajax02-LocalRefresh" />
+        <module name="ssm-Demo02" />
+        <module name="ajax03-ssm-Refresh" />
+        <module name="ajax01-wholeRefresh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ajax01-wholeRefresh" target="1.8" />
       <module name="ajax02-LocalRefresh" target="1.8" />
+      <module name="ajax03-ssm-Refresh" target="1.8" />
+      <module name="ssm-Demo02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/ajax01-wholeRefresh" />
     <file type="web" url="file://$PROJECT_DIR$/ajax02-LocalRefresh" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax03-ssm-Refresh" />
+    <file type="web" url="file://$PROJECT_DIR$/../ssm/ssm-Demo02" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -12,6 +14,8 @@
       <list>
         <option value="$PROJECT_DIR$/ajax01-wholeRefresh/pom.xml" />
         <option value="$PROJECT_DIR$/ajax02-LocalRefresh/pom.xml" />
+        <option value="$PROJECT_DIR$/ajax03-ssm-Refresh/pom.xml" />
+        <option value="$PROJECT_DIR$/../ssm/ssm-Demo02/pom.xml" />
       </list>
     </option>
   </component>

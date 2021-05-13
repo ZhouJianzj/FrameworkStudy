@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ajax03-ssm-Refresh:war">
+    <output-path>$PROJECT_DIR$/ajax03-ssm-Refresh/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ajax03-ssm-Refresh</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ajax03-ssm-Refresh-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ajax03-ssm-Refresh:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/ajax.iml" filepath="$PROJECT_DIR$/ajax.iml" />
       <module fileurl="file://$PROJECT_DIR$/ajax01-wholeRefresh/ajax01-wholeRefresh.iml" filepath="$PROJECT_DIR$/ajax01-wholeRefresh/ajax01-wholeRefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/ajax02-LocalRefresh/ajax02-LocalRefresh.iml" filepath="$PROJECT_DIR$/ajax02-LocalRefresh/ajax02-LocalRefresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ajax03-ssm-Refresh/ajax03-ssm-Refresh.iml" filepath="$PROJECT_DIR$/ajax03-ssm-Refresh/ajax03-ssm-Refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ssm/ssm-Demo02/ssm-Demo02.iml" filepath="$PROJECT_DIR$/../ssm/ssm-Demo02/ssm-Demo02.iml" />
     </modules>
   </component>
 </project>

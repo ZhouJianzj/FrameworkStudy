@@ -5,5 +5,8 @@
     <file url="file://$PROJECT_DIR$/ajax01-wholeRefresh/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ajax02-LocalRefresh/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ajax02-LocalRefresh/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ajax03-ssm-Refresh/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ajax03-ssm-Refresh/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ssm/ssm-Demo02/src/main/java" charset="UTF-8" />
   </component>
 </project>
