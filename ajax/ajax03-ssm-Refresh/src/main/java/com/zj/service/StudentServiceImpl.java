@@ -21,8 +21,14 @@ public class StudentServiceImpl implements StudentService {
         Student student = null;
         List<Student> students = studentDao.selectStudent(id);
         Iterator<Student> iterator = students.iterator();
-        while(iterator.hasNext()){
-            student = iterator.next();
+        if(students.isEmpty()){
+            student = new Student();
+            student.setName("无数据");
+            student.setAge(0);
+        }else {
+            while(iterator.hasNext()){
+                student = iterator.next();
+            }
         }
         return student;
     }
