@@ -5,9 +5,9 @@
         var xmlHttpRequest = new XMLHttpRequest();
         xmlHttpRequest.onreadystatechange = function () {
             if (xmlHttpRequest.readyState == 4 && xmlHttpRequest.status == 200){
-                alert(xmlHttpRequest.responseText)
-                document.getElementById("name").value = xmlHttpRequest.responseText.)
-                document.getElementById("age").value = xmlHttpRequest.responseText.anchor("age")
+                //返回的不是一个Student对象，而是对象中属性的值 周健23
+                document.getElementById("name").value = xmlHttpRequest.responseText.substr(0,2)
+                document.getElementById("age").value = xmlHttpRequest.responseText.substr(2,2)
 
             }
         }
