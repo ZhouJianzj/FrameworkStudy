@@ -6,6 +6,7 @@
         xmlHttpRequest.onreadystatechange = function () {
             if (xmlHttpRequest.readyState == 4 && xmlHttpRequest.status == 200){
                 //后端返回来的是一个json格式的字符串，我们使用js把json格式的字符串转换成json对象
+                //后面会使用到的是更强大的jQuery
                 var jsonObject = eval("(" + xmlHttpRequest.responseText + ")");
                 document.getElementById("name").value = jsonObject.name
                 document.getElementById("age").value = jsonObject.age
