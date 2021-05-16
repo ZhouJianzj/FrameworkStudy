@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6df3a6-4a93-413e-9aae-59f3e91598d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/indexTwo.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/js/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-reflect-static/Demo01-reflect-static.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-reflect-static/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-reflect-static/src/main/java/com/zj/reflect/ReflectImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-reflect-static/src/main/java/com/zj/services/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-reflect-static/src/main/java/com/zj/services/XiaoAiHelloImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/DongTaiProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/factory/HelloXiaoAiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/handler/myInvation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/service/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/resources/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/resources/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/resources/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/resources/Spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/ajax03-ssm-Refresh-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/ajax03-ssm-Refresh-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/ajax03-ssm-Refresh-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/ajax03-ssm-Refresh-1.0-SNAPSHOT/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/classes/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/classes/Mybatis.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/classes/Spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ajax/ajax03-ssm-Refresh/target/classes/Spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo02/ssm-Demo02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo02/ssm-Demo02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo01-reflect-static/src/main/java/com/zj/services/XiaoAiHelloImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-reflect-static/src/main/java/com/zj/services/XiaoAiHelloImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,12 +179,24 @@
       <workItem from="1621130670529" duration="2433000" />
       <workItem from="1621157099128" duration="274000" />
       <workItem from="1621157378712" duration="19000" />
-      <workItem from="1621157401109" duration="3369000" />
+      <workItem from="1621157401109" duration="4235000" />
     </task>
+    <task id="LOCAL-00001" summary="动态代理的实现&#10;1、需要一个service层的业务接口&#10;2、一个factory对象去实现service的需求&#10;3、这时候需要一个代理去卖服务，于是就有动态代理和静态代理的两种方式去实现创建代理&#10;4、静态代理，需要创建一个实现InvocationHandle接口的对象，这就个对象就是未来动态创建代理的核心，主要的业务就是在这里增加的&#10;5、最后在那里需要就在哪里使用，首先创建工厂，创建好第4布的实现对象又称调用增强对象，最后使用Proxy.newProxyInstance(工厂对象的类加载器，工厂类型的接口也就是service层的接口，增强的对象)的方法创建一个代理对象，转一下需要完成的业务的接口类型也就是service层的factory实现的接口这样就好调用里面的方法了。">
+      <created>1621160845895</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621160845896</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="动态代理的实现&#10;1、需要一个service层的业务接口&#10;2、一个factory对象去实现service的需求&#10;3、这时候需要一个代理去卖服务，于是就有动态代理和静态代理的两种方式去实现创建代理&#10;4、静态代理，需要创建一个实现InvocationHandle接口的对象，这就个对象就是未来动态创建代理的核心，主要的业务就是在这里增加的&#10;5、最后在那里需要就在哪里使用，首先创建工厂，创建好第4布的实现对象又称调用增强对象，最后使用Proxy.newProxyInstance(工厂对象的类加载器，工厂类型的接口也就是service层的接口，增强的对象)的方法创建一个代理对象，转一下需要完成的业务的接口类型也就是service层的factory实现的接口这样就好调用里面的方法了。" />
+    <option name="LAST_COMMIT_MESSAGE" value="动态代理的实现&#10;1、需要一个service层的业务接口&#10;2、一个factory对象去实现service的需求&#10;3、这时候需要一个代理去卖服务，于是就有动态代理和静态代理的两种方式去实现创建代理&#10;4、静态代理，需要创建一个实现InvocationHandle接口的对象，这就个对象就是未来动态创建代理的核心，主要的业务就是在这里增加的&#10;5、最后在那里需要就在哪里使用，首先创建工厂，创建好第4布的实现对象又称调用增强对象，最后使用Proxy.newProxyInstance(工厂对象的类加载器，工厂类型的接口也就是service层的接口，增强的对象)的方法创建一个代理对象，转一下需要完成的业务的接口类型也就是service层的factory实现的接口这样就好调用里面的方法了。" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="0" width="657" height="864" key="#App" timestamp="1621157360759">
@@ -222,26 +211,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="499" y="208" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1621157645393" />
+    <state x="294" y="0" key="CommitChangelistDialog2" timestamp="1621160844483">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="294" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1621160844483" />
     <state x="549" y="122" key="FileChooserDialogImpl" timestamp="1621157457898">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621157457898" />
-    <state width="1493" height="684" key="GridCell.Tab.0.bottom" timestamp="1621159803220">
+    <state width="1493" height="684" key="GridCell.Tab.0.bottom" timestamp="1621163178453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="684" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621159803220" />
-    <state width="1493" height="684" key="GridCell.Tab.0.center" timestamp="1621159803220">
+    <state width="1493" height="684" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621163178453" />
+    <state width="1493" height="684" key="GridCell.Tab.0.center" timestamp="1621163178453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="684" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621159803220" />
-    <state width="1493" height="684" key="GridCell.Tab.0.left" timestamp="1621159803220">
+    <state width="1493" height="684" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621163178453" />
+    <state width="1493" height="684" key="GridCell.Tab.0.left" timestamp="1621163178453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="684" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621159803220" />
-    <state width="1493" height="684" key="GridCell.Tab.0.right" timestamp="1621159803220">
+    <state width="1493" height="684" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621163178453" />
+    <state width="1493" height="684" key="GridCell.Tab.0.right" timestamp="1621163178453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="684" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621159803220" />
+    <state width="1493" height="684" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621163178453" />
     <state x="408" y="50" key="NewModule_or_Project.wizard" timestamp="1621157460203">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -250,6 +243,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1621157477041" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1621160853955">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1621160853955" />
     <state x="178" y="7" key="new project wizard" timestamp="1621157229241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
