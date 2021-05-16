@@ -2,12 +2,13 @@
 <html>
 <script>
     function doajax() {
+        //创建异步对象
         var xmlHttpRequest = new XMLHttpRequest();
+        //事件绑定
         xmlHttpRequest.onreadystatechange = function () {
             if (xmlHttpRequest.readyState == 4 && xmlHttpRequest.status == 200){
-                //返回的不是一个Student对象，而是对象中属性的值 周健23
-                alert(xmlHttpRequest.responseText)
                 //后端返回来的是一个json格式的字符串，我们使用js把json格式的字符串转换成json对象
+                //后面会使用到的是更强大的jQuery
                 var jsonObject = eval("(" + xmlHttpRequest.responseText + ")");
                 document.getElementById("name").value = jsonObject.name
                 document.getElementById("age").value = jsonObject.age
@@ -16,7 +17,9 @@
         }
         var value = document.getElementById("stuId").value;
         var url = "findStudent" + "?id=" + value
+        //初始化资源
         xmlHttpRequest.open("get",url,true)
+        //发送异步请求
         xmlHttpRequest.send()
     }
 </script>

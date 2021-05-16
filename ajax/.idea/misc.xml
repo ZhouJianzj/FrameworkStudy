@@ -4,6 +4,9 @@
     <file type="web" url="file://$PROJECT_DIR$/ajax01-wholeRefresh" />
     <file type="web" url="file://$PROJECT_DIR$/ajax02-LocalRefresh" />
     <file type="web" url="file://$PROJECT_DIR$/ajax03-ssm-Refresh" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax04-leveljQuery" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax04-levelQuery" />
+    <file type="web" url="file://$PROJECT_DIR$/ajax04-test" />
     <file type="web" url="file://$PROJECT_DIR$/../ssm/ssm-Demo02" />
   </component>
   <component name="JavaScriptSettings">
