@@ -6,13 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Demo02-reflect-proxy" />
         <module name="Demo01-reflect-static" />
+        <module name="Demo02-reflect-proxy" />
+        <module name="Demo03-reflect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo01-reflect-static" target="1.7" />
       <module name="Demo02-reflect-proxy" target="1.7" />
+      <module name="Demo03-reflect" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

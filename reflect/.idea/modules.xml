@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Demo01-reflect-static/Demo01-reflect-static.iml" filepath="$PROJECT_DIR$/Demo01-reflect-static/Demo01-reflect-static.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo02-reflect-proxy/Demo02-reflect-proxy.iml" filepath="$PROJECT_DIR$/Demo02-reflect-proxy/Demo02-reflect-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Demo03-reflect/Demo03-reflect.iml" filepath="$PROJECT_DIR$/Demo03-reflect/Demo03-reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/reflect.iml" filepath="$PROJECT_DIR$/.idea/reflect.iml" />
     </modules>
   </component>
