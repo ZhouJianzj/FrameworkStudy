@@ -1,12 +1,12 @@
 package com.zj.handler;
 
-
-import com.sun.org.apache.xpath.internal.operations.Mod;
 import com.zj.exception.AgeException;
 import com.zj.exception.NameException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+
 
 @ControllerAdvice
 public class GoabelException {
@@ -16,17 +16,27 @@ public class GoabelException {
      * @return ModelAndView
      */
     @ExceptionHandler(NameException.class)
-    public ModelAndView handledNameException(Exception exception){
-        ModelAndView mv = new ModelAndView();
-        mv.addObject("ex",exception);
-        mv.setViewName("exception");
-        return mv;
+//    public ModelAndView handledNameException(Exception exception){
+//        ModelAndView mv = new ModelAndView();
+//        mv.addObject("ex",exception);
+//        mv.setViewName("exception");
+//        return mv;
+//    }
+    @ResponseBody
+    public String handledNameException(Exception exception){
+        System.out.println(exception.getMessage());
+        return exception.getMessage();
     }
     @ExceptionHandler(AgeException.class)
-    public ModelAndView handledAgeException(Exception exception){
-        ModelAndView mv = new ModelAndView();
-        mv.addObject("ex",exception);
-        mv.setViewName("exception");
-        return mv;
+//    public ModelAndView handledAgeException(Exception exception){
+//        ModelAndView mv = new ModelAndView();
+//        mv.addObject("ex",exception);
+//        mv.setViewName("exception");
+//        return mv;
+//    }
+    @ResponseBody
+    public Object  handleAgeException(Exception exception){
+        System.out.println(exception.getMessage());
+        return exception.getMessage();
     }
 }

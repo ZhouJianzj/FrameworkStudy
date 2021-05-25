@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class Test {
-    @RequestMapping("some.do")
+    @RequestMapping("somedo.do")
     public ModelAndView doForward(String name,Integer age) throws MyException {
         ModelAndView modelAndView = new ModelAndView();
 //        当第一个抛出异常的时候就不会在执行下面的程序了，
