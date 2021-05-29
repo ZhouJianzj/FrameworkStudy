@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+<!--    服务名-->
+    <dubbo:application name="consumer" />
+
+<!--    接口所在的全限定名称  url遵循dubbo协议-->
+    <dubbo:reference id="studentService" interface="com.zj.service.StudentService" url="dubbo://localhost:20880" registry="N/A"/>
+
+</beans>

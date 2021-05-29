@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6df3a6-4a93-413e-9aae-59f3e91598d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringMVC/DemoFive-BiasAndDo/src/main/resources/MySpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/DemoFive-BiasAndDo/src/main/resources/MySpringMVC.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +153,7 @@
       <workItem from="1621336236445" duration="3838000" />
       <workItem from="1621348972068" duration="351000" />
       <workItem from="1621383746027" duration="596000" />
+      <workItem from="1622254660083" duration="667000" />
     </task>
     <task id="LOCAL-00001" summary="动态代理的实现&#10;1、需要一个service层的业务接口&#10;2、一个factory对象去实现service的需求&#10;3、这时候需要一个代理去卖服务，于是就有动态代理和静态代理的两种方式去实现创建代理&#10;4、静态代理，需要创建一个实现InvocationHandle接口的对象，这就个对象就是未来动态创建代理的核心，主要的业务就是在这里增加的&#10;5、最后在那里需要就在哪里使用，首先创建工厂，创建好第4布的实现对象又称调用增强对象，最后使用Proxy.newProxyInstance(工厂对象的类加载器，工厂类型的接口也就是service层的接口，增强的对象)的方法创建一个代理对象，转一下需要完成的业务的接口类型也就是service层的factory实现的接口这样就好调用里面的方法了。">
       <created>1621160845895</created>

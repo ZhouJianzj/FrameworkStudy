@@ -1,0 +1,5 @@
+1、就是架构里面的消费者
+2、也是一个web项目
+3、需要服务提供者的jar包，在lconsumer-link-..下打包好jar包在到consumer的pom文件下配置
+4、在spring配置文件下配置dubbo，和服务提供者的配置不同，使用到的是dubbo:reference
+5、创建controller

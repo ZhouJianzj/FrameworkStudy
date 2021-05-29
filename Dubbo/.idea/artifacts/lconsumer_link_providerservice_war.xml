@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lconsumer-link-providerservice:war">
+    <output-path>$PROJECT_DIR$/lconsumer-link-providerservice/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>lconsumer-link-providerservice</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="lconsumer-link-providerservice.war">
+      <element id="artifact" artifact-name="lconsumer-link-providerservice:war exploded" />
+    </root>
+  </artifact>
+</component>

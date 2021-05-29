@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xmlns:dobbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+<!--    配置服务的id 具有唯一性-->
+    <dubbo:application name="NAlink"/>
+<!--    配置协议和端口-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+<!--    配置服务 和实现类  不适用注册中心N/A-->
+    <dobbo:service interface="com.zj.service.StudentService" ref="studentServiceImpl" registry="N/A"/>
+    <bean id="studentServiceImpl" class="com.zj.service.StudentServiceImpl"/>
+</beans>
