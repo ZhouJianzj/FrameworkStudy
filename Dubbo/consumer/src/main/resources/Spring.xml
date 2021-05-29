@@ -6,6 +6,9 @@
     <dubbo:application name="consumer" />
 
 <!--    接口所在的全限定名称  url遵循dubbo协议-->
-    <dubbo:reference id="studentService" interface="com.zj.service.StudentService" url="dubbo://localhost:20880" registry="N/A"/>
+    <dubbo:reference id="studentService"
+                     interface="com.zj.service.StudentService"
+                     url="dubbo://localhost:20880"
+                     registry="N/A"/>
 
 </beans>
