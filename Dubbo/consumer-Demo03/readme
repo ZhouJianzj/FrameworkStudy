@@ -1,0 +1,5 @@
+使用的话需要tomcat配置好provider-Demo02一起使用
+1、这里还是直连的方式
+2、但是与之前不同的是通过给 接口（java project） 和 实现接口(javaWeb project) 分离了
+3、dubbo的书写还没没有变
+4、需要增加的依赖就是java project工程也就是接口工程
