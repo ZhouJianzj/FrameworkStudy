@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Demo01-registry-provider:war">
+    <output-path>$PROJECT_DIR$/Demo01-registry-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Demo01-registry-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Demo01-registry-provider.war">
+      <element id="artifact" artifact-name="Demo01-registry-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

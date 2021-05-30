@@ -3,6 +3,8 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/consumer" />
     <file type="web" url="file://$PROJECT_DIR$/consumer-Demo03" />
+    <file type="web" url="file://$PROJECT_DIR$/Demo01-registry-consumer" />
+    <file type="web" url="file://$PROJECT_DIR$/Demo01-registry-provider" />
     <file type="web" url="file://$PROJECT_DIR$/interface-Demo01" />
     <file type="web" url="file://$PROJECT_DIR$/lconsumer-link-providerservice" />
     <file type="web" url="file://$PROJECT_DIR$/provider-Demo02" />
@@ -16,6 +18,9 @@
         <option value="$PROJECT_DIR$/provider-Demo02/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-Demo03/pom.xml" />
         <option value="$PROJECT_DIR$/link-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo01-registry-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo01-registry-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo01-registry-consumer/pom.xml" />
       </list>
     </option>
   </component>

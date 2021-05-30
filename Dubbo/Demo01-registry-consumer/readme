@@ -1,0 +1,4 @@
+1、使用的是注册中心
+2、一样的书写形式，provider、consumer需要新增添加的依赖就是zookeeper的依赖
+3、两者的spring配置文件需要改动 增加<dubbo:registry address="zookeeper://localhost:2181/>"
+4、consumer的spring配置文件中去除 url
