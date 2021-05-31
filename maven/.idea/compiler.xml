@@ -12,8 +12,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Demo01-parent" target="1.5" />
-      <module name="Demo02-childrenOne" target="1.7" />
-      <module name="Demo03-childrenTwo" target="1.7" />
+      <module name="Demo02-childrenOne" target="1.8" />
+      <module name="Demo03-childrenTwo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

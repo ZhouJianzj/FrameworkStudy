@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="Demo02-childrenOne.war">
+    <root id="archive" name="Demo02-childrenOne-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="Demo02-childrenOne:war exploded" />
     </root>
   </artifact>

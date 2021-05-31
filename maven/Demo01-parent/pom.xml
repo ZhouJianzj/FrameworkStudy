@@ -36,9 +36,19 @@
             <version>${dubbo-version}</version>
         </dependency>
     </dependencies>
-
-
 </dependencyManagement>
+<!--插件也可以使用的-->
+    <build>
+<!--        加manager也可以实现上面的效果，那里使用就声明你不需要指定 版本号-->
+<!--<pluginManagement></pluginManagement>-->
+        <plugins>
+            <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+        </plugins>
 
+    </build>
 
 </project>
