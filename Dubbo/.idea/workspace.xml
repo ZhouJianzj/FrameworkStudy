@@ -8,44 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf9c70b1-66c9-4e1e-8fda-f565d555d742" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_consumer_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_consumer_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_provider_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_provider_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/Demo01-registry-consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/java/com/zj/controller/StudentContro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/resources/Spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-interface/Demo01-registry-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-interface/src/main/java/com/zj/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-interface/src/main/java/com/zj/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-provider/Demo01-registry-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-provider/src/main/java/com/zj/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-provider/src/main/resources/Spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Demo01-registry-provider/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_6_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_netty_netty_3_2_5_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_consumer_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_consumer_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_provider_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Demo01_registry_provider_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo01-registry-consumer/Demo01-registry-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-registry-consumer/Demo01-registry-consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo01-registry-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-registry-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo01-registry-provider/Demo01-registry-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-registry-provider/Demo01-registry-provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo01-registry-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-registry-provider/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +199,8 @@
       <workItem from="1622266746151" duration="8220000" />
       <workItem from="1622275463968" duration="2894000" />
       <workItem from="1622369689775" duration="12000" />
-      <workItem from="1622369897556" duration="8528000" />
+      <workItem from="1622369897556" duration="11100000" />
+      <workItem from="1622423878375" duration="173000" />
     </task>
     <task id="LOCAL-00001" summary="1、consumer-link-provider是服务的提供者的项目，负责体统服务，写完需要打包为jar&#10;2、consumer为消费者调用服务&#10;3、这两种使用的是N/A的方法实现直连，没使用注册中心">
       <created>1622267642158</created>
@@ -249,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622278522950</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="使用注册中心&#10;使用dubbo提供的监控中心">
+      <created>1622379682017</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622379682017</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +248,8 @@
     <MESSAGE value="1、consumer-link-provider是服务的提供者的项目，负责体统服务，写完需要打包为jar&#10;2、consumer为消费者调用服务&#10;3、这两种使用的是N/A的方法实现直连，没使用注册中心" />
     <MESSAGE value="1、service接口使用java工程======&gt;interface 粒子&#10;2、service接口使用javaWeb工程=======interfaceImplement 服务提供者&#10;3、consumer使用javaWeb工程=======&gt;consumer" />
     <MESSAGE value="补充说明" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充说明" />
+    <MESSAGE value="使用注册中心&#10;使用dubbo提供的监控中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用注册中心&#10;使用dubbo提供的监控中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="7" key="#Project_Structure" timestamp="1622262242943">
@@ -287,78 +276,78 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="406" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1622264083630" />
-    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1622278522346">
+    <state x="242" y="0" key="CommitChangelistDialog2" timestamp="1622379681008">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1622278522346" />
+    <state x="242" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1622379681008" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1622275897110">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1622275897110" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.bottom" timestamp="1622379498261">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.bottom" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.center" timestamp="1622379498261">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622382718329" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.center" timestamp="1622382718329">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.left" timestamp="1622379498261">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1622382718329" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.left" timestamp="1622382718329">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.right" timestamp="1622379498261">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1622382718329" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.right" timestamp="1622382718329">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state width="1286" height="416" key="GridCell.Tab.1.bottom" timestamp="1622379498261">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1622382718329" />
+    <state width="1286" height="459" key="GridCell.Tab.1.bottom" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1286" height="416" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state width="1286" height="416" key="GridCell.Tab.1.center" timestamp="1622379498261">
+    <state width="1286" height="459" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state width="1286" height="459" key="GridCell.Tab.1.center" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1286" height="416" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state width="1286" height="416" key="GridCell.Tab.1.left" timestamp="1622379498261">
+    <state width="1286" height="459" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state width="1286" height="459" key="GridCell.Tab.1.left" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1286" height="416" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state width="1286" height="416" key="GridCell.Tab.1.right" timestamp="1622379498261">
+    <state width="1286" height="459" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state width="1286" height="459" key="GridCell.Tab.1.right" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1286" height="416" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.bottom" timestamp="1622379498262">
+    <state width="1286" height="459" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.bottom" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.center" timestamp="1622379498261">
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.center" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.left" timestamp="1622379498261">
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.left" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1622379498261" />
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.right" timestamp="1622379498262">
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.right" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="197" y="209" width="1286" height="416" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.bottom" timestamp="1622379498262">
+    <state x="197" y="209" width="1286" height="459" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.bottom" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.center" timestamp="1622379498262">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.bottom/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.center" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.left" timestamp="1622379498262">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.center/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.left" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.right" timestamp="1622379498262">
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.left/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.right" timestamp="1622382718330">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="168" y="10" width="1286" height="416" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1622379498262" />
+    <state x="168" y="10" width="1286" height="459" key="GridCell.Tab.3.right/0.0.1536.864@0.0.1536.864" timestamp="1622382718330" />
     <state x="168" y="10" width="1261" height="684" key="GridCell.Tab.4.bottom" timestamp="1622273867770">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -383,10 +372,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="291" y="14" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1622378725324" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622278530877">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1622379687132">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622278530877" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1622379687132" />
     <state x="168" y="10" width="1275" height="749" key="dock-window-1" timestamp="1622274176336">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

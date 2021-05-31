@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zj</groupId>
+    <artifactId>Demo01-parent</artifactId>
+<!--   1、父工程的packaging要设置为pom
+       2、要删除src目录
+        -->
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+<!--    继承的孩子-->
+    <modules>
+        <module>../Demo02-childrenOne</module>
+        <module>../Demo03-childrenTwo</module>
+    </modules>
+<!--    关于同意的管理版本号-->
+    <properties>
+        <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
+        <dubbo-version>2.6.8</dubbo-version>
+    </properties>
+<dependencyManagement>
+    <dependencies>
+        <!--    第一个孩子需要的依赖-->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql-connector-java.version}</version>
+        </dependency>
+        <!--    第二个孩子需要的依赖-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>${dubbo-version}</version>
+        </dependency>
+    </dependencies>
+
+
+</dependencyManagement>
+
+
+</project>

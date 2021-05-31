@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Demo02-childrenOne:war">
+    <output-path>$PROJECT_DIR$/Demo02-childrenOne/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Demo02-childrenOne</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Demo02-childrenOne.war">
+      <element id="artifact" artifact-name="Demo02-childrenOne:war exploded" />
+    </root>
+  </artifact>
+</component>
