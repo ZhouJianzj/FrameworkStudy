@@ -1,0 +1,6 @@
+# 应用名称
+spring.application.name=003-springboot-yaml-yml
+# 应用服务 WEB 访问端口
+server.port=8080
+
+

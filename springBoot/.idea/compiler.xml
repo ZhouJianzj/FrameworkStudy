@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="002-springboot-brench" />
+        <module name="004-springboot-multi-envirment" />
+        <module name="003-springboot-yaml-yml" />
+        <module name="002-springboot-sayhello" />
+        <module name="005-springboot-persondefindedapplication" />
+        <module name="001-springboot-brench" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-springboot-brench" target="1.8" />
+      <module name="002-springboot-brench" target="1.8" />
+      <module name="002-springboot-sayhello" target="1.8" />
+      <module name="003-springboot-yaml-yml" target="1.8" />
+      <module name="004-springboot-multi-envirment" target="1.8" />
+      <module name="005-springboot-persondefindedapplication" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

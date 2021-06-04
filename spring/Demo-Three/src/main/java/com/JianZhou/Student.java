@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component(value = "stu")
 public class Student {
-    @Value("zhouujian")
+    @Value("zhoujian")
     private String name;
     @Value("10001")
     private int id;

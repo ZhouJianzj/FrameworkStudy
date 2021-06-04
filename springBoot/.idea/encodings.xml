@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/001-springboot-brench/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/001-springboot-brench/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-springboot-sayhello/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-springboot-sayhello/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-yaml-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-yaml-yml/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-springboot-multi-envirment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-springboot-multi-envirment/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -19,5 +19,6 @@
         <mapper resource="com/zhoujian/dao/StudentDao.xml"/>
 <!--可以使用package的方式去实现一个bao下的需要映射的xml文件-->
 <!--        <package name="com.zhoujian.dao"/>-->
+
     </mappers>
 </configuration>
