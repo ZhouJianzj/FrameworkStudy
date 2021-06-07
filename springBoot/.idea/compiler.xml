@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="002-springboot-brench" />
+        <module name="006-springboot-integration-jsp" />
         <module name="004-springboot-multi-envirment" />
         <module name="003-springboot-yaml-yml" />
         <module name="002-springboot-sayhello" />
         <module name="005-springboot-persondefindedapplication" />
         <module name="001-springboot-brench" />
+        <module name="007-springboot-integration-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +23,8 @@
       <module name="003-springboot-yaml-yml" target="1.8" />
       <module name="004-springboot-multi-envirment" target="1.8" />
       <module name="005-springboot-persondefindedapplication" target="1.8" />
+      <module name="006-springboot-integration-jsp" target="1.8" />
+      <module name="007-springboot-integration-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

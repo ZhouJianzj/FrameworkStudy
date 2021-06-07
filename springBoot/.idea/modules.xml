@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/003-springboot-yaml-yml/003-springboot-yaml-yml.iml" filepath="$PROJECT_DIR$/003-springboot-yaml-yml/003-springboot-yaml-yml.iml" />
       <module fileurl="file://$PROJECT_DIR$/004-springboot-multi-envirment/004-springboot-multi-envirment.iml" filepath="$PROJECT_DIR$/004-springboot-multi-envirment/004-springboot-multi-envirment.iml" />
       <module fileurl="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/005-springboot-persondefindedapplication.iml" filepath="$PROJECT_DIR$/005-springboot-persondefindedapplication/005-springboot-persondefindedapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-springboot-integration-jsp/006-springboot-integration-jsp.iml" filepath="$PROJECT_DIR$/006-springboot-integration-jsp/006-springboot-integration-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-springboot-integration-mybatis/007-springboot-integration-mybatis.iml" filepath="$PROJECT_DIR$/007-springboot-integration-mybatis/007-springboot-integration-mybatis.iml" />
     </modules>
   </component>
 </project>

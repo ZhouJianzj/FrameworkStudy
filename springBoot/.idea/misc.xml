@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/003-springboot-yaml-yml/pom.xml" />
         <option value="$PROJECT_DIR$/004-springboot-multi-envirment/pom.xml" />
         <option value="$PROJECT_DIR$/005-springboot-persondefindedapplication/pom.xml" />
+        <option value="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" />
       </list>
     </option>
   </component>

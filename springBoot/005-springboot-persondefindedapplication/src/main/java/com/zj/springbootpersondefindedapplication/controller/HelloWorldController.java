@@ -35,6 +35,8 @@ public class HelloWorldController {
     public @ResponseBody String sayFromObject(){
         return school.getName() + ":" + school.getAddress();
     }
+
+
     @Autowired
     private Student student;
     @RequestMapping(value = "/sayFromObjectStudent")

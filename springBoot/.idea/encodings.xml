@@ -11,5 +11,9 @@
     <file url="file://$PROJECT_DIR$/004-springboot-multi-envirment/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/resources" charset="UTF-8" />
   </component>
 </project>
