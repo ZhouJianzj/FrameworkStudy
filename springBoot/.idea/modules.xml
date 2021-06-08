@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/005-springboot-persondefindedapplication/005-springboot-persondefindedapplication.iml" filepath="$PROJECT_DIR$/005-springboot-persondefindedapplication/005-springboot-persondefindedapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/006-springboot-integration-jsp/006-springboot-integration-jsp.iml" filepath="$PROJECT_DIR$/006-springboot-integration-jsp/006-springboot-integration-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/007-springboot-integration-mybatis/007-springboot-integration-mybatis.iml" filepath="$PROJECT_DIR$/007-springboot-integration-mybatis/007-springboot-integration-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-springboot-mybatis-mapperscan/008-springboot-mybatis-mapperscan.iml" filepath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/008-springboot-mybatis-mapperscan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/009-springboot-mybatis-resourcemapper.iml" filepath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/009-springboot-mybatis-resourcemapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-springboot-mybatis-transcation/010-springboot-mybatis-transcation.iml" filepath="$PROJECT_DIR$/010-springboot-mybatis-transcation/010-springboot-mybatis-transcation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/011-springboot-commonannotation/011-springboot-commonannotation.iml" filepath="$PROJECT_DIR$/011-springboot-commonannotation/011-springboot-commonannotation.iml" />
     </modules>
   </component>
 </project>

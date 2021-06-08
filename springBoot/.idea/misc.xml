@@ -15,6 +15,10 @@
         <option value="$PROJECT_DIR$/005-springboot-persondefindedapplication/pom.xml" />
         <option value="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" />
         <option value="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/pom.xml" />
+        <option value="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/pom.xml" />
+        <option value="$PROJECT_DIR$/010-springboot-mybatis-transcation/pom.xml" />
+        <option value="$PROJECT_DIR$/011-springboot-commonannotation/pom.xml" />
       </list>
     </option>
   </component>
