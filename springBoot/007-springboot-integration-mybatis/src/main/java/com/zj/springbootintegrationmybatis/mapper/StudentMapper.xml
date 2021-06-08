@@ -2,108 +2,29 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zj.springbootintegrationmybatis.mapper.StudentMapper">
 
-  <resultMap id="BaseResultMap" type="com.zj.springbootintegrationmybatis.model.Student">
-    <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="age" jdbcType="INTEGER" property="age" />
-  </resultMap>
-
   <sql id="Base_Column_List">
     id, name, age
   </sql>
-
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
+<!-- o6 -->
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.zj.springbootintegrationmybatis.model.Student">
+    select
     <include refid="Base_Column_List" />
     from student
     where id = #{id,jdbcType=INTEGER}
   </select>
-
+<!--  05-->
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from student
     where id = #{id,jdbcType=INTEGER}
   </delete>
-
-  <insert id="insert" parameterType="com.zj.springbootintegrationmybatis.model.Student">
-    insert into student (id, name, age)
-    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER})
-  </insert>
-
-  <insert id="insertSelective" parameterType="com.zj.springbootintegrationmybatis.model.Student">
-    insert into student
-    <trim prefix="(" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        id,
-      </if>
-      <if test="name != null">
-        name,
-      </if>
-      <if test="age != null">
-        age,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides=",">
-      <if test="id != null">
-        #{id,jdbcType=INTEGER},
-      </if>
-      <if test="name != null">
-        #{name,jdbcType=VARCHAR},
-      </if>
-      <if test="age != null">
-        #{age,jdbcType=INTEGER},
-      </if>
-    </trim>
-  </insert>
-
-  <update id="updateByPrimaryKeySelective" parameterType="com.zj.springbootintegrationmybatis.model.Student">
-    update student
-    <set>
-      <if test="name != null">
-        name = #{name,jdbcType=VARCHAR},
-      </if>
-      <if test="age != null">
-        age = #{age,jdbcType=INTEGER},
-      </if>
-    </set>
-    where id = #{id,jdbcType=INTEGER}
-  </update>
-
-  <update id="updateByPrimaryKey" parameterType="com.zj.springbootintegrationmybatis.model.Student">
-    update student
-    set name = #{name,jdbcType=VARCHAR},
-      age = #{age,jdbcType=INTEGER}
-    where id = #{id,jdbcType=INTEGER}
-  </update>
-
-  <resultMap id="BaseResultMap" type="com.zj.springbootintegrationmybatis.model.Student">
-    <id column="id" jdbcType="INTEGER" property="id" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
-    <result column="age" jdbcType="INTEGER" property="age" />
-  </resultMap>
-
-  <sql id="Base_Column_List">
-    id, name, age
-  </sql>
-
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
-    select 
-    <include refid="Base_Column_List" />
-    from student
-    where id = #{id,jdbcType=INTEGER}
-  </select>
-
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
-    delete from student
-    where id = #{id,jdbcType=INTEGER}
-  </delete>
-
+<!--  04-->
   <insert id="insert" parameterType="com.zj.springbootintegrationmybatis.model.Student">
     insert into student (id, name, age
       )
     values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{age,jdbcType=INTEGER}
       )
   </insert>
-
+<!--  03-->
   <insert id="insertSelective" parameterType="com.zj.springbootintegrationmybatis.model.Student">
     insert into student
     <trim prefix="(" suffix=")" suffixOverrides=",">
@@ -129,7 +50,7 @@
       </if>
     </trim>
   </insert>
-
+<!-- 02 -->
   <update id="updateByPrimaryKeySelective" parameterType="com.zj.springbootintegrationmybatis.model.Student">
     update student
     <set>
@@ -142,7 +63,7 @@
     </set>
     where id = #{id,jdbcType=INTEGER}
   </update>
-
+<!--  01-->
   <update id="updateByPrimaryKey" parameterType="com.zj.springbootintegrationmybatis.model.Student">
     update student
     set name = #{name,jdbcType=VARCHAR},

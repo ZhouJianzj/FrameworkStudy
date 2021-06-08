@@ -58,6 +58,16 @@
     </dependencyManagement>
 
     <build>
+<!--       是为了找到mapper 的映射文件-->
+        <resources>
+            <!--            编译指定的文件-->
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
         <plugins>
 <!--            mybatis反向工程插件-->
             <plugin>

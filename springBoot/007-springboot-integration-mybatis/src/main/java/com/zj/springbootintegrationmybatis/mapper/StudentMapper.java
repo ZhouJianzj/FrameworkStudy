@@ -1,7 +1,9 @@
 package com.zj.springbootintegrationmybatis.mapper;
 
 import com.zj.springbootintegrationmybatis.model.Student;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface StudentMapper {
     int deleteByPrimaryKey(Integer id);
 
