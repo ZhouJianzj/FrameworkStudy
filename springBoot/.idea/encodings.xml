@@ -23,5 +23,19 @@
     <file url="file://$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-commonannotation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-commonannotation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-restful/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-restful/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/014-dubbo-springboot-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/014-dubbo-springboot-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/015-dubbo-springboot-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/015-dubbo-springboot-client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/016-springboot-javaproject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/016-springboot-javaproject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/017-springboot-javaproject/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/017-springboot-javaproject/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/018-springboot-offlogo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/018-springboot-offlogo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/019-springboot-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/019-springboot-interceptor/src/main/resources" charset="UTF-8" />
   </component>
 </project>

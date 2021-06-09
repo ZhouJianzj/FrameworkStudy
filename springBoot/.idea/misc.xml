@@ -19,6 +19,14 @@
         <option value="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/pom.xml" />
         <option value="$PROJECT_DIR$/010-springboot-mybatis-transcation/pom.xml" />
         <option value="$PROJECT_DIR$/011-springboot-commonannotation/pom.xml" />
+        <option value="$PROJECT_DIR$/012-springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/013-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/015-dubbo-springboot-client/pom.xml" />
+        <option value="$PROJECT_DIR$/014-dubbo-springboot-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/016-springboot-javaproject/pom.xml" />
+        <option value="$PROJECT_DIR$/017-springboot-javaproject/pom.xml" />
+        <option value="$PROJECT_DIR$/018-springboot-offlogo/pom.xml" />
+        <option value="$PROJECT_DIR$/019-springboot-interceptor/pom.xml" />
       </list>
     </option>
   </component>

@@ -13,6 +13,14 @@
       <module fileurl="file://$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/009-springboot-mybatis-resourcemapper.iml" filepath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/009-springboot-mybatis-resourcemapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-springboot-mybatis-transcation/010-springboot-mybatis-transcation.iml" filepath="$PROJECT_DIR$/010-springboot-mybatis-transcation/010-springboot-mybatis-transcation.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-springboot-commonannotation/011-springboot-commonannotation.iml" filepath="$PROJECT_DIR$/011-springboot-commonannotation/011-springboot-commonannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/012-springboot-restful/012-springboot-restful.iml" filepath="$PROJECT_DIR$/012-springboot-restful/012-springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/013-dubbo-interface/013-dubbo-interface.iml" filepath="$PROJECT_DIR$/013-dubbo-interface/013-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/014-dubbo-springboot-provider/014-dubbo-springboot-provider.iml" filepath="$PROJECT_DIR$/014-dubbo-springboot-provider/014-dubbo-springboot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-dubbo-springboot-client/015-dubbo-springboot-client.iml" filepath="$PROJECT_DIR$/015-dubbo-springboot-client/015-dubbo-springboot-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/016-springboot-javaproject/016-springboot-javaproject.iml" filepath="$PROJECT_DIR$/016-springboot-javaproject/016-springboot-javaproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/017-springboot-javaproject/017-springboot-javaproject.iml" filepath="$PROJECT_DIR$/017-springboot-javaproject/017-springboot-javaproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/018-springboot-offlogo/018-springboot-offlogo.iml" filepath="$PROJECT_DIR$/018-springboot-offlogo/018-springboot-offlogo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/019-springboot-interceptor/019-springboot-interceptor.iml" filepath="$PROJECT_DIR$/019-springboot-interceptor/019-springboot-interceptor.iml" />
     </modules>
   </component>
 </project>
