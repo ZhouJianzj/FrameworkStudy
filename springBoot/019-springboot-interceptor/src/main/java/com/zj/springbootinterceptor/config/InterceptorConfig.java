@@ -18,6 +18,7 @@ public class InterceptorConfig implements WebMvcConfigurer {
         String[] addPathPatterns = {
                 "/user/login/**"
         };
+//        没有放行登录的path的时候会出现第一次正常拦截，再一次请求的时候会出现成功
         String[] excludePatterns = {
                 "/user/login/out",
                 "/user/login/Error",

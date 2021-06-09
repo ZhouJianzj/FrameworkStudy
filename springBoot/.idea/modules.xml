@@ -21,6 +21,14 @@
       <module fileurl="file://$PROJECT_DIR$/017-springboot-javaproject/017-springboot-javaproject.iml" filepath="$PROJECT_DIR$/017-springboot-javaproject/017-springboot-javaproject.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-springboot-offlogo/018-springboot-offlogo.iml" filepath="$PROJECT_DIR$/018-springboot-offlogo/018-springboot-offlogo.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-interceptor/019-springboot-interceptor.iml" filepath="$PROJECT_DIR$/019-springboot-interceptor/019-springboot-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-springboot-servlet/020-springboot-servlet.iml" filepath="$PROJECT_DIR$/020-springboot-servlet/020-springboot-servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-springboot-servletwo/021-springboot-servletwo.iml" filepath="$PROJECT_DIR$/021-springboot-servletwo/021-springboot-servletwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/022-springboot-dubbo-link-provider/022-springboot-dubbo-link-provider.iml" filepath="$PROJECT_DIR$/022-springboot-dubbo-link-provider/022-springboot-dubbo-link-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/023-springboot-dubbo-link-client/023-springboot-dubbo-link-client.iml" filepath="$PROJECT_DIR$/023-springboot-dubbo-link-client/023-springboot-dubbo-link-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/024-springboot-filterone/024-springboot-filterone.iml" filepath="$PROJECT_DIR$/024-springboot-filterone/024-springboot-filterone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/025-springboot-filtertwo/025-springboot-filtertwo.iml" filepath="$PROJECT_DIR$/025-springboot-filtertwo/025-springboot-filtertwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/026-springboor-characterencoding-1/026-springboor-characterencoding-1.iml" filepath="$PROJECT_DIR$/026-springboor-characterencoding-1/026-springboor-characterencoding-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/027-springboot-character-encoding-2/027-springboot-character-encoding-2.iml" filepath="$PROJECT_DIR$/027-springboot-character-encoding-2/027-springboot-character-encoding-2.iml" />
     </modules>
   </component>
 </project>

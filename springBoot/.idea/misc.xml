@@ -27,6 +27,15 @@
         <option value="$PROJECT_DIR$/017-springboot-javaproject/pom.xml" />
         <option value="$PROJECT_DIR$/018-springboot-offlogo/pom.xml" />
         <option value="$PROJECT_DIR$/019-springboot-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/020-springboot-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/021-springboot-servletwo/pom.xml" />
+        <option value="$PROJECT_DIR$/022-springboot-dubbo-link/pom.xml" />
+        <option value="$PROJECT_DIR$/023-springboot-dubbo-link-client/pom.xml" />
+        <option value="$PROJECT_DIR$/022-springboot-dubbo-link-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/024-springboot-filterone/pom.xml" />
+        <option value="$PROJECT_DIR$/025-springboot-filtertwo/pom.xml" />
+        <option value="$PROJECT_DIR$/026-springboor-characterencoding-1/pom.xml" />
+        <option value="$PROJECT_DIR$/027-springboot-character-encoding-2/pom.xml" />
       </list>
     </option>
   </component>

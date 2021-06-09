@@ -9,20 +9,28 @@
         <module name="016-springboot-javaproject" />
         <module name="005-springboot-persondefindedapplication" />
         <module name="008-springboot-mybatis-mapperscan" />
-        <module name="015-dubbo-springboot-client" />
+        <module name="022-springboot-dubbo-link-provider" />
+        <module name="018-springboot-offlogo" />
         <module name="011-springboot-commonannotation" />
+        <module name="025-springboot-filtertwo" />
+        <module name="023-springboot-dubbo-link-client" />
         <module name="017-springboot-javaproject" />
         <module name="007-springboot-integration-mybatis" />
         <module name="001-springboot-brench" />
+        <module name="021-springboot-servletwo" />
+        <module name="024-springboot-filterone" />
         <module name="019-springboot-interceptor" />
+        <module name="027-springboot-character-encoding-2" />
         <module name="003-springboot-yaml-yml" />
         <module name="009-springboot-mybatis-resourcemapper" />
         <module name="004-springboot-multi-envirment" />
         <module name="012-springboot-restful" />
         <module name="010-springboot-mybatis-transcation" />
         <module name="014-dubbo-springboot-provider" />
-        <module name="018-springboot-offlogo" />
+        <module name="020-springboot-servlet" />
+        <module name="015-dubbo-springboot-client" />
         <module name="006-springboot-integration-jsp" />
+        <module name="026-springboor-characterencoding-1" />
         <module name="002-springboot-brench" />
         <module name="013-dubbo-interface" />
         <module name="002-springboot-sayhello" />
@@ -49,6 +57,14 @@
       <module name="017-springboot-javaproject" target="1.8" />
       <module name="018-springboot-offlogo" target="1.8" />
       <module name="019-springboot-interceptor" target="1.8" />
+      <module name="020-springboot-servlet" target="1.8" />
+      <module name="021-springboot-servletwo" target="1.8" />
+      <module name="022-springboot-dubbo-link-provider" target="1.8" />
+      <module name="023-springboot-dubbo-link-client" target="1.8" />
+      <module name="024-springboot-filterone" target="1.8" />
+      <module name="025-springboot-filtertwo" target="1.8" />
+      <module name="026-springboor-characterencoding-1" target="1.8" />
+      <module name="027-springboot-character-encoding-2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
