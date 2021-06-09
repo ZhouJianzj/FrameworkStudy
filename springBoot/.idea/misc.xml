@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/028-springboot-package" />
+  </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
@@ -36,6 +39,8 @@
         <option value="$PROJECT_DIR$/025-springboot-filtertwo/pom.xml" />
         <option value="$PROJECT_DIR$/026-springboor-characterencoding-1/pom.xml" />
         <option value="$PROJECT_DIR$/027-springboot-character-encoding-2/pom.xml" />
+        <option value="$PROJECT_DIR$/028-springboot-package/pom.xml" />
+        <option value="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" />
       </list>
     </option>
   </component>

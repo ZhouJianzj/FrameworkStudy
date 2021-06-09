@@ -29,6 +29,8 @@
       <module fileurl="file://$PROJECT_DIR$/025-springboot-filtertwo/025-springboot-filtertwo.iml" filepath="$PROJECT_DIR$/025-springboot-filtertwo/025-springboot-filtertwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/026-springboor-characterencoding-1/026-springboor-characterencoding-1.iml" filepath="$PROJECT_DIR$/026-springboor-characterencoding-1/026-springboor-characterencoding-1.iml" />
       <module fileurl="file://$PROJECT_DIR$/027-springboot-character-encoding-2/027-springboot-character-encoding-2.iml" filepath="$PROJECT_DIR$/027-springboot-character-encoding-2/027-springboot-character-encoding-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/028-springboot-package/028-springboot-package.iml" filepath="$PROJECT_DIR$/028-springboot-package/028-springboot-package.iml" />
+      <module fileurl="file://$PROJECT_DIR$/029-springboot-package-jar/029-springboot-package-jar.iml" filepath="$PROJECT_DIR$/029-springboot-package-jar/029-springboot-package-jar.iml" />
     </modules>
   </component>
 </project>
