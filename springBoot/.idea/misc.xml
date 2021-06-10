@@ -43,6 +43,7 @@
         <option value="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" />
         <option value="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" />
         <option value="$PROJECT_DIR$/031-springboot-logforjavaback/pom.xml" />
+        <option value="$PROJECT_DIR$/032-springboot-thymeleaf-first/pom.xml" />
       </list>
     </option>
   </component>
