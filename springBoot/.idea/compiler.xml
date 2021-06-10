@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -32,6 +33,7 @@
         <module name="016-springboot-javaproject" />
         <module name="012-springboot-restful" />
         <module name="010-springboot-mybatis-transcation" />
+        <module name="031-springboot-logforjavaback" />
         <module name="011-springboot-commonannotation" />
         <module name="022-springboot-dubbo-link-provider" />
         <module name="008-springboot-mybatis-mapperscan" />
@@ -71,6 +73,7 @@
       <module name="028-springboot-package" target="1.8" />
       <module name="029-springboot-package-jar" target="1.8" />
       <module name="030-springboot-package-jar2" target="1.8" />
+      <module name="031-springboot-logforjavaback" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

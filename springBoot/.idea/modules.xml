@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/028-springboot-package/028-springboot-package.iml" filepath="$PROJECT_DIR$/028-springboot-package/028-springboot-package.iml" />
       <module fileurl="file://$PROJECT_DIR$/029-springboot-package-jar/029-springboot-package-jar.iml" filepath="$PROJECT_DIR$/029-springboot-package-jar/029-springboot-package-jar.iml" />
       <module fileurl="file://$PROJECT_DIR$/030-springboot-package-jar2/030-springboot-package-jar2.iml" filepath="$PROJECT_DIR$/030-springboot-package-jar2/030-springboot-package-jar2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/031-springboot-logforjavaback/031-springboot-logforjavaback.iml" filepath="$PROJECT_DIR$/031-springboot-logforjavaback/031-springboot-logforjavaback.iml" />
     </modules>
   </component>
 </project>

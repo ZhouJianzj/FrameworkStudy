@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <!-- scan:当此属性设置为true时，配置文档如果发生改变，将会被重新加载，默认值为true -->
+        <!-- scanPeriod:设置监测配置文档是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒。当scan为true时，此属性生效。默认的时间间隔为1分钟。 -->
+        <!-- debug:当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。 -->
+<configuration scan="true" scanPeriod="10 seconds" debug="true">
+    <!-- 1.日志级别定义 -->
+    <!-- log4j/log4j2 日志级别定义 OFF 《 FATAL 《 ERROR（默认级别） 《 WARN 《 INFO 《 DEBUG 《 TRACE 《 ALL ,Log4j建议只使用四个级别，优先级从高到低分别是 ERROR、WARN、INFO、DEBUG-->
+    <!-- slf4j 日志级别定义 ERROR 《 WARN 《 INFO（默认级别） 《 DEBUG 《 TRACE -->
+
+    <!-- 2.日志输出定义 -->
+    <!-- log4j appender(日志输出目的地) 类定义  -->
+    <!-- org.apache.log4j.ConsoleAppender（控制台） -->
+    <!-- org.apache.log4j.FileAppender（文件）-->
+    <!-- org.apache.log4j.DailyRollingFileAppender（每天产生一个日志文件）-->
+    <!-- org.apache.log4j.RollingFileAppender（文件大小到达指定尺寸的时候产生一个新的文件）-->
+    <!-- org.apache.log4j.WriterAppender（将日志信息以流格式发送到任意指定的地方）-->
+
+    <!-- logback appender(日志输出目的地) 类定义-->
+    <!-- ch.qos.logback.core.ConsoleAppender(控制台) -->
+    <!-- ch.qos.logback.core.FileAppender（文件） -->
+    <!-- ch.qos.logback.core.rolling.RollingFileAppender（可按配置大小切分文件） -->
+    <!-- ch.qos.logback.core.OutputStreamAppender（） -->
+
+    <!-- 3.日志输出格式 -->
+    <!-- org.apache.log4j.HTMLLayout（以HTML表格形式布局）-->
+    <!-- org.apache.log4j.PatternLayout（可以灵活地指定布局模式）-->
+    <!-- org.apache.log4j.SimpleLayout（包含日志信息的级别和信息字符串）-->
+    <!-- org.apache.log4j.TTCCLayout（包含日志产生的时间、线程、类别等信息）-->
+
+    <!-- 3.1 org.apache.log4j.PatternLayout 格式参数配置-->
+    <!-- %p：输出日志信息的优先级，即DEBUG，INFO，WARN，ERROR，FATAL。-->
+    <!-- %d：输出日志时间点的日期或时间，默认格式为ISO8601，也可以在其后指定格式，如：%d{yyyy/MM/dd HH:mm:ss,SSS}。-->
+    <!-- %r：输出自应用程序启动到输出该log信息耗费的毫秒数。-->
+    <!-- %t：输出产生该日志事件的线程名。-->
+    <!-- %l：输出日志事件的发生位置，相当于%c.%M(%F:%L)的组合，包括类全名、方法、文件名以及在代码中的行数。例如：test.TestLog4j.main(TestLog4j.java:10)。-->
+    <!-- %c：输出日志信息所属的类目，通常就是所在类的全名。-->
+    <!-- %M：输出产生日志信息的方法名。-->
+    <!-- %F：输出日志消息产生时所在的文件名称。-->
+    <!-- %L:：输出代码中的行号。-->
+    <!-- %m:：输出代码中指定的具体日志信息。-->
+    <!-- %n：输出一个回车换行符，Windows平台为"\r\n"，Unix平台为"\n"。-->
+    <!-- %x：输出和当前线程相关联的NDC(嵌套诊断环境)，尤其用到像java servlets这样的多客户多线程的应用中。-->
+    <!-- %%：输出一个"%"字符 -->
+
+    <!-- 还可以在%与格式字符之间加上修饰符来控制其最小长度、最大长度、和文本的对齐方式。如下：-->
+    <!-- c：指定输出category的名称，最小的长度是20，如果category的名称长度小于20的话，默认的情况下右对齐。-->
+    <!-- %-20c："-"号表示左对齐。-->
+    <!-- %.30c：指定输出category的名称，最大的长度是30，如果category的名称长度大于30的话，就会将左边多出的字符截掉，但小于30的话也不会补空格。-->
+
+
+    <!-- 4.logger 实例 设置某一个包或者具体的某一个类的日志打印级别、以及指定<appender>日志输出目的地,仅有一个name属性,一个可选的level和一个可选的addtivity属性-->
+    <!-- name:用来指定受此logger约束的某一个包或者具体的某一个类。-->
+    <!-- level:用来设置打印级别，大小写无关：TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF 还有一个特俗值INHERITED或者同义词NULL，代表强制执行上级的级别。-->
+    <!-- 如果未设置此属性，那么当前logger将会继承上级的级别。 addtivity:是否向上级logger传递打印信息。默认是true。-->
+    <!-- <logger name="org.springframework.web" level="info"/>此配置指定包路径下的类获取的日志logger示例将唯同一个对象，并只输出info级别以上的日志-->
+    <!-- <logger name="org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor" level="ERROR"/> 为全路径名下的类指定日志打印实例，并打印ERROR级别以上的日志 -->
+    <!-- root 节点为log4j 与slf4j 的默认日志根logger实例，用户不显示声明logger的情况下一般都会使用root的appender输出日志信息-->
+    <!-- root 节点是Logger默认日志实例的-->
+
+    <!-- 5.property 配置是给loggerFactory 上下文环境中配置不同的环境参数，在配置文件中可以使用 "${}" 直接取值-->
+    <!-- <property name="log.path" value="F:/logs" />-->
+    <!-- <property name="log.name" value="catelina.log" />-->
+    <!-- name的值是变量的名称，value的值时变量定义的值。通过定义的值会被插入到logger上下文中。定义后，可以使“${}”来使用变量。 -->
+
+
+    <!--输出到控制台-->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>debug</level>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <!-- 设置字符集 -->
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!--输出到文档-->
+    <!--level为 DEBUG 日志，时间滚动输出  -->
+    <appender name="DEBUG_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 正在记录的日志文档的路径及文档名 -->
+<!-- ****************需要修改的位置-->
+
+        <file>D:/log/springbootlog4j.log</file>
+        <!--日志文档输出格式-->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
+            <charset>UTF-8</charset> <!-- 设置字符集 -->
+        </encoder>
+        <!-- 日志记录器的滚动策略，按日期，按大小记录 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- 日志归档 -->
+<!--*****************需要修改的位置-->
+            <fileNamePattern>D:/log/springbootlog4j.log.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <!--日志文档保留天数-->
+            <maxHistory>15</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+
+        <logger name="com.zj.springbootlogforjavaback.mapper" level="info"/>
+        <!--additivity logger的日志不在使用父类logger的appender输出，默认值:true -->
+        <root level="info" additivity="false">
+            <!--配置默认的root节点Logger的日志输出方式-->
+            <!--以下配置声明root节点logger将日志输出 CONSOLE（控制台 appender）,
+            DEBUG_FILE(debug日志文件 appender) -->
+            <appender-ref ref="CONSOLE"/>
+            <appender-ref ref="DEBUG_FILE"/>
+        </root>
+
+
+
+
+
+
+</configuration>
