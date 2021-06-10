@@ -60,5 +60,7 @@
     <file url="file://$PROJECT_DIR$/029-springboot-package-jar/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/029-springboot-package-jar/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/029-springboot-package-jar/src/main/webapp" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/030-springboot-package-jar2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/030-springboot-package-jar2/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -11,7 +11,7 @@
     <title>index</title>
 </head>
 <body>
-<div>姓名：${user.name}</div>
-<div>简介：${user.desc}</div>
+<div>姓名：${user['name']}</div>
+<div>简介：${user['desc']}</div>
 </body>
 </html>

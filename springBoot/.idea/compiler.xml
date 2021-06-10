@@ -16,6 +16,7 @@
         <module name="005-springboot-persondefindedapplication" />
         <module name="017-springboot-javaproject" />
         <module name="025-springboot-filtertwo" />
+        <module name="030-springboot-package-jar2" />
         <module name="009-springboot-mybatis-resourcemapper" />
         <module name="026-springboor-characterencoding-1" />
         <module name="004-springboot-multi-envirment" />
@@ -69,6 +70,7 @@
       <module name="027-springboot-character-encoding-2" target="1.8" />
       <module name="028-springboot-package" target="1.8" />
       <module name="029-springboot-package-jar" target="1.8" />
+      <module name="030-springboot-package-jar2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

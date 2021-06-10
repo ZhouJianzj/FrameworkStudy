@@ -2,44 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/028_springboot_package_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/028_springboot_package_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/028_springboot_package_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/029_springboot_package_jar_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/controller/TestContrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/src/main/webapp/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/028-springboot-package/src/test/java/com/zj/springbootpackage/ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/java/com/zj/springbootpackagejar/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/java/com/zj/springbootpackagejar/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/java/com/zj/springbootpackagejar/web/ControllerOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/test/java/com/zj/springbootpackagejar/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/src/main/java/com/zj/springbootpackagejar2/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/src/main/java/com/zj/springbootpackagejar2/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/030-springboot-package-jar2/src/test/java/com/zj/springbootpackagejar2/ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -96,12 +80,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zj.springbootdubbolink.service.impl" />
-      <recent name="com.zj.springbootjavaproject.service.impl" />
-      <recent name="com.zj.springbootmybatistranscation.service" />
-      <recent name="com.zj.springbootmybatisresourcemapper.service.imple" />
-      <recent name="com.zj.springbootmybatisresourcemapper.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
+      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
+      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zj.springbootcommonannotation" />
@@ -121,10 +103,12 @@
       <recent name="com.zj.springbootmultienvirment.controller" />
       <recent name="com.zj.springbootyamlyml.controller" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
-      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
-      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zj.springbootdubbolink.service.impl" />
+      <recent name="com.zj.springbootjavaproject.service.impl" />
+      <recent name="com.zj.springbootmybatistranscation.service" />
+      <recent name="com.zj.springbootmybatisresourcemapper.service.imple" />
+      <recent name="com.zj.springbootmybatisresourcemapper.service" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -138,7 +122,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (1)">
-    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="011-springboot-commonannotation" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +235,8 @@
       </method>
     </configuration>
     <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="029-springboot-package-jar" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar.Application" />
+      <module name="030-springboot-package-jar2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar2.Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,6 +308,14 @@
     <configuration name="Application (28)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="028-springboot-package" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackage.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (29)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="029-springboot-package-jar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar.Application" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -409,7 +401,6 @@
     <list>
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.application19" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (20)" />
       <item itemvalue="Spring Boot.Application (21)" />
       <item itemvalue="Spring Boot.Application (22)" />
@@ -434,12 +425,13 @@
       <item itemvalue="Spring Boot.Application (14)" />
       <item itemvalue="Spring Boot.Application (15)" />
       <item itemvalue="Spring Boot.Application (16)" />
+      <item itemvalue="Spring Boot.Application (29)" />
+      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
-        <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +465,8 @@
       <workItem from="1623147709227" duration="2428000" />
       <workItem from="1623215310931" duration="2944000" />
       <workItem from="1623219038840" duration="8451000" />
-      <workItem from="1623231976542" duration="17503000" />
+      <workItem from="1623231976542" duration="18212000" />
+      <workItem from="1623289630431" duration="4835000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -517,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623242440085</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="打jar包和打war包">
+      <created>1623250821043</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1623250821043</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +531,8 @@
     <MESSAGE value="1、常用的一些注解的使用的，使得controller下的注解分工更为明确" />
     <MESSAGE value="拦截器的使用" />
     <MESSAGE value="1、servlet的两种方式使用，注解@ServletConfigurationScan(..)、@WebServlet(..)，使用注册中心配置类@Bean、@Configuration&#10;2、filter的两种方式的使用，注解@ServletConfiguratinScan(..)、@WebFilter,使用注册中心配置类@Bean、@Configuration&#10;3、拦截器的使用只用一种方式去使用就是注册中心的使用配置类，注意的是interceptor需要实现HandelInterceptor,注册配置类需要实现WebMvcConfigurer,使用到注解就是一个@Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、servlet的两种方式使用，注解@ServletConfigurationScan(..)、@WebServlet(..)，使用注册中心配置类@Bean、@Configuration&#10;2、filter的两种方式的使用，注解@ServletConfiguratinScan(..)、@WebFilter,使用注册中心配置类@Bean、@Configuration&#10;3、拦截器的使用只用一种方式去使用就是注册中心的使用配置类，注意的是interceptor需要实现HandelInterceptor,注册配置类需要实现WebMvcConfigurer,使用到注解就是一个@Configuration" />
+    <MESSAGE value="打jar包和打war包" />
+    <option name="LAST_COMMIT_MESSAGE" value="打jar包和打war包" />
   </component>
   <component name="WindowStateProjectService">
     <state x="403" y="14" key="#Application_(17)" timestamp="1623219110921">
@@ -546,10 +547,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1623218949389" />
-    <state x="316" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623242821124">
+    <state x="316" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623293587521">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="316" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1623242821124" />
+    <state x="316" y="153" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1623293587521" />
     <state x="486" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623056462023">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -578,62 +579,66 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="152" y="0" key="CommitChangelistDialog2" timestamp="1623242438056">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1623250820033">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="152" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1623242438056" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1623250820033" />
+    <state x="469" y="116" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1623293584915">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="469" y="116" width="609" height="676" key="EnvironmentVariablesDialog/0.0.1536.864@0.0.1536.864" timestamp="1623293584915" />
     <state x="549" y="122" key="FileChooserDialogImpl" timestamp="1623248881355">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623248881355" />
-    <state width="1492" height="582" key="GridCell.Tab.0.bottom" timestamp="1623250619021">
+    <state width="1492" height="70" key="GridCell.Tab.0.bottom" timestamp="1623294525622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623250619021" />
-    <state width="1492" height="582" key="GridCell.Tab.0.center" timestamp="1623250619021">
+    <state width="1492" height="70" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623294525622" />
+    <state width="1492" height="70" key="GridCell.Tab.0.center" timestamp="1623294525621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623250619021" />
-    <state width="1492" height="582" key="GridCell.Tab.0.left" timestamp="1623250619021">
+    <state width="1492" height="70" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623294525621" />
+    <state width="1492" height="70" key="GridCell.Tab.0.left" timestamp="1623294525621">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623250619021" />
-    <state width="1492" height="582" key="GridCell.Tab.0.right" timestamp="1623250619021">
+    <state width="1492" height="70" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623294525621" />
+    <state width="1492" height="70" key="GridCell.Tab.0.right" timestamp="1623294525622">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623250619021" />
-    <state width="1492" height="582" key="GridCell.Tab.1.bottom" timestamp="1623250609405">
+    <state width="1492" height="70" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623294525622" />
+    <state width="1492" height="186" key="GridCell.Tab.1.bottom" timestamp="1623294196182">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623250609405" />
-    <state width="1492" height="582" key="GridCell.Tab.1.center" timestamp="1623250609405">
+    <state width="1492" height="186" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623294196182" />
+    <state width="1492" height="186" key="GridCell.Tab.1.center" timestamp="1623294196182">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623250609405" />
-    <state width="1492" height="582" key="GridCell.Tab.1.left" timestamp="1623250609405">
+    <state width="1492" height="186" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1623294196182" />
+    <state width="1492" height="186" key="GridCell.Tab.1.left" timestamp="1623294196182">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623250609405" />
-    <state width="1492" height="582" key="GridCell.Tab.1.right" timestamp="1623250609405">
+    <state width="1492" height="186" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1623294196182" />
+    <state width="1492" height="186" key="GridCell.Tab.1.right" timestamp="1623294196182">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="582" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623250609405" />
-    <state width="1492" height="504" key="GridCell.Tab.2.bottom" timestamp="1623250464861">
+    <state width="1492" height="186" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1623294196182" />
+    <state width="1492" height="504" key="GridCell.Tab.2.bottom" timestamp="1623292488090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="504" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623250464861" />
-    <state width="1492" height="504" key="GridCell.Tab.2.center" timestamp="1623250464861">
+    <state width="1492" height="504" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623292488090" />
+    <state width="1492" height="504" key="GridCell.Tab.2.center" timestamp="1623292488090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="504" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1623250464861" />
-    <state width="1492" height="504" key="GridCell.Tab.2.left" timestamp="1623250464861">
+    <state width="1492" height="504" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1623292488090" />
+    <state width="1492" height="504" key="GridCell.Tab.2.left" timestamp="1623292488090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="504" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1623250464861" />
-    <state width="1492" height="504" key="GridCell.Tab.2.right" timestamp="1623250464861">
+    <state width="1492" height="504" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1623292488090" />
+    <state width="1492" height="504" key="GridCell.Tab.2.right" timestamp="1623292488090">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="504" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1623250464861" />
+    <state width="1492" height="504" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1623292488090" />
     <state x="349" y="167" key="IDE.errors.dialog" timestamp="1623147787313">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -642,14 +647,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1623053507069" />
-    <state x="14" y="6" width="1434" height="850" key="SettingsEditor" timestamp="1623250337295">
+    <state x="14" y="6" width="1434" height="850" key="SettingsEditor" timestamp="1623290865478">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1623250337295" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1623242443368">
+    <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1623290865478" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1623250823966">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623242443368" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1623250823966" />
     <state x="310" y="79" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623224240103">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -666,10 +671,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1623239870479" />
-    <state x="356" y="7" key="new project wizard" timestamp="1623248662020">
+    <state x="356" y="7" key="new project wizard" timestamp="1623293832014">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="356" y="7" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1623248662020" />
+    <state x="356" y="7" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1623293832014" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1623237437522">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
