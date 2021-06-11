@@ -34,6 +34,7 @@
       <module fileurl="file://$PROJECT_DIR$/030-springboot-package-jar2/030-springboot-package-jar2.iml" filepath="$PROJECT_DIR$/030-springboot-package-jar2/030-springboot-package-jar2.iml" />
       <module fileurl="file://$PROJECT_DIR$/031-springboot-logforjavaback/031-springboot-logforjavaback.iml" filepath="$PROJECT_DIR$/031-springboot-logforjavaback/031-springboot-logforjavaback.iml" />
       <module fileurl="file://$PROJECT_DIR$/032-springboot-thymeleaf-first/032-springboot-thymeleaf-first.iml" filepath="$PROJECT_DIR$/032-springboot-thymeleaf-first/032-springboot-thymeleaf-first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/033-springboot-expression/033-springboot-expression.iml" filepath="$PROJECT_DIR$/033-springboot-expression/033-springboot-expression.iml" />
     </modules>
   </component>
 </project>

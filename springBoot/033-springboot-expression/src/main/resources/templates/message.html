@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a th:href="@{/methodTwo(id=${id},name=${name})}">请求methodOne</a><br>
+
+<a th:href="@{'/restful/' + ${id} + '/' + ${name} }">请求restful</a><br>
+
+<form method="get" action="/doSubmit">
+    <table>
+        <tr>
+            <td>id:</td>
+            <td><input type="text" name="id" ></td>
+        </tr>
+        <tr>
+            <td>name:</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+    </table>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
