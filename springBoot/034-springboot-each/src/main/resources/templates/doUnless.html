@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--unless:取反
+    ne:not equal-->
+<div th:unless="${data ne 1}">
+    <span>data == 1</span>
+</div>
+</body>
+</html>

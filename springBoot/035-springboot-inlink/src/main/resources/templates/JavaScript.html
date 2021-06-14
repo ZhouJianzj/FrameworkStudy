@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--内联javascript-->
+<script th:inline="javascript">
+    function show() {
+        alert("==========")
+        alert([[${data}]])
+    }
+</script>
+<button onclick="show()">javascriptInline</button>
+</body>
+</html>

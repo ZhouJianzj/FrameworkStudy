@@ -68,5 +68,13 @@
     <file url="file://$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/033-springboot-expression/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/033-springboot-expression/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/034-springboot-each/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/034-springboot-each/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/035-springboot-inlink/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/035-springboot-inlink/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/036-springboot-literal/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/036-springboot-literal/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/037-springboot-splice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/037-springboot-splice/src/main/resources" charset="UTF-8" />
   </component>
 </project>

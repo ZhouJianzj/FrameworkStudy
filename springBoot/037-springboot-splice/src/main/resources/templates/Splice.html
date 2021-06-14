@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Splice</title>
+</head>
+<body>
+<h3>一共223条，共23页，当前页3，首页，下一页，上一页</h3>
+<!--方法一-->
+<span th:online="text">一共[[${countPage}]]条，共[[${page}]]页，当前页[[${currentPage}]]，首页，下一页，上一页</span><br/>
+<!--方法二-->
+<span th:text=" '一共'+ ${countPage} + '条，共' + ${page} + '页，当前页' + ${currentPage} + '，首页，下一页，上一页'"></span><br/>
+<!--方法三-->
+<span th:text="|一共${countPage}条，共${page}页，当前页${currentPage}，首页，下一页，上一页|"></span>
+</body>
+</html>

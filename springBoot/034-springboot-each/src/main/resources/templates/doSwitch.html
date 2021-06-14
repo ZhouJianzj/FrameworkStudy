@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:switch="${data}">
+    <div th:case="1">data == 1</div>
+    <div th:case="2">data == 2</div>
+    <div th:case="3">data == 3</div>
+</div>
+</body>
+</html>

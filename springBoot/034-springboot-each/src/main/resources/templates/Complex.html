@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+[
+    {
+    0=[
+        User(id=100, name=周健0, address=南京0),
+        User(id=100, name=周健0, address=南京0),
+        User(id=100, name=周健0, address=南京0)
+    ],
+    1=[
+        User(id=100, name=周健0, address=南京0),
+        User(id=100, name=周健0, address=南京0),
+        User(id=100, name=周健0, address=南京0)]
+    },
+    {
+    0=[
+        User(id=101, name=周健1, address=南京1),
+        User(id=101, name=周健1, address=南京1),
+        User(id=101, name=周健1, address=南京1)],
+    1=[
+        User(id=101, name=周健1, address=南京1),
+        User(id=101, name=周健1, address=南京1),
+        User(id=101, name=周健1, address=南京1)
+        ]
+    }
+]
+
+-->
+<div th:each="maps:${listMapLists}">
+    <div th:each="lists:${maps.values()}">
+        <div th:each="user:${lists}">
+            <span th:text="${user.id}"></span>
+            <span th:text="${user.name}"></span>
+            <span th:text="${user.address}"></span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
