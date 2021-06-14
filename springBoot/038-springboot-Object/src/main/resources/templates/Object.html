@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--方法一-->
+<span  th:text="${#session.getAttribute('data')}"></span>
+<!--方法二-->
+<span th:text="${#request.getSession().getAttribute('data')}"></span>
+<span th:text="${#httpSession.getAttribute('data')}"></span>
+</body>
+</html>

@@ -39,6 +39,7 @@
       <module fileurl="file://$PROJECT_DIR$/035-springboot-inlink/035-springboot-inlink.iml" filepath="$PROJECT_DIR$/035-springboot-inlink/035-springboot-inlink.iml" />
       <module fileurl="file://$PROJECT_DIR$/036-springboot-literal/036-springboot-literal.iml" filepath="$PROJECT_DIR$/036-springboot-literal/036-springboot-literal.iml" />
       <module fileurl="file://$PROJECT_DIR$/037-springboot-splice/037-springboot-splice.iml" filepath="$PROJECT_DIR$/037-springboot-splice/037-springboot-splice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/038-springboot-object/038-springboot-object.iml" filepath="$PROJECT_DIR$/038-springboot-object/038-springboot-object.iml" />
     </modules>
   </component>
 </project>

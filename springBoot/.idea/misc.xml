@@ -49,7 +49,15 @@
         <option value="$PROJECT_DIR$/035-springboot-inlink/pom.xml" />
         <option value="$PROJECT_DIR$/036-springboot-literal/pom.xml" />
         <option value="$PROJECT_DIR$/037-springboot-splice/pom.xml" />
+        <option value="$PROJECT_DIR$/038-springboot-operation/pom.xml" />
+        <option value="$PROJECT_DIR$/038-springboot-Object/pom.xml" />
+        <option value="$PROJECT_DIR$/038-springboot-object/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/038-springboot-Object/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
