@@ -1,12 +1,9 @@
-package com.zj.springbootservlet;
+package com.zj.springbootfunction;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.web.servlet.ServletComponentScan;
 
 @SpringBootApplication
-
-@ServletComponentScan(basePackages = "com.zj.springbootservlet.web")//启动servlet的注解
 public class Application {
 
     public static void main(String[] args) {

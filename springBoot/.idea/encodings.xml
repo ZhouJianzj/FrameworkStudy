@@ -76,5 +76,9 @@
     <file url="file://$PROJECT_DIR$/036-springboot-literal/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/037-springboot-splice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/037-springboot-splice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/038-springboot-object/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/038-springboot-object/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/039-springboot-function/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/039-springboot-function/src/main/resources" charset="UTF-8" />
   </component>
 </project>
