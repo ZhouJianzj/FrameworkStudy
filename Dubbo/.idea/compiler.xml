@@ -7,10 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Demo01-registry-consumer" />
-        <module name="provider-Demo02" />
-        <module name="consumer-Demo03" />
         <module name="Demo01-registry-provider" />
-        <module name="lconsumer-link-providerservice" />
+        <module name="consumer-link-providerservice" />
+        <module name="link-provider-Demo02" />
+        <module name="link-consumer-Demo03" />
         <module name="Demo01-registry-interface" />
         <module name="consumer" />
         <module name="link-interface" />
@@ -18,16 +18,17 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
-      <module name="consumer-Demo03" target="1.8" />
+      <module name="consumer-link-providerservice" target="1.8" />
+      <module name="Demo01-consumer-link-providerservice" target="1.8" />
       <module name="Demo01-registry-consumer" target="1.8" />
       <module name="Demo01-registry-interface" target="1.5" />
       <module name="Demo01-registry-provider" target="1.8" />
       <module name="interface-Demo01" target="1.8" />
-      <module name="lconsumer-link-providerservice" target="1.8" />
+      <module name="link-consumer-Demo03" target="1.8" />
       <module name="link-interface" target="1.5" />
+      <module name="link-provider-Demo02" target="1.8" />
       <module name="link-userservice-provider" target="1.5" />
       <module name="nterface-Demo01" target="1.5" />
-      <module name="provider-Demo02" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

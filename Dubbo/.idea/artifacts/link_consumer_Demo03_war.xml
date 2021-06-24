@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="link-consumer-Demo03:war">
+    <output-path>$PROJECT_DIR$/link-consumer-Demo03/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>link-consumer-Demo03</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="link-consumer-Demo03.war">
+      <element id="artifact" artifact-name="link-consumer-Demo03:war exploded" />
+    </root>
+  </artifact>
+</component>

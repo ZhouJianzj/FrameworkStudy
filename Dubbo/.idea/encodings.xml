@@ -5,13 +5,15 @@
     <file url="file://$PROJECT_DIR$/Demo01-registry-consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo01-registry-provider/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Demo01-registry-provider/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consumer-Demo03/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/consumer-Demo03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-link-providerservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consumer-link-providerservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lconsumer-link-providerservice/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/lconsumer-link-providerservice/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-Demo02/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/provider-Demo02/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-consumer-Demo03/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-consumer-Demo03/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-provider-Demo02/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/link-provider-Demo02/src/main/resources" charset="UTF-8" />
   </component>
 </project>
