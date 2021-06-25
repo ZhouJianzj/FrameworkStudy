@@ -2,6 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/src/main/java/com/zj/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/src/main/java/com/zj/service/StuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/src/main/java/com/zj/service/impl/StuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/040-springboot-advance/src/test/java/com/zj/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +32,8 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,11 +83,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\framework\springBoot\038-springboot-Object\src\main\java\com\zj\springbootobject" />
-      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
-      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
-      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zj.service.impl" />
+      <recent name="com.zj.springbootlogforjavaback.service.impl" />
+      <recent name="com.zj.springbootdubbolink.service.impl" />
+      <recent name="com.zj.springbootjavaproject.service.impl" />
+      <recent name="com.zj.springbootmybatistranscation.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zj.springbootcommonannotation" />
@@ -90,12 +108,11 @@
       <recent name="com.zj.springbootmultienvirment.controller" />
       <recent name="com.zj.springbootyamlyml.controller" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zj.springbootlogforjavaback.service.impl" />
-      <recent name="com.zj.springbootdubbolink.service.impl" />
-      <recent name="com.zj.springbootjavaproject.service.impl" />
-      <recent name="com.zj.springbootmybatistranscation.service" />
-      <recent name="com.zj.springbootmybatisresourcemapper.service.imple" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\framework\springBoot\038-springboot-Object\src\main\java\com\zj\springbootobject" />
+      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
+      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
+      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -108,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (37)">
+  <component name="RunManager" selected="Spring Boot.Application (38)">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.springbootoperation.Application" />
       <extension name="coverage">
@@ -403,6 +420,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (38)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="040-springboot-advance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="029-springboot-package-jar" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar.Application" />
@@ -506,6 +530,7 @@
       <item itemvalue="Spring Boot.Application (37)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Application (36)" />
+      <item itemvalue="Spring Boot.Application (38)" />
     </list>
     <recent_temporary>
       <list>
@@ -554,6 +579,7 @@
       <workItem from="1623833656784" duration="1535000" />
       <workItem from="1623837032596" duration="2915000" />
       <workItem from="1624411996764" duration="115000" />
+      <workItem from="1624628849103" duration="1807000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -703,10 +729,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="486" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1623056462023" />
-    <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1623321459157">
+    <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1624630036496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1623321459157" />
+    <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1624630036496" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623674928420">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -807,6 +833,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="485" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1623675232032" />
+    <state x="538" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1624630008335">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="538" y="105" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1624630008335" />
     <state x="310" y="79" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1623224240103">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -823,10 +853,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1623239870479" />
-    <state x="55" y="14" width="1198" height="850" key="new project wizard" timestamp="1623727686316">
+    <state x="157" y="21" width="1198" height="702" key="new project wizard" timestamp="1624629837781">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="55" y="14" width="1198" height="850" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1623727686316" />
+    <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1624629837781" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1623675840266">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
