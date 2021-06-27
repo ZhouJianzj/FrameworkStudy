@@ -17,13 +17,13 @@
         <module name="029-springboot-package-jar" />
         <module name="036-springboot-literal" />
         <module name="005-springboot-persondefindedapplication" />
-        <module name="020-springboot-servlet" />
         <module name="017-springboot-javaproject" />
         <module name="025-springboot-filtertwo" />
         <module name="030-springboot-package-jar2" />
         <module name="009-springboot-mybatis-resourcemapper" />
         <module name="026-springboor-characterencoding-1" />
         <module name="004-springboot-multi-envirment" />
+        <module name="019-springboot-interceptor" />
         <module name="024-springboot-filterone" />
         <module name="040-springboot-advance" />
         <module name="038-springboot-Object" />
@@ -37,14 +37,15 @@
         <module name="034-springboot-each" />
         <module name="012-springboot-restful" />
         <module name="010-springboot-mybatis-transcation" />
+        <module name="031-springboot-logforjavaback" />
         <module name="011-springboot-commonannotation" />
-        <module name="019-springboot-interceptor" />
         <module name="032-springboot-thymeleaf-first" />
         <module name="022-springboot-dubbo-link-provider" />
         <module name="038-springboot-object" />
         <module name="008-springboot-mybatis-mapperscan" />
+        <module name="041-springboot-linux" />
         <module name="037-springboot-splice" />
-        <module name="031-springboot-logforjavaback" />
+        <module name="020-springboot-servlet" />
         <module name="003-springboot-yaml-yml" />
         <module name="035-springboot-inlink" />
         <module name="007-springboot-integration-mybatis" />
@@ -94,6 +95,7 @@
       <module name="038-springboot-object" target="1.8" />
       <module name="039-springboot-function" target="1.8" />
       <module name="040-springboot-advance" target="1.8" />
+      <module name="041-springboot-linux" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

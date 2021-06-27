@@ -2,6 +2,7 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/028-springboot-package" />
+    <file type="web" url="file://$PROJECT_DIR$/041-springboot-linux" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -54,6 +55,7 @@
         <option value="$PROJECT_DIR$/038-springboot-object/pom.xml" />
         <option value="$PROJECT_DIR$/039-springboot-function/pom.xml" />
         <option value="$PROJECT_DIR$/040-springboot-advance/pom.xml" />
+        <option value="$PROJECT_DIR$/041-springboot-linux/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
