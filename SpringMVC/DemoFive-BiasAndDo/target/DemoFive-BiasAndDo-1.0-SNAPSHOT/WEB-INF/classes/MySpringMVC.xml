@@ -29,7 +29,7 @@
 <!--    <mvc:default-servlet-handler/>-->
 
     <!--第二种办法 ，SpringMVC3.0以上版本才可以的
-        mapping 表示的是访问静态资源文件的url地址  **表示的是表示Html目录的所以资源
+        mapping 表示的是访问静  地址  **表示的是表示Html目录的所以资源
         location 表示的是静态资源的目录路径-->
     <mvc:resources mapping="Html/**" location="/Html/"/>
 </beans>
