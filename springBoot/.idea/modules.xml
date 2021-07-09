@@ -43,6 +43,7 @@
       <module fileurl="file://$PROJECT_DIR$/039-springboot-function/039-springboot-function.iml" filepath="$PROJECT_DIR$/039-springboot-function/039-springboot-function.iml" />
       <module fileurl="file://$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" filepath="$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" />
       <module fileurl="file://$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" filepath="$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaSeTest/javaSeTest.iml" filepath="$PROJECT_DIR$/javaSeTest/javaSeTest.iml" />
     </modules>
   </component>
 </project>
