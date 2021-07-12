@@ -2,39 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyFile/CopyFile.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyFile/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CopyFile/src/test/java/com/zj/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoggerFrame/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/test/java/com/zj/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/zj/demo01/Demo01Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo01/src/test/java/com/zj/demo01/Demo01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/CopyDiGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/TestFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +76,7 @@
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/CopyFile/src/main/java/com/zj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/038-springboot-operation" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28109452" />
@@ -147,13 +122,13 @@
       <list>
         <option value="$PROJECT_DIR$/001-springboot-brench" />
         <option value="$PROJECT_DIR$" />
-        <option value="$PROJECT_DIR$/../../untitled" />
         <option value="$PROJECT_DIR$/014-dubbo-springboot-provider" />
         <option value="$PROJECT_DIR$/002-springboot-sayhello" />
+        <option value="$PROJECT_DIR$/demo01" />
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.App" />
       <module name="LoggerFrame" />
@@ -180,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.Collection.list.arrayList.ArrayListOne" />
-      <module name="javaSeTest" />
+    <configuration name="CopyDiGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.CopyDiGui" />
+      <module name="CopyFile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zj.numberSave.Collection.list.arrayList.*" />
+          <option name="PATTERN" value="com.zj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.map.sortedMap.treeMap.TreeMapOne" />
-      <module name="javaSeTest" />
+    <configuration name="TestFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.TestFile" />
+      <module name="CopyFile" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zj.numberSave.map.sortedMap.treeMap.*" />
+          <option name="PATTERN" value="com.zj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -566,8 +541,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayListOne" />
-      <item itemvalue="Application.TreeMapOne" />
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application (1)" />
@@ -612,14 +585,16 @@
       <item itemvalue="Spring Boot.Demo01Application" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Logger" />
+      <item itemvalue="Application.TestFile" />
+      <item itemvalue="Application.CopyDiGui" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CopyDiGui" />
+        <item itemvalue="Application.TestFile" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Logger" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.TreeMapOne" />
-        <item itemvalue="Application.ArrayListOne" />
       </list>
     </recent_temporary>
   </component>
@@ -683,7 +658,7 @@
       <workItem from="1626065118080" duration="999000" />
       <workItem from="1626066142688" duration="457000" />
       <workItem from="1626066622469" duration="29000" />
-      <workItem from="1626066729485" duration="8386000" />
+      <workItem from="1626066729485" duration="18498000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -846,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626006093606</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="文件拷贝。log框架的实现，没有实现目录的层级拷贝">
+      <created>1626080800952</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1626080800952</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -877,7 +859,8 @@
     <MESSAGE value="异常处理机制，自定义异常" />
     <MESSAGE value="集合" />
     <MESSAGE value="TreeSet存自定的对象的时候会出现ClassCastException&#10;是因为对象没有实现Comparable接口中的比较规则，为什么会出错为什么要实现接口，因为TreeSet存储的时候会先自动的排序存储" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeSet存自定的对象的时候会出现ClassCastException&#10;是因为对象没有实现Comparable接口中的比较规则，为什么会出错为什么要实现接口，因为TreeSet存储的时候会先自动的排序存储" />
+    <MESSAGE value="文件拷贝。log框架的实现，没有实现目录的层级拷贝" />
+    <option name="LAST_COMMIT_MESSAGE" value="文件拷贝。log框架的实现，没有实现目录的层级拷贝" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -947,12 +930,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="768" y="123" key="CommitChangelistDialog2" timestamp="1626006092795">
+    <state x="689" y="122" key="CommitChangelistDialog2" timestamp="1626080799227">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
-    <state x="768" y="123" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626006092795" />
+    <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080799227" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
@@ -963,34 +946,34 @@
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1624969465664" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="1429" height="246" key="GridCell.Tab.0.bottom" timestamp="1626080065832">
+    <state width="1429" height="242" key="GridCell.Tab.0.bottom" timestamp="1626097766229">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1429" height="246" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065832" />
-    <state width="1429" height="246" key="GridCell.Tab.0.center" timestamp="1626080065830">
+    <state width="1429" height="242" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626097766229" />
+    <state width="1429" height="242" key="GridCell.Tab.0.center" timestamp="1626097766229">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1429" height="246" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065830" />
-    <state width="1429" height="246" key="GridCell.Tab.0.left" timestamp="1626080065830">
+    <state width="1429" height="242" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626097766229" />
+    <state width="1429" height="242" key="GridCell.Tab.0.left" timestamp="1626097766229">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645776" />
-    <state width="1429" height="246" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065830" />
-    <state width="1429" height="246" key="GridCell.Tab.0.right" timestamp="1626080065831">
+    <state width="1429" height="242" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626097766229" />
+    <state width="1429" height="242" key="GridCell.Tab.0.right" timestamp="1626097766229">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1429" height="246" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065831" />
+    <state width="1429" height="242" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626097766229" />
     <state width="1429" height="188" key="GridCell.Tab.1.bottom" timestamp="1626078976252">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
@@ -1046,12 +1029,12 @@
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
     <state x="146" y="227" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066590863" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626006096988">
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626080805183">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626006096988" />
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080805183" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
@@ -1092,10 +1075,11 @@
     </state>
     <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1624969752489" />
     <state x="493" y="116" key="new project wizard/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626076240884" />
-    <state x="644" y="242" key="run.anything.popup" timestamp="1625730946405">
+    <state x="644" y="242" key="run.anything.popup" timestamp="1626090294966">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="644" y="242" key="run.anything.popup/0.0.2137.1202@0.0.2137.1202" timestamp="1625730946405" />
+    <state x="644" y="242" key="run.anything.popup/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626090294966" />
     <state x="599" y="252" width="935" height="944" key="search.everywhere.popup" timestamp="1626076500026">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>

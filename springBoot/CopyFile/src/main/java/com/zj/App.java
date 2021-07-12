@@ -19,10 +19,16 @@ public class App
         System.out.println("请输入你需要Save文件的位置！(示例：D:\\a.txt)");
         String save = new Scanner(System.in).nextLine();
 
-        if (copy !=null || " ".equals(copy) ||
-                save != null || " ".equals(save) ||
-                    mB != 0){
+//        if (copy !=null || " ".equals(copy) ||
+//                save != null || " ".equals(save) ||
+//                    mB != 0){
             System.out.println(new Program().doCopy(copy, save,mB));
-        }
+//           try{
+//               CopyDiGui copyDiGui = new CopyDiGui();
+//               copyDiGui.dodo(copy,save,mB);
+//           }catch (IOException e) {
+//
+//           }
+//        }
     }
 }
