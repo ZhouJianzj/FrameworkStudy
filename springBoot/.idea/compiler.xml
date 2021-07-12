@@ -14,6 +14,7 @@
         <module name="006-springboot-integration-jsp" />
         <module name="013-dubbo-interface" />
         <module name="039-springboot-function" />
+        <module name="003-springboot-yaml-yml" />
         <module name="014-dubbo-springboot-provider" />
         <module name="029-springboot-package-jar" />
         <module name="036-springboot-literal" />
@@ -25,6 +26,7 @@
         <module name="009-springboot-mybatis-resourcemapper" />
         <module name="026-springboor-characterencoding-1" />
         <module name="004-springboot-multi-envirment" />
+        <module name="LoggerFrame" />
         <module name="024-springboot-filterone" />
         <module name="040-springboot-advance" />
         <module name="038-springboot-Object" />
@@ -47,9 +49,10 @@
         <module name="041-springboot-linux" />
         <module name="037-springboot-splice" />
         <module name="031-springboot-logforjavaback" />
-        <module name="003-springboot-yaml-yml" />
+        <module name="demo01" />
         <module name="035-springboot-inlink" />
         <module name="007-springboot-integration-mybatis" />
+        <module name="CopyFile" />
         <module name="033-springboot-expression" />
       </profile>
     </annotationProcessing>
@@ -97,7 +100,11 @@
       <module name="039-springboot-function" target="1.8" />
       <module name="040-springboot-advance" target="1.8" />
       <module name="041-springboot-linux" target="1.8" />
+      <module name="CopyFile" target="1.8" />
+      <module name="demo01" target="1.8" />
       <module name="javaSeTest" target="8" />
+      <module name="LoggerFrame" target="1.8" />
+      <module name="untitled" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

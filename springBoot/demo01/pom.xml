@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zj</groupId>
-    <artifactId>030-springboot-package-jar2</artifactId>
+    <artifactId>demo01</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>030-springboot-package-jar2</name>
+    <name>demo01</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
@@ -47,7 +47,6 @@
     </dependencyManagement>
 
     <build>
-        <finalName>springboot</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -59,13 +58,12 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.zj.springbootpackagejar2.Application</mainClass>
+                    <mainClass>com.zj.demo01.Demo01Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>

@@ -37,4 +37,12 @@ public class Stu implements Comparable {
         Stu s = (Stu) o;
         return this.num - s.num;
     }
+
+    @Override
+    public String toString() {
+        return "Stu{" +
+                "num=" + num +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

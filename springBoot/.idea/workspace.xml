@@ -2,14 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/CopyFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CopyFile/src/test/java/com/zj/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoggerFrame/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoggerFrame/src/test/java/com/zj/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/src/main/java/com/zj/demo01/Demo01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo01/src/test/java/com/zj/demo01/Demo01ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/030-springboot-package-jar2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +62,13 @@
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1tSiWNZW82PDIcugMCbT5WWBWls" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,14 +100,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/CopyFile/src/main/java/com/zj" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/038-springboot-operation" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28109452" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -107,12 +147,39 @@
       <list>
         <option value="$PROJECT_DIR$/001-springboot-brench" />
         <option value="$PROJECT_DIR$" />
+        <option value="$PROJECT_DIR$/../../untitled" />
         <option value="$PROJECT_DIR$/014-dubbo-springboot-provider" />
         <option value="$PROJECT_DIR$/002-springboot-sayhello" />
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TreeMapOne">
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.App" />
+      <module name="LoggerFrame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.App" />
+      <module name="CopyFile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayListOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.Collection.list.arrayList.ArrayListOne" />
       <module name="javaSeTest" />
@@ -126,25 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.map.HashMap.HashMapOne" />
-      <module name="javaSeTest" />
+    <configuration name="Logger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.Logger" />
+      <module name="LoggerFrame" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zj.numberSave.map.HashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HashSetOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.Collection.set.hashSet.HashSetOne" />
-      <module name="javaSeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.numberSave.Collection.set.hashSet.*" />
+          <option name="PATTERN" value="com.zj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +212,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.numberSave.map.sortedMap.treeMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.numberSave.Collection.set.sortedSet.treeSet.TreeSetOne" />
-      <module name="javaSeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.numberSave.Collection.set.sortedSet.treeSet.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -510,7 +551,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="038-springboot-object" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootobject.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.demo01.Demo01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ArrayListOne" />
+      <item itemvalue="Application.TreeMapOne" />
+      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
@@ -550,19 +608,18 @@
       <item itemvalue="Spring Boot.Application (37)" />
       <item itemvalue="Spring Boot.Application (38)" />
       <item itemvalue="Spring Boot.Application (39)" />
-      <item itemvalue="Application.HashSetOne" />
-      <item itemvalue="Application.TreeSetOne" />
-      <item itemvalue="Application.HashMapOne" />
-      <item itemvalue="Application.ArrayListOne" />
-      <item itemvalue="Application.TreeMapOne" />
+      <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Demo01Application" />
+      <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.Logger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.Logger" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.TreeMapOne" />
         <item itemvalue="Application.ArrayListOne" />
-        <item itemvalue="Application.HashMapOne" />
-        <item itemvalue="Application.TreeSetOne" />
-        <item itemvalue="Application.HashSetOne" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +676,14 @@
       <workItem from="1625831952826" duration="6412000" />
       <workItem from="1625884217948" duration="24794000" />
       <workItem from="1625977688587" duration="1597000" />
-      <workItem from="1625979555792" duration="14127000" />
+      <workItem from="1625979555792" duration="15525000" />
+      <workItem from="1626055217600" duration="595000" />
+      <workItem from="1626062940916" duration="1979000" />
+      <workItem from="1626064960641" duration="136000" />
+      <workItem from="1626065118080" duration="999000" />
+      <workItem from="1626066142688" duration="457000" />
+      <workItem from="1626066622469" duration="29000" />
+      <workItem from="1626066729485" duration="8386000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -775,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626001602938</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="TreeSet存自定的对象的时候会出现ClassCastException&#10;是因为对象没有实现Comparable接口中的比较规则，为什么会出错为什么要实现接口，因为TreeSet存储的时候会先自动的排序存储">
+      <created>1626006093606</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1626006093606</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -805,7 +876,8 @@
     <MESSAGE value="继承，常用的方法，枚举类，匿名类，包装数据类型，Array，Date，BigDecimal，等一些方法的复习" />
     <MESSAGE value="异常处理机制，自定义异常" />
     <MESSAGE value="集合" />
-    <option name="LAST_COMMIT_MESSAGE" value="集合" />
+    <MESSAGE value="TreeSet存自定的对象的时候会出现ClassCastException&#10;是因为对象没有实现Comparable接口中的比较规则，为什么会出错为什么要实现接口，因为TreeSet存储的时候会先自动的排序存储" />
+    <option name="LAST_COMMIT_MESSAGE" value="TreeSet存自定的对象的时候会出现ClassCastException&#10;是因为对象没有实现Comparable接口中的比较规则，为什么会出错为什么要实现接口，因为TreeSet存储的时候会先自动的排序存储" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -845,11 +917,11 @@
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="981" y="125" key="#com.intellij.ide.macro.MacrosDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625906634670" />
-    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1626005696276">
+    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1626080307226">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1624800153914" />
-    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626005696276" />
+    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080307226" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623674928420">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -875,69 +947,70 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="768" y="123" key="CommitChangelistDialog2" timestamp="1626001601803">
+    <state x="768" y="123" key="CommitChangelistDialog2" timestamp="1626006092795">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
-    <state x="768" y="123" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626001601803" />
+    <state x="768" y="123" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626006092795" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="469" y="116" width="609" height="676" key="EnvironmentVariablesDialog/0.0.1536.864@0.0.1536.864" timestamp="1623293584915" />
     <state x="653" y="161" key="EnvironmentVariablesDialog/0.0.2137.1202@0.0.2137.1202" timestamp="1625730496528" />
-    <state x="549" y="122" key="FileChooserDialogImpl" timestamp="1624969465664">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="764" y="170" key="FileChooserDialogImpl" timestamp="1626066354404">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1624969465664" />
-    <state width="1200" height="311" key="GridCell.Tab.0.bottom" timestamp="1626005444055">
+    <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
+    <state width="1429" height="246" key="GridCell.Tab.0.bottom" timestamp="1626080065832">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1200" height="311" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626005444055" />
-    <state width="1200" height="311" key="GridCell.Tab.0.center" timestamp="1626005444055">
+    <state width="1429" height="246" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065832" />
+    <state width="1429" height="246" key="GridCell.Tab.0.center" timestamp="1626080065830">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1200" height="311" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626005444055" />
-    <state width="1200" height="311" key="GridCell.Tab.0.left" timestamp="1626005444055">
+    <state width="1429" height="246" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065830" />
+    <state width="1429" height="246" key="GridCell.Tab.0.left" timestamp="1626080065830">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645776" />
-    <state width="1200" height="311" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626005444055" />
-    <state width="1200" height="311" key="GridCell.Tab.0.right" timestamp="1626005444055">
+    <state width="1429" height="246" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065830" />
+    <state width="1429" height="246" key="GridCell.Tab.0.right" timestamp="1626080065831">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="1103" height="476" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1625805645777" />
-    <state width="1200" height="311" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626005444055" />
-    <state width="1200" height="526" key="GridCell.Tab.1.bottom" timestamp="1625984778916">
+    <state width="1429" height="246" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626080065831" />
+    <state width="1429" height="188" key="GridCell.Tab.1.bottom" timestamp="1626078976252">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
-    <state width="1200" height="526" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625984778916" />
-    <state width="1200" height="526" key="GridCell.Tab.1.center" timestamp="1625984778915">
+    <state width="1429" height="188" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626078976252" />
+    <state width="1429" height="188" key="GridCell.Tab.1.center" timestamp="1626078976252">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
-    <state width="1200" height="526" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625984778915" />
-    <state width="1200" height="526" key="GridCell.Tab.1.left" timestamp="1625984778915">
+    <state width="1429" height="188" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626078976252" />
+    <state width="1429" height="188" key="GridCell.Tab.1.left" timestamp="1626078976252">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
-    <state width="1200" height="526" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625984778915" />
-    <state width="1200" height="526" key="GridCell.Tab.1.right" timestamp="1625984778915">
+    <state width="1429" height="188" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626078976252" />
+    <state width="1429" height="188" key="GridCell.Tab.1.right" timestamp="1626078976252">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
-    <state width="1200" height="526" key="GridCell.Tab.1.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625984778915" />
+    <state width="1429" height="188" key="GridCell.Tab.1.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626078976252" />
     <state width="1477" height="627" key="GridCell.Tab.2.bottom" timestamp="1624799870695">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -958,31 +1031,31 @@
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="200" height="539" key="HiddenNamespacesPopup/0.0.2137.1202@0.0.2137.1202" timestamp="1625730565048" />
-    <state x="486" y="232" key="IDE.errors.dialog" timestamp="1626001455105">
+    <state x="486" y="232" key="IDE.errors.dialog" timestamp="1626062955934">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="349" y="167" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1623410937650" />
     <state x="486" y="232" key="IDE.errors.dialog/0.0.2137.1202@0.0.2137.1202" timestamp="1625730355459" />
-    <state x="486" y="232" key="IDE.errors.dialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626001455105" />
+    <state x="486" y="232" key="IDE.errors.dialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626062955934" />
     <state x="424" y="56" key="NewModule_or_Project.wizard" timestamp="1623675007107">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1623675007107" />
-    <state x="19" y="8" width="1434" height="850" key="SettingsEditor" timestamp="1625890083072">
+    <state x="146" y="227" width="1434" height="850" key="SettingsEditor" timestamp="1626066590863">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
-    <state x="19" y="8" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625890083072" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626001609299">
+    <state x="146" y="227" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066590863" />
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626006096988">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626001609299" />
-    <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1625985222629">
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626006096988" />
+    <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
-    <state x="1223" y="474" key="chooseDestDirectoryDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625985222629" />
+    <state x="1223" y="474" key="chooseDestDirectoryDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626063185916" />
     <state x="485" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623675232032">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1014,19 +1087,20 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1623239870479" />
-    <state x="218" y="29" width="1198" height="702" key="new project wizard" timestamp="1625809952058">
+    <state x="493" y="116" width="1198" height="702" key="new project wizard" timestamp="1626076240884">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1624969752489" />
-    <state x="218" y="29" key="new project wizard/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625809952058" />
+    <state x="493" y="116" key="new project wizard/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626076240884" />
     <state x="644" y="242" key="run.anything.popup" timestamp="1625730946405">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="644" y="242" key="run.anything.popup/0.0.2137.1202@0.0.2137.1202" timestamp="1625730946405" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1624799343608">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="599" y="252" width="935" height="944" key="search.everywhere.popup" timestamp="1626076500026">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1624799343608" />
+    <state x="599" y="252" width="935" height="944" key="search.everywhere.popup/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626076500026" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
