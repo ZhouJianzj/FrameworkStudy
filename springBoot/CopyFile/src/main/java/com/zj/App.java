@@ -10,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        System.exit(0);
         System.out.println("请输入你要Copy文件位置!(示例：D:\\a.txt,支持所有文件格式拷贝)");
         String copy = new Scanner(System.in).nextLine();
 
@@ -30,5 +31,6 @@ public class App
 //
 //           }
 //        }
+
     }
 }

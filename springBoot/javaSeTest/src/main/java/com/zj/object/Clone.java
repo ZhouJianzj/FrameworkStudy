@@ -18,7 +18,7 @@ public class Clone {
 //        测试深的clone
         System.out.println(p.getAddress().toString());
         System.out.println(ps.getAddress().toString());
-
+//本体改变副本不改变，深度clone
         p.setAddress(new Address("beijing",7));
 
         System.out.println(p.getAddress().toString());
