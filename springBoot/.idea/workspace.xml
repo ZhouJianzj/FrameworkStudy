@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/FieldOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/InterfaceOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/InterfaceTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/MethodReflect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/AnnotationOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/GetClassAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Id.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/NotHaveIdException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Stu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,9 @@
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -126,7 +129,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MethodReflect">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AnnotationOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.annotation.AnnotationOne" />
+      <module name="javaSeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FieldOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.reflect.FieldOne" />
       <module name="javaSeTest" />
@@ -140,47 +156,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GetClassAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.annotation.GetClassAnnotation" />
+      <module name="javaSeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.annotation.idCase.Main" />
+      <module name="javaSeTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.annotation.idCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MethodReflect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.reflect.MethodReflect" />
-      <module name="javaSeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductAndConsume" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.thread.ProductAndConsume" />
-      <module name="javaSeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.reflect.ReflectOne" />
-      <module name="javaSeTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.reflect.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReflectTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.reflect.ReflectTwo" />
       <module name="javaSeTest" />
       <extension name="coverage">
         <pattern>
@@ -539,7 +542,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProductAndConsume" />
+      <item itemvalue="Application.FieldOne" />
+      <item itemvalue="Application.MethodReflect" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
@@ -581,18 +585,17 @@
       <item itemvalue="Spring Boot.Application (39)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Demo01Application" />
-      <item itemvalue="Application.ReflectOne" />
-      <item itemvalue="Application.ReflectTwo" />
-      <item itemvalue="Application.FieldOne" />
-      <item itemvalue="Application.MethodReflect" />
+      <item itemvalue="Application.AnnotationOne" />
+      <item itemvalue="Application.GetClassAnnotation" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.GetClassAnnotation" />
+        <item itemvalue="Application.AnnotationOne" />
         <item itemvalue="Application.MethodReflect" />
         <item itemvalue="Application.FieldOne" />
-        <item itemvalue="Application.ReflectTwo" />
-        <item itemvalue="Application.ReflectOne" />
-        <item itemvalue="Application.ProductAndConsume" />
       </list>
     </recent_temporary>
   </component>
@@ -660,7 +663,8 @@
       <workItem from="1626151928230" duration="19104000" />
       <workItem from="1626240027443" duration="39000" />
       <workItem from="1626240090878" duration="131000" />
-      <workItem from="1626240239545" duration="16749000" />
+      <workItem from="1626240239545" duration="16927000" />
+      <workItem from="1626263609852" duration="6208000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -858,7 +862,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626246138951</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="反射机制对变量、构造方法、其它方法的实现">
+      <created>1626260340110</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1626260340110</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -866,7 +877,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1、常用的一些注解的使用的，使得controller下的注解分工更为明确" />
     <MESSAGE value="拦截器的使用" />
     <MESSAGE value="1、servlet的两种方式使用，注解@ServletConfigurationScan(..)、@WebServlet(..)，使用注册中心配置类@Bean、@Configuration&#10;2、filter的两种方式的使用，注解@ServletConfiguratinScan(..)、@WebFilter,使用注册中心配置类@Bean、@Configuration&#10;3、拦截器的使用只用一种方式去使用就是注册中心的使用配置类，注意的是interceptor需要实现HandelInterceptor,注册配置类需要实现WebMvcConfigurer,使用到注解就是一个@Configuration" />
     <MESSAGE value="打jar包和打war包" />
@@ -891,7 +901,8 @@
     <MESSAGE value="线程" />
     <MESSAGE value="生产消费模式的实现，死锁的实现" />
     <MESSAGE value="反射机制" />
-    <option name="LAST_COMMIT_MESSAGE" value="反射机制" />
+    <MESSAGE value="反射机制对变量、构造方法、其它方法的实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="反射机制对变量、构造方法、其它方法的实现" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -931,11 +942,11 @@
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="981" y="125" key="#com.intellij.ide.macro.MacrosDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625906634670" />
-    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1626256429033">
+    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1626270411489">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="574" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1624800153914" />
-    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626256429033" />
+    <state x="930" y="196" key="#com.intellij.ide.util.MemberChooser/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626270411489" />
     <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623674928420">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -961,12 +972,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="689" y="122" key="CommitChangelistDialog2" timestamp="1626246137788">
+    <state x="689" y="122" key="CommitChangelistDialog2" timestamp="1626260339235">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
-    <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246137788" />
+    <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260339235" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
@@ -977,58 +988,58 @@
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1624969465664" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="1994" height="479" key="GridCell.Tab.0.bottom" timestamp="1626258634239">
+    <state width="1390" height="267" key="GridCell.Tab.0.bottom" timestamp="1626269026273">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="2093" height="657" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="479" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258634239" />
-    <state width="1994" height="479" key="GridCell.Tab.0.center" timestamp="1626258634239">
+    <state width="1390" height="267" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626269026273" />
+    <state width="1390" height="267" key="GridCell.Tab.0.center" timestamp="1626269026273">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="2093" height="657" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
-    <state width="1994" height="479" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258634239" />
-    <state width="1994" height="479" key="GridCell.Tab.0.left" timestamp="1626258634239">
+    <state width="1390" height="267" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626269026273" />
+    <state width="1390" height="267" key="GridCell.Tab.0.left" timestamp="1626269026273">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="2093" height="657" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
-    <state width="1994" height="479" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258634239" />
-    <state width="1994" height="479" key="GridCell.Tab.0.right" timestamp="1626258634239">
+    <state width="1390" height="267" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626269026273" />
+    <state width="1390" height="267" key="GridCell.Tab.0.right" timestamp="1626269026273">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="2093" height="657" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="479" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258634239" />
-    <state width="1994" height="574" key="GridCell.Tab.1.bottom" timestamp="1626258024323">
+    <state width="1390" height="267" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626269026273" />
+    <state width="1994" height="574" key="GridCell.Tab.1.bottom" timestamp="1626260398896">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
     <state width="2093" height="657" key="GridCell.Tab.1.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="574" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258024323" />
-    <state width="1994" height="574" key="GridCell.Tab.1.center" timestamp="1626258024323">
+    <state width="1994" height="574" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260398896" />
+    <state width="1994" height="574" key="GridCell.Tab.1.center" timestamp="1626260398896">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
     <state width="2093" height="657" key="GridCell.Tab.1.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="574" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258024323" />
-    <state width="1994" height="574" key="GridCell.Tab.1.left" timestamp="1626258024323">
+    <state width="1994" height="574" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260398896" />
+    <state width="1994" height="574" key="GridCell.Tab.1.left" timestamp="1626260398896">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
     <state width="2093" height="657" key="GridCell.Tab.1.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="574" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258024323" />
-    <state width="1994" height="574" key="GridCell.Tab.1.right" timestamp="1626258024323">
+    <state width="1994" height="574" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260398896" />
+    <state width="1994" height="574" key="GridCell.Tab.1.right" timestamp="1626260398896">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1492" height="472" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
     <state width="2093" height="657" key="GridCell.Tab.1.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1994" height="574" key="GridCell.Tab.1.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626258024323" />
+    <state width="1994" height="574" key="GridCell.Tab.1.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260398896" />
     <state width="1477" height="627" key="GridCell.Tab.2.bottom" timestamp="1624799870695">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1049,12 +1060,12 @@
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="200" height="539" key="HiddenNamespacesPopup/0.0.2137.1202@0.0.2137.1202" timestamp="1625730565048" />
-    <state x="486" y="232" key="IDE.errors.dialog" timestamp="1626098350946">
+    <state x="486" y="232" key="IDE.errors.dialog" timestamp="1626266153949">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="349" y="167" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1623410937650" />
     <state x="486" y="232" key="IDE.errors.dialog/0.0.2137.1202@0.0.2137.1202" timestamp="1625730355459" />
-    <state x="486" y="232" key="IDE.errors.dialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626098350946" />
+    <state x="486" y="232" key="IDE.errors.dialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626266153949" />
     <state x="424" y="56" key="NewModule_or_Project.wizard" timestamp="1623675007107">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1064,12 +1075,12 @@
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626246142048">
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626260344668">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246142048" />
+    <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626260344668" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
