@@ -20,6 +20,7 @@ public class myInvation implements InvocationHandler {
         if (object != null) {
 //            调用的意思，注意传递的参数,返回值就是工厂实现的方法的返回值
             str = (String)method.invoke(object, args);
+            System.out.println(method.getName());
 //            下面是在实现基本的工厂功能的前提下，实现的增强
             str = str + ",hello！";
         }

@@ -2,23 +2,27 @@
 <!DOCTYPE configuration
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
 <configuration>
+<!--    配置mybatis的日志-->
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+<!--    环境配置-->
     <environments default="databaseOne_managerSystem">
         <environment id="databaseOne_managerSystem">
             <transactionManager type="JDBC"/>
             <dataSource type="POOLED">
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
-                <property name="url" value="jdbc:mysql://localhost:3306/managersystem"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/student-manager"/>
                 <property name="username" value="root"/>
                 <property name="password" value="123321"/>
             </dataSource>
         </environment>
     </environments>
+<!--    指定映射器需要寻找的xml文件-->
     <mappers>
-<!--使用resource 的方式指定需要映射的文件的路径-->
-        <mapper resource="com/zhoujian/dao/StudentDao.xml"/>
-<!--可以使用package的方式去实现一个bao下的需要映射的xml文件-->
-<!--        <package name="com.zhoujian.dao"/>-->
-
+        <package name="com.zj.dao"/>
     </mappers>
+    
 </configuration>

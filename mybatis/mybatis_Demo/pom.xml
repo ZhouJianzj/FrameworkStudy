@@ -8,6 +8,7 @@
     <artifactId>mybatis_Demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
+
         <resources>
 <!--            编译指定的文件-->
             <resource>
@@ -18,6 +19,10 @@
                 </includes>
             </resource>
         </resources>
+
+
+
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

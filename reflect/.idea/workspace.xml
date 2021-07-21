@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f6df3a6-4a93-413e-9aae-59f3e91598d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SpringMVC/DemoFive-BiasAndDo/src/main/resources/MySpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringMVC/DemoFive-BiasAndDo/src/main/resources/MySpringMVC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/handler/myInvation.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo02-reflect-proxy/src/main/java/com/zj/handler/myInvation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Uuid">
+  <component name="RunManager" selected="Application.DongTaiProxy">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.App" />
       <module name="Demo02-reflect-proxy" />
@@ -123,9 +125,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DongTaiProxy" />
         <item itemvalue="Application.Uuid" />
         <item itemvalue="Application.DoMain" />
-        <item itemvalue="Application.DongTaiProxy" />
         <item itemvalue="Application.DongTaiProxy (1)" />
         <item itemvalue="Application.App (1)" />
       </list>
@@ -154,6 +156,7 @@
       <workItem from="1621348972068" duration="351000" />
       <workItem from="1621383746027" duration="596000" />
       <workItem from="1622254660083" duration="667000" />
+      <workItem from="1626851128291" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="动态代理的实现&#10;1、需要一个service层的业务接口&#10;2、一个factory对象去实现service的需求&#10;3、这时候需要一个代理去卖服务，于是就有动态代理和静态代理的两种方式去实现创建代理&#10;4、静态代理，需要创建一个实现InvocationHandle接口的对象，这就个对象就是未来动态创建代理的核心，主要的业务就是在这里增加的&#10;5、最后在那里需要就在哪里使用，首先创建工厂，创建好第4布的实现对象又称调用增强对象，最后使用Proxy.newProxyInstance(工厂对象的类加载器，工厂类型的接口也就是service层的接口，增强的对象)的方法创建一个代理对象，转一下需要完成的业务的接口类型也就是service层的factory实现的接口这样就好调用里面的方法了。">
       <created>1621160845895</created>
@@ -201,22 +204,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1621336335661" />
-    <state width="1493" height="135" key="GridCell.Tab.0.bottom" timestamp="1621343177444">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1558" height="145" key="GridCell.Tab.0.bottom" timestamp="1626854749644">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1621343177444" />
-    <state width="1493" height="135" key="GridCell.Tab.0.center" timestamp="1621343177444">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1558" height="145" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626854749644" />
+    <state width="1558" height="145" key="GridCell.Tab.0.center" timestamp="1626854749644">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1621343177444" />
-    <state width="1493" height="135" key="GridCell.Tab.0.left" timestamp="1621343177444">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1558" height="145" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626854749644" />
+    <state width="1558" height="145" key="GridCell.Tab.0.left" timestamp="1626854749644">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1621343177444" />
-    <state width="1493" height="135" key="GridCell.Tab.0.right" timestamp="1621343177444">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1558" height="145" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626854749644" />
+    <state width="1558" height="145" key="GridCell.Tab.0.right" timestamp="1626854749644">
+      <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state width="1493" height="135" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1621343177444" />
+    <state width="1558" height="145" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626854749644" />
     <state width="1493" height="268" key="GridCell.Tab.1.bottom" timestamp="1621343177440">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

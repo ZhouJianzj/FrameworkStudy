@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhoujian.dao.StudentDao">
     <select id="selectMethod" resultType="com.zhoujian.entity.Student">
-        select * from student
+        select * from student limit 1
     </select>
     <insert id="insertMethod">
         insert into student value(#{id},#{name},#{age},#{address})
