@@ -5,5 +5,5 @@
 
 <!--    <import resource="classpath:SBook.xml"/>-->
 <!--    <import resource="classpath:School.xml"/>-->
-    <import resource="classpath*:S*.xml"/>
+<!--    <import resource="classpath*:S*.xml"/>-->
 </beans>

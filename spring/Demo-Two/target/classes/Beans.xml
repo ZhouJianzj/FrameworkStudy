@@ -4,37 +4,20 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="Student" class="entity.Student">
+    <bean id="student" class="entity.Student" autowire="byType">
     <!-- 先调用构造方法，在去调用的是对象的set方法 ，方法里面的代码是自己定义的也可以是赋值操作  -->
         <property name="id" value="1002"/>
-        <property name="email" value="12341@sina.com"/>
+       <property name="name" value="zhoujian"/>
+
     </bean>
-<!--    引用数据类型的set注入-->
-    <bean id="studentSchool" class="entity.StudentSchool">
-        <property name="id" value="10001"/>
-        <!--ref的使用-->
-        <property name="school" ref="school"/>
-        <property name="name" value="周健"/>
-    </bean>
+
 <!--    <bean id="school" class="entity.School">-->
-<!--        <property name="schoolName" value="动力节点"/>-->
-<!--        <property name="address" value="北京"/>-->
+<!--        <property name="name" value="大学"/>-->
+<!--        <property name="address" value="南京"/>-->
 <!--    </bean>-->
-    <!--使用构造方法去实现注入-->
-    <bean id="stuClass" class="entity.StuClass">
-        <constructor-arg name="id" value="01"/>
-        <constructor-arg index="1" value="软件"/>
-        <constructor-arg name="school" ref="school"/>
-    </bean>
-<!--自动注入  引用类型-->
-         <!--这里的byName会自动的去匹配id为school，自动的赋值，不需要像之前一样的使用property赋值-->
-<!--    <bean id="book" class="entity.Book" autowire="byName">-->
-<!--        <property name="id" value="1000"/>-->
-<!--        <property name="name"  value="java"/>-->
-<!--    </bean>-->
-        <!--使用byType的形式去去实现自动的注入-->
-    <bean id="book2" class="entity.Book" autowire="byType">
-        <property name="id" value="1000"/>
-        <property name="name"  value="java"/>
+
+    <bean id="schoolSmall" class="entity.SchoolSmall">
+        <property name="name" value="小学"/>
+        <property name="address" value="扬州"/>
     </bean>
 </beans>
