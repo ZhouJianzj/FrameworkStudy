@@ -3,3 +3,5 @@
 1、使用aspectj的基本的步骤
     1）新建maven项目是由quitStart模板
     2）加入基本的依赖，spring-context依赖 aspectj依赖
+2、有接口就使用jdk的动态代理， 没有接口就使用cglib
+3、

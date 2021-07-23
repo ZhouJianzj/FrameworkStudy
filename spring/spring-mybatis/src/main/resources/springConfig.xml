@@ -30,7 +30,7 @@
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--配置sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
-        <!--所要生成的对象所在的包 getMapper方法都会执行一次生成对象放到spring容器中-->
+        <!--指定dao层接口的位置，好让getMapper方法生成实现类-->
         <property name="basePackage" value="com.Jianzhou.dao"/>
     </bean>
 

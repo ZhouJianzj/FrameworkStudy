@@ -2,7 +2,10 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
 <!--导入数据库的配置信息-->
    <context:property-placeholder location="classpath:jdbc.properties"/>
 <!--给连接池配置数据库-->
@@ -27,7 +30,7 @@
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!--配置sqlSessionFactory -->
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
-        <!--所要生成的对象所在的包 getMapper方法都会执行一次生成对象放到spring容器中-->
+        <!--指定dao层接口的位置，好让getMapper方法生成实现类-->
         <property name="basePackage" value="com.Jianzhou.dao"/>
     </bean>
 
