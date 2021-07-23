@@ -4,5 +4,8 @@ public interface SomeServices {
     void doOther();
     String  doSome();
     void doJoinPoint(String string ,Integer integer);
-    String doAround();
+    void doAround();
+    void  doException();
+    void  doAfter();
+    void doPoinCut();
 }

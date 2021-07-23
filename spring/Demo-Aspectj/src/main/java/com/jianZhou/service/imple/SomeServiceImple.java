@@ -7,13 +7,13 @@ import org.springframework.stereotype.Component;
 public class SomeServiceImple  implements SomeServices {
     @Override
     public void doOther() {
-        System.out.println("====================");
+        System.out.println("doOther()方法执行了 ");
     }
 
     @Override
     public String  doSome() {
-        System.out.println("====================");
-        return "aa";
+        System.out.println("doSome方法执行了");
+        return "aaa";
     }
 
     @Override
@@ -22,8 +22,23 @@ public class SomeServiceImple  implements SomeServices {
     }
 
     @Override
-    public String doAround() {
+    public void doAround() {
         System.out.println("环绕通知的目标对象方法！");
-        return "@Around";
+
+    }
+
+    @Override
+    public void doException() {
+         int a = 10/0;
+    }
+
+    @Override
+    public void doPoinCut() {
+        System.out.println("doPoinCut()执行了");
+    }
+
+    @Override
+    public void doAfter() {
+        System.out.println("doAfter执行了");
     }
 }
