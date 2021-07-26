@@ -6,14 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DemoTwo-Param" />
-        <module name="DemoOne" />
-        <module name="DemoThree-RequstMapping" />
-        <module name="DemoFour-Return" />
         <module name="DemoFive-BiasAndDo" />
+        <module name="Demo-6" />
+        <module name="DemoOne" />
+        <module name="DemoTwo-Param" />
+        <module name="DemoFour-Return" />
+        <module name="DemoThree-RequstMapping" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Demo-6" target="1.7" />
+      <module name="Demo-Six" target="1.5" />
       <module name="DemoFive-BiasAndDo" target="1.8" />
       <module name="DemoFour-Return" target="1.8" />
       <module name="DemoOne" target="1.8" />

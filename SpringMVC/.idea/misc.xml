@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Demo-6" />
+    <file type="web" url="file://$PROJECT_DIR$/Demo-Six" />
     <file type="web" url="file://$PROJECT_DIR$/DemoFive-BiasAndDo" />
     <file type="web" url="file://$PROJECT_DIR$/DemoFour-Return" />
     <file type="web" url="file://$PROJECT_DIR$/DemoOne" />
@@ -18,6 +20,8 @@
         <option value="$PROJECT_DIR$/DemoOne/pom.xml" />
         <option value="$PROJECT_DIR$/DemoThree-RequstMapping/pom.xml" />
         <option value="$PROJECT_DIR$/DemoTwo-Param/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo-Six/pom.xml" />
+        <option value="$PROJECT_DIR$/Demo-6/pom.xml" />
       </list>
     </option>
   </component>

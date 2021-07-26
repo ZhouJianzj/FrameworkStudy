@@ -18,5 +18,10 @@
 <p><a href="test/doOne.do">发送请求test/doOne.do</a></p>
 <form action="test/doTwo.do" method="post">发送请求/test/doTwo.do<input type="submit"></form>
 <p><a href="test/doEvery.do">发送请求test/doEvery.do</a></p>
+<form action="test/testRequire.do">
+    name:<input type="text" name="name">
+    age:<input type="text" name="age">
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>

@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
     
-<!--配置监听器，监听springConfig的配置文件去创建容器-->
+<!--配置监听器，监听tomcat启动同时创建具有springConfig配置的配置容器-->
     <!--配置好容器就是为了把对象创建好 -->
 <context-param>
     <param-name>contextConfigLocation</param-name>

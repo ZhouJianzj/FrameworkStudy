@@ -3,6 +3,7 @@ package com.zj;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
@@ -62,5 +63,11 @@ public class doDemo {
 //        当配置视图解析器的话就可以直接使用文件的名字来,如下：
         modelAndView.setViewName("showTwo");
         return modelAndView;
+    }
+    @RequestMapping(value = "/testRequire.do")
+    public void testRequire(String name ,Integer age ,@RequestParam(value = "adderss" ,required = true) String address){
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(address);
     }
 }
