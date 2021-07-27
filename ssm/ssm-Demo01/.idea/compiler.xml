@@ -12,11 +12,12 @@
         <module name="ssm-Demo03-Forward-Redirect" />
         <module name="ssm-Demo06-MoreInterceptor" />
         <module name="ssm-Demo04-Exception" />
-        <module name="DemoFour-Return" />
+        <module name="ssm-Demo08-test" />
         <module name="ssm-Demo07-Interceptor-Login" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="DemoFour-Return" target="1.8" />
       <module name="ssm-DemoTwo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -1,0 +1,8 @@
+ssm
+需求背景，前端传递参数 id，controller接受参数，传递给service现实类中的方法，service方法啊调用dao层方法
+
+1、创建好各个层的接口和接口实现类
+
+2、先mybatis结合spring
+
+3、再spring结合springmvc

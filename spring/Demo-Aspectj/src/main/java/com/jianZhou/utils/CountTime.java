@@ -84,6 +84,7 @@ public class CountTime {
     public void testPointCutAfter(){
         System.out.println("testPointCutAfter执行了");
     }
+
     @Pointcut( value = "execution(void *..SomeServiceImple.doPoinCut())")
     public void doDo(){
 
