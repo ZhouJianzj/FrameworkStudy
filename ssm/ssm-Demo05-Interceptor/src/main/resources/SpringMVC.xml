@@ -8,12 +8,12 @@
     <mvc:annotation-driven/>
 
     <context:component-scan base-package="com.zj.controller"/>
-<!--    <context:component-scan base-package="com.zj.handler"/>-->
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
+
 <!--    声明HandleInterceptor-->
     <mvc:interceptors>
         <!--可以配置多个拦截器-->

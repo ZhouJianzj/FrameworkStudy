@@ -16,6 +16,7 @@
     </properties>
 
     <dependencies>
+<!--        springbootWeb起步依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -58,6 +59,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+<!--打包编译插件，以后项目打包的时候主入口-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
@@ -74,6 +76,7 @@
                     </execution>
                 </executions>
             </plugin>
+
         </plugins>
     </build>
 

@@ -6,12 +6,12 @@
     id, name, age
   </sql>
 <!-- o6 -->
-  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.zj.springbootintegrationmybatis.model.Student">
-    select
-    <include refid="Base_Column_List" />
-    from student
-    where id = #{id,jdbcType=INTEGER}
-  </select>
+<!--  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.zj.springbootintegrationmybatis.model.Student">-->
+<!--    select-->
+<!--    <include refid="Base_Column_List" />-->
+<!--    from student-->
+<!--    where id = #{id,jdbcType=INTEGER}-->
+<!--  </select>-->
 <!--  05-->
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
     delete from student

@@ -16,8 +16,8 @@
     姓名：${myName}<br>
     年龄：${myAge}
     <p>需要使用$加上{para.参数名字}的方式访问</p>
-    姓名：${param.myName}<br>
-    年龄：${param.myAge}
+    姓名：${param.name}<br>
+    年龄：${param.age}
 </div>
 </body>
 </html>

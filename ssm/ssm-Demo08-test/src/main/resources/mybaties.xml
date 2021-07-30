@@ -11,7 +11,7 @@
     <typeAliases>
         <package name="com.zj.eneties"/>
     </typeAliases>
-
+<!--扫描注解 或者是mapper文件，并且创建对象-->
     <mappers>
         <package name="com.zj.dao"/>
     </mappers>

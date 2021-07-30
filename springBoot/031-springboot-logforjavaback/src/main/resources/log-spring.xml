@@ -100,6 +100,7 @@
 
 
         <logger name="com.zj.springbootlogforjavaback.mapper" level="info"/>
+
         <!--additivity logger的日志不在使用父类logger的appender输出，默认值:true -->
         <root level="info" additivity="false">
             <!--配置默认的root节点Logger的日志输出方式-->

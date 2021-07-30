@@ -16,13 +16,7 @@
                         userId="root"
                         password="123321">
         </jdbcConnection>
-        <!-- Oracle数据库
-            <jdbcConnection driverClass="oracle.jdbc.OracleDriver"
-                connectionURL="jdbc:oracle:thin:@127.0.0.1:1521:yycg"
-                userId="yycg"
-                password="yycg">
-            </jdbcConnection>
-        -->
+
 
         <!-- 默认为false，把JDBC DECIMAL 和NUMERIC类型解析为Integer，为true时
         把JDBC DECIMAL 和NUMERIC类型解析为java.math.BigDecimal -->

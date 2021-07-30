@@ -39,6 +39,7 @@
             <artifactId>tomcat-embed-jasper</artifactId>
             <version>10.0.0</version>
         </dependency>
+
     </dependencies>
 
     <dependencyManagement>
@@ -50,12 +51,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-<!--&lt;!&ndash;            添加springboot内嵌的tomcat jsp解析依赖&ndash;&gt;-->
-<!--            <dependency>-->
-<!--                <groupId>org.apache.tomcat.embed</groupId>-->
-<!--                <artifactId>tomcat-embed-jasper</artifactId>-->
-<!--                <version>${tomcat-embed-jasper.version}</version>-->
-<!--            </dependency>-->
 
         </dependencies>
     </dependencyManagement>
