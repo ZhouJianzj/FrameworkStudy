@@ -2,44 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Dubbo/consumer-link-providerservice/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/NoUserViewInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/ShowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/noUse.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dubbo/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dubbo/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dubbo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dubbo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dubbo/Demo01-registry-consumer/src/main/java/com/zj/controller/StudentContro.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Dubbo/Demo01-registry-consumer/src/main/java/com/zj/controller/StudentContro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Dubbo/consumer-link-providerservice/consumer-link-providerservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Dubbo/consumer-link-providerservice/consumer-link-providerservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../maven/Demo02-childrenOne/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../maven/Demo02-childrenOne/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/model/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001-springboot-brench/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/001-springboot-brench/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001-springboot-brench/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/001-springboot-brench/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002-springboot-sayhello/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/002-springboot-sayhello/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/School.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/say.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/say.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/018-springboot-offlogo/src/main/java/com/zj/springbootofflogo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/018-springboot-offlogo/src/main/java/com/zj/springbootofflogo/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/java/com/zj/controller/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/java/com/zj/controller/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/webapp/ShowTwo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/webapp/ShowTwo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/classes/com/zj/controller/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/classes/com/zj/controller/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/ShowTwo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/ShowTwo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/WEB-INF/classes/com/zj/controller/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/WEB-INF/classes/com/zj/controller/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/java/com/zj/controller/TestTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo05-Interceptor/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo05-Interceptor/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/mybaties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/mybaties.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/springMVC.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +22,8 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -162,6 +128,13 @@
         <option value="$PROJECT_DIR$" />
         <option value="$PROJECT_DIR$/014-dubbo-springboot-provider" />
       </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.Application (7)">
@@ -710,6 +683,8 @@
       <workItem from="1627681521031" duration="793000" />
       <workItem from="1627634149938" duration="3363000" />
       <workItem from="1627640383727" duration="6795000" />
+      <workItem from="1627654164856" duration="78000" />
+      <workItem from="1627706183470" duration="5318000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -928,7 +903,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626507751856</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="复习">
+      <created>1627654207800</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627654207800</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1032,11 +1014,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="689" y="122" key="CommitChangelistDialog2" timestamp="1626507750915">
-      <screen x="0" y="0" width="2137" height="1202" />
+    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1627654204632">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
+    <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654204632" />
     <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507750915" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
@@ -1147,11 +1130,12 @@
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="502" y="224" key="Vcs.Push.Dialog.v2" timestamp="1626507757118">
-      <screen x="0" y="0" width="2137" height="1202" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1627654211082">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654211082" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507757118" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />
