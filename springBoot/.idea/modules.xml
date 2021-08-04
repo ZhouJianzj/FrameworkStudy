@@ -46,6 +46,7 @@
       <module fileurl="file://$PROJECT_DIR$/CopyFile/CopyFile.iml" filepath="$PROJECT_DIR$/CopyFile/CopyFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" filepath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaSeTest/javaSeTest.iml" filepath="$PROJECT_DIR$/javaSeTest/javaSeTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
     </modules>
   </component>
 </project>

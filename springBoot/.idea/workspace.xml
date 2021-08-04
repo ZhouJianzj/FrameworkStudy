@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/model/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/redis-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/test/java/com/zj/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,13 +144,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (7)">
-    <configuration name="AnnotationOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.annotation.AnnotationOne" />
-      <module name="javaSeTest" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.App" />
+      <module name="redis-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zj.annotation.*" />
+          <option name="PATTERN" value="com.zj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -550,7 +557,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AnnotationOne" />
       <item itemvalue="Application.GetClassAnnotation" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.RandomOne" />
@@ -596,14 +602,15 @@
       <item itemvalue="Spring Boot.Application (39)" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.Demo01Application" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RandomOne" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.GetClassAnnotation" />
-        <item itemvalue="Application.AnnotationOne" />
       </list>
     </recent_temporary>
   </component>
@@ -684,7 +691,9 @@
       <workItem from="1627634149938" duration="3363000" />
       <workItem from="1627640383727" duration="6795000" />
       <workItem from="1627654164856" duration="78000" />
-      <workItem from="1627706183470" duration="5318000" />
+      <workItem from="1627706183470" duration="5438000" />
+      <workItem from="1627970465479" duration="610000" />
+      <workItem from="1628088409271" duration="2079000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -910,7 +919,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627654207800</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="lombook的@Data注解">
+      <created>1627714060614</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1627714060614</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -918,7 +934,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="打jar包和打war包" />
     <MESSAGE value="&lt;!--巨坑的一件事，这里需要改变打包的版本，除了这个版本其他的都不行--&gt;&#10;                       &lt;plugin&gt;&#10;                           &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;&#10;                           &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;&#10;                           &lt;version&gt;1.4.2.RELEASE&lt;/version&gt;" />
     <MESSAGE value="log4j的配置使用&#10;集成mybatis的回顾" />
     <MESSAGE value="使用自带的模板引擎thymeleaf" />
@@ -943,7 +958,8 @@
     <MESSAGE value="反射机制对变量、构造方法、其它方法的实现" />
     <MESSAGE value="注解的使用，与底层" />
     <MESSAGE value="复习" />
-    <option name="LAST_COMMIT_MESSAGE" value="复习" />
+    <MESSAGE value="lombook的@Data注解" />
+    <option name="LAST_COMMIT_MESSAGE" value="lombook的@Data注解" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1014,12 +1030,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1627654204632">
+    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1627714059612">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
-    <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654204632" />
+    <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714059612" />
     <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507750915" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
@@ -1031,35 +1047,39 @@
     </state>
     <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1624969465664" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="2005" height="617" key="GridCell.Tab.0.bottom" timestamp="1627654106204">
+    <state width="1338" height="430" key="GridCell.Tab.0.bottom" timestamp="1628089892524">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1338" height="430" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1628089892524" />
     <state width="2093" height="657" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="2005" height="617" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654106204" />
     <state width="2093" height="630" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="2005" height="617" key="GridCell.Tab.0.center" timestamp="1627654106204">
+    <state width="1338" height="430" key="GridCell.Tab.0.center" timestamp="1628089892524">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1338" height="430" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1628089892524" />
     <state width="2093" height="657" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="2005" height="617" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654106204" />
     <state width="2093" height="630" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="2005" height="617" key="GridCell.Tab.0.left" timestamp="1627654106204">
+    <state width="1338" height="430" key="GridCell.Tab.0.left" timestamp="1628089892524">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1338" height="430" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1628089892524" />
     <state width="2093" height="657" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="2005" height="617" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654106204" />
     <state width="2093" height="630" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="2005" height="617" key="GridCell.Tab.0.right" timestamp="1627654106204">
+    <state width="1338" height="430" key="GridCell.Tab.0.right" timestamp="1628089892524">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
     <state width="1492" height="472" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1338" height="430" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1628089892524" />
     <state width="2093" height="657" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="2005" height="617" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654106204" />
     <state width="2093" height="630" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
@@ -1125,17 +1145,18 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1623675007107" />
-    <state x="746" y="257" width="1434" height="850" key="SettingsEditor" timestamp="1626246107935">
-      <screen x="0" y="0" width="2137" height="1202" />
+    <state x="673" y="246" width="1434" height="850" key="SettingsEditor" timestamp="1628088583819">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
+    <state x="673" y="246" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1628088583819" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1627654211082">
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1627714068999">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627654211082" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714068999" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507757118" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />
@@ -1168,14 +1189,19 @@
     </state>
     <state x="93" y="93" width="1350" height="678" key="dock-window-2/0.0.1536.864@0.0.1536.864" timestamp="1623233982875" />
     <state x="821" y="107" width="952" height="1070" key="dock-window-2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625897631621" />
+    <state x="861" y="471" key="git4idea.ui.GitStashDialog" timestamp="1627714064654">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="861" y="471" key="git4idea.ui.GitStashDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714064654" />
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup" timestamp="1623239870479">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1623239870479" />
-    <state x="493" y="116" width="1198" height="702" key="new project wizard" timestamp="1626076240884">
-      <screen x="0" y="0" width="2137" height="1202" />
+    <state x="472" y="111" width="1198" height="702" key="new project wizard" timestamp="1628088510096">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1624969752489" />
+    <state x="472" y="111" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1628088510096" />
     <state x="493" y="116" key="new project wizard/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626076240884" />
     <state x="644" y="242" key="run.anything.popup" timestamp="1626090294966">
       <screen x="0" y="0" width="2137" height="1202" />

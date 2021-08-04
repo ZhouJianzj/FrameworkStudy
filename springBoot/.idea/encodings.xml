@@ -86,5 +86,6 @@
     <file url="file://$PROJECT_DIR$/041-springboot-linux/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CopyFile/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LoggerFrame/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redis-test/src/main/java" charset="UTF-8" />
   </component>
 </project>
