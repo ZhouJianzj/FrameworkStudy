@@ -19,15 +19,15 @@ public class Controller {
     private RestTemplate restTemplate;
 
     @RequestMapping("test")
-    public String doTest(){
+    public String doTest() {
 //        现在需要调用服务提供者提供的服务
         //1、需要创建一个能以http协议访问的服务提供者的对象,亦可以使用配置类的方式去创建对象
         //RestTemplate restTemplate = new RestTemplate();
 
         //2、一个get方式向服务提供者发送请求，返回一个请求对象实体
-            //参数一：服务提供者的url
-            //参数二：服务提供者的返回值类型
-            //参数三：传递个服务提供者的参数，是一个可变长的参数
+        //参数一：服务提供者的url
+        //参数二：服务提供者的返回值类型
+        //参数三：传递个服务提供者的参数，是一个可变长的参数
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://localhost:8081/test", String.class);
         //3、返回的数据都是rest风格的数据都是string类型的json数据
         String body = forEntity.getBody();

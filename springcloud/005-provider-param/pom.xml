@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.zj</groupId>
-    <artifactId>005-consumer-param</artifactId>
+    <artifactId>005-provider-param</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>005-consumer-param</name>
+    <name>005-provider-param</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -63,7 +63,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>2.3.7.RELEASE</version>
                 <configuration>
-                    <mainClass>com.zj.consumerparam.Application</mainClass>
+                    <mainClass>com.zj.providerparam.Application</mainClass>
                 </configuration>
                 <executions>
                     <execution>
