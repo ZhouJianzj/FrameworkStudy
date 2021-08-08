@@ -26,4 +26,18 @@ public class Controller {
     public User doReturnGetForObject(User user){
         return user;
     }
+    @RequestMapping("doPostForEntity")
+    public User doPostForEntity(User user){
+        return user;
+    }
+    @RequestMapping("doPut")
+    public User doPut(User user){
+        System.out.println(user.toString());
+        return user;
+    }
+    @RequestMapping("doDelete")
+    public User doDelete(User user){
+        System.out.println(user.toString());
+        return user;
+    }
 }

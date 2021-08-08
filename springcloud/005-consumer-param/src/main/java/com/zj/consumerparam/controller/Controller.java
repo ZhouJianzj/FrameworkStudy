@@ -2,12 +2,13 @@ package com.zj.consumerparam.controller;
 
 import com.zj.consumerparam.entity.User;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-
 import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author zhoujian
@@ -79,5 +80,53 @@ public class Controller {
         User forObject = restTemplate.getForObject(url, User.class, param);
         return forObject.toString();
     }
+
+    /**
+     * 演示使用post发送请求 postForEntity,里面的参数是有讲究的，是有返回值的
+     * @return
+     */
+    @RequestMapping("doPostForEntity")
+    public String doPostForEntity(){
+        RestTemplate restTemplate = new RestTemplate();
+        LinkedMultiValueMap lM= new LinkedMultiValueMap();
+        lM.add("id","001");
+        lM.add("name","zhoujian");
+        lM.add("age","22");
+        ResponseEntity<User> objectResponseEntity = restTemplate.postForEntity("http://localhost:8081/doPostForEntity",lM,User.class);
+        return objectResponseEntity.getBody().toString();
+    }
+
+    /**
+     * 演示put方法 ，使用的是post发送的请求没有返回值，非必要不使用这个方法
+     * @return
+     */
+    @RequestMapping("doPut")
+    public String doPut(){
+        RestTemplate restTemplate = new RestTemplate();
+//        put请求和服务提供者之间传递的参数只能是这样
+        LinkedMultiValueMap lM= new LinkedMultiValueMap();
+        lM.add("id","001");
+        lM.add("name","zhoujian");
+        lM.add("age","22");
+//        参数的传递
+        restTemplate.put("http://localhost:8081/doPut",lM);
+        return "put方法以post方式发送请求没有返回值非必要不使用";
+    }
+
+    /**
+     * 演示使用delete发送请求，是以get方式发送的也是没有返回值的，非必要的不使用
+     * @return
+     */
+    @RequestMapping("doDelete")
+    public String doDelete(){
+        RestTemplate restTemplate = new RestTemplate();
+        Map lM= new HashMap();
+        lM.put("id","001");
+        lM.put("name","zhoujian");
+        lM.put("age","22");
+        restTemplate.delete("http://localhost:8081/doDelete?id={id}&name={name}&age={age}",lM);
+        return  "delete方式以get方式发送请求没有返回值非必要不使用";
+    }
+
 
 }
