@@ -2,6 +2,7 @@ package com.zj.eurekafeignconsumer.server;
 
 
 import com.zj.eurekafeignconsumer.entity.User;
+import com.zj.eurekafeignconsumer.hystrix.MyHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,7 +16,7 @@ import java.util.List;
  * @RequestMapping("/doTest") 对应的是服务提供者具体的哪一个控制器
  */
 
-@FeignClient("009-EUREKA-FEIGN-PROVIDER")
+@FeignClient(value = "009-EUREKA-FEIGN-PROVIDER",fallback = MyHystrix.class)
 public interface Server {
     /**
      * 演示使用声明式的服务，就是接受服务提供者的控制器，当自己的控制器调用的时候就像调用自己的server方法一样

@@ -22,6 +22,7 @@ public class Controller {
      */
     @RequestMapping("/doTest")
     public String doTest(){
+
         String s = server.testFeign();
         return "使用feign的服务消费者8081--------" + s;
     }

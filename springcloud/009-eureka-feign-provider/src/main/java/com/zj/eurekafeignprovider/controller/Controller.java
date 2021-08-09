@@ -15,6 +15,7 @@ import java.util.List;
 public class Controller {
     @RequestMapping("/testFeign")
     public String testFeign(){
+        System.out.println(10/0);
         return "服务的提供者8081";
     }
 
