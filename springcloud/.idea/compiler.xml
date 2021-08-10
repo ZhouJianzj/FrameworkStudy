@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="008-eureka-zuul-provider" />
+        <module name="009-eureka-feign" />
+        <module name="eureka-client-consumer" />
+        <module name="007-hystrix-bashboard-consumer" />
+        <module name="010-eureka-server" />
+        <module name="009-eureka-feign-provider" />
+        <module name="005-provider-param" />
+        <module name="005-consumer-param" />
+        <module name="eureka-client-provider" />
+        <module name="006-eureka-hystrix-consumer" />
+        <module name="010-eureka-consumer" />
+        <module name="consumer" />
+        <module name="006-eureka-hystrix-server" />
+        <module name="004-loadbalance-consumer" />
+        <module name="007-hystrix-bashboard-provider" />
+        <module name="008-eureka-zuul-consumer" />
+        <module name="provider" />
+        <module name="003-provider" />
+        <module name="009-eureka-feign-consumer" />
+        <module name="006-eureka-hystrix-provider" />
+        <module name="004-loadbalance-provider8080" />
+        <module name="008-eureka-zuul-server" />
+        <module name="010-eureka-zuul" />
+        <module name="003-consumer" />
+        <module name="010-eureka-provider" />
+        <module name="eureka" />
+        <module name="004-loadbalance-eureka" />
+        <module name="004-loadbalance-provider8081" />
+        <module name="003-cluster-eureka-server" />
+        <module name="003-cluster-eureka-server-two" />
+        <module name="008-eureka-zuul" />
+        <module name="007-hystrix-bashboard" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="003-cluster-eureka-server" target="1.8" />
+      <module name="003-cluster-eureka-server-two" target="1.8" />
+      <module name="003-consumer" target="1.8" />
+      <module name="003-provider" target="1.8" />
+      <module name="004-loadbalance-consumer" target="1.8" />
+      <module name="004-loadbalance-eureka" target="1.8" />
+      <module name="004-loadbalance-provider8080" target="1.8" />
+      <module name="004-loadbalance-provider8081" target="1.8" />
+      <module name="005-consumer-param" target="1.8" />
+      <module name="005-provider-param" target="1.8" />
+      <module name="006-eureka-hystrix-consumer" target="1.8" />
+      <module name="006-eureka-hystrix-provider" target="1.8" />
+      <module name="006-eureka-hystrix-server" target="1.8" />
+      <module name="007-hystrix-bashboard" target="1.8" />
+      <module name="007-hystrix-bashboard-consumer" target="1.8" />
+      <module name="007-hystrix-bashboard-provider" target="1.8" />
+      <module name="008-eureka-zuul" target="1.8" />
+      <module name="008-eureka-zuul-consumer" target="1.8" />
+      <module name="008-eureka-zuul-provider" target="1.8" />
+      <module name="008-eureka-zuul-server" target="1.8" />
+      <module name="009-eureka-feign" target="1.8" />
+      <module name="009-eureka-feign-consumer" target="1.8" />
+      <module name="009-eureka-feign-provider" target="1.8" />
+      <module name="010-eureka-consumer" target="1.8" />
+      <module name="010-eureka-provider" target="1.8" />
+      <module name="010-eureka-server" target="1.8" />
+      <module name="010-eureka-zuul" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka-client-consumer" target="1.8" />
+      <module name="eureka-client-provider" target="1.8" />
+      <module name="provider" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/003-cluster-eureka-server/003-cluster-eureka-server.iml" filepath="$PROJECT_DIR$/003-cluster-eureka-server/003-cluster-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-cluster-eureka-server-two/003-cluster-eureka-server-two.iml" filepath="$PROJECT_DIR$/003-cluster-eureka-server-two/003-cluster-eureka-server-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-consumer/003-consumer.iml" filepath="$PROJECT_DIR$/003-consumer/003-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/003-provider/003-provider.iml" filepath="$PROJECT_DIR$/003-provider/003-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-loadbalance-consumer/004-loadbalance-consumer.iml" filepath="$PROJECT_DIR$/004-loadbalance-consumer/004-loadbalance-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-loadbalance-eureka/004-loadbalance-eureka.iml" filepath="$PROJECT_DIR$/004-loadbalance-eureka/004-loadbalance-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-loadbalance-provider8080/004-loadbalance-provider8080.iml" filepath="$PROJECT_DIR$/004-loadbalance-provider8080/004-loadbalance-provider8080.iml" />
+      <module fileurl="file://$PROJECT_DIR$/004-loadbalance-provider8081/004-loadbalance-provider8081.iml" filepath="$PROJECT_DIR$/004-loadbalance-provider8081/004-loadbalance-provider8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-consumer-param/005-consumer-param.iml" filepath="$PROJECT_DIR$/005-consumer-param/005-consumer-param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/005-provider-param/005-provider-param.iml" filepath="$PROJECT_DIR$/005-provider-param/005-provider-param.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-eureka-hystrix-consumer/006-eureka-hystrix-consumer.iml" filepath="$PROJECT_DIR$/006-eureka-hystrix-consumer/006-eureka-hystrix-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-eureka-hystrix-provider/006-eureka-hystrix-provider.iml" filepath="$PROJECT_DIR$/006-eureka-hystrix-provider/006-eureka-hystrix-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/006-eureka-hystrix-server/006-eureka-hystrix-server.iml" filepath="$PROJECT_DIR$/006-eureka-hystrix-server/006-eureka-hystrix-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-hystrix-bashboard/007-hystrix-bashboard.iml" filepath="$PROJECT_DIR$/007-hystrix-bashboard/007-hystrix-bashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-hystrix-bashboard-consumer/007-hystrix-bashboard-consumer.iml" filepath="$PROJECT_DIR$/007-hystrix-bashboard-consumer/007-hystrix-bashboard-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/007-hystrix-bashboard-provider/007-hystrix-bashboard-provider.iml" filepath="$PROJECT_DIR$/007-hystrix-bashboard-provider/007-hystrix-bashboard-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-eureka-zuul/008-eureka-zuul.iml" filepath="$PROJECT_DIR$/008-eureka-zuul/008-eureka-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-eureka-zuul-consumer/008-eureka-zuul-consumer.iml" filepath="$PROJECT_DIR$/008-eureka-zuul-consumer/008-eureka-zuul-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-eureka-zuul-provider/008-eureka-zuul-provider.iml" filepath="$PROJECT_DIR$/008-eureka-zuul-provider/008-eureka-zuul-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/008-eureka-zuul-server/008-eureka-zuul-server.iml" filepath="$PROJECT_DIR$/008-eureka-zuul-server/008-eureka-zuul-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-eureka-feign/009-eureka-feign.iml" filepath="$PROJECT_DIR$/009-eureka-feign/009-eureka-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-eureka-feign-consumer/009-eureka-feign-consumer.iml" filepath="$PROJECT_DIR$/009-eureka-feign-consumer/009-eureka-feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/009-eureka-feign-provider/009-eureka-feign-provider.iml" filepath="$PROJECT_DIR$/009-eureka-feign-provider/009-eureka-feign-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-eureka-consumer/010-eureka-consumer.iml" filepath="$PROJECT_DIR$/010-eureka-consumer/010-eureka-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-eureka-provider/010-eureka-provider.iml" filepath="$PROJECT_DIR$/010-eureka-provider/010-eureka-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-eureka-server/010-eureka-server.iml" filepath="$PROJECT_DIR$/010-eureka-server/010-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/010-eureka-zuul/010-eureka-zuul.iml" filepath="$PROJECT_DIR$/010-eureka-zuul/010-eureka-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" filepath="$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
+    </modules>
+  </component>
+</project>

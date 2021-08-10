@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/003-cluster-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/003-cluster-eureka-server-two/pom.xml" />
+        <option value="$PROJECT_DIR$/003-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/003-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/004-loadbalance-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/004-loadbalance-provider8080/pom.xml" />
+        <option value="$PROJECT_DIR$/004-loadbalance-provider8081/pom.xml" />
+        <option value="$PROJECT_DIR$/004-loadbalance-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/005-provider-param/pom.xml" />
+        <option value="$PROJECT_DIR$/005-consumer-param/pom.xml" />
+        <option value="$PROJECT_DIR$/006-eureka-hystrix-server/pom.xml" />
+        <option value="$PROJECT_DIR$/006-eureka-hystrix-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/006-eureka-hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/007-hystrix-bashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/007-hystrix-bashboard-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/007-hystrix-bashboard-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-feign-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/008-eureka-zuul-server/pom.xml" />
+        <option value="$PROJECT_DIR$/008-eureka-zuul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/008-eureka-zuul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/008-eureka-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-zuul/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
