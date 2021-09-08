@@ -1,6 +1,7 @@
 package com.jianZhou;
 
 
+import com.jianZhou.dao.StudentDao;
 import com.jianZhou.entity.Student;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -36,6 +37,10 @@ public class testApp {
             List<Student> students = sqlSession.selectList(sqlId);
             //循环遍历
             students.forEach(stu -> System.out.println(stu));
+
+            System.out.println("=================");
+            StudentDao mapper = sqlSession.getMapper(StudentDao.class);
+            System.out.println(mapper.select(1).toString());
             //最后关闭机器
             sqlSession.close();
         } catch (IOException e) {

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent/ChildrenOne/ChildrenOne.iml" filepath="$PROJECT_DIR$/parent/ChildrenOne/ChildrenOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/ChildrenTwo/ChildrenTwo.iml" filepath="$PROJECT_DIR$/parent/ChildrenTwo/ChildrenTwo.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo01-parent/Demo01-parent.iml" filepath="$PROJECT_DIR$/Demo01-parent/Demo01-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo02-childrenOne/Demo02-childrenOne.iml" filepath="$PROJECT_DIR$/Demo02-childrenOne/Demo02-childrenOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo03-childrenTwo/Demo03-childrenTwo.iml" filepath="$PROJECT_DIR$/Demo03-childrenTwo/Demo03-childrenTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
     </modules>
   </component>
 </project>

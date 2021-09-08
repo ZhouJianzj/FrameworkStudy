@@ -20,9 +20,16 @@
     <properties>
         <mysql-connector-java.version>8.0.16</mysql-connector-java.version>
         <dubbo-version>2.6.8</dubbo-version>
+        <junit-version>4.1</junit-version>
     </properties>
 <dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit-version}</version>
+            <scope>test</scope>
+        </dependency>
         <!--    第一个孩子需要的依赖-->
         <dependency>
             <groupId>mysql</groupId>

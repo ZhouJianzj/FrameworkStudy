@@ -11,7 +11,7 @@
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="javaSeTest" />
+          <element id="module-output" name="javaSe" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.wicket:wicket:1.3.2" />
@@ -21,9 +21,9 @@
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/javaSeTest/target/javaSeTest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/javaSe/target/javaSeTest-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="javaSeTest/web/Web" />
+      <element id="javaee-facet-resources" facet="javaSe/web/Web" />
     </root>
   </artifact>
 </component>

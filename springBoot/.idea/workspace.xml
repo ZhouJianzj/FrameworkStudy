@@ -2,8 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/AnnotationOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/GetClassAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/MyAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/an.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/idCase/Id.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/idCase/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/idCase/NotHaveIdException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/annotation/idCase/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/array/ArrayOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/array/ArrayTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/exception/ExceptionFather.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/exception/ExceptionOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/exception/ExceptionSonOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/exception/ExceptionSonTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/exception/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/extend/ExtFather.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/extend/ExtSonOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/extend/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/interfaces/InterfaceOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/interfaces/InterfaceOneImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/interfaces/InterfaceThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/interfaces/InterfaceTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/none/noneOne/NOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/none/noneTwo/NOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/none/noneTwo/NTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/Collection/list/arrayList/ArrayListOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/Collection/list/linkList/LinkListOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/Collection/list/vector/VectorOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/Collection/set/hashSet/HashSetOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/Collection/set/sortedSet/treeSet/TreeSetOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/map/HashMap/HashMapOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/map/sortedMap/treeMap/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Clone.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Enums.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Gc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/StringS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/doTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/object/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/privatee/privateOne/POne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/privatee/privateTwo/POne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/privatee/privateTwo/PTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/protect/protectOne/POne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/protect/protectTwo/POne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/protect/protectTwo/PThree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/protect/protectTwo/PTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/dynamicProxy/ISing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/dynamicProxy/JayAgentFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/dynamicProxy/JayImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/dynamicProxy/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/staticProxy/Service.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/staticProxy/ServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/staticProxy/StaticProxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/proxy/staticProxy/main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/random/RandomOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/Dodo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/FieldOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/InterfaceOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/InterfaceTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/MethodR.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/MethodReflect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/ReflectOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/ReflectTwo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/Stu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Bank.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Die.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Do.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/DoDo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/MThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Mian.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/ProductAndConsume.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/ProtectThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/ThreadO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/ThreadOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/ThreadT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/TimeTaskT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/TimeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/thread/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/dao/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/testApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/java/com/jianZhou/testApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/dao/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/dao/StudentDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/dao/StudentDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/entity/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/entity/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/testApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/com/jianZhou/testApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis/mybatis_DemoOne/target/classes/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/javaSeTest_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/javaSeTest_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/javaSeTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/javaSe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/AnnotationOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/AnnotationOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/GetClassAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/GetClassAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Id.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/NotHaveIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/NotHaveIdException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/annotation/idCase/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Stu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/array/ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/array/ArrayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/array/ArrayTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/array/ArrayTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/exception/ExceptionFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionFather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/exception/ExceptionOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/exception/ExceptionSonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionSonOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/exception/ExceptionSonTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionSonTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/exception/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/extend/ExtFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtFather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/extend/ExtSonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtSonOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/extend/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/interfaces/InterfaceOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/interfaces/InterfaceOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceOneImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/interfaces/InterfaceThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/interfaces/InterfaceTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/none/noneOne/NOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/none/noneOne/NOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/none/noneTwo/NOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/none/noneTwo/NOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/none/noneTwo/NTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/none/noneTwo/NTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/Collection/list/arrayList/ArrayListOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/arrayList/ArrayListOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/Collection/list/linkList/LinkListOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/linkList/LinkListOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/Collection/list/vector/VectorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/vector/VectorOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/Collection/set/hashSet/HashSetOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/hashSet/HashSetOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/Collection/set/sortedSet/treeSet/TreeSetOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/sortedSet/treeSet/TreeSetOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/HashMap/HashMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/HashMap/HashMapOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/Stu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/object/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Clone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/object/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Enums.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/object/Gc.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Gc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/object/StringS.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/StringS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/object/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/privatee/privateOne/POne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/privatee/privateOne/POne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/privatee/privateTwo/POne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/privatee/privateTwo/POne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/privatee/privateTwo/PTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/privatee/privateTwo/PTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/protect/protectOne/POne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectOne/POne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/protect/protectTwo/POne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/POne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/protect/protectTwo/PThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/protect/protectTwo/PTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/proxy/dynamicProxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/dynamicProxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/proxy/staticProxy/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/staticProxy/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/proxy/staticProxy/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/staticProxy/ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/proxy/staticProxy/StaticProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/staticProxy/StaticProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/proxy/staticProxy/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/staticProxy/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/random/RandomOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/random/RandomOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/FieldOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/FieldOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/InterfaceOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/InterfaceOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/InterfaceTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/InterfaceTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/MethodReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/MethodReflect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/ReflectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/ReflectTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/reflect/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/properties.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Die.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/MThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/MThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/ProductAndConsume.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProductAndConsume.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/ProtectThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProtectThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/ThreadOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ThreadOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/TimeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/src/main/java/com/zj/thread/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaSeTest/target/classes/com/zj/reflect/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/target/classes/com/zj/reflect/properties.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +320,7 @@
     </configuration>
     <configuration name="GetClassAnnotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.annotation.GetClassAnnotation" />
-      <module name="javaSeTest" />
+      <module name="javaSe" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.annotation.*" />
@@ -163,7 +333,7 @@
     </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.exception.Main" />
-      <module name="javaSeTest" />
+      <module name="javaSe" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.exception.*" />
@@ -176,7 +346,7 @@
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.annotation.idCase.Main" />
-      <module name="javaSeTest" />
+      <module name="javaSe" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.annotation.idCase.*" />
@@ -189,7 +359,7 @@
     </configuration>
     <configuration name="RandomOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.random.RandomOne" />
-      <module name="javaSeTest" />
+      <module name="javaSe" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.random.*" />
@@ -686,6 +856,10 @@
       <workItem from="1628088409271" duration="2610000" />
       <workItem from="1628172997879" duration="1606000" />
       <workItem from="1628317608466" duration="98000" />
+      <workItem from="1628559493548" duration="678000" />
+      <workItem from="1628564276136" duration="230000" />
+      <workItem from="1630931325879" duration="1512000" />
+      <workItem from="1631063242917" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -925,7 +1099,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628090715151</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="redis工具库jredis的使用">
+      <created>1628559576498</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1628559576498</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1029,13 +1210,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1628090713943">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="2952" y="0" key="CommitChangelistDialog2" timestamp="1628559571850">
+      <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090713943" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
     <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714059612" />
+    <state x="2952" y="0" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1628559571850" />
     <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507750915" />
     <state x="653" y="161" width="609" height="676" key="EnvironmentVariablesDialog" timestamp="1625730496528">
       <screen x="0" y="0" width="2137" height="1202" />
@@ -1153,19 +1335,21 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1623675007107" />
-    <state x="673" y="246" width="1434" height="850" key="SettingsEditor" timestamp="1628088583819">
+    <state x="614" y="246" width="1434" height="850" key="SettingsEditor" timestamp="1631063961046">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
     <state x="673" y="246" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1628088583819" />
+    <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631063961046" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1628090842627">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="2921" y="161" key="Vcs.Push.Dialog.v2" timestamp="1628559576024">
+      <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090842627" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714068999" />
+    <state x="2921" y="161" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1628559576024" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507757118" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog" timestamp="1626063185916">
       <screen x="0" y="0" width="2137" height="1202" />

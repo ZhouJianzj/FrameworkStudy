@@ -26,7 +26,6 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
       <scope>test</scope>
     </dependency>
 <!--    不需要version号，直接和父类的版本号一样-->
