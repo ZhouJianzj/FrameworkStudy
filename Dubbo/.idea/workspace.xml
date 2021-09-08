@@ -9,23 +9,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9c70b1-66c9-4e1e-8fda-f565d555d742" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer-link-providerservice/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/java/com/zj/controller/StudentContro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Demo01-registry-consumer/src/main/java/com/zj/controller/StudentContro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer-link-providerservice/consumer-link-providerservice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer-link-providerservice/consumer-link-providerservice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/java/com/zj/controller/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/java/com/zj/controller/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/webapp/ShowTwo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/src/main/webapp/ShowTwo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/classes/com/zj/controller/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/classes/com/zj/controller/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/ShowTwo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/ShowTwo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/WEB-INF/classes/com/zj/controller/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo03-Forward-Redirect/target/ssm-Demo03-Forward-Redirect-1.0-SNAPSHOT/WEB-INF/classes/com/zj/controller/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/java/com/zj/controller/TestTwo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo04-Exception/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo05-Interceptor/src/main/resources/SpringMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo05-Interceptor/src/main/resources/SpringMVC.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/mybaties.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/mybaties.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/springMVC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ssm/ssm-Demo08-test/src/main/resources/springMVC.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bf9c70b1-66c9-4e1e-8fda-f565d555d742" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -225,6 +209,7 @@
       <workItem from="1627404114939" duration="630000" />
       <workItem from="1627404754622" duration="1021000" />
       <workItem from="1627667971030" duration="435000" />
+      <workItem from="1631076024909" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="1、consumer-link-provider是服务的提供者的项目，负责体统服务，写完需要打包为jar&#10;2、consumer为消费者调用服务&#10;3、这两种使用的是N/A的方法实现直连，没使用注册中心">
       <created>1622267642158</created>
