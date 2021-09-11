@@ -33,7 +33,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-<!--        springboot内嵌的tomcat jsp解析器-->
+<!--        springboot内嵌的tomcat对 jsp的 解析器依赖-->
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>

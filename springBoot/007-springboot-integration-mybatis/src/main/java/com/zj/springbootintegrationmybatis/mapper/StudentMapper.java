@@ -11,6 +11,7 @@ public interface StudentMapper {
     int insert(Student record);
 
     int insertSelective(Student record);
+
     @Select(value = "select * from student where id = #{id}")
     Student selectByPrimaryKey(Integer id);
 

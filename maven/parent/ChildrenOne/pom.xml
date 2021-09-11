@@ -24,6 +24,22 @@
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <scope>test</scope>
+<!--            方法一-->
+<!--            阻止传递依赖，项目A依赖B，项目B依赖C，这时候项目C依赖A，但是不想要A/B中的某些依赖就是用下面的方式不使用他们的依赖-->
+            <exclusions>
+<!--                <exclusion>-->
+<!--                    <groupId></groupId>-->
+<!--                    <artifactId></artifactId>-->
+<!--                </exclusion>-->
+            </exclusions>
+        </dependency>
+        <!--            方法二-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+        <!--这时候就不会出现传递依赖了-->
+            <optional>true</optional>
         </dependency>
     </dependencies>
 

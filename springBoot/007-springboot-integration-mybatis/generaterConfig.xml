@@ -29,7 +29,7 @@
         <javaTypeResolver >
             <property name="forceBigDecimals" value="false" />
         </javaTypeResolver>
-
+<!--四大模型-->
         <!-- targetProject：生成POJO类的位置 -->
         <javaModelGenerator targetPackage="com.zj.springbootintegrationmybatis.model"
                             targetProject="src/main/java">

@@ -45,7 +45,6 @@
       <module fileurl="file://$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" filepath="$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" />
       <module fileurl="file://$PROJECT_DIR$/CopyFile/CopyFile.iml" filepath="$PROJECT_DIR$/CopyFile/CopyFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" filepath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javaSe/javaSe.iml" filepath="$PROJECT_DIR$/javaSe/javaSe.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
     </modules>
   </component>
