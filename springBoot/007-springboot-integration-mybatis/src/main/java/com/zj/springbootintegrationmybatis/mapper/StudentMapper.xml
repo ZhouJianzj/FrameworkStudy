@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zj.springbootintegrationmybatis.mapper.StudentMapper">
-
+<!--抽取公共部分的sql片段-->
   <sql id="Base_Column_List">
     id, name, age
   </sql>
+<!--自定义返回值类型-->
+<!--<resultMap id="student" type="com.zj.springbootintegrationmybatis.model.Student">-->
+<!--  <id column="id" jdbcType="" property="id"/>-->
+<!--  <result column="name" jdbcType="" property="name"/>-->
+<!--  <result column="age" jdbcType="" property="age"/>-->
+<!--</resultMap>-->
 <!-- o6 -->
 <!--  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultType="com.zj.springbootintegrationmybatis.model.Student">-->
 <!--    select-->
+<!--&#45;&#45;     引入公共的sql片段-->
 <!--    <include refid="Base_Column_List" />-->
 <!--    from student-->
 <!--    where id = #{id,jdbcType=INTEGER}-->
