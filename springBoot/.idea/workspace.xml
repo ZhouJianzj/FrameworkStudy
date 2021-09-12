@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/Controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/Controller/StuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +136,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (23)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.App" />
       <module name="redis-test" />
@@ -602,8 +601,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ApplicationTests.contextLoads (1)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.ApplicationTests.contextLoads (1)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.RandomOne" />
         <item itemvalue="Application.Main" />
@@ -703,6 +702,7 @@
       <workItem from="1631240851295" duration="1799000" />
       <workItem from="1631247940328" duration="7132000" />
       <workItem from="1631333422862" duration="11773000" />
+      <workItem from="1631439648066" duration="293000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>

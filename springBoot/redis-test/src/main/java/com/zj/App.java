@@ -2,6 +2,8 @@ package com.zj;
 
 import redis.clients.jedis.Jedis;
 
+import java.util.Set;
+
 /**
  * Hello world!
  *
@@ -13,5 +15,7 @@ public class App
         Jedis jedis = new Jedis("192.168.235.130",6378);
 //        测试是否可以连接成功 成返回pong
         System.out.println(jedis.ping());
+        Set<String> keys = jedis.keys("*");
+        keys.forEach(key -> System.out.println(key));
     }
 }
