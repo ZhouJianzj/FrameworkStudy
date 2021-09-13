@@ -62,6 +62,7 @@
         <option value="$PROJECT_DIR$/CopyFile/pom.xml" />
         <option value="$PROJECT_DIR$/LoggerFrame/pom.xml" />
         <option value="$PROJECT_DIR$/redis-test/pom.xml" />
+        <option value="$PROJECT_DIR$/042-springboot-redis/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

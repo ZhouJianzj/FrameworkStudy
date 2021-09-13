@@ -16,6 +16,8 @@ public class App
 //        测试是否可以连接成功 成返回pong
         System.out.println(jedis.ping());
         Set<String> keys = jedis.keys("*");
+
+
         keys.forEach(key -> System.out.println(key));
     }
 }
