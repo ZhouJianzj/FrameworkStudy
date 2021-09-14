@@ -1,33 +1,33 @@
 package com.zj.springbootintegrationmybatis.model;
 
 public class Student {
-    private Integer id;
+    private Integer no;
 
-    private String name;
+    private String stuname;
 
-    private Integer age;
+    private String classname;
 
-    public Integer getId() {
-        return id;
+    public Integer getNo() {
+        return no;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setNo(Integer no) {
+        this.no = no;
     }
 
-    public String getName() {
-        return name;
+    public String getStuname() {
+        return stuname;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setStuname(String stuname) {
+        this.stuname = stuname == null ? null : stuname.trim();
     }
 
-    public Integer getAge() {
-        return age;
+    public String getClassname() {
+        return classname;
     }
 
-    public void setAge(Integer age) {
-        this.age = age;
+    public void setClassname(String classname) {
+        this.classname = classname == null ? null : classname.trim();
     }
 }

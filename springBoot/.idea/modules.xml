@@ -44,6 +44,9 @@
       <module fileurl="file://$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" filepath="$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" />
       <module fileurl="file://$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" filepath="$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" />
       <module fileurl="file://$PROJECT_DIR$/042-springboot-redis/042-springboot-redis.iml" filepath="$PROJECT_DIR$/042-springboot-redis/042-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/043-springboot-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/043-springboot-dubbo-ssm-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/044-springboot-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/044-springboot-dubbo-ssm-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../045-springboot-dubbo-ssm-interface/045-springboot-dubbo-ssm-interface.iml" filepath="$PROJECT_DIR$/../045-springboot-dubbo-ssm-interface/045-springboot-dubbo-ssm-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/CopyFile/CopyFile.iml" filepath="$PROJECT_DIR$/CopyFile/CopyFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" filepath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
