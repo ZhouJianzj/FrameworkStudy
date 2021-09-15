@@ -41,10 +41,6 @@
     <file url="file://$PROJECT_DIR$/020-springboot-servlet/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/021-springboot-servletwo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/021-springboot-servletwo/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/022-springboot-dubbo-link-provider/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/022-springboot-dubbo-link-provider/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/023-springboot-dubbo-link-client/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/023-springboot-dubbo-link-client/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/024-springboot-filterone/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/024-springboot-filterone/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/025-springboot-filtertwo/src/main/java" charset="UTF-8" />

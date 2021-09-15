@@ -14,7 +14,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class InterceptorConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-//        默认的没填写会拦截所有的
+//        默认的没填写会拦截所有的，**表示的是当前目录下的所有以及之后的子路径，使用*表示的当前所有路径不包含子路径
         String[] addPathPatterns = {
                 "/user/login/**"
         };

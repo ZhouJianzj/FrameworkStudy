@@ -11,8 +11,13 @@ public class ControllerOne {
         return "test";
     }
 
-    @RequestMapping(value = "/out")
+    @RequestMapping(value = "/test/out")
     public String out(){
         return "out";
+    }
+
+    @RequestMapping(value = "/test")
+    public String testT(){
+        return "testT";
     }
 }

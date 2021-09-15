@@ -17,10 +17,7 @@ public class SerlvetConfig {
     @Bean
     public ServletRegistrationBean myServletRegistrationBean(){
 //        注册集成servlet的类，和他的path
-        ServletRegistrationBean servletRegistrationBean =
-                new ServletRegistrationBean(
-                        new ServletOne(),
-                        "/zhoujian");
+        ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new ServletOne(), "/zhoujian");
         return servletRegistrationBean;
 
     }

@@ -9,7 +9,52 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf9c70b1-66c9-4e1e-8fda-f565d555d742" name="Default Changelist" comment="" />
+    <list default="true" id="bf9c70b1-66c9-4e1e-8fda-f565d555d742" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../022-java-dubbo-link-provider/022-java-dubbo-link-provider.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../022-java-dubbo-link-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../022-java-dubbo-link-provider/src/main/java/com/zj/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../023-java-dubbo-link-consumer/023-java-dubbo-link-consumer.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../023-java-dubbo-link-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../023-java-dubbo-link-consumer/src/main/java/com/zj/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/Demo-One/src/main/resources/ConfigSpring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/Demo-One/src/main/resources/ConfigSpring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/018-springboot-offlogo/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/018-springboot-offlogo/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/019-springboot-interceptor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/019-springboot-interceptor/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/config/InterceptorConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/config/InterceptorConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/020-springboot-servlet/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/020-springboot-servlet/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/021-springboot-servletwo/src/main/java/com/zj/springbootservletwo/config/SerlvetConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springBoot/021-springboot-servletwo/src/main/java/com/zj/springbootservletwo/config/SerlvetConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/src/main/java/com/zj/springbootdubbolink/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/src/main/java/com/zj/springbootdubbolink/service/ServiceOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/src/main/java/com/zj/springbootdubbolink/service/impl/ServiceOneImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/022-springboot-dubbo-link-provider/src/test/java/com/zj/springbootdubbolink/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/src/main/java/com/zj/springbootdubbolinkclient/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/src/main/java/com/zj/springbootdubbolinkclient/controller/ControllerOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springBoot/023-springboot-dubbo-link-client/src/test/java/com/zj/springbootdubbolinkclient/ApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -210,6 +255,8 @@
       <workItem from="1627404754622" duration="1021000" />
       <workItem from="1627667971030" duration="435000" />
       <workItem from="1631076024909" duration="32000" />
+      <workItem from="1631688071072" duration="51000" />
+      <workItem from="1631690586984" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="1、consumer-link-provider是服务的提供者的项目，负责体统服务，写完需要打包为jar&#10;2、consumer为消费者调用服务&#10;3、这两种使用的是N/A的方法实现直连，没使用注册中心">
       <created>1622267642158</created>

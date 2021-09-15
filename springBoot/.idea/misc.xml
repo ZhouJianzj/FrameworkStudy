@@ -66,6 +66,9 @@
         <option value="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/pom.xml" />
         <option value="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/../045-springboot-dubbo-ssm-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/../022-java-dubbo-link/pom.xml" />
+        <option value="$PROJECT_DIR$/../023-java-dubbo-link-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../022-java-dubbo-link-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
