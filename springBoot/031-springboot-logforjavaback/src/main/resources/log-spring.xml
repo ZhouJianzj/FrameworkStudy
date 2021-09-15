@@ -63,11 +63,11 @@
     <!-- name的值是变量的名称，value的值时变量定义的值。通过定义的值会被插入到logger上下文中。定义后，可以使“${}”来使用变量。 -->
 
 
-    <!--输出到控制台-->
+    <!--输出到控制台 debug-->
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
         <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
-            <level>debug</level>
+            <level>info</level>
         </filter>
         <encoder>
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{50} - %msg%n</pattern>
@@ -98,11 +98,11 @@
         </rollingPolicy>
     </appender>
 
-
-        <logger name="com.zj.springbootlogforjavaback.mapper" level="info"/>
+<!--具体的那个包下参与日志，并且保存到文件追加器的相应目录下-->
+        <logger name="com.zj.springbootlogforjavaback.mapper" level="trace"/>
 
         <!--additivity logger的日志不在使用父类logger的appender输出，默认值:true -->
-        <root level="info" additivity="false">
+        <root level="debug" additivity="false">
             <!--配置默认的root节点Logger的日志输出方式-->
             <!--以下配置声明root节点logger将日志输出 CONSOLE（控制台 appender）,
             DEBUG_FILE(debug日志文件 appender) -->

@@ -11,9 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentContrl {
     @Autowired
     private StuService stuService;
-
     @RequestMapping(value = "/findStu")
     public Integer findStudents(){
+//        root的等级为debug则低于它的则不会打印
+        log.trace("++++++++++++");
         log.info("查询学生数量");
         log.error("++++++");
         return  stuService.findStu();

@@ -1,5 +1,6 @@
 # 工程简介
 打war包
 1、需要改动pom文件中的packaging
-2、改动application.class实现一个接口
-3、异常处理pom中需要加入一个打war的新的插件
+2、改动application.class继承SpringBootServletInitializer
+3、pom中需要加入一个打war的新的插件
+4、部署到tomcat下的时候访问的路径需要时finalName加上控制层的url
