@@ -8,9 +8,11 @@ public class Student {
     /**
      * 使用这样的注解就没有直接使用configurationProperties注解的效率高
      */
-    @Value("${student.name}")
+//    @Value("${student.name}")
+    @Value("${nn}")
     private String name;
-    @Value("${student.age}")
+//    @Value("${student.age}")
+    @Value("${nnn}")
     private String age;
     public String getName() {
         return name;

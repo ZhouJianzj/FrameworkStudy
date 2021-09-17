@@ -2,14 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/springbootenableconfigproperties/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/springbootenableconfigproperties/config/PersonConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/springbootenableconfigproperties/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/test/java/com/zj/springbootenableconfigproperties/ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-01/src/main/java/com/zj/demo01/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/controller/TestContrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/controller/TestContrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/service/StuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/service/StuService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/web/StudentContrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/web/StudentContrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/School.java" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/School.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/demo-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/demo-01/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/demo-01/src/main/java/com/zj/demo01/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/demo-01/src/main/java/com/zj/demo01/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +163,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="Spring Boot.Application (14)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.App" />
       <module name="redis-test" />
@@ -261,6 +282,286 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application (10)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="038-springboot-object" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootobject.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (11)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="018-springboot-offlogo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootofflogo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (12)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="035-springboot-inlink" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootinline.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (13)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="015-dubbo-springboot-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.dubbospringbootclient.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (14)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="005-springboot-persondefindedapplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpersondefindedapplication.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (15)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="004-springboot-multi-envirment" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootmultienvirment.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (16)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="041-springboot-linux" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootlinux.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (17)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="003-springboot-yaml-yml" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootyamlyml.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (18)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="043-springboot-dubbo-ssm-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootdubbossmprovider.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (19)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="019-springboot-interceptor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootinterceptor.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="046-springboot-enableconfigproperties" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootenableconfigproperties.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (20)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="009-springboot-mybatis-resourcemapper" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootmybatisresourcemapper.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (21)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="007-springboot-integration-mybatis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootintegrationmybatis.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (22)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="012-springboot-restful" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootrestful.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (23)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="002-springboot-sayhello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootsayhello.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (24)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="001-springboot-brench" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootbrench.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (25)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="017-springboot-javaproject" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootjavaproject.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (26)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="039-springboot-function" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootfunction.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (27)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="021-springboot-servletwo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootservletwo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (28)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="042-springboot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootredis.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (29)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="011-springboot-commonannotation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootcommonannotation.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="040-springboot-advance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (30)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="026-springboor-characterencoding-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springboorcharacterencoding1.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (31)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="036-springboot-literal" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootliteral.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (32)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="044-springboot-dubbo-ssm-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootdubbossmconsumer.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (33)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="008-springboot-mybatis-mapperscan" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootmybatismapperscan.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (34)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="020-springboot-servlet" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootservlet.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (35)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="024-springboot-filterone" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootfilterone.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (36)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="014-dubbo-springboot-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.dubbospringbootprovider.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (37)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="034-springboot-each" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbooteach.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (38)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="033-springboot-expression" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootexpression.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (39)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="029-springboot-package-jar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (3)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="030-springboot-package-jar2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackagejar2.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (40)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="027-springboot-character-encoding-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootcharacterencoding2.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (4)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="037-springboot-splice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootsplice.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (5)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="010-springboot-mybatis-transcation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootmybatistranscation.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (6)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="032-springboot-thymeleaf-first" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootthymeleaffirst.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (7)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="006-springboot-integration-jsp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootintegrationjsp.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (8)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="025-springboot-filtertwo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootfiltertwo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application (9)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="028-springboot-package" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootpackage.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="031-springboot-logforjavaback" />
       <extension name="coverage">
@@ -281,6 +582,46 @@
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads (1)" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.Application (1)" />
+      <item itemvalue="Spring Boot.Application (2)" />
+      <item itemvalue="Spring Boot.Application (3)" />
+      <item itemvalue="Spring Boot.Application (4)" />
+      <item itemvalue="Spring Boot.Application (5)" />
+      <item itemvalue="Spring Boot.Application (6)" />
+      <item itemvalue="Spring Boot.Application (7)" />
+      <item itemvalue="Spring Boot.Application (8)" />
+      <item itemvalue="Spring Boot.Application (9)" />
+      <item itemvalue="Spring Boot.Application (10)" />
+      <item itemvalue="Spring Boot.Application (11)" />
+      <item itemvalue="Spring Boot.Application (12)" />
+      <item itemvalue="Spring Boot.Application (13)" />
+      <item itemvalue="Spring Boot.Application (14)" />
+      <item itemvalue="Spring Boot.Application (15)" />
+      <item itemvalue="Spring Boot.Application (16)" />
+      <item itemvalue="Spring Boot.Application (17)" />
+      <item itemvalue="Spring Boot.Application (18)" />
+      <item itemvalue="Spring Boot.Application (19)" />
+      <item itemvalue="Spring Boot.Application (20)" />
+      <item itemvalue="Spring Boot.Application (21)" />
+      <item itemvalue="Spring Boot.Application (22)" />
+      <item itemvalue="Spring Boot.Application (23)" />
+      <item itemvalue="Spring Boot.Application (24)" />
+      <item itemvalue="Spring Boot.Application (25)" />
+      <item itemvalue="Spring Boot.Application (26)" />
+      <item itemvalue="Spring Boot.Application (27)" />
+      <item itemvalue="Spring Boot.Application (28)" />
+      <item itemvalue="Spring Boot.Application (29)" />
+      <item itemvalue="Spring Boot.Application (30)" />
+      <item itemvalue="Spring Boot.Application (31)" />
+      <item itemvalue="Spring Boot.Application (32)" />
+      <item itemvalue="Spring Boot.Application (33)" />
+      <item itemvalue="Spring Boot.Application (34)" />
+      <item itemvalue="Spring Boot.Application (35)" />
+      <item itemvalue="Spring Boot.Application (36)" />
+      <item itemvalue="Spring Boot.Application (37)" />
+      <item itemvalue="Spring Boot.Application (38)" />
+      <item itemvalue="Spring Boot.Application (39)" />
+      <item itemvalue="Spring Boot.Application (40)" />
     </list>
     <recent_temporary>
       <list>
@@ -395,7 +736,8 @@
       <workItem from="1631684421486" duration="3378000" />
       <workItem from="1631688129424" duration="2452000" />
       <workItem from="1631690599129" duration="6066000" />
-      <workItem from="1631706741478" duration="4399000" />
+      <workItem from="1631706741478" duration="5122000" />
+      <workItem from="1631835898502" duration="16844000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -684,7 +1026,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631697364514</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="拦截器、过滤器、servlet、字符编码过滤器、logforjava、lombook">
+      <created>1631711209715</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1631711209715</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -692,7 +1041,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="内部工具对象" />
     <MESSAGE value="springboot进阶" />
     <MESSAGE value="写一个测试在linux中跑" />
     <MESSAGE value="修改" />
@@ -717,7 +1065,8 @@
     <MESSAGE value="springboot整合dubbo和注册中心" />
     <MESSAGE value="综合：springboot-ssm&#10;使用mybatis，mybatis逆向工程，redis，jsp，dubbo，zookeeper" />
     <MESSAGE value="拦截器、过滤器、servlet、字符编码过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="拦截器、过滤器、servlet、字符编码过滤器" />
+    <MESSAGE value="拦截器、过滤器、servlet、字符编码过滤器、logforjava、lombook" />
+    <option name="LAST_COMMIT_MESSAGE" value="拦截器、过滤器、servlet、字符编码过滤器、logforjava、lombook" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -732,7 +1081,6 @@
     <state x="527" y="148" key="#Inspections" timestamp="1631540181054">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="395" y="111" key="#Inspections/0.0.1536.864@0.0.1536.864" timestamp="1623137271191" />
     <state x="527" y="148" key="#Inspections/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631540181054" />
     <state x="550" y="154" key="#Inspections/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625979167644" />
     <state x="332" y="10" key="#Project_Structure" timestamp="1631586452092">
@@ -791,24 +1139,19 @@
     <state x="368" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1631596959230">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="276" y="348" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.864@0.0.1536.864" timestamp="1623139295619" />
     <state x="368" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596959230" />
     <state x="384" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625817675611" />
-    <state x="506" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1623139297155">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="506" y="303" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.864@0.0.1536.864" timestamp="1623139297155" />
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1623234828871">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="508" y="240" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1623234828871" />
-    <state x="2952" y="0" key="CommitChangelistDialog2" timestamp="1631697362736">
-      <screen x="2560" y="0" width="1536" height="864" />
+    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1631711189562">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
     <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090713943" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
-    <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631623297804" />
+    <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631711189562" />
     <state x="2952" y="0" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631697362736" />
     <state x="689" y="122" key="CommitChangelistDialog2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507750915" />
     <state x="93" y="93" width="1862" height="966" key="DiffContextDialog" timestamp="1631612888135">
@@ -827,77 +1170,77 @@
     <state x="732" y="163" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690503110" />
     <state x="3109" y="122" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631283850639" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="1224" height="99" key="GridCell.Tab.0.bottom" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.0.bottom" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1492" height="472" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1224" height="151" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="1338" height="429" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="2005" height="825" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631691754453" />
-    <state width="1224" height="99" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.0.center" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.0.center" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1492" height="472" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1224" height="151" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="1338" height="429" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
-    <state width="2005" height="825" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631691754453" />
-    <state width="1224" height="99" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186319" />
+    <state width="1224" height="193" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.0.left" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.0.left" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1492" height="472" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1224" height="151" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="1338" height="429" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
-    <state width="2005" height="825" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631691754453" />
-    <state width="1224" height="99" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186319" />
+    <state width="1224" height="193" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.0.right" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.0.right" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1492" height="472" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1224" height="151" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="1338" height="429" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="2005" height="825" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631691754453" />
-    <state width="1224" height="99" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.1.bottom" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.1.bottom" timestamp="1631867308867">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="472" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
+    <state width="1224" height="151" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="2093" height="657" key="GridCell.Tab.1.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1743" height="153" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690583347" />
-    <state width="1224" height="99" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
     <state width="2093" height="630" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.1.center" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.1.center" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="472" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
+    <state width="1224" height="151" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="2093" height="657" key="GridCell.Tab.1.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1743" height="153" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690583347" />
-    <state width="1224" height="99" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.1.left" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.1.left" timestamp="1631867308866">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="472" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1625719811335" />
+    <state width="1224" height="151" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="2093" height="657" key="GridCell.Tab.1.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1743" height="153" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690583347" />
-    <state width="1224" height="99" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="99" key="GridCell.Tab.1.right" timestamp="1631710240495">
+    <state width="1224" height="193" key="GridCell.Tab.1.right" timestamp="1631867308867">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
-    <state width="1492" height="472" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1625719811336" />
+    <state width="1224" height="151" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1631851669336" />
     <state width="2093" height="657" key="GridCell.Tab.1.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
-    <state width="1743" height="153" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690583347" />
-    <state width="1224" height="99" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631710240495" />
+    <state width="1653" height="394" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631861186320" />
+    <state width="1224" height="193" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
     <state width="2093" height="630" key="GridCell.Tab.1.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
     <state width="2093" height="630" key="GridCell.Tab.2.bottom" timestamp="1627679928287">
       <screen x="0" y="0" width="2137" height="1202" />
@@ -943,13 +1286,13 @@
     <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690509348" />
     <state x="922" y="442" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631707888761" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="2921" y="161" key="Vcs.Push.Dialog.v2" timestamp="1631697367194">
-      <screen x="2560" y="0" width="1536" height="864" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1631711195045">
+      <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090842627" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631623303660" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631711195045" />
     <state x="2921" y="161" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631697367194" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626507757118" />
     <state x="1172" y="454" key="chooseDestDirectoryDialog" timestamp="1631621609399">
@@ -994,12 +1337,12 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="635" y="298" width="250" height="278" key="jetbrains.javascript.buildTools.run-task-popup/0.0.1536.864@0.0.1536.864" timestamp="1623239870479" />
-    <state x="472" y="111" width="899" height="556" key="new project wizard" timestamp="1631690108172">
+    <state x="472" y="111" width="899" height="556" key="new project wizard" timestamp="1631845366248">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1624969752489" />
     <state x="472" y="111" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1628088510096" />
-    <state x="472" y="111" key="new project wizard/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690108172" />
+    <state x="472" y="111" key="new project wizard/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631845366248" />
     <state x="2914" y="83" width="899" height="556" key="new project wizard/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631669244572" />
     <state x="493" y="116" key="new project wizard/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626076240884" />
     <state x="644" y="242" key="run.anything.popup" timestamp="1626090294966">
