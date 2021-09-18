@@ -50,6 +50,7 @@
       <module fileurl="file://$PROJECT_DIR$/046-springboot-enableconfigproperties/046-springboot-enableconfigproperties.iml" filepath="$PROJECT_DIR$/046-springboot-enableconfigproperties/046-springboot-enableconfigproperties.iml" />
       <module fileurl="file://$PROJECT_DIR$/CopyFile/CopyFile.iml" filepath="$PROJECT_DIR$/CopyFile/CopyFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" filepath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotion/annotion.iml" filepath="$PROJECT_DIR$/annotion/annotion.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
     </modules>
   </component>
