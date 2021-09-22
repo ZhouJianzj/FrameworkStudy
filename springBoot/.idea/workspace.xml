@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/annotion/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/com/zj/annotion/AnnotionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/com/zj/annotion/PersonAnnotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotion/src/test/java/com/zj/annotion/AnnotionApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -616,8 +600,8 @@
       <item itemvalue="Spring Boot.Application (38)" />
       <item itemvalue="Spring Boot.Application (39)" />
       <item itemvalue="Spring Boot.Application (40)" />
-      <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.AnnotionApplication" />
+      <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
@@ -736,7 +720,8 @@
       <workItem from="1631835898502" duration="16844000" />
       <workItem from="1631883801929" duration="2029000" />
       <workItem from="1631929510660" duration="733000" />
-      <workItem from="1631971965258" duration="662000" />
+      <workItem from="1631971965258" duration="844000" />
+      <workItem from="1632267989299" duration="1504000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -1039,7 +1024,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631885552283</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="自定义注解以及赋值问题">
+      <created>1631972794892</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1631972794892</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,7 +1039,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="写一个测试在linux中跑" />
     <MESSAGE value="修改" />
     <MESSAGE value="javase的复习，方法、修饰权限，方法调用时候的内存分配，变量在jvm中的存放位置。指向问题" />
     <MESSAGE value="动态代理和静态代理" />
@@ -1072,7 +1063,8 @@
     <MESSAGE value="拦截器、过滤器、servlet、字符编码过滤器" />
     <MESSAGE value="拦截器、过滤器、servlet、字符编码过滤器、logforjava、lombook" />
     <MESSAGE value="入口类的注解的学习，以及配置类的使用，类不在入口类路径之下怎么给他创建好放到ioc容器中去" />
-    <option name="LAST_COMMIT_MESSAGE" value="入口类的注解的学习，以及配置类的使用，类不在入口类路径之下怎么给他创建好放到ioc容器中去" />
+    <MESSAGE value="自定义注解以及赋值问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义注解以及赋值问题" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1141,11 +1133,11 @@
     </state>
     <state x="368" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596959230" />
     <state x="384" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625817675611" />
-    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1631885551516">
+    <state x="660" y="103" key="CommitChangelistDialog2" timestamp="1631972794055">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1624800675858" />
-    <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090713943" />
+    <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972794055" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
     <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885551516" />
     <state x="2952" y="0" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631697362736" />
@@ -1281,11 +1273,11 @@
     <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690509348" />
     <state x="922" y="442" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631707888761" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1631885558331">
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2" timestamp="1631972807790">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1624800680728" />
-    <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1628090842627" />
+    <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972807790" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885558331" />
     <state x="2921" y="161" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631697367194" />
