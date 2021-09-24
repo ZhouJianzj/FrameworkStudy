@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../genecris/src/main/java/com/zj/Generics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../genecris/src/test/java/Test_Generics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../genecris/genecris.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/annotion/src/main/java/com/zj/MyArr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +78,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../022-java-dubbo-link-provider" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../genecris" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -85,12 +88,12 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zj.service" />
-      <recent name="com.zj.service.impl" />
-      <recent name="com.zj.springbootdubbossmprovider.servicesImpl" />
-      <recent name="service" />
-      <recent name="com.zj.dubbospringbootprovider.serviceImpl" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\framework\springBoot\annotion\src\main\java\com\zj" />
+      <recent name="D:\workspace\framework\springBoot\038-springboot-Object\src\main\java\com\zj\springbootobject" />
+      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
+      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
+      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zj.springbootcommonannotation" />
@@ -110,12 +113,12 @@
       <recent name="com.zj.protectTwo" />
       <recent name="com.zj.springbootfiltertwo.web" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\framework\springBoot\annotion\src\main\java\com\zj" />
-      <recent name="D:\workspace\framework\springBoot\038-springboot-Object\src\main\java\com\zj\springbootobject" />
-      <recent name="D:\workspace\framework\springBoot\028-springboot-package\src\main\webapp\jsp" />
-      <recent name="D:\workspace\framework\springBoot\009-springboot-mybatis-resourcemapper\src\main\resources\mapper" />
-      <recent name="D:\workspace\framework\springBoot\006-springboot-persondefindedapplication\src\main\webapp" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zj.service" />
+      <recent name="com.zj.service.impl" />
+      <recent name="com.zj.springbootdubbossmprovider.servicesImpl" />
+      <recent name="service" />
+      <recent name="com.zj.dubbospringbootprovider.serviceImpl" />
     </key>
   </component>
   <component name="RubyModuleManagerSettings">
@@ -723,6 +726,8 @@
       <workItem from="1631971965258" duration="844000" />
       <workItem from="1632267989299" duration="13456000" />
       <workItem from="1632304473616" duration="72000" />
+      <workItem from="1632379385202" duration="706000" />
+      <workItem from="1632441030775" duration="4348000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -1083,10 +1088,6 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="0" width="657" height="864" key="#Application" timestamp="1623674929357">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="446" y="0" width="657" height="864" key="#Application/0.0.1536.864@0.0.1536.864" timestamp="1623674929357" />
     <state x="527" y="148" key="#Inspections" timestamp="1631540181054">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -1127,10 +1128,6 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="830" y="323" key="#com.intellij.ide.util.PackageChooserDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596922453" />
-    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1623674928420">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="498" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1623674928420" />
     <state x="452" y="213" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1624961583712">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -1165,10 +1162,10 @@
       <screen x="0" y="0" width="2137" height="1202" />
     </state>
     <state x="653" y="161" key="EnvironmentVariablesDialog/0.0.2137.1202@0.0.2137.1202" timestamp="1625730496528" />
-    <state x="549" y="122" key="FileChooserDialogImpl" timestamp="1632304510628">
+    <state x="549" y="122" key="FileChooserDialogImpl" timestamp="1632379427664">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1632304510628" />
+    <state x="549" y="122" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1632379427664" />
     <state x="732" y="163" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690503110" />
     <state x="3109" y="122" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631283850639" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
@@ -1274,15 +1271,15 @@
     <state x="486" y="232" key="IDE.errors.dialog/0.0.2137.1202@0.0.2137.1202" timestamp="1625730355459" />
     <state x="466" y="222" key="IDE.errors.dialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631538389919" />
     <state x="486" y="232" key="IDE.errors.dialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626266153949" />
-    <state x="565" y="75" key="NewModule_or_Project.wizard" timestamp="1631690504751">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="424" y="56" key="NewModule_or_Project.wizard" timestamp="1632379429571">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1623675007107" />
+    <state x="424" y="56" key="NewModule_or_Project.wizard/0.0.1536.864@0.0.1536.864" timestamp="1632379429571" />
     <state x="565" y="75" key="NewModule_or_Project.wizard/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690504751" />
-    <state x="922" y="442" width="1434" height="850" key="SettingsEditor" timestamp="1631707888761">
-      <screen x="0" y="0" width="2048" height="1152" />
+    <state x="14" y="6" width="1434" height="850" key="SettingsEditor" timestamp="1632379438941">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1624969466750" />
+    <state x="14" y="6" width="1434" height="850" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1632379438941" />
     <state x="673" y="246" key="SettingsEditor/0.0.2048.1152@0.0.2048.1152" timestamp="1628088583819" />
     <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690509348" />
     <state x="922" y="442" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631707888761" />
@@ -1301,10 +1298,6 @@
     </state>
     <state x="1172" y="454" key="chooseDestDirectoryDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631621609399" />
     <state x="1223" y="474" key="chooseDestDirectoryDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626063185916" />
-    <state x="485" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1623675232032">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="485" y="320" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.864@0.0.1536.864" timestamp="1623675232032" />
     <state x="749" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1625984534357">
       <screen x="0" y="0" width="2137" height="1202" />
     </state>

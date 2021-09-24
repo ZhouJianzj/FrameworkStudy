@@ -71,6 +71,7 @@
         <option value="$PROJECT_DIR$/../022-java-dubbo-link-provider/pom.xml" />
         <option value="$PROJECT_DIR$/046-springboot-enableconfigproperties/pom.xml" />
         <option value="$PROJECT_DIR$/annotion/pom.xml" />
+        <option value="$PROJECT_DIR$/../genecris/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
