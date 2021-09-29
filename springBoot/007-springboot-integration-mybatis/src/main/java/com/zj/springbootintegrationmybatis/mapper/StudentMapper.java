@@ -8,6 +8,7 @@ import org.apache.ibatis.annotations.Select;
 public interface StudentMapper {
     /**
      * 根据主键删除一条记录
+     *
      * @param id
      * @return
      */
@@ -15,6 +16,7 @@ public interface StudentMapper {
 
     /**
      * 插入一个记录
+     *
      * @param record
      * @return
      */
@@ -22,6 +24,7 @@ public interface StudentMapper {
 
     /**
      * 插入一个记录，只插入有值的属性
+     *
      * @param record
      * @return
      */

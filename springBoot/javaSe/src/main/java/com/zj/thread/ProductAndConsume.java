@@ -14,13 +14,15 @@ public class ProductAndConsume {
         consumer.start();
     }
 }
-class Product  extends Thread{
+
+class Product extends Thread {
     private ArrayList arrayList;
+
     @Override
     public void run() {
-        synchronized (arrayList){
-            while(true){
-                if (arrayList.size() <= 0){
+        synchronized (arrayList) {
+            while (true) {
+                if (arrayList.size() <= 0) {
                     arrayList.add(new Object());
                     try {
                         Thread.sleep(1000);
@@ -31,7 +33,7 @@ class Product  extends Thread{
                 }
                 try {
 //                    使线程等待，释放对象锁
-                   arrayList.wait();
+                    arrayList.wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -45,13 +47,15 @@ class Product  extends Thread{
         this.arrayList = arrayList;
     }
 }
-class Consumer extends Thread{
+
+class Consumer extends Thread {
     private ArrayList arrayList;
+
     @Override
     public void run() {
-        synchronized (arrayList){
-            while(true){
-                if (arrayList.size() > 0){
+        synchronized (arrayList) {
+            while (true) {
+                if (arrayList.size() > 0) {
                     arrayList.remove(0);
                     System.out.println(Thread.currentThread().getName() + "移除成功");
                 }
@@ -65,6 +69,7 @@ class Consumer extends Thread{
             }
         }
     }
+
     public Consumer(ArrayList arrayList) {
         this.arrayList = arrayList;
     }

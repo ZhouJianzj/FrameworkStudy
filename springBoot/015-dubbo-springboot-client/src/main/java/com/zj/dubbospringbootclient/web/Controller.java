@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.ResponseBody;
  */
 @org.springframework.stereotype.Controller
 public class Controller {
-    @Reference(interfaceClass = ServiceGet.class,version = "1.0.0",check = false)
+    @Reference(interfaceClass = ServiceGet.class, version = "1.0.0", check = false)
     private ServiceGet serviceGet;
 
     @RequestMapping("/get")
     @ResponseBody
-    public Integer controllerGet(){
+    public Integer controllerGet() {
         return serviceGet.doGet();
     }
 }

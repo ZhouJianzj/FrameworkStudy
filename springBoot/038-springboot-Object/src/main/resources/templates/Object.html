@@ -7,7 +7,7 @@
 </head>
 <body>
 <!--方法一-->
-<span  th:text="${#session.getAttribute('data')}"></span>
+<span th:text="${#session.getAttribute('data')}"></span>
 <!--方法二-->
 <span th:text="${#request.getSession().getAttribute('data')}"></span>
 <span th:text="${#httpSession.getAttribute('data')}"></span>

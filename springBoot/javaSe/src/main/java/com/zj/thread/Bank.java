@@ -4,12 +4,12 @@ public class Bank {
     private String account;
     private int money;
 
-    public void drawMoney(int outMoney){
-       synchronized (this){
-           int i = this.getMoney()- outMoney;
-           this.setMoney(i);
-           System.out.println(Thread.currentThread().getName() + "------>" + money);
-       }
+    public void drawMoney(int outMoney) {
+        synchronized (this) {
+            int i = this.getMoney() - outMoney;
+            this.setMoney(i);
+            System.out.println(Thread.currentThread().getName() + "------>" + money);
+        }
     }
 
     public Bank(String account, int money) {

@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class FilterConfig {
     @Bean
-    public FilterRegistrationBean myFilter(){
+    public FilterRegistrationBean myFilter() {
         FilterRegistrationBean filterRegistrationBean = new FilterRegistrationBean(new FilterOne());
         filterRegistrationBean.addUrlPatterns("/test/*");
         return filterRegistrationBean;

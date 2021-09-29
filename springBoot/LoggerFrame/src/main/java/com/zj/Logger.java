@@ -16,7 +16,7 @@ public class Logger {
     /**
      * 输出到文件的输出流
      */
-    FileOutputStream  fileOutputStream = null;
+    FileOutputStream fileOutputStream = null;
     /**
      * 保存原始的输出流，一遍恢复打印到控制台
      */
@@ -31,6 +31,7 @@ public class Logger {
 
     /**
      * 方便创建对象的时候直接启动日志
+     *
      * @param logFileURL 存放日志路径
      */
     public Logger(String logFileURL) {
@@ -39,19 +40,21 @@ public class Logger {
 
     /**
      * 方法调用启动服务
-     * @param logFileURL  log存放位置
-     * @return  是否日志启动成功
+     *
+     * @param logFileURL log存放位置
+     * @return 是否日志启动成功
      */
     public boolean startLogger(String logFileURL) {
         return doSet(logFileURL);
     }
 
     /**
-     *底层启动服务，并且控制台打印log启动状态
+     * 底层启动服务，并且控制台打印log启动状态
+     *
      * @param logFileUR log Save 位置
      * @return 是否启动成功
      */
-    private boolean doSet(String logFileUR){
+    private boolean doSet(String logFileUR) {
 //     复以前的样子 关键点在这
         out = System.out;
         doDoSet(logFileUR);
@@ -64,14 +67,15 @@ public class Logger {
 
     /**
      * 底层底层的启动
+     *
      * @param logFileUR log 存放位置
      */
-    private void doDoSet(String logFileUR){
+    private void doDoSet(String logFileUR) {
         try {
-            fileOutputStream = new FileOutputStream(logFileUR,true);
+            fileOutputStream = new FileOutputStream(logFileUR, true);
             printStream = new PrintStream(fileOutputStream);
             System.setOut(printStream);
-            if (count == 1){
+            if (count == 1) {
                 Date date = new Date();
                 System.out.println(date);
             }
@@ -83,7 +87,8 @@ public class Logger {
     }
 
     /**
-     *终止服务
+     * 终止服务
+     *
      * @return log服务结束
      */
     public boolean endLogger() {
@@ -95,8 +100,6 @@ public class Logger {
         }
         return false;
     }
-
-
 
 
 }

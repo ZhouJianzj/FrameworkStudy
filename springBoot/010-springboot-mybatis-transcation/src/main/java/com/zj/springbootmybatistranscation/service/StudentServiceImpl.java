@@ -16,7 +16,7 @@ public class StudentServiceImpl implements StudentService {
     @Override
     public int updateStu(Student student) {
         int i = studentMapper.updateByPrimaryKey(student);
-        int a = 10/0;
+        int a = 10 / 0;
         return i;
     }
 }

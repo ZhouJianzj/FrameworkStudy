@@ -14,17 +14,17 @@ public class FieldOne {
         Field[] declaredFields = stuClass.getDeclaredFields();
         System.out.println(declaredFields.length);
         //获取所有成员变量的名字
-        for (Field f:declaredFields) {
+        for (Field f : declaredFields) {
             System.out.print(f.getName() + " ");
         }
         //获取成员变量的类型
         System.out.println();
-        for (Field f:declaredFields) {
-            System.out.print(f.getType()+ "____");
+        for (Field f : declaredFields) {
+            System.out.print(f.getType() + "____");
         }
         //获取成员变量的修饰符
         System.out.println();
-        for(Field f : declaredFields){
+        for (Field f : declaredFields) {
             System.out.print(f.getModifiers() + "==" + Modifier.toString(f.getModifiers()) + " ");
         }
 
@@ -32,8 +32,8 @@ public class FieldOne {
         System.out.println();
         StringBuffer stringBuffer = new StringBuffer();
 
-        stringBuffer.append(Modifier.toString(stuClass.getModifiers()) + " " + "class" + " " +  stuClass.getSimpleName() + "{" + "\n") ;
-        for (Field f: declaredFields){
+        stringBuffer.append(Modifier.toString(stuClass.getModifiers()) + " " + "class" + " " + stuClass.getSimpleName() + "{" + "\n");
+        for (Field f : declaredFields) {
             stringBuffer.append(Modifier.toString(f.getModifiers()) + " ");
             stringBuffer.append(f.getType().getSimpleName() + " ");
             stringBuffer.append(f.getName() + " " + ";" + "\n");
@@ -52,18 +52,18 @@ public class FieldOne {
         Field gender = stuClass.getDeclaredField("gender");
         Field address = stuClass.getDeclaredField("age");
         //给指定的变量赋值，需要传入之前创建的对象。表示的是为这个对象的属性赋值
-        name.set(stu,"zhoujian");
+        name.set(stu, "zhoujian");
 //        gender.set(stu,"男");
-        address.set(stu,10);
+        address.set(stu, 10);
         System.out.println(name.get(stu));
 //        System.out.println(gender.get(stu));
 
     }
 }
 
-class Stu{
+class Stu {
     public String name;
     protected String address;
     int age;
-    private  String gender;
+    private String gender;
 }

@@ -24,7 +24,7 @@ public class TreeSetOne {
 
 //        方法二
         Iterator<String> iterator = strings.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
     }

@@ -11,9 +11,10 @@ public class Student {
 //    @Value("${student.name}")
     @Value("${nn}")
     private String name;
-//    @Value("${student.age}")
+    //    @Value("${student.age}")
     @Value("${nnn}")
     private String age;
+
     public String getName() {
         return name;
     }

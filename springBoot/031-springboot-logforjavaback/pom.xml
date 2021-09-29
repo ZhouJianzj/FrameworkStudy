@@ -16,12 +16,12 @@
     </properties>
 
     <dependencies>
-<!--spring-web启动器-->
+        <!--spring-web启动器-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--测试类启动器-->
+        <!--测试类启动器-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -33,18 +33,18 @@
                 </exclusion>
             </exclusions>
         </dependency>
-<!--数据库驱动 -->
+        <!--数据库驱动 -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-<!--mybatis启动器-->
+        <!--mybatis启动器-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.2.0</version>
         </dependency>
-<!--lombok依赖-->
+        <!--lombok依赖-->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

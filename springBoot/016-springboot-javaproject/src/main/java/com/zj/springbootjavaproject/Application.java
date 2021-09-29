@@ -9,6 +9,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class Application {
     /**
      * 这里run之后得到的是一个spring容器，类似ClassPathXMLContext一样的获取到有一个spring容器
+     *
      * @param args
      */
     public static void main(String[] args) {

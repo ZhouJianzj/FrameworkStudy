@@ -1,15 +1,16 @@
 package com.zj.proxy.dynamicProxy;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
- *程序入口
+ * 程序入口
  */
 public class Test {
     public static void main(String[] args) {
         JayImp jayImp = new JayImp();
-        ISing subjectProxy=(ISing) Proxy.newProxyInstance(
+        ISing subjectProxy = (ISing) Proxy.newProxyInstance(
                 jayImp.getClass().getClassLoader(),
                 jayImp.getClass().getInterfaces(),
                 new JayAgentFactory(jayImp));
@@ -20,7 +21,7 @@ public class Test {
 /**
  * 业务接口
  */
- interface ISing {
+interface ISing {
     void sing();
 }
 
@@ -38,7 +39,7 @@ class JayImp implements ISing {
 /**
  * 代理工厂
  */
- class JayAgentFactory implements InvocationHandler {
+class JayAgentFactory implements InvocationHandler {
     Object target;
 
     public JayAgentFactory(Object target) {

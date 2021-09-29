@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * @author zhoujian
  */
 @Component
-@Service(interfaceClass = ServiceGet.class,version = "1.0.0" ,timeout = 1500)
+@Service(interfaceClass = ServiceGet.class, version = "1.0.0", timeout = 1500)
 public class ServiceGetImpl implements ServiceGet {
 
     @Override

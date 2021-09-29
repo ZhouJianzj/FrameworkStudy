@@ -1,6 +1,6 @@
 package com.zj.exception;
 
-public class ExceptionSonOne  extends ExceptionFather{
+public class ExceptionSonOne extends ExceptionFather {
     public ExceptionSonOne() {
         super();
     }

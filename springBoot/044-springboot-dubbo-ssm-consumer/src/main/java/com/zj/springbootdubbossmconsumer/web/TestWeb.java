@@ -7,11 +7,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class TestWeb {
     /**
-     *
-     * @return  测试web集成jsp时候成功，成功！
+     * @return 测试web集成jsp时候成功，成功！
      */
     @RequestMapping("/showPage")
-    public ModelAndView testPage(){
+    public ModelAndView testPage() {
         return new ModelAndView("show");
 
     }

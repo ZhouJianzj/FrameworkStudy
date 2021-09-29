@@ -5,7 +5,7 @@ public class main {
         Bank bank = new Bank("zhoujian", 10000);
         Thread mThread = new MThread(bank);
 
-       Thread mThread1 = new MThread(bank);
+        Thread mThread1 = new MThread(bank);
         mThread.start();
         mThread1.start();
     }

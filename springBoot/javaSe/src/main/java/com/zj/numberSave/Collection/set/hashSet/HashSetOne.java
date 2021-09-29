@@ -12,7 +12,7 @@ public class HashSetOne {
 //        注意set的实现类的是不能有重复的元素的
         strings.add("zhou");
         strings.add("jian");
-          strings.add("zhoujian");
+        strings.add("zhoujian");
 //          方法一
         Object[] objects = strings.toArray();
         for (int i = 0; i < objects.length; i++) {
@@ -22,7 +22,7 @@ public class HashSetOne {
 
 //        方法二
         Iterator<String> iterator = strings.iterator();
-        while(iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
         System.out.println("================================");

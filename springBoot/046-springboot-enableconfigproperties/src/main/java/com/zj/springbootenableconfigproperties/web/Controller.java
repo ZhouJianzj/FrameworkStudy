@@ -12,7 +12,7 @@ public class Controller {
 
     @RequestMapping("/show")
     @ResponseBody
-    public String show(){
+    public String show() {
         return dog.getName();
     }
 }

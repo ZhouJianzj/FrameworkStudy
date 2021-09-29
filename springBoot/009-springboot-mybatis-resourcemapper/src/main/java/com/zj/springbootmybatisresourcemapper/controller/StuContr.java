@@ -14,7 +14,7 @@ public class StuContr {
 
     @RequestMapping(value = "findStu")
     @ResponseBody
-    public Student findStu(Integer id ){
+    public Student findStu(Integer id) {
         return stuService.selectStu(id);
     }
 }

@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-<!--       解决application.xml文件爆红的问题-->
+        <!--       解决application.xml文件爆红的问题-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>

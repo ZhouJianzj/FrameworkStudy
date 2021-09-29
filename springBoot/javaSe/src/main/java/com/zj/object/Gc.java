@@ -9,7 +9,7 @@ public class Gc {
 
 }
 
-class doTest{
+class doTest {
 
     @Override
     protected void finalize() throws Throwable {

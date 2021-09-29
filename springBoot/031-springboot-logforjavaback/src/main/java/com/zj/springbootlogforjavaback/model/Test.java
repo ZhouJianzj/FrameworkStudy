@@ -11,7 +11,8 @@ public class Test {
     private String name;
     private int id;
 }
-class TestT{
+
+class TestT {
     public static void main(String[] args) {
         Test test = new Test();
 

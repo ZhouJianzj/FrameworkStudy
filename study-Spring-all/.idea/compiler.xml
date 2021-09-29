@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo-01" />
+        <module name="demo-02-loginadnregistyer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo-01" target="1.8" />
+      <module name="demo-02-loginadnregistyer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

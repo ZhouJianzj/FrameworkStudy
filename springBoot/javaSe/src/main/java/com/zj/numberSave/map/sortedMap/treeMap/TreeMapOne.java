@@ -14,8 +14,8 @@ public class TreeMapOne {
 // TreeSet<Stu> treeSet = new TreeSet<>(new Comparable(){....});
         TreeSet<Stu> treeSet = new TreeSet<>();
         treeSet.add(new Stu(01, "周健"));
-        treeSet.add( new Stu(02, "李美钰"));
-        for(Stu stu : treeSet){
+        treeSet.add(new Stu(02, "李美钰"));
+        for (Stu stu : treeSet) {
             System.out.println(stu);
         }
 

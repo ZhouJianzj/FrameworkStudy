@@ -4,12 +4,10 @@ import java.util.Scanner;
 
 /**
  * Copy
- *  适用于较大的文件传输
+ * 适用于较大的文件传输
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         System.exit(0);
         System.out.println("请输入你要Copy文件位置!(示例：D:\\a.txt,支持所有文件格式拷贝)");
         String copy = new Scanner(System.in).nextLine();
@@ -23,7 +21,7 @@ public class App
 //        if (copy !=null || " ".equals(copy) ||
 //                save != null || " ".equals(save) ||
 //                    mB != 0){
-            System.out.println(new Program().doCopy(copy, save,mB));
+        System.out.println(new Program().doCopy(copy, save, mB));
 //           try{
 //               CopyDiGui copyDiGui = new CopyDiGui();
 //               copyDiGui.dodo(copy,save,mB);

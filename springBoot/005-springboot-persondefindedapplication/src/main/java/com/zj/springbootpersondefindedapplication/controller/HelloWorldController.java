@@ -20,6 +20,7 @@ public class HelloWorldController {
     private String schoolName;
     @Value("${school.address}")
     private String address;
+
     @RequestMapping(value = "/sayHello")
     public @ResponseBody
     String sayHello() {
@@ -31,16 +32,20 @@ public class HelloWorldController {
      */
     @Autowired
     private School school;
+
     @RequestMapping(value = "/sayFromObjectSchool")
-    public @ResponseBody String sayFromObject(){
+    public @ResponseBody
+    String sayFromObject() {
         return school.getName() + ":" + school.getAddress();
     }
 
 
     @Autowired
     private Student student;
+
     @RequestMapping(value = "/sayFromObjectStudent")
-    public @ResponseBody String sayFromObjectStudent(){
+    public @ResponseBody
+    String sayFromObjectStudent() {
         return student.getName() + ":" + student.getAge();
     }
 

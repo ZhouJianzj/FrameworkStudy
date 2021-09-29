@@ -16,12 +16,12 @@
     </properties>
 
     <dependencies>
-<!--        springbootWeb起步依赖-->
+        <!--        springbootWeb起步依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--测试起步依赖-->
+        <!--测试起步依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -37,9 +37,9 @@
 
     <dependencyManagement>
         <dependencies>
-    <!--            springboot的依赖
-            这里直接是导入的官方爷爷的依赖
-    -->
+            <!--            springboot的依赖
+                    这里直接是导入的官方爷爷的依赖
+            -->
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -63,7 +63,7 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
-<!--打包编译插件，以后项目打包的时候主入口-->
+            <!--打包编译插件，以后项目打包的时候主入口-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

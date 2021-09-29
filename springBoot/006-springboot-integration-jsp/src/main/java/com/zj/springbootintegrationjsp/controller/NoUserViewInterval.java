@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class NoUserViewInterval {
     @RequestMapping(value = "/noUse")
-    public String noUse(){
+    public String noUse() {
 
         return "forward:/noUse.jsp";
     }

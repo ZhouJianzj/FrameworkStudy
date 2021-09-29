@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 public class StudentServiceImpl implements StudentService {
     @Autowired
     private StudentMapper studentMapper;
+
     @Override
     public Student selectStu(Integer id) {
         return studentMapper.selectByPrimaryKey(id);

@@ -19,12 +19,13 @@ public class TimeTest {
 
             System.out.println(parse);
 
-            timer.schedule(new TimeTaskT(),parse,1000*2);
+            timer.schedule(new TimeTaskT(), parse, 1000 * 2);
         } catch (ParseException e) {
             e.printStackTrace();
         }
     }
 }
+
 class TimeTaskT extends TimerTask {
 
     @Override

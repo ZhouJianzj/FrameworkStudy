@@ -41,7 +41,7 @@
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring-boot.version}</version>
                 <type>pom</type>
-<!--                只支持单继承，为了实现多继承（就像认了干爹），使用它的全部依赖-->
+                <!--                只支持单继承，为了实现多继承（就像认了干爹），使用它的全部依赖-->
                 <scope>import</scope>
             </dependency>
         </dependencies>

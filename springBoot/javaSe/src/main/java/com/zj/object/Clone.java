@@ -3,11 +3,12 @@ package com.zj.object;
 public class Clone {
     /**
      * 浅clone
+     *
      * @param args
      */
     public static void main(String[] args) throws CloneNotSupportedException {
-        Person p = new Person("zhoujian",12,
-                new Address("beijing",6));
+        Person p = new Person("zhoujian", 12,
+                new Address("beijing", 6));
         Person ps = (Person) p.clone();
 //        false  复制之后内存地址一前一后
         System.out.println(p.equals(ps));
@@ -19,23 +20,24 @@ public class Clone {
         System.out.println(p.getAddress().toString());
         System.out.println(ps.getAddress().toString());
 //本体改变副本不改变，深度clone
-        p.setAddress(new Address("beijing",7));
+        p.setAddress(new Address("beijing", 7));
 
         System.out.println(p.getAddress().toString());
         System.out.println(ps.getAddress().toString());
 
     }
 }
-class Person implements Cloneable{
+
+class Person implements Cloneable {
     private String name;
     private int age;
 
-    private  Address address;
+    private Address address;
 
     public Person() {
     }
 
-    public Person(String name, int age,Address address) {
+    public Person(String name, int age, Address address) {
         this.name = name;
         this.age = age;
         this.address = address;
@@ -66,11 +68,12 @@ class Person implements Cloneable{
     }
 
     @Override
-        public Object clone() throws CloneNotSupportedException {
+    public Object clone() throws CloneNotSupportedException {
         return super.clone();
     }
 }
-class  Address{
+
+class Address {
     private String address;
     private int number;
 
@@ -100,6 +103,6 @@ class  Address{
 
     @Override
     public String toString() {
-        return  this.address  +  " "  + this.number;
-     }
+        return this.address + " " + this.number;
+    }
 }

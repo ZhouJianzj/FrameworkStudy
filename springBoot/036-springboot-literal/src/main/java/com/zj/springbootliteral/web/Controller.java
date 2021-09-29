@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @org.springframework.stereotype.Controller
 public class Controller {
     @RequestMapping(value = "literal")
-    public String testLiteral(){
+    public String testLiteral() {
         return "Literal";
     }
 }

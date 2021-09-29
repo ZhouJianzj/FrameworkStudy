@@ -1,7 +1,7 @@
 package com.zj.thread;
 
 
-class Mian{
+class Mian {
     public static void main(String[] args) {
         ProtectThread protectThread = new ProtectThread();
 //        设置为守护线程
@@ -15,19 +15,20 @@ class Mian{
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println(thread.getName()  +  "----" + i);
+            System.out.println(thread.getName() + "----" + i);
         }
 
     }
 }
+
 /**
  * @author zhoujian
  */
-public class ProtectThread extends Thread{
+public class ProtectThread extends Thread {
     @Override
     public void run() {
         int i = 0;
-        while (true){
+        while (true) {
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {

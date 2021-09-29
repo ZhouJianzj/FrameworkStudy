@@ -2,8 +2,8 @@ package com.zj.protect.protectOne;
 
 import com.zj.protect.protectTwo.PTwo;
 
-public class POne extends  PTwo{
-    protected void doOne(){
+public class POne extends PTwo {
+    protected void doOne() {
         System.out.println("protectOne execute");
     }
 

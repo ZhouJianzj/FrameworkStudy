@@ -1,11 +1,12 @@
 package com.zj.extend;
 
 public class ExtSonOne extends ExtFather {
-    String address ;
+    String address;
+
     public ExtSonOne() {
     }
 
-    public ExtSonOne(String zj){
+    public ExtSonOne(String zj) {
         super(zj);
     }
 
@@ -15,7 +16,7 @@ public class ExtSonOne extends ExtFather {
         System.out.print("-----子类重写过了");
     }
 
-    public void doSOne(){
+    public void doSOne() {
         System.out.println("子类的方法");
     }
 

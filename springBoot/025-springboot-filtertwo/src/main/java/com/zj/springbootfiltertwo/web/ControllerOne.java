@@ -7,17 +7,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerOne {
 
     @RequestMapping(value = "/test/a/b")
-    public String test(){
+    public String test() {
         return "test";
     }
 
     @RequestMapping(value = "/test/out")
-    public String out(){
+    public String out() {
         return "out";
     }
 
     @RequestMapping(value = "/test")
-    public String testT(){
+    public String testT() {
         return "testT";
     }
 }

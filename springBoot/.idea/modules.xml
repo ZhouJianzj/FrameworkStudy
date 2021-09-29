@@ -42,7 +42,7 @@
       <module fileurl="file://$PROJECT_DIR$/038-springboot-object/038-springboot-object.iml" filepath="$PROJECT_DIR$/038-springboot-object/038-springboot-object.iml" />
       <module fileurl="file://$PROJECT_DIR$/039-springboot-function/039-springboot-function.iml" filepath="$PROJECT_DIR$/039-springboot-function/039-springboot-function.iml" />
       <module fileurl="file://$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" filepath="$PROJECT_DIR$/040-springboot-advance/040-springboot-advance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" filepath="$PROJECT_DIR$/041-springboot-linux/041-springboot-linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/041-springboot-linux.iml" filepath="$PROJECT_DIR$/041-springboot-linux.iml" />
       <module fileurl="file://$PROJECT_DIR$/042-springboot-redis/042-springboot-redis.iml" filepath="$PROJECT_DIR$/042-springboot-redis/042-springboot-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/043-springboot-dubbo-ssm-provider.iml" filepath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/043-springboot-dubbo-ssm-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/044-springboot-dubbo-ssm-consumer.iml" filepath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/044-springboot-dubbo-ssm-consumer.iml" />
@@ -51,6 +51,7 @@
       <module fileurl="file://$PROJECT_DIR$/CopyFile/CopyFile.iml" filepath="$PROJECT_DIR$/CopyFile/CopyFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" filepath="$PROJECT_DIR$/LoggerFrame/LoggerFrame.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotion/annotion.iml" filepath="$PROJECT_DIR$/annotion/annotion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../genecris/genecris.iml" filepath="$PROJECT_DIR$/../genecris/genecris.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
     </modules>

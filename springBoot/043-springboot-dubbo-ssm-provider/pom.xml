@@ -14,24 +14,24 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.7.RELEASE</spring-boot.version>
     </properties>
-<!--web依赖-->
+    <!--web依赖-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-<!--        mysql-->
+        <!--        mysql-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-<!--        mybatis-->
+        <!--        mybatis-->
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>2.2.0</version>
         </dependency>
-<!--        逆向依赖-->
+        <!--        逆向依赖-->
         <dependency>
             <groupId>org.mybatis.generator</groupId>
             <artifactId>mybatis-generator-core</artifactId>
@@ -42,19 +42,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
-<!--        dubbo-->
+        <!--        dubbo-->
         <dependency>
             <groupId>com.alibaba.spring.boot</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.0.0</version>
         </dependency>
-<!--        zookeeper-->
+        <!--        zookeeper-->
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
             <version>0.10</version>
         </dependency>
-<!--        接口工程-->
+        <!--        接口工程-->
         <dependency>
             <groupId>com.zj</groupId>
             <artifactId>045-springboot-dubbo-ssm-interface</artifactId>

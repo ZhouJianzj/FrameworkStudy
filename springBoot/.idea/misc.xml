@@ -3,6 +3,7 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/028-springboot-package" />
     <file type="web" url="file://$PROJECT_DIR$/041-springboot-linux" />
+    <file type="web" url="file://$PROJECT_DIR$/demo" />
     <file type="web" url="file://$PROJECT_DIR$/javaSe" />
     <file type="web" url="file://$PROJECT_DIR$/../../untitled" />
   </component>
@@ -57,7 +58,6 @@
         <option value="$PROJECT_DIR$/038-springboot-object/pom.xml" />
         <option value="$PROJECT_DIR$/039-springboot-function/pom.xml" />
         <option value="$PROJECT_DIR$/040-springboot-advance/pom.xml" />
-        <option value="$PROJECT_DIR$/041-springboot-linux/pom.xml" />
         <option value="$PROJECT_DIR$/javaSeTest/pom.xml" />
         <option value="$PROJECT_DIR$/CopyFile/pom.xml" />
         <option value="$PROJECT_DIR$/LoggerFrame/pom.xml" />
@@ -72,6 +72,8 @@
         <option value="$PROJECT_DIR$/046-springboot-enableconfigproperties/pom.xml" />
         <option value="$PROJECT_DIR$/annotion/pom.xml" />
         <option value="$PROJECT_DIR$/../genecris/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -20,20 +20,25 @@ public class ThreadOne {
         System.out.println("========");
     }
 }
-class MyThread extends Thread{
+
+class MyThread extends Thread {
     @Override
     public void run() {
         System.out.println("++++++++++++");
     }
 }
-class Do{
-    public static  void doDo(){}
+
+class Do {
+    public static void doDo() {
+    }
 }
-class DoDo extends  Do{
+
+class DoDo extends Do {
 
 
 }
-class Main{
+
+class Main {
     public static void main(String[] args) {
         DoDo doDo = new DoDo();
         Do.doDo();

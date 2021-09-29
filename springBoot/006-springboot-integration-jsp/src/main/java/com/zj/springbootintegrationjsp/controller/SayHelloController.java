@@ -11,14 +11,16 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class SayHelloController {
     @RequestMapping(value = "/sayHello")
-    public ModelAndView sayHello(){
+    public ModelAndView sayHello() {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("message","Hello Springboot");
+        mv.addObject("message", "Hello Springboot");
         mv.setViewName("say");
         return mv;
     }
+
     @RequestMapping(value = "/test")
-    public @ResponseBody String doTest(){
+    public @ResponseBody
+    String doTest() {
         return "=====================";
     }
 }

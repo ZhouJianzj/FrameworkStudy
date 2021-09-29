@@ -30,8 +30,8 @@ public class ArrayListOne {
 
 //        移除元素,这样的运行会出错
 //        System.out.println("移除下标为0的元素" + strings.remove(0));
-iterator.remove();
-        while(iterator.hasNext()){
+        iterator.remove();
+        while (iterator.hasNext()) {
 
             System.out.println(iterator.next());
 

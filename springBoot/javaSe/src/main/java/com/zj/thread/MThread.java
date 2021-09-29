@@ -3,7 +3,7 @@ package com.zj.thread;
 /**
  * @author zhoujian
  */
-public class MThread extends Thread  {
+public class MThread extends Thread {
     public MThread(Bank bank) {
         this.bank = bank;
     }

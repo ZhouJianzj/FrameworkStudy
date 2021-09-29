@@ -3,8 +3,9 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 
 <generatorConfiguration>
-<!-- 配置数据库驱动的本地连接-->
-    <classPathEntry location="C:\Users\zhoujian\.m2\repository\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar"/>
+    <!-- 配置数据库驱动的本地连接-->
+    <classPathEntry
+            location="C:\Users\zhoujian\.m2\repository\mysql\mysql-connector-java\8.0.22\mysql-connector-java-8.0.22.jar"/>
     <context id="DB2Tables" targetRuntime="MyBatis3">
         <commentGenerator>
             <!-- 是否去除自动生成的注释 -->
@@ -26,42 +27,42 @@
 
         <!-- 默认为false，把JDBC DECIMAL 和NUMERIC类型解析为Integer，为true时
         把JDBC DECIMAL 和NUMERIC类型解析为java.math.BigDecimal -->
-        <javaTypeResolver >
-            <property name="forceBigDecimals" value="false" />
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
         <!-- targetProject：生成POJO类的位置 -->
         <javaModelGenerator targetPackage="com.zj.springbootmybatistranscation.model"
                             targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
-            <property name="enableSubPackages" value="false" />
+            <property name="enableSubPackages" value="false"/>
             <!-- 从数据库返回的值被清理前后的空格 -->
-            <property name="trimStrings" value="true" />
+            <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <!-- targetProject：mapper映射文件生成的位置 -->
         <sqlMapGenerator targetPackage="com.zj.springbootmybatistranscation.mapper"
                          targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
-            <property name="enableSubPackages" value="false" />
+            <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
         <!-- targetProject：mapper接口生成的的位置 -->
         <javaClientGenerator type="XMLMAPPER" targetPackage="com.zj.springbootmybatistranscation.mapper"
                              targetProject="src/main/java">
             <!-- enableSubPackages:是否让schema作为包的后缀 -->
-            <property name="enableSubPackages" value="false" />
+            <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
         <!-- 指定数据表
          tableName ： 数据库中的表明
          domainObjectName：生成的model的name-->
         <table tableName="student" domainObjectName="Student"
-                    enableCountByExample="false"
-                    enableUpdateByExample="false"
-                    enableDeleteByExample="false"
-                    enableSelectByExample="false"
-                    selectByExampleQueryId="false"
+               enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false"
         />
 
         <!-- 有些表的字段需要指定java类型

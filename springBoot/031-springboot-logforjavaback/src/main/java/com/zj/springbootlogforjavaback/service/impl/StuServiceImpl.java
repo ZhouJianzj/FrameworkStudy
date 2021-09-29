@@ -12,6 +12,7 @@ public class StuServiceImpl implements StuService {
     private StudentMapper studentMapper;
 
     @Override
+
     public Integer findStu() {
         return studentMapper.selectStudents();
     }

@@ -6,6 +6,6 @@ package com.zj.annotation.idCase;
  */
 @Id
 public class Stu {
-//    int id;
+    //    int id;
     String name;
 }

@@ -55,20 +55,20 @@
         <finalName>springboot</finalName>
         <!-- 指定jsp编译之后的位置  -->
         <resources>
-        <resource>
-            <directory>src/main/webapp</directory>
-            <targetPath>META-INF/resources</targetPath>
-            <includes>
-                <include>*.*</include>
-            </includes>
-        </resource>
+            <resource>
+                <directory>src/main/webapp</directory>
+                <targetPath>META-INF/resources</targetPath>
+                <includes>
+                    <include>*.*</include>
+                </includes>
+            </resource>
 
-        <resource>
-            <directory>src/main/resources</directory>
-            <includes>
-                <include>**/*.*</include>
-            </includes>
-        </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
         </resources>
         <plugins>
 
@@ -83,7 +83,7 @@
                 </configuration>
             </plugin>
 
-<!--巨坑的一件事，这里需要改变打包的版本，除了这个版本其他的都不行-->
+            <!--巨坑的一件事，这里需要改变打包的版本，除了这个版本其他的都不行-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>

@@ -28,6 +28,5 @@ public class ReflectOne {
         System.out.println(Class.forName(className).newInstance());
 
 
-
     }
 }

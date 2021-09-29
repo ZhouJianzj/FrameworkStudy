@@ -11,15 +11,16 @@ import org.springframework.stereotype.Service;
 @Service
 public class TestService {
     @Autowired
-    private RedisTemplate<Object,Object> redisTemplate;
+    private RedisTemplate<Object, Object> redisTemplate;
 
     @Autowired
     private ChengShiMapper chengShiMapper;
 
-    public String testMybatis(){
-        return  chengShiMapper.selectByPrimaryKey(1).toString();
+    public String testMybatis() {
+        return chengShiMapper.selectByPrimaryKey(1).toString();
     }
-    public String testRedis(){
+
+    public String testRedis() {
         return redisTemplate.opsForValue().get("name").toString();
     }
 }

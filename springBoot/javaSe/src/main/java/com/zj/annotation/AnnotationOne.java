@@ -10,6 +10,7 @@ public class AnnotationOne extends User {
         annotationOne.doDo();
 
     }
+
     @Deprecated
     @Override
     public void doDo() {
@@ -18,16 +19,16 @@ public class AnnotationOne extends User {
 }
 
 
-
 /**
  * @author zhoujian
  * 自定义的注解
  */
-    @interface MyAnnotation{
+@interface MyAnnotation {
 
 }
-class User{
-        public void doDo(){
 
-        }
+class User {
+    public void doDo() {
+
+    }
 }

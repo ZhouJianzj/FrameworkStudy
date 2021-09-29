@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class ShowController {
     @RequestMapping(value = "/show")
-    public String show(){
+    public String show() {
         return "show";
     }
 }

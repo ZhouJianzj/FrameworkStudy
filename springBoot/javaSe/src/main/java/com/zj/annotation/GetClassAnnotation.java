@@ -26,13 +26,14 @@ public class GetClassAnnotation {
     }
 }
 
-class Student{
+class Student {
     /**
      * 可以赋值，也可以不赋值，因为有默认值
      */
     @an
     String name;
 }
+
 /**
  * @author zhoujian
  */
@@ -40,8 +41,8 @@ class Student{
 @Target({ElementType.FIELD})
 //定义属性，保存在class中并且可以被反射
 @Retention(RetentionPolicy.RUNTIME)
-@interface an{
-//    注解赋默认值
-    String name () default "zhoujian";
+@interface an {
+    //    注解赋默认值
+    String name() default "zhoujian";
 
 }

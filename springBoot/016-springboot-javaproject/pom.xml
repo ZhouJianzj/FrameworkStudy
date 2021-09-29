@@ -16,7 +16,7 @@
     </properties>
 
     <dependencies>
-<!--        不一样的是 这里是springboot-start-->
+        <!--        不一样的是 这里是springboot-start-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>

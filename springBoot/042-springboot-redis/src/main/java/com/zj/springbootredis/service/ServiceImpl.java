@@ -16,7 +16,7 @@ public class ServiceImpl implements Service {
 
     @Override
     public void servicePut(String key, String value) {
-        redisTemplate.opsForValue().set(key,value);
+        redisTemplate.opsForValue().set(key, value);
     }
 
     @Override

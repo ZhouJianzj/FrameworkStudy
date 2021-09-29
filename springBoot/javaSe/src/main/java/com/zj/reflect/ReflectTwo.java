@@ -13,8 +13,9 @@ public class ReflectTwo {
         Class<Dodo> dodoClass = Dodo.class;
     }
 }
-class Dodo{
+
+class Dodo {
     static {
         System.out.println("=================");
     }
-        }
+}
