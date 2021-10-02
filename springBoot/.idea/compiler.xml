@@ -32,6 +32,7 @@
         <module name="040-springboot-advance" />
         <module name="043-springboot-dubbo-ssm-provider" />
         <module name="038-springboot-Object" />
+        <module name="springboot-nginx-server03-img" />
         <module name="001-springboot-brench" />
         <module name="002-springboot-sayhello" />
         <module name="015-dubbo-springboot-client" />
@@ -128,6 +129,7 @@
       <module name="redis-test" target="1.8" />
       <module name="springboot-nginx-server01" target="1.8" />
       <module name="springboot-nginx-server02" target="1.8" />
+      <module name="springboot-nginx-server03-img" target="1.8" />
       <module name="untitled" target="1.5" />
       <module name="vue-shop-admin" target="1.8" />
     </bytecodeTargetLevel>
