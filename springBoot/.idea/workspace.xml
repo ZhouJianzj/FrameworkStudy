@@ -2,244 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/templates/show.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/Demo02LoginadnregistyerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/server/UserServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/server/UserServerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/web/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/static/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/static/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/test/java/com/zj/demo02loginadnregistyer/Demo02LoginadnregistyerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../045-springboot-dubbo-ssm-interface/target/classes/META-INF/045-springboot-dubbo-ssm-interface.kotlin_module" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/src/main/java/com/zj/springbootnginxserver01/SpringbootNginxServer01Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/src/main/java/com/zj/springbootnginxserver01/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server01/src/test/java/com/zj/springbootnginxserver01/SpringbootNginxServer01ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/src/main/java/com/zj/springbootnginxserver02/SpringbootNginxServer02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/src/main/java/com/zj/springbootnginxserver02/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/src/main/resources/templates/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-nginx-server02/src/test/java/com/zj/springbootnginxserver02/SpringbootNginxServer02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/src/main/java/com/zj/vueshopadmin/VueShopAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/src/main/java/com/zj/vueshopadmin/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-shop-admin/src/test/java/com/zj/vueshopadmin/VueShopAdminApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001-springboot-brench/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/001-springboot-brench/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/controller/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/controller/HelloWorldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/005-springboot-persondefindedapplication/src/main/java/com/zj/springbootpersondefindedapplication/entity/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/NoUserViewInterval.java" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/NoUserViewInterval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/SayHelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/SayHelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/ShowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/java/com/zj/springbootintegrationjsp/controller/ShowController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/say.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/say.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/006-springboot-integration-jsp/src/main/webapp/show.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/Controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/Controller/StuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/service/imple/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/java/com/zj/springbootintegrationmybatis/service/imple/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/java/com/zj/springbootmybatismapperscan/controller/StuContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/java/com/zj/springbootmybatismapperscan/controller/StuContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/java/com/zj/springbootmybatismapperscan/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/java/com/zj/springbootmybatismapperscan/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/008-springboot-mybatis-mapperscan/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/java/com/zj/springbootmybatisresourcemapper/controller/StuContr.java" beforeDir="false" afterPath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/java/com/zj/springbootmybatisresourcemapper/controller/StuContr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/009-springboot-mybatis-resourcemapper/src/main/resources/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/controller/StuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/controller/StuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/service/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/java/com/zj/springbootmybatistranscation/service/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/010-springboot-mybatis-transcation/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/011-springboot-commonannotation/src/main/java/com/zj/springbootcommonannotation/controller/TestContro.java" beforeDir="false" afterPath="$PROJECT_DIR$/011-springboot-commonannotation/src/main/java/com/zj/springbootcommonannotation/controller/TestContro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/012-springboot-restful/src/main/java/com/zj/springbootrestful/web/restfulController.java" beforeDir="false" afterPath="$PROJECT_DIR$/012-springboot-restful/src/main/java/com/zj/springbootrestful/web/restfulController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/013-dubbo-interface/target/classes/META-INF/013-dubbo-interface.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/014-dubbo-springboot-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/014-dubbo-springboot-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/014-dubbo-springboot-provider/src/main/java/com/zj/dubbospringbootprovider/serviceImpl/ServiceGetImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/014-dubbo-springboot-provider/src/main/java/com/zj/dubbospringbootprovider/serviceImpl/ServiceGetImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015-dubbo-springboot-client/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/015-dubbo-springboot-client/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015-dubbo-springboot-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/015-dubbo-springboot-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015-dubbo-springboot-client/src/main/java/com/zj/dubbospringbootclient/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/015-dubbo-springboot-client/src/main/java/com/zj/dubbospringbootclient/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/015-dubbo-springboot-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/015-dubbo-springboot-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/016-springboot-javaproject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/016-springboot-javaproject/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/016-springboot-javaproject/src/main/java/com/zj/springbootjavaproject/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/016-springboot-javaproject/src/main/java/com/zj/springbootjavaproject/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/017-springboot-javaproject/src/main/java/com/zj/springbootjavaproject/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/017-springboot-javaproject/src/main/java/com/zj/springbootjavaproject/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019-springboot-interceptor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/019-springboot-interceptor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/interceptor/UserInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/interceptor/UserInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/019-springboot-interceptor/src/main/java/com/zj/springbootinterceptor/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/020-springboot-servlet/src/main/java/com/zj/springbootservlet/web/ServletOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/020-springboot-servlet/src/main/java/com/zj/springbootservlet/web/ServletOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021-springboot-servletwo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/021-springboot-servletwo/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/021-springboot-servletwo/src/main/java/com/zj/springbootservletwo/config/SerlvetConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/021-springboot-servletwo/src/main/java/com/zj/springbootservletwo/config/SerlvetConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024-springboot-filterone/src/main/java/com/zj/springbootfilterone/filter/FilterOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/024-springboot-filterone/src/main/java/com/zj/springbootfilterone/filter/FilterOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/024-springboot-filterone/src/main/java/com/zj/springbootfilterone/web/ControllerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/024-springboot-filterone/src/main/java/com/zj/springbootfilterone/web/ControllerOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/config/FilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/config/FilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/filter/FilterOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/filter/FilterOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/web/ControllerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/025-springboot-filtertwo/src/main/java/com/zj/springbootfiltertwo/web/ControllerOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/026-springboor-characterencoding-1/src/main/java/com/zj/springboorcharacterencoding1/config/CharaterFilterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/026-springboor-characterencoding-1/src/main/java/com/zj/springboorcharacterencoding1/config/CharaterFilterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/026-springboor-characterencoding-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/026-springboor-characterencoding-1/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027-springboot-character-encoding-2/src/main/java/com/zj/springbootcharacterencoding2/web/controllerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/027-springboot-character-encoding-2/src/main/java/com/zj/springbootcharacterencoding2/web/controllerOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/027-springboot-character-encoding-2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/027-springboot-character-encoding-2/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/controller/TestContrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/028-springboot-package/src/main/java/com/zj/springbootpackage/controller/TestContrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/src/main/java/com/zj/springbootpackagejar/web/ControllerOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/java/com/zj/springbootpackagejar/web/ControllerOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/029-springboot-package-jar/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/029-springboot-package-jar/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/030-springboot-package-jar2/src/main/java/com/zj/springbootpackagejar2/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/030-springboot-package-jar2/src/main/java/com/zj/springbootpackagejar2/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/mapper/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/mapper/StudentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/model/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/model/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/service/impl/StuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/service/impl/StuServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/web/StudentContrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/java/com/zj/springbootlogforjavaback/web/StudentContrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/src/main/resources/log-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/java/com/zj/springbootthymeleaffirst/web/DemoContrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/java/com/zj/springbootthymeleaffirst/web/DemoContrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/032-springboot-thymeleaf-first/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/033-springboot-expression/src/main/java/com/zj/springbootexpression/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/033-springboot-expression/src/main/java/com/zj/springbootexpression/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/033-springboot-expression/src/main/resources/templates/message.html" beforeDir="false" afterPath="$PROJECT_DIR$/033-springboot-expression/src/main/resources/templates/message.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/033-springboot-expression/src/main/resources/templates/restful.html" beforeDir="false" afterPath="$PROJECT_DIR$/033-springboot-expression/src/main/resources/templates/restful.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/java/com/zj/springbooteach/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/java/com/zj/springbooteach/web/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Complex.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Complex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/EachList.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/EachList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Map.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/Map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doIf.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doIf.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doSwitch.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doSwitch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doUnless.html" beforeDir="false" afterPath="$PROJECT_DIR$/034-springboot-each/src/main/resources/templates/doUnless.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/035-springboot-inlink/src/main/java/com/zj/springbootinline/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/035-springboot-inlink/src/main/java/com/zj/springbootinline/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/036-springboot-literal/src/main/java/com/zj/springbootliteral/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/036-springboot-literal/src/main/java/com/zj/springbootliteral/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/036-springboot-literal/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/036-springboot-literal/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037-springboot-splice/src/main/java/com/zj/springbootsplice/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/037-springboot-splice/src/main/java/com/zj/springbootsplice/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/037-springboot-splice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/037-springboot-splice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/038-springboot-Object/src/main/java/com/zj/springbootobject/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/038-springboot-Object/src/main/java/com/zj/springbootobject/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/038-springboot-Object/src/main/resources/templates/Object.html" beforeDir="false" afterPath="$PROJECT_DIR$/038-springboot-Object/src/main/resources/templates/Object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/039-springboot-function/src/main/java/com/zj/springbootfunction/web/controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/039-springboot-function/src/main/java/com/zj/springbootfunction/web/controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/039-springboot-function/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/039-springboot-function/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/src/main/java/com/zj/springbootlinux/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/src/main/java/com/zj/springbootlinux/web/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/src/main/resources/templates/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/041-springboot-linux/src/test/java/com/zj/springbootlinux/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/src/main/java/com/zj/springbootredis/service/ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/src/main/java/com/zj/springbootredis/service/ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/src/main/java/com/zj/springbootredis/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/src/main/java/com/zj/springbootredis/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/generaterConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/generaterConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/mapper/ChengShiMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/mapper/ChengShiMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/servicesImpl/ServiceAllImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/servicesImpl/ServiceAllImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/testServices/TestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/java/com/zj/springbootdubbossmprovider/testServices/TestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/java/com/zj/springbootdubbossmconsumer/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/java/com/zj/springbootdubbossmconsumer/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/java/com/zj/springbootdubbossmconsumer/web/TestWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/java/com/zj/springbootdubbossmconsumer/web/TestWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/springbootenableconfigproperties/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/046-springboot-enableconfigproperties/src/main/java/com/zj/springbootenableconfigproperties/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/CopyDiGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/CopyDiGui.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/src/main/java/com/zj/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/src/test/java/com/zj/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/src/test/java/com/zj/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/target/classes/com/zj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/target/classes/com/zj/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/target/classes/com/zj/CopyDiGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/target/classes/com/zj/CopyDiGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CopyFile/target/test-classes/com/zj/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/CopyFile/target/test-classes/com/zj/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/src/main/java/com/zj/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/src/test/java/com/zj/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/src/test/java/com/zj/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/target/classes/com/zj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/target/classes/com/zj/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/target/classes/com/zj/Logger.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/target/classes/com/zj/Logger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoggerFrame/target/test-classes/com/zj/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/LoggerFrame/target/test-classes/com/zj/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/com/zj/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotion/src/main/java/com/zj/ArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotion/src/main/java/com/zj/MyArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/annotion/src/main/java/com/zj/MyArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/AnnotationOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/AnnotationOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/GetClassAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/GetClassAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/NotHaveIdException.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/NotHaveIdException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Stu.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/annotation/idCase/Stu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/array/ArrayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/array/ArrayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionSonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/ExceptionSonOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/exception/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtFather.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtFather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtSonOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/extend/ExtSonOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceOneImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceOneImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/interfaces/InterfaceTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/none/noneTwo/NTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/none/noneTwo/NTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/arrayList/ArrayListOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/arrayList/ArrayListOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/linkList/LinkListOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/linkList/LinkListOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/vector/VectorOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/list/vector/VectorOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/hashSet/HashSetOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/hashSet/HashSetOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/sortedSet/treeSet/TreeSetOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/Collection/set/sortedSet/treeSet/TreeSetOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/HashMap/HashMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/HashMap/HashMapOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/numberSave/map/sortedMap/treeMap/TreeMapOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Clone.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Clone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Enums.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Enums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Gc.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/object/Gc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/privatee/privateTwo/PTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/privatee/privateTwo/PTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectOne/POne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectOne/POne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/protect/protectTwo/PTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/dynamicProxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/proxy/dynamicProxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/FieldOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/FieldOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/MethodReflect.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/MethodReflect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/reflect/ReflectTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Die.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/Die.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/MThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/MThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProductAndConsume.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProductAndConsume.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProtectThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ProtectThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ThreadOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/ThreadOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/TimeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaSe/src/main/java/com/zj/thread/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/src/test/java/com/zj/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/test/java/com/zj/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test/target/test-classes/com/zj/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/target/test-classes/com/zj/AppTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +185,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="Spring Boot.SpringbootNginxServer02Application">
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.ArrayTest" />
       <module name="annotion" />
@@ -797,6 +608,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootNginxServer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-nginx-server01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootnginxserver01.SpringbootNginxServer01Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootNginxServer02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-nginx-server02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootnginxserver02.SpringbootNginxServer02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VueShopAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="vue-shop-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.vueshopadmin.VueShopAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.application" />
@@ -845,7 +677,10 @@
       <item itemvalue="Spring Boot.Application (40)" />
       <item itemvalue="Spring Boot.AnnotionApplication" />
       <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.VueShopAdminApplication" />
       <item itemvalue="Spring Boot.Application" />
+      <item itemvalue="Spring Boot.SpringbootNginxServer01Application" />
+      <item itemvalue="Spring Boot.SpringbootNginxServer02Application" />
     </list>
     <recent_temporary>
       <list>
@@ -971,6 +806,10 @@
       <workItem from="1632441030775" duration="5665000" />
       <workItem from="1632797918970" duration="2007000" />
       <workItem from="1632877585529" duration="17390000" />
+      <workItem from="1632920429419" duration="1130000" />
+      <workItem from="1633013765206" duration="463000" />
+      <workItem from="1633148336129" duration="4555000" />
+      <workItem from="1633160418526" duration="7935000" />
     </task>
     <task id="LOCAL-00001" summary="1、springboot的主配置文件的学习&#10;2、spring文件的创建以及创建失败之后使用aliyun的镜像&#10;3、主配置文件中指定不同的环境&#10;4、主配置文件的几种格式&#10;5、主配置中自定义参数的获取，以对象的形式获取、一个一个的获取">
       <created>1622779817418</created>
@@ -1301,7 +1140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632467521570</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="测试打包运行到tomcat和linux中的tomcat，复习">
+      <created>1632920632507</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1632920632507</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1309,7 +1155,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="动态代理和静态代理" />
     <MESSAGE value="继承，常用的方法，枚举类，匿名类，包装数据类型，Array，Date，BigDecimal，等一些方法的复习" />
     <MESSAGE value="异常处理机制，自定义异常" />
     <MESSAGE value="集合" />
@@ -1334,7 +1179,8 @@
     <MESSAGE value="自定义注解以及赋值问题" />
     <MESSAGE value="自定义集合" />
     <MESSAGE value="自定义集合老师讲解" />
-    <option name="LAST_COMMIT_MESSAGE" value="自定义集合老师讲解" />
+    <MESSAGE value="测试打包运行到tomcat和linux中的tomcat，复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试打包运行到tomcat和linux中的tomcat，复习" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1397,10 +1243,10 @@
     </state>
     <state x="368" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596959230" />
     <state x="384" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625817675611" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1632467520837">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1632920625103">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1632467520837" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1632920625103" />
     <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972794055" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
     <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885551516" />
@@ -1421,74 +1267,74 @@
     <state x="732" y="163" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690503110" />
     <state x="3109" y="122" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631283850639" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="1224" height="442" key="GridCell.Tab.0.bottom" timestamp="1632910432897">
+    <state width="1492" height="406" key="GridCell.Tab.0.bottom" timestamp="1633172196195">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1224" height="442" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1492" height="406" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633172196195" />
     <state width="1338" height="429" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.0.center" timestamp="1632910432897">
+    <state width="1492" height="406" key="GridCell.Tab.0.center" timestamp="1633172196195">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1224" height="442" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1492" height="406" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1633172196195" />
     <state width="1338" height="429" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="1653" height="708" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.0.left" timestamp="1632910432897">
+    <state width="1492" height="406" key="GridCell.Tab.0.left" timestamp="1633172196195">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1224" height="442" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1492" height="406" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1633172196195" />
     <state width="1338" height="429" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="1653" height="708" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.0.right" timestamp="1632910432897">
+    <state width="1492" height="406" key="GridCell.Tab.0.right" timestamp="1633172196195">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1224" height="442" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1492" height="406" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1633172196195" />
     <state width="1338" height="429" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.1.bottom" timestamp="1632910432897">
+    <state width="1223" height="590" key="GridCell.Tab.1.bottom" timestamp="1633172174383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1224" height="442" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1223" height="590" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633172174383" />
     <state width="2093" height="657" key="GridCell.Tab.1.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
     <state width="2093" height="630" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.1.center" timestamp="1632910432897">
+    <state width="1223" height="590" key="GridCell.Tab.1.center" timestamp="1633172174383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1224" height="442" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1223" height="590" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1633172174383" />
     <state width="2093" height="657" key="GridCell.Tab.1.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.1.left" timestamp="1632910432897">
+    <state width="1223" height="590" key="GridCell.Tab.1.left" timestamp="1633172174383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1224" height="442" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1223" height="590" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1633172174383" />
     <state width="2093" height="657" key="GridCell.Tab.1.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1224" height="442" key="GridCell.Tab.1.right" timestamp="1632910432897">
+    <state width="1223" height="590" key="GridCell.Tab.1.right" timestamp="1633172174383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1224" height="442" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1632910432897" />
+    <state width="1223" height="590" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1633172174383" />
     <state width="2093" height="657" key="GridCell.Tab.1.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
@@ -1536,10 +1382,10 @@
     <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690509348" />
     <state x="922" y="442" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631707888761" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1632302240757">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1632920633570">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1632302240757" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1632920633570" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972807790" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885558331" />
@@ -1573,10 +1419,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="861" y="471" key="git4idea.ui.GitStashDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714064654" />
-    <state x="157" y="21" width="899" height="556" key="new project wizard" timestamp="1632909215683">
+    <state x="157" y="21" width="899" height="556" key="new project wizard" timestamp="1633160919088">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1632909215683" />
+    <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1633160919088" />
     <state x="472" y="111" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1631972078397" />
     <state x="472" y="111" key="new project wizard/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631845366248" />
     <state x="2914" y="83" width="899" height="556" key="new project wizard/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631669244572" />

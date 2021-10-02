@@ -54,6 +54,9 @@
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/../genecris/genecris.iml" filepath="$PROJECT_DIR$/../genecris/genecris.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis-test/redis-test.iml" filepath="$PROJECT_DIR$/redis-test/redis-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-nginx-server01/springboot-nginx-server01.iml" filepath="$PROJECT_DIR$/springboot-nginx-server01/springboot-nginx-server01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-nginx-server02/springboot-nginx-server02.iml" filepath="$PROJECT_DIR$/springboot-nginx-server02/springboot-nginx-server02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vue-shop-admin/vue-shop-admin.iml" filepath="$PROJECT_DIR$/vue-shop-admin/vue-shop-admin.iml" />
     </modules>
   </component>
 </project>
