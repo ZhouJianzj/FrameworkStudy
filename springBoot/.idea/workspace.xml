@@ -2,7 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/Demo03SpringcloudProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/config/RestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/test/java/com/zj/demo03springcloudprovider/Demo03SpringcloudProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/java/com/zj/demo04springcloudconsumer/Demo04SpringcloudConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/java/com/zj/demo04springcloudconsumer/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/test/java/com/zj/demo04springcloudconsumer/Demo04SpringcloudConsumerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -771,13 +800,9 @@
       <workItem from="1633148336129" duration="4555000" />
       <workItem from="1633160418526" duration="15321000" />
       <workItem from="1633248224407" duration="2208000" />
-    </task>
-    <task id="LOCAL-00002" summary="mybatis的逆向工程&#10;1、generator.xml文件的使用&#10;2、插件的使用">
-      <created>1623066099764</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1623066099764</updated>
+      <workItem from="1633268354753" duration="916000" />
+      <workItem from="1633306519145" duration="634000" />
+      <workItem from="1633339856359" duration="2947000" />
     </task>
     <task id="LOCAL-00003" summary="解决mapper中问题，实现mapper 到 service 到 controller">
       <created>1623127000891</created>
@@ -1115,7 +1140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633189486999</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="复习">
+      <created>1633268394788</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1633268394789</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1134,7 +1166,6 @@
     <MESSAGE value="注解的使用，与底层" />
     <MESSAGE value="lombook的@Data注解" />
     <MESSAGE value="redis工具库jredis的使用" />
-    <MESSAGE value="复习" />
     <MESSAGE value="复习redis" />
     <MESSAGE value="springboot整redis的使用" />
     <MESSAGE value="springboot整合dubbo和注册中心" />
@@ -1148,7 +1179,8 @@
     <MESSAGE value="测试打包运行到tomcat和linux中的tomcat，复习" />
     <MESSAGE value="对springboot项目实现打jar包运行到linux服务器上面，使用nginx负载均衡实现服务的负载" />
     <MESSAGE value="静态代理的实现，以及thyleaf页面中静态资源的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="静态代理的实现，以及thyleaf页面中静态资源的使用" />
+    <MESSAGE value="复习" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -1211,10 +1243,10 @@
     </state>
     <state x="368" y="464" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596959230" />
     <state x="384" y="484" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625817675611" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1633189486084">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1633268394130">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1633189486084" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1633268394130" />
     <state x="660" y="103" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972794055" />
     <state x="0" y="0" key="CommitChangelistDialog2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746461975" />
     <state x="660" y="103" key="CommitChangelistDialog2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885551516" />
@@ -1350,10 +1382,10 @@
     <state x="614" y="246" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690509348" />
     <state x="922" y="442" key="SettingsEditor/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631707888761" />
     <state x="746" y="257" key="SettingsEditor/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626246107935" />
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1633189490392">
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2" timestamp="1633268402053">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1633189490392" />
+    <state x="361" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1633268402053" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/0.0.2048.1152@0.0.2048.1152" timestamp="1631972807790" />
     <state x="502" y="224" key="Vcs.Push.Dialog.v2/0.0.2137.1202@0.0.2137.1202" timestamp="1625746472498" />
     <state x="481" y="215" key="Vcs.Push.Dialog.v2/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885558331" />

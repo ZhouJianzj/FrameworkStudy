@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/demo-01/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-02-loginadnregistyer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-02-loginadnregistyer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-03-springcloud-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-03-springcloud-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-04-springcloud-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-04-springcloud-consumer/src/main/resources" charset="UTF-8" />
   </component>
 </project>
