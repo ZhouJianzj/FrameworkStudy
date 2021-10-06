@@ -2,36 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/Demo03SpringcloudProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/config/RestConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/java/com/zj/demo03springcloudprovider/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-03-springcloud-provider/src/test/java/com/zj/demo03springcloudprovider/Demo03SpringcloudProviderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/java/com/zj/demo04springcloudconsumer/Demo04SpringcloudConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/java/com/zj/demo04springcloudconsumer/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-04-springcloud-consumer/src/test/java/com/zj/demo04springcloudconsumer/Demo04SpringcloudConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/web/Handler/InterceptorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/java/com/zj/demo02loginadnregistyer/web/config/IntecepterConfigureation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/031-springboot-logforjavaback/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/demo-02-loginadnregistyer/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -802,7 +777,9 @@
       <workItem from="1633248224407" duration="2208000" />
       <workItem from="1633268354753" duration="916000" />
       <workItem from="1633306519145" duration="634000" />
-      <workItem from="1633339856359" duration="2947000" />
+      <workItem from="1633339856359" duration="3547000" />
+      <workItem from="1633479282145" duration="1750000" />
+      <workItem from="1633481145517" duration="5094000" />
     </task>
     <task id="LOCAL-00003" summary="解决mapper中问题，实现mapper 到 service 到 controller">
       <created>1623127000891</created>
