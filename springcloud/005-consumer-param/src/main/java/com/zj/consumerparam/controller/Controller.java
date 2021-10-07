@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -16,17 +17,33 @@ import java.util.Map;
 @RestController
 public class Controller {
     /**
+     * 这里需要注意的是当服务的提供者返回的list集合的泛型无论是什么样的类型，
+     * spring都不会去转换，服务的消费者都不会获取到预先指定好的泛型,
+     * 反而是LinkedHashMap类型的对象
+     * @return
+     */
+    @RequestMapping(value ="doList")
+    public List doList(){
+        RestTemplate restTemplate = new RestTemplate();
+        ResponseEntity<List> forEntity = restTemplate.getForEntity("http://localhost:8081/doList", List.class);
+        List body = forEntity.getBody();
+        for (Object user:body) {
+            System.out.println(user.getClass() + "=======");
+        }
+        return body;
+    }
+    /**
      * 使用数组的形式传递参数
      * @return
      */
-    @RequestMapping("doList")
-    public String doList(){
+    @RequestMapping("doArray")
+    public User doArray(){
         RestTemplate restTemplate = new RestTemplate();
 //        url中使用占位符的形式，里面的数字就是数组中的元素下标
-        String url = "http://localhost:8081/doList?id={0}&name={1}&age={2}";
+        String url = "http://localhost:8081/doArray?id={0}&name={1}&age={2}";
         Object[] param = {001,"zhoujian",22};
 
-        ResponseEntity<String> forEntity = restTemplate.getForEntity(url, String.class,param);
+        ResponseEntity<User> forEntity = restTemplate.getForEntity(url, User.class,param);
         return forEntity.getBody();
 
     }
