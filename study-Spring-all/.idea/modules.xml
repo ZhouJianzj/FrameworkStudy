@@ -6,6 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/demo-02-loginadnregistyer/demo-02-loginadnregistyer.iml" filepath="$PROJECT_DIR$/demo-02-loginadnregistyer/demo-02-loginadnregistyer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-03-springcloud-provider/demo-03-springcloud-provider.iml" filepath="$PROJECT_DIR$/demo-03-springcloud-provider/demo-03-springcloud-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-04-springcloud-consumer/demo-04-springcloud-consumer.iml" filepath="$PROJECT_DIR$/demo-04-springcloud-consumer/demo-04-springcloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-05-springcloud-euerka-server/demo-05-springcloud-euerka-server.iml" filepath="$PROJECT_DIR$/demo-05-springcloud-euerka-server/demo-05-springcloud-euerka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-06-springcloud-euerka-clientone/demo-06-springcloud-euerka-clientone.iml" filepath="$PROJECT_DIR$/demo-06-springcloud-euerka-clientone/demo-06-springcloud-euerka-clientone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-07-springcloud-euerka-clienttwo/demo-07-springcloud-euerka-clienttwo.iml" filepath="$PROJECT_DIR$/demo-07-springcloud-euerka-clienttwo/demo-07-springcloud-euerka-clienttwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-08-springcloud-eureka-clientoneone/demo-08-springcloud-eureka-clientoneone.iml" filepath="$PROJECT_DIR$/demo-08-springcloud-eureka-clientoneone/demo-08-springcloud-eureka-clientoneone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-09-springcloud-eureka-server-001/demo-09-springcloud-eureka-server-001.iml" filepath="$PROJECT_DIR$/demo-09-springcloud-eureka-server-001/demo-09-springcloud-eureka-server-001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-10-springcloud-eureka-server-002/demo-10-springcloud-eureka-server-002.iml" filepath="$PROJECT_DIR$/demo-10-springcloud-eureka-server-002/demo-10-springcloud-eureka-server-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/demo-11-springcloud-eureka-server-003.iml" filepath="$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/demo-11-springcloud-eureka-server-003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/demo-12-springcloud-eureka-client-to9100.iml" filepath="$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/demo-12-springcloud-eureka-client-to9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" filepath="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" />
     </modules>
   </component>
 </project>

@@ -7,10 +7,25 @@
         <option value="$PROJECT_DIR$/demo-02-loginadnregistyer/pom.xml" />
         <option value="$PROJECT_DIR$/demo-03-springcloud-provider/pom.xml" />
         <option value="$PROJECT_DIR$/demo-04-springcloud-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-05-springcloud-euerka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-06-springcloud-euerka-clientone/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-07-springcloud-euerka-clienttwo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-eureka-clientone-one/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-08-springcloud-eureka-clientoneone/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-09-springcloud-eureka-server-001/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-10-springcloud-eureka-server-002/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/demo-08-springcloud-eureka-clientone-one/pom.xml" />
+      </set>
+    </option>
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

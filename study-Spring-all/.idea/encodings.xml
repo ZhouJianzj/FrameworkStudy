@@ -9,5 +9,23 @@
     <file url="file://$PROJECT_DIR$/demo-03-springcloud-provider/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-04-springcloud-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-04-springcloud-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-05-springcloud-euerka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-05-springcloud-euerka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-06-springcloud-euerka-clientone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-06-springcloud-euerka-clientone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-07-springcloud-euerka-clienttwo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-07-springcloud-euerka-clienttwo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-08-springcloud-eureka-clientoneone/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-08-springcloud-eureka-clientoneone/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-09-springcloud-eureka-server-001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-09-springcloud-eureka-server-001/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-10-springcloud-eureka-server-002/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-10-springcloud-eureka-server-002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/src/main/resources" charset="UTF-8" />
   </component>
 </project>
