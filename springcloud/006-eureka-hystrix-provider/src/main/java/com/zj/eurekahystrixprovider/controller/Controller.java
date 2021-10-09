@@ -14,4 +14,11 @@ public class Controller {
         System.out.println(10/0);
         return "服务的提供者";
     }
+
+    @RequestMapping("test01")
+//    模拟延迟
+    public String test01() throws InterruptedException {
+        Thread.sleep(2000);
+        return "服务的提供者";
+    }
 }
