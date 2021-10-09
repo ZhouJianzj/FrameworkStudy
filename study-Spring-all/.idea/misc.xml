@@ -17,6 +17,8 @@
         <option value="$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/pom.xml" />
         <option value="$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/pom.xml" />
         <option value="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -25,7 +27,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

@@ -15,6 +15,8 @@
       <module fileurl="file://$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/demo-11-springcloud-eureka-server-003.iml" filepath="$PROJECT_DIR$/demo-11-springcloud-eureka-server-003/demo-11-springcloud-eureka-server-003.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/demo-12-springcloud-eureka-client-to9100.iml" filepath="$PROJECT_DIR$/demo-12-springcloud-eureka-client-to9100/demo-12-springcloud-eureka-client-to9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" filepath="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/demo-14-springcloud-restfourmethod-provid.iml" filepath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/demo-14-springcloud-restfourmethod-provid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/demo-15-springcloud-restfourmethod-consumer.iml" filepath="$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/demo-15-springcloud-restfourmethod-consumer.iml" />
     </modules>
   </component>
 </project>
