@@ -7,9 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 public class Controller {
@@ -48,7 +46,11 @@ public class Controller {
 
     @RequestMapping("testReturnList")
     public List testReturnList(){
-        List list = server.testReturnList();
+        List<User> list = server.testReturnList();
+        for (User user:list){
+            System.out.println(user.toString());
+        }
+
         System.out.println(list.get(1).getClass().getName() + "===========================");
         return list;
     }

@@ -57,5 +57,5 @@ public interface Server {
      * @return
      */
     @RequestMapping("testReturnList")
-    public List testReturnList();
+    public List<User> testReturnList();
 }

@@ -45,8 +45,8 @@ public class Controller {
     }
 
     @RequestMapping("testReturnList")
-    public List testReturnList(){
-        ArrayList<User> users = new ArrayList<>();
+    public List<User> testReturnList(){
+        ArrayList<User> users = new ArrayList<User>();
         users.add(new User("zhoujian",2));
         users.add(new User("zhoujian",1));
         return  users;

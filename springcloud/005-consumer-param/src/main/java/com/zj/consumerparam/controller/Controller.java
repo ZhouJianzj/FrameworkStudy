@@ -67,7 +67,7 @@ public class Controller {
     }
 
     /**
-     * 返回值，返回是一个对象的时候，当返回的是一List集合的时候里面的元素都不会转换成对应的存储时候的对象类型，都是linkHashMap类型的数据
+     *
      * 是因为我们使用的是getForEntity()
      * @return
      */
