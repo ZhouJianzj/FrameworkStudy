@@ -13,4 +13,5 @@ public class DemoSpringcloudEurekaFeginProviderApplication {
         SpringApplication.run(DemoSpringcloudEurekaFeginProviderApplication.class, args);
     }
 
+
 }
