@@ -17,6 +17,12 @@
       <module fileurl="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" filepath="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/demo-13-springcloud-eureka-client-to9200-consumed9100.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/demo-14-springcloud-restfourmethod-provid.iml" filepath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/demo-14-springcloud-restfourmethod-provid.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/demo-15-springcloud-restfourmethod-consumer.iml" filepath="$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/demo-15-springcloud-restfourmethod-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-sprincloud-hystrix-bashboard/demo-sprincloud-hystrix-bashboard.iml" filepath="$PROJECT_DIR$/demo-sprincloud-hystrix-bashboard/demo-sprincloud-hystrix-bashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-eureka-egin/demo-springcloud-eureka-egin.iml" filepath="$PROJECT_DIR$/demo-springcloud-eureka-egin/demo-springcloud-eureka-egin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-eureka-fegin-consumer/demo-springcloud-eureka-fegin-consumer.iml" filepath="$PROJECT_DIR$/demo-springcloud-eureka-fegin-consumer/demo-springcloud-eureka-fegin-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/demo-springcloud-eureka-fegin-provider.iml" filepath="$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/demo-springcloud-eureka-fegin-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-hystrix-consumer/demo-springcloud-hystrix-consumer.iml" filepath="$PROJECT_DIR$/demo-springcloud-hystrix-consumer/demo-springcloud-hystrix-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-hystrix-provider/demo-springcloud-hystrix-provider.iml" filepath="$PROJECT_DIR$/demo-springcloud-hystrix-provider/demo-springcloud-hystrix-provider.iml" />
     </modules>
   </component>
 </project>

@@ -14,7 +14,7 @@ public class Controller {
 
     @RequestMapping("doTest")
     @HystrixCommand
-    public String doTest(){
+    public String one(){
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://localhost:8083/doTest", String.class);
 
@@ -23,7 +23,7 @@ public class Controller {
 
     @RequestMapping("doTestOne")
     @HystrixCommand
-    public String doTestOne(){
+    public String two(){
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://localhost:8083/doTest", String.class);
 

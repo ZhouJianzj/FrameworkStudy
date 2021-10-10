@@ -21,4 +21,11 @@ public class Controller {
         Thread.sleep(2000);
         return "服务的提供者";
     }
+
+
+    @RequestMapping("test02")
+    public String test02(){
+        System.out.println(10/0);
+        return "服务的提供者";
+    }
 }

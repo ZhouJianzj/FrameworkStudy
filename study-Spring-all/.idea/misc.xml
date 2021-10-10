@@ -19,6 +19,12 @@
         <option value="$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/pom.xml" />
         <option value="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/pom.xml" />
         <option value="$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-sprincloud-hystrix-bashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-hystrix-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-eureka-egin/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-eureka-fegin-consumer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -2,32 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../demo-14-springcloud-restfourmethod-provid/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/src/main/java/com/zj/demo14springcloudrestfourmethodprovid/Demo14SpringcloudRestfourmethodProvidApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/src/main/java/com/zj/demo14springcloudrestfourmethodprovid/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springcloud/demo-14-springcloud-restfourmethod-provid/src/test/java/com/zj/demo14springcloudrestfourmethodprovid/Demo14SpringcloudRestfourmethodProvidApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/src/main/java/com/zj/demo15springcloudrestfourmethodconsumer/Demo15SpringcloudRestfourmethodConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/src/main/java/com/zj/demo15springcloudrestfourmethodconsumer/config/RestTamplateConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/src/main/java/com/zj/demo15springcloudrestfourmethodconsumer/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-15-springcloud-restfourmethod-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/Hystrix/MyHystrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/main/java/com/zj/demosprincloudhystrixbashboard/DemoSprincloudHystrixBashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/test/java/com/zj/demosprincloudhystrixbashboard/DemoSprincloudHystrixBashboardApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/DemoSpringcloudHystrixConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/config/RestT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/test/java/com/zj/demospringcloudhystrixconsumer/DemoSpringcloudHystrixConsumerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/java/com/zj/demospringcloudhystrixprovider/DemoSpringcloudHystrixProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/java/com/zj/demospringcloudhystrixprovider/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/test/java/com/zj/demospringcloudhystrixprovider/DemoSpringcloudHystrixProviderApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-provider/src/main/java/com/zj/eurekahystrixprovider/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-provider/src/main/java/com/zj/eurekahystrixprovider/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud/007-hystrix-bashboard-consumer/src/main/java/com/zj/hystrixbashboardconsumer/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/007-hystrix-bashboard-consumer/src/main/java/com/zj/hystrixbashboardconsumer/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" afterDir="false" />
@@ -807,6 +833,7 @@
       <workItem from="1633481145517" duration="5317000" />
       <workItem from="1633574479157" duration="1683000" />
       <workItem from="1633778605933" duration="652000" />
+      <workItem from="1633847755351" duration="1361000" />
     </task>
     <task id="LOCAL-00004" summary="1、常用的一些注解的使用的，使得controller下的注解分工更为明确">
       <created>1623140332522</created>
