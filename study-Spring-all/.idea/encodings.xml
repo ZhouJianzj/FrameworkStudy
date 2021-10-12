@@ -31,6 +31,14 @@
     <file url="file://$PROJECT_DIR$/demo-13-springcloud-eureka-client-to9200-consumed9100/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-15-springcloud-restfourmethod-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-euerka-client-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-euerka-client-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-euerka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-euerka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-client-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-client-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo-eureka-client-zuul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sprincloud-hystrix-bashboard/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-sprincloud-hystrix-bashboard/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-springcloud-eureka-egin/src/main/java" charset="UTF-8" />

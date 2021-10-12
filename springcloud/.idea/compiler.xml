@@ -10,6 +10,7 @@
         <module name="009-eureka-feign" />
         <module name="eureka-client-consumer" />
         <module name="007-hystrix-bashboard-consumer" />
+        <module name="demo-009-feign-factory-provider" />
         <module name="010-eureka-server" />
         <module name="009-eureka-feign-provider" />
         <module name="005-provider-param" />
@@ -32,12 +33,14 @@
         <module name="003-consumer" />
         <module name="010-eureka-provider" />
         <module name="eureka" />
+        <module name="demo-009-feign-factory" />
         <module name="004-loadbalance-eureka" />
         <module name="004-loadbalance-provider8081" />
         <module name="003-cluster-eureka-server" />
         <module name="003-cluster-eureka-server-two" />
         <module name="008-eureka-zuul" />
         <module name="007-hystrix-bashboard" />
+        <module name="demo-009-feign-factory-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -69,6 +72,9 @@
       <module name="010-eureka-server" target="1.8" />
       <module name="010-eureka-zuul" target="1.8" />
       <module name="consumer" target="1.8" />
+      <module name="demo-009-feign-factory" target="1.8" />
+      <module name="demo-009-feign-factory-consumer" target="1.8" />
+      <module name="demo-009-feign-factory-provider" target="1.8" />
       <module name="eureka" target="1.8" />
       <module name="eureka-client-consumer" target="1.8" />
       <module name="eureka-client-provider" target="1.8" />

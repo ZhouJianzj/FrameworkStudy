@@ -30,6 +30,9 @@
       <module fileurl="file://$PROJECT_DIR$/010-eureka-server/010-eureka-server.iml" filepath="$PROJECT_DIR$/010-eureka-server/010-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/010-eureka-zuul/010-eureka-zuul.iml" filepath="$PROJECT_DIR$/010-eureka-zuul/010-eureka-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-009-feign-factory/demo-009-feign-factory.iml" filepath="$PROJECT_DIR$/demo-009-feign-factory/demo-009-feign-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-009-feign-factory-consumer/demo-009-feign-factory-consumer.iml" filepath="$PROJECT_DIR$/demo-009-feign-factory-consumer/demo-009-feign-factory-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-009-feign-factory-provider/demo-009-feign-factory-provider.iml" filepath="$PROJECT_DIR$/demo-009-feign-factory-provider/demo-009-feign-factory-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" filepath="$PROJECT_DIR$/eureka-client-consumer/eureka-client-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" filepath="$PROJECT_DIR$/eureka-client-provider/eureka-client-provider.iml" />

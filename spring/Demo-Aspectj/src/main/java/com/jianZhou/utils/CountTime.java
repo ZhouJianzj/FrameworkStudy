@@ -73,7 +73,6 @@ public class CountTime {
     public void testAfter(){
         System.out.println("testAfter执行了");
     }
-
 //    使用pointcut注解
 
     @Before(value = "doDo()")

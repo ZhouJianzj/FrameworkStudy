@@ -9,7 +9,7 @@ import java.util.List;
 public class MyHystrix implements Server {
     @Override
     public String testFeign() {
-        return "熔断器熔断了";
+        return "熔断器熔断了" ;
     }
 
     @Override

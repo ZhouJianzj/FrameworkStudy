@@ -25,6 +25,10 @@
         <option value="$PROJECT_DIR$/demo-springcloud-eureka-egin/pom.xml" />
         <option value="$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/pom.xml" />
         <option value="$PROJECT_DIR$/demo-springcloud-eureka-fegin-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-euerka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka-client-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-euerka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka-client-provider/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
