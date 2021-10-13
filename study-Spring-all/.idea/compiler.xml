@@ -15,6 +15,7 @@
         <module name="demo-15-springcloud-restfourmethod-consumer" />
         <module name="demo-05-springcloud-euerka-server" />
         <module name="demo-euerka-client-consumer" />
+        <module name="demo-springcloud-redis" />
         <module name="demo-11-springcloud-eureka-server-003" />
         <module name="demo-08-springcloud-eureka-clientoneone" />
         <module name="demo-springcloud-eureka-egin" />
@@ -29,12 +30,15 @@
         <module name="demo-09-springcloud-eureka-server-001" />
         <module name="demo-10-springcloud-eureka-server-002" />
         <module name="demo-01" />
+        <module name="day_10_6" />
         <module name="demo-springcloud-hystrix-provider" />
         <module name="demo-springcloud-eureka-fegin-provider" />
         <module name="demo-04-springcloud-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud" target="1.5" />
+      <module name="day_10_6" target="1.5" />
       <module name="demo-01" target="1.8" />
       <module name="demo-02-loginadnregistyer" target="1.8" />
       <module name="demo-03-springcloud-provider" target="1.8" />
@@ -61,6 +65,7 @@
       <module name="demo-springcloud-eureka-fegin-provider" target="1.8" />
       <module name="demo-springcloud-hystrix-consumer" target="1.8" />
       <module name="demo-springcloud-hystrix-provider" target="1.8" />
+      <module name="demo-springcloud-redis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

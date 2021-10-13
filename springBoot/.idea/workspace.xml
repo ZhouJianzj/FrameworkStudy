@@ -2,62 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/Hystrix/MyHystrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_dashboard_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_webjars_d3js_3_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_webjars_jquery_3_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/main/java/com/zj/demosprincloudhystrixbashboard/DemoSprincloudHystrixBashboardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-sprincloud-hystrix-bashboard/src/test/java/com/zj/demosprincloudhystrixbashboard/DemoSprincloudHystrixBashboardApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/DemoSpringcloudHystrixConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/config/RestT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/java/com/zj/demospringcloudhystrixconsumer/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-consumer/src/test/java/com/zj/demospringcloudhystrixconsumer/DemoSpringcloudHystrixConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/java/com/zj/demospringcloudhystrixprovider/DemoSpringcloudHystrixProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/java/com/zj/demospringcloudhystrixprovider/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-hystrix-provider/src/test/java/com/zj/demospringcloudhystrixprovider/DemoSpringcloudHystrixProviderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/src/main/java/com/example/redistest02/RedisTest02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/src/main/java/com/example/redistest02/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test-02/src/test/java/com/example/redistest02/RedisTest02ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_lettuce_lettuce_core_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_buffer_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_codec_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_common_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_handler_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_resolver_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_netty_netty_transport_4_1_55_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_41.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_31.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_session_spring_session_core_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_2_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_aop_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_beans_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_context_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_core_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_expression_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_web_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/main/java/com/zj/demospringcloudredis/DemoSpringcloudRedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/main/java/com/zj/demospringcloudredis/web/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/test/java/com/zj/demospringcloudredis/DemoSpringcloudRedisApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-consumer/src/main/java/com/zj/eurekahystrixconsumer/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-provider/src/main/java/com/zj/eurekahystrixprovider/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/006-eureka-hystrix-provider/src/main/java/com/zj/eurekahystrixprovider/controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/007-hystrix-bashboard-consumer/src/main/java/com/zj/hystrixbashboardconsumer/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/007-hystrix-bashboard-consumer/src/main/java/com/zj/hystrixbashboardconsumer/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/007-springboot-integration-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/src/main/java/com/zj/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test/target/classes/com/zj/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/demo-eureka-client-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/demo-eureka-client-zuul/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +124,8 @@
         <option value="Interface" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -192,7 +242,20 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootNginxServer03ImgApplication">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zj.App" />
+      <module name="redis-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zj.ArrayTest" />
       <module name="annotion" />
@@ -212,19 +275,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zj.springbootdubbossmprovider.services.Test" />
-      <module name="043-springboot-dubbo-ssm-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zj.springbootdubbossmprovider.testServices.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -615,6 +665,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisTest02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-test-02" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.redistest02.RedisTest02Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootNginxServer01Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot-nginx-server01" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zj.springbootnginxserver01.SpringbootNginxServer01Application" />
@@ -644,10 +701,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.application" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.ArrayTest" />
+      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.ApplicationTests.contextLoads" />
       <item itemvalue="Spring Boot.Application (1)" />
       <item itemvalue="Spring Boot.Application (2)" />
@@ -695,15 +752,16 @@
       <item itemvalue="Spring Boot.SpringbootNginxServer01Application" />
       <item itemvalue="Spring Boot.SpringbootNginxServer02Application" />
       <item itemvalue="Spring Boot.SpringbootNginxServer03ImgApplication" />
+      <item itemvalue="Spring Boot.RedisTest02Application" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Application.ArrayTest" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.application" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -834,6 +892,11 @@
       <workItem from="1633574479157" duration="1683000" />
       <workItem from="1633778605933" duration="652000" />
       <workItem from="1633847755351" duration="1361000" />
+      <workItem from="1634083860977" duration="3955000" />
+      <workItem from="1634097307233" duration="888000" />
+      <workItem from="1634115618050" duration="2216000" />
+      <workItem from="1634124352731" duration="2834000" />
+      <workItem from="1634129676962" duration="1247000" />
     </task>
     <task id="LOCAL-00004" summary="1、常用的一些注解的使用的，使得controller下的注解分工更为明确">
       <created>1623140332522</created>
@@ -1226,10 +1289,6 @@
     <state x="249" y="8" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1632896631275" />
     <state x="332" y="10" key="#Project_Structure/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631586452092" />
     <state x="346" y="10" key="#Project_Structure/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626241847990" />
-    <state x="506" y="312" key="#Tomcat_Server" timestamp="1624961526414">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="506" y="312" key="#Tomcat_Server/0.0.1536.864@0.0.1536.864" timestamp="1624961526414" />
     <state x="3049" y="57" width="891" height="565" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631707323396">
       <screen x="2560" y="0" width="1536" height="864" />
     </state>
@@ -1256,10 +1315,6 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="830" y="323" key="#com.intellij.ide.util.PackageChooserDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631596922453" />
-    <state x="452" y="213" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1624961583712">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="452" y="213" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.864@0.0.1536.864" timestamp="1624961583712" />
     <state x="627" y="464" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1631607359461">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -1298,74 +1353,74 @@
     <state x="732" y="163" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631690503110" />
     <state x="3109" y="122" key="FileChooserDialogImpl/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631283850639" />
     <state x="764" y="170" key="FileChooserDialogImpl/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1626066354404" />
-    <state width="1362" height="613" key="GridCell.Tab.0.bottom" timestamp="1633189510416">
+    <state width="1492" height="419" key="GridCell.Tab.0.bottom" timestamp="1634129639455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.bottom/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1362" height="613" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1492" height="419" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1634129639455" />
     <state width="1338" height="429" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.0.center" timestamp="1633189510415">
+    <state width="1492" height="419" key="GridCell.Tab.0.center" timestamp="1634129639455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.center/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1362" height="613" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1633189510415" />
+    <state width="1492" height="419" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1634129639455" />
     <state width="1338" height="429" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="1653" height="708" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.0.left" timestamp="1633189510415">
+    <state width="1492" height="419" key="GridCell.Tab.0.left" timestamp="1634129639455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.left/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1362" height="613" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1633189510415" />
+    <state width="1492" height="419" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1634129639455" />
     <state width="1338" height="429" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545678" />
     <state width="1653" height="708" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.0.right" timestamp="1633189510416">
+    <state width="1492" height="419" key="GridCell.Tab.0.right" timestamp="1634129639455">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1430" height="94" key="GridCell.Tab.0.right/-1920.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1625808426830" />
-    <state width="1362" height="613" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1492" height="419" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1634129639455" />
     <state width="1338" height="429" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1628091026198" />
     <state width="2093" height="657" key="GridCell.Tab.0.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.0.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.0.right/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.1.bottom" timestamp="1633189510416">
+    <state width="1463" height="549" key="GridCell.Tab.1.bottom" timestamp="1634129639453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1362" height="613" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1463" height="549" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1634129639453" />
     <state width="2093" height="657" key="GridCell.Tab.1.bottom/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.bottom/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
     <state width="2093" height="630" key="GridCell.Tab.1.bottom/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.1.center" timestamp="1633189510416">
+    <state width="1463" height="549" key="GridCell.Tab.1.center" timestamp="1634129639453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1362" height="613" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1463" height="549" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1634129639453" />
     <state width="2093" height="657" key="GridCell.Tab.1.center/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.center/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.center/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.1.left" timestamp="1633189510416">
+    <state width="1463" height="549" key="GridCell.Tab.1.left" timestamp="1634129639453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1362" height="613" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1463" height="549" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1634129639453" />
     <state width="2093" height="657" key="GridCell.Tab.1.left/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.left/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308866" />
     <state width="2093" height="630" key="GridCell.Tab.1.left/2560.0.1603.902/0.0.2137.1202@0.0.2137.1202" timestamp="1627679928287" />
-    <state width="1362" height="613" key="GridCell.Tab.1.right" timestamp="1633189510416">
+    <state width="1463" height="549" key="GridCell.Tab.1.right" timestamp="1634129639453">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1362" height="613" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1633189510416" />
+    <state width="1463" height="549" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1634129639453" />
     <state width="2093" height="657" key="GridCell.Tab.1.right/0.0.2137.1202@0.0.2137.1202" timestamp="1626192545679" />
     <state width="1653" height="708" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631885844078" />
     <state width="1224" height="193" key="GridCell.Tab.1.right/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631867308867" />
@@ -1450,10 +1505,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="861" y="471" key="git4idea.ui.GitStashDialog/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1627714064654" />
-    <state x="157" y="21" width="899" height="556" key="new project wizard" timestamp="1633182764270">
+    <state x="157" y="21" width="899" height="556" key="new project wizard" timestamp="1634115941990">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1633182764270" />
+    <state x="157" y="21" width="1198" height="702" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1634115941990" />
     <state x="472" y="111" key="new project wizard/0.0.2048.1152@0.0.2048.1152" timestamp="1631972078397" />
     <state x="472" y="111" key="new project wizard/2560.0.1536.864/0.0.2048.1152@0.0.2048.1152" timestamp="1631845366248" />
     <state x="2914" y="83" width="899" height="556" key="new project wizard/2560.0.1536.864/0.0.2048.1152@2560.0.1536.864" timestamp="1631669244572" />

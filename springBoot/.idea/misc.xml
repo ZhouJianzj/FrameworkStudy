@@ -78,6 +78,7 @@
         <option value="$PROJECT_DIR$/springboot-nginx-server01/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-nginx-server02/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-nginx-server03-img/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-test-02/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

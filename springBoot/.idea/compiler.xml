@@ -7,19 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="redis-test-02" />
         <module name="027-springboot-character-encoding-2" />
-        <module name="010-springboot-mybatis-transcation" />
+        <module name="019-springboot-interceptor" />
         <module name="demo" />
+        <module name="031-springboot-logforjavaback" />
+        <module name="037-springboot-splice" />
         <module name="021-springboot-servletwo" />
         <module name="006-springboot-integration-jsp" />
         <module name="013-dubbo-interface" />
-        <module name="044-springboot-dubbo-ssm-consumer" />
+        <module name="redis-test" />
         <module name="039-springboot-function" />
         <module name="014-dubbo-springboot-provider" />
         <module name="029-springboot-package-jar" />
         <module name="036-springboot-literal" />
         <module name="005-springboot-persondefindedapplication" />
         <module name="042-springboot-redis" />
+        <module name="008-springboot-mybatis-mapperscan" />
         <module name="017-springboot-javaproject" />
         <module name="025-springboot-filtertwo" />
         <module name="030-springboot-package-jar2" />
@@ -30,41 +34,38 @@
         <module name="LoggerFrame" />
         <module name="024-springboot-filterone" />
         <module name="040-springboot-advance" />
-        <module name="043-springboot-dubbo-ssm-provider" />
         <module name="038-springboot-Object" />
-        <module name="springboot-nginx-server03-img" />
         <module name="001-springboot-brench" />
         <module name="002-springboot-sayhello" />
         <module name="015-dubbo-springboot-client" />
         <module name="002-springboot-brench" />
         <module name="018-springboot-offlogo" />
-        <module name="020-springboot-servlet" />
+        <module name="009-springboot-mybatis-resourcemapper" />
         <module name="045-springboot-dubbo-ssm-interface" />
         <module name="016-springboot-javaproject" />
         <module name="028-springboot-package" />
         <module name="034-springboot-each" />
         <module name="012-springboot-restful" />
-        <module name="redis-test" />
+        <module name="010-springboot-mybatis-transcation" />
         <module name="011-springboot-commonannotation" />
-        <module name="019-springboot-interceptor" />
         <module name="032-springboot-thymeleaf-first" />
-        <module name="springboot-nginx-server01" />
-        <module name="007-springboot-integration-mybatis" />
-        <module name="038-springboot-object" />
-        <module name="008-springboot-mybatis-mapperscan" />
+        <module name="CopyFile" />
+        <module name="043-springboot-dubbo-ssm-provider" />
+        <module name="043-0-springboot-linux" />
+        <module name="springboot-nginx-server03-img" />
         <module name="041-springboot-linux" />
-        <module name="033-springboot-expression" />
-        <module name="037-springboot-splice" />
-        <module name="031-springboot-logforjavaback" />
+        <module name="046-springboot-enableconfigproperties" />
+        <module name="007-springboot-integration-mybatis" />
+        <module name="020-springboot-servlet" />
         <module name="003-springboot-yaml-yml" />
         <module name="vue-shop-admin" />
         <module name="035-springboot-inlink" />
-        <module name="009-springboot-mybatis-resourcemapper" />
-        <module name="CopyFile" />
+        <module name="springboot-nginx-server01" />
+        <module name="038-springboot-object" />
         <module name="genecris" />
         <module name="annotion" />
-        <module name="046-springboot-enableconfigproperties" />
-        <module name="043-0-springboot-linux" />
+        <module name="033-springboot-expression" />
+        <module name="044-springboot-dubbo-ssm-consumer" />
         <module name="022-java-dubbo-link-provider" />
       </profile>
     </annotationProcessing>
@@ -127,6 +128,7 @@
       <module name="javaSe" target="8" />
       <module name="LoggerFrame" target="1.8" />
       <module name="redis-test" target="1.8" />
+      <module name="redis-test-02" target="1.8" />
       <module name="springboot-nginx-server01" target="1.8" />
       <module name="springboot-nginx-server02" target="1.8" />
       <module name="springboot-nginx-server03-img" target="1.8" />

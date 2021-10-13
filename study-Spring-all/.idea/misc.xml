@@ -29,6 +29,8 @@
         <option value="$PROJECT_DIR$/demo-eureka-client-zuul/pom.xml" />
         <option value="$PROJECT_DIR$/demo-euerka-client-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/demo-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-springcloud-redis/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

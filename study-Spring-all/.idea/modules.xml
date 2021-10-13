@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/springboot-作业/cloud/cloud.iml" filepath="$USER_HOME$/Desktop/springboot-作业/cloud/cloud.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/springboot-作业/cloud/day_10_6/day_10_6.iml" filepath="$USER_HOME$/Desktop/springboot-作业/cloud/day_10_6/day_10_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-01/demo-01.iml" filepath="$PROJECT_DIR$/demo-01/demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-02-loginadnregistyer/demo-02-loginadnregistyer.iml" filepath="$PROJECT_DIR$/demo-02-loginadnregistyer/demo-02-loginadnregistyer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-03-springcloud-provider/demo-03-springcloud-provider.iml" filepath="$PROJECT_DIR$/demo-03-springcloud-provider/demo-03-springcloud-provider.iml" />
@@ -27,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/demo-springcloud-eureka-fegin-provider.iml" filepath="$PROJECT_DIR$/demo-springcloud-eureka-fegin-provider/demo-springcloud-eureka-fegin-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-springcloud-hystrix-consumer/demo-springcloud-hystrix-consumer.iml" filepath="$PROJECT_DIR$/demo-springcloud-hystrix-consumer/demo-springcloud-hystrix-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo-springcloud-hystrix-provider/demo-springcloud-hystrix-provider.iml" filepath="$PROJECT_DIR$/demo-springcloud-hystrix-provider/demo-springcloud-hystrix-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-springcloud-redis/demo-springcloud-redis.iml" filepath="$PROJECT_DIR$/demo-springcloud-redis/demo-springcloud-redis.iml" />
     </modules>
   </component>
 </project>
