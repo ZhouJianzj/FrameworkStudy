@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="使用redis共享session">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis-test-02/src/main/java/com/example/redistest02/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis-test-02/src/main/java/com/example/redistest02/web/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/main/java/com/zj/demospringcloudredis/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../study-Spring-all/demo-springcloud-redis/src/main/java/com/zj/demospringcloudredis/web/Controller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -795,6 +794,7 @@
       <workItem from="1634124352731" duration="2834000" />
       <workItem from="1634129676962" duration="2588000" />
       <workItem from="1634194214823" duration="671000" />
+      <workItem from="1634214057368" duration="321000" />
     </task>
     <task id="LOCAL-00005" summary="拦截器的使用">
       <created>1623226673439</created>
