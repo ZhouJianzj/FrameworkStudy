@@ -55,6 +55,14 @@
     <file url="file://$PROJECT_DIR$/010-eureka-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-eureka-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/010-eureka-zuul/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-eureka-zuul/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/consumer/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo-009-feign-factory-consumer/src/main/java" charset="UTF-8" />

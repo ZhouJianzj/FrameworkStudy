@@ -37,10 +37,11 @@
         <option value="$PROJECT_DIR$/demo-009-feign-factory/pom.xml" />
         <option value="$PROJECT_DIR$/demo-009-feign-factory-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/demo-009-feign-factory-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/011-eureka-server/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

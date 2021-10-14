@@ -18,6 +18,8 @@ public class Controller {
 //        System.out.println("=================" + redisTemplate.getClass().getName());
 //        redisTemplate.opsForValue().get("name");
 //        System.out.println("=================");
-        return "success";
+        redisTemplate.opsForValue().set("1","+++++");
+
+        return (String) redisTemplate.opsForValue().get("name");
     }
 }
