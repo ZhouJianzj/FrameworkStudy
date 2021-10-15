@@ -12,6 +12,11 @@ public class StudentServiceImpl implements StudentService {
     @Autowired
     private StudentMapper studentMapper;
 
+    /**
+     * 在没有rollbackFor = Exception.class 默认只会出现 runtimerexception才回滚
+     * @param student
+     * @return
+     */
     @Transactional(rollbackFor = Exception.class)
     @Override
     public int updateStu(Student student) {

@@ -7,7 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/Demo01-parent/Demo01-parent.iml" filepath="$PROJECT_DIR$/Demo01-parent/Demo01-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo02-childrenOne/Demo02-childrenOne.iml" filepath="$PROJECT_DIR$/Demo02-childrenOne/Demo02-childrenOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo03-childrenTwo/Demo03-childrenTwo.iml" filepath="$PROJECT_DIR$/Demo03-childrenTwo/Demo03-childrenTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grandfather/grandfather.iml" filepath="$PROJECT_DIR$/grandfather/grandfather.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent1/parent1.iml" filepath="$PROJECT_DIR$/parent1/parent1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../son/son.iml" filepath="$PROJECT_DIR$/../son/son.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sunzi/sunzi.iml" filepath="$PROJECT_DIR$/sunzi/sunzi.iml" />
     </modules>
   </component>
 </project>

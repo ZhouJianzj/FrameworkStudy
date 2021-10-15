@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ChildrenOne" />
-        <module name="childrenone" />
         <module name="ChildrenTwo" />
-        <module name="Demo03-childrenTwo" />
+        <module name="childrenone" />
         <module name="Demo02-childrenOne" />
+        <module name="ChildrenOne" />
+        <module name="sunzi" />
+        <module name="Demo03-childrenTwo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +21,11 @@
       <module name="Demo01-parent" target="1.5" />
       <module name="Demo02-childrenOne" target="1.8" />
       <module name="Demo03-childrenTwo" target="1.8" />
+      <module name="grandfather" target="1.5" />
       <module name="parent" target="1.8" />
+      <module name="parent1" target="1.5" />
+      <module name="son" target="1.5" />
+      <module name="sunzi" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

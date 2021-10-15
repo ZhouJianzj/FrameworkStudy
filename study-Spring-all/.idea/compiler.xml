@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo-03-springcloud-provider" />
         <module name="demo-14-springcloud-restfourmethod-provid" />
         <module name="demo-12-springcloud-eureka-client-to9100" />
         <module name="demo-euerka-server" />
@@ -15,7 +16,6 @@
         <module name="demo-15-springcloud-restfourmethod-consumer" />
         <module name="demo-05-springcloud-euerka-server" />
         <module name="demo-euerka-client-consumer" />
-        <module name="demo-springcloud-redis" />
         <module name="demo-11-springcloud-eureka-server-003" />
         <module name="demo-08-springcloud-eureka-clientoneone" />
         <module name="demo-springcloud-eureka-egin" />
@@ -23,7 +23,7 @@
         <module name="demo-13-springcloud-eureka-client-to9200-consumed9100" />
         <module name="demo-sprincloud-hystrix-bashboard" />
         <module name="demo-springcloud-eureka-fegin-consumer" />
-        <module name="demo-03-springcloud-provider" />
+        <module name="demo-springcloud-redis" />
         <module name="demo-07-springcloud-euerka-clienttwo" />
         <module name="demo-eureka-client-provider" />
         <module name="demo-02-loginadnregistyer" />
@@ -34,6 +34,7 @@
         <module name="demo-springcloud-hystrix-provider" />
         <module name="demo-springcloud-eureka-fegin-provider" />
         <module name="demo-04-springcloud-consumer" />
+        <module name="yunsuanfu" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,6 +67,7 @@
       <module name="demo-springcloud-hystrix-consumer" target="1.8" />
       <module name="demo-springcloud-hystrix-provider" target="1.8" />
       <module name="demo-springcloud-redis" target="1.8" />
+      <module name="yunsuanfu" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

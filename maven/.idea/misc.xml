@@ -8,6 +8,10 @@
       <list>
         <option value="$PROJECT_DIR$/Demo01-parent/pom.xml" />
         <option value="$PROJECT_DIR$/parent/pom.xml" />
+        <option value="$PROJECT_DIR$/grandfather/pom.xml" />
+        <option value="$PROJECT_DIR$/parent1/pom.xml" />
+        <option value="$PROJECT_DIR$/../son/pom.xml" />
+        <option value="$PROJECT_DIR$/sunzi/pom.xml" />
       </list>
     </option>
   </component>
