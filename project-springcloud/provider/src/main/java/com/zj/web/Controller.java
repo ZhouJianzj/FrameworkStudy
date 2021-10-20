@@ -17,6 +17,7 @@ public class Controller {
 
     @RequestMapping("/dept")
     public List<Dept> ctlSelectDept(){
+        System.out.println("0");
         return deptService.serSelectDept();
     }
 }

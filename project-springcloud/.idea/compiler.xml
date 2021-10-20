@@ -7,15 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="consumer" />
-        <module name="provider" />
+        <module name="demo02-serssionshare" />
         <module name="springcloud-api" />
+        <module name="demo01-sessionshare" />
+        <module name="provider" />
+        <module name="provider-2" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-parent" target="1.8" />
       <module name="consumer" target="1.8" />
+      <module name="demo01-sessionshare" target="1.8" />
+      <module name="demo02-serssionshare" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="provider-2" target="1.8" />
       <module name="springcloud-api" target="1.5" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +30,7 @@
       <module name="cloud-parent" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="provider-2" options="-parameters" />
     </option>
   </component>
 </project>
