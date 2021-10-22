@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gatewag" />
         <module name="demo02-serssionshare" />
         <module name="springcloud-api" />
         <module name="demo01-sessionshare" />
@@ -20,6 +21,7 @@
       <module name="consumer" target="1.8" />
       <module name="demo01-sessionshare" target="1.8" />
       <module name="demo02-serssionshare" target="1.8" />
+      <module name="gatewag" target="1.8" />
       <module name="provider" target="1.8" />
       <module name="provider-2" target="1.8" />
       <module name="springcloud-api" target="1.5" />
@@ -29,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-parent" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="gatewag" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="provider-2" options="-parameters" />
     </option>

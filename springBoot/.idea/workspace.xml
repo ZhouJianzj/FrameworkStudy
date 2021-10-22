@@ -2,132 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="使用redis共享session">
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_buffer_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_codec_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_common_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_handler_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_55_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_aop_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_context_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_context_support_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_core_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_expression_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_tx_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/config/PersonRule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/src/main/java/com/zj/demo01sessionshare/Demo01SessionshareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/src/main/java/com/zj/demo01sessionshare/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo01-sessionshare/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/src/main/java/com/zj/demo02serssionshare/Demo02SerssionshareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/provider-2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/dao/DeptDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/dao/DeptDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/service/DeptService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/service/DeptServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/java/com/zj/web/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/Provider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/dao/DeptDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/dao/DeptDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/service/DeptService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/service/DeptServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/com/zj/web/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_alibaba_sentinel_datasource_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_circuitbreaker_sentinel_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_nacos_config_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_cloud_spring_cloud_starter_alibaba_sentinel_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_annotation_aspectj_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_client_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_common_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_cluster_server_default_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_datasource_extension_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_parameter_flow_control_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_reactor_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webflux_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_spring_webmvc_adapter_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_common_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_csp_sentinel_transport_simple_http_1_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_6_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__com_googlecode_concurrentlinkedhashmap_concurrentlinkedhashmap_lru_1_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_github_openfeign_feign_core_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_codec_socks_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_handler_proxy_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_projectreactor_addons_reactor_extra_3_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_0_9_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__io_projectreactor_reactor_core_3_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_2_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_springframework_spring_webflux_5_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_multipart_parser_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/.idea/libraries/Maven__org_synchronoss_cloud_nio_stream_storage_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/src/main/java/com/zj/gatewag/GatewagApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/gatewag/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-springcloud/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-springcloud/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-springcloud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-springcloud/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/config/Rest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/config/Configs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/src/main/java/com/zj/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/src/main/java/com/zj/web/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/cloud-parent/cloud-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/cloud-parent/cloud-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/cloud-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/cloud-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/consumer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/web/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider-2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider-2/provider-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/provider-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider-2/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/target/classes/com/zj/web/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/target/classes/com/zj/web/Controller.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/042-springboot-redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/043-springboot-dubbo-ssm-provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/044-springboot-dubbo-ssm-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/003-cluster-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springcloud/003-cluster-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/003-cluster-eureka-server/src/test/java/com/zj/clustereurekaserver/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/demo02-serssionshare/src/test/java/com/zj/demo02serssionshare/Demo02SerssionshareApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -926,6 +890,7 @@
       <workItem from="1634280421831" duration="1024000" />
       <workItem from="1634305010409" duration="2095000" />
       <workItem from="1634699168724" duration="414000" />
+      <workItem from="1634892325060" duration="600000" />
     </task>
     <task id="LOCAL-00005" summary="拦截器的使用">
       <created>1623226673439</created>
