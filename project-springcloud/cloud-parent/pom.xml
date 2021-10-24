@@ -8,10 +8,11 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.2.5.RELEASE</version>
 </parent>
+
     <groupId>org.example</groupId>
     <artifactId>cloud-parent</artifactId>
     <version>1.0-SNAPSHOT</version>
-<packaging>pom</packaging>
+    <packaging>pom</packaging>
 
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -24,11 +25,13 @@
 </dependencies>
 <dependencyManagement>
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${web-version}</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-dependencies</artifactId>
@@ -37,7 +40,8 @@
             <!--作用是将目标POM中的dependencyManagement配置导入并合并到当前POM的dependencyManagement元素中,通过非继承的方式获取项目的dependencyManagement中所有依赖，从而实现分类管理，使当前项目的dependencyManagement简洁，import用在management中-->
             <scope>import</scope>
         </dependency>
-        <dependency><!--更新-->
+
+        <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-alibaba-dependencies</artifactId>
             <version>2.2.1.RELEASE</version>
