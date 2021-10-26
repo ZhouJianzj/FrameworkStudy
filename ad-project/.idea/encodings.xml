@@ -5,7 +5,8 @@
     <file url="file://$PROJECT_DIR$/../ad-project-management/ad-eurekaserver2/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ad-project-management/ad-eurekaserver3/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../ad-project-management/ad-gateway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ad-project-management/ad-provider/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/../ad-project-management/ad-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ad-project-management/service/ad-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ad-project-management/service/ad-server/src/main/java" charset="UTF-8" />
   </component>
 </project>

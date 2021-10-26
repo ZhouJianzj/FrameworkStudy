@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ad-eureka</artifactId>
+    <artifactId>ad-eurekaserver2</artifactId>
 
     <dependencies>
 <!--        eureka server-->
