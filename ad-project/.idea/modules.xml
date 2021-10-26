@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/service/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/../ad-project-management/service/ad-common/ad-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/server/ad-common/ad-common.iml" filepath="$PROJECT_DIR$/../ad-project-management/server/ad-common/ad-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ad-project-management/ad-eurekaserver1/ad-eurekaserver1.iml" filepath="$PROJECT_DIR$/../ad-project-management/ad-eurekaserver1/ad-eurekaserver1.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ad-project-management/ad-eurekaserver2/ad-eurekaserver2.iml" filepath="$PROJECT_DIR$/../ad-project-management/ad-eurekaserver2/ad-eurekaserver2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ad-project-management/ad-eurekaserver3/ad-eurekaserver3.iml" filepath="$PROJECT_DIR$/../ad-project-management/ad-eurekaserver3/ad-eurekaserver3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ad-project-management/ad-gateway/ad-gateway.iml" filepath="$PROJECT_DIR$/../ad-project-management/ad-gateway/ad-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/../ad-project-management/ad-project-management.iml" filepath="$PROJECT_DIR$/../ad-project-management/ad-project-management.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/service/ad-provider/ad-provider.iml" filepath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/ad-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/service/ad-server/ad-server.iml" filepath="$PROJECT_DIR$/../ad-project-management/service/ad-server/ad-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/service/service.iml" filepath="$PROJECT_DIR$/../ad-project-management/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/server/ad-provider/ad-provider.iml" filepath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/ad-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/server/ad-service/ad-service.iml" filepath="$PROJECT_DIR$/../ad-project-management/server/ad-service/ad-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ad-project-management/server/server.iml" filepath="$PROJECT_DIR$/../ad-project-management/server/server.iml" />
     </modules>
   </component>
 </project>
