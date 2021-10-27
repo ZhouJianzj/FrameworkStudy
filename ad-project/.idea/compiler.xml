@@ -7,13 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ad-service" />
         <module name="ad-gateway" />
         <module name="ad-common" />
         <module name="ad-provider" />
         <module name="ad-eurekaserver3" />
         <module name="ad-eurekaserver2" />
         <module name="ad-eurekaserver1" />
+        <module name="ad-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

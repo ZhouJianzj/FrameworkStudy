@@ -2,56 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7103afb3-87bb-4603-bed9-5d0d7d4fe507" name="Default Changelist" comment="使用redis共享session">
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-service/ad-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-service/src/main/java/com/zj/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project-management/server/server.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__com_alibaba_druid_1_1_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_mybatis_mybatis_3_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ad-project/.idea/libraries/Maven__org_springframework_spring_tx_5_2_4_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/ad-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/ad-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/advice/ResponseCommonAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/advice/ResponseCommonAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/advice/ResponseExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/advice/ResponseExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/annotation/IgnoreResponseAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/annotation/IgnoreResponseAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/cro/ResponseCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/cro/ResponseCommon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/java/com/zj/exception/ResponseException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/java/com/zj/exception/ResponseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/ad-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/ad-provider.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/src/main/java/com/zj/Provider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/src/main/java/com/zj/Provider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/src/main/java/com/zj/web/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/src/main/java/com/zj/web/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/target/classes/com/zj/Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/target/classes/com/zj/Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-provider/target/classes/com/zj/web/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/target/classes/com/zj/web/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/ad-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/src/main/java/com/zj/ServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/src/main/java/com/zj/service/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/src/main/java/com/zj/web/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/target/classes/com/zj/service/Service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/ad-server/target/classes/com/zj/web/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project-management/service/service.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../project-springcloud/consumer/src/main/java/com/zj/util/Advice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ad-project-management/server/ad-common/ad-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-common/ad-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/ad-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project-management/server/ad-provider/ad-provider.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ad-project/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ad-project/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ad-project/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project-springcloud/provider/provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../project-springcloud/provider/provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -853,6 +810,7 @@
       <workItem from="1634699168724" duration="414000" />
       <workItem from="1634892325060" duration="600000" />
       <workItem from="1635263183157" duration="673000" />
+      <workItem from="1635293622221" duration="618000" />
     </task>
     <task id="LOCAL-00005" summary="拦截器的使用">
       <created>1623226673439</created>

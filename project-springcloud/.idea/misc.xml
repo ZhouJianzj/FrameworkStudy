@@ -4,14 +4,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/cloud-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/provider-2/pom.xml" />
-        <option value="$PROJECT_DIR$/demo01-sessionshare/pom.xml" />
-        <option value="$PROJECT_DIR$/demo02-serssionshare/pom.xml" />
         <option value="$PROJECT_DIR$/gatewag/pom.xml" />
+        <option value="$USER_HOME$/Desktop/cloud/pom.xml" />
+        <option value="$USER_HOME$/Desktop/cloud/day_10_6/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$USER_HOME$/Desktop/cloud/consumer-dept/pom.xml" />
+        <option value="$USER_HOME$/Desktop/cloud/provider-dept01/pom.xml" />
+        <option value="$USER_HOME$/Desktop/cloud/provider-dept02/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

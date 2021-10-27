@@ -1,22 +1,32 @@
 package com.zj.web;
-import com.zj.service.Service;
+
+import com.zj.annotation.IgnoreResponseAdvice;
+import com.zj.entities.CommonResponse;
+import com.zj.entities.User;
+
+import com.zj.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import java.util.List;
+import org.springframework.web.bind.annotation.*;
+
+
 
 @RestController
+@RequestMapping("/user")
 public class Controller {
     @Autowired
-    private Service service;
+    private UserService userService;
 
-    @Value(value = "${name}")
-    private String name;
+    @PostMapping("/login")
+    @IgnoreResponseAdvice
+    public CommonResponse<User> SCDoLogin (@RequestBody User user){
+        return  userService.SSDoLogin(user);
 
-    @RequestMapping("test")
-    public List testSelectDept(){
-        System.out.println(name);
-        return service.ctlSelectDept();
     }
+
+    @GetMapping("/noLogin")
+    public String SCDoNoLogin(){
+        return  userService.SSDoNoLogin();
+    }
+
+
 }

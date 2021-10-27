@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/cloud/cloud-api/cloud-api.iml" filepath="$USER_HOME$/Desktop/cloud/cloud-api/cloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo01-sessionshare/demo01-sessionshare.iml" filepath="$PROJECT_DIR$/demo01-sessionshare/demo01-sessionshare.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo02-serssionshare/demo02-serssionshare.iml" filepath="$PROJECT_DIR$/demo02-serssionshare/demo02-serssionshare.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/cloud/day_10_6/day_10_6.iml" filepath="$USER_HOME$/Desktop/cloud/day_10_6/day_10_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatewag/gatewag.iml" filepath="$PROJECT_DIR$/gatewag/gatewag.iml" />
-      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/provider-2/provider-2.iml" filepath="$PROJECT_DIR$/provider-2/provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/other/other.iml" filepath="$PROJECT_DIR$/other/other.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/cloud/spring-cloud.iml" filepath="$USER_HOME$/Desktop/cloud/spring-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user/user.iml" filepath="$PROJECT_DIR$/user/user.iml" />
     </modules>
   </component>
 </project>
