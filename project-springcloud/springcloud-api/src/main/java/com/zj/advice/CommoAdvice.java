@@ -5,14 +5,12 @@ import com.zj.dao.LogDao;
 import com.zj.entities.CommonResponse;
 import com.zj.entities.Log;
 import com.zj.entities.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.http.server.ServletServerHttpRequest;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
@@ -60,11 +58,13 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
         CommonResponse<Object> response = new CommonResponse<Object>(200,"没有登录！");
         //确认模块
         String module = verifyModule(res.getRequestURI());
+        String method = res.getMethod();
         System.out.println("======================================================");
         System.out.println(module);
+        System.out.println(method);
         System.out.println("======================================================");
 
-      // 没有登录就返回直接返回
+      // 没有登录就返回直接返回,不会记录日志
         if (null == session){
             response.setMsg("没有登录！");
             response.setStatus(400);
@@ -85,7 +85,7 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
         User user = (User) session.getAttribute("user");
         String username = user.getUsername();
         //数据库插入
-        logDao.logInsert(new Log(username,res.getRequestURI(),module,new Date()));
+        logDao.logInsert(new Log(username,res.getRequestURI(),module,new Date(),method));
 
         return response;
     }
@@ -99,7 +99,6 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
         //  /user/noLogin
         int end = requestURI.indexOf('/', 1);
         String substring = requestURI.substring(1, end);
-        System.out.println(substring +"======================");
         String module = null;
         switch (substring){
             case "user" : module = "用户模块" ;

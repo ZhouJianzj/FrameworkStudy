@@ -10,9 +10,7 @@
         <module name="user" />
         <module name="gatewag" />
         <module name="springcloud-api" />
-        <module name="cloud-api" />
         <module name="other" />
-        <module name="day_10_6" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

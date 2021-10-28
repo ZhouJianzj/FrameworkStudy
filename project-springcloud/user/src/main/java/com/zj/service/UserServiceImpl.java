@@ -1,11 +1,8 @@
 package com.zj.service;
 
 import com.zj.dao.UserDao;
-import com.zj.entities.CommonResponse;
 import com.zj.entities.User;
-
 import org.springframework.stereotype.Service;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -29,5 +26,20 @@ public class UserServiceImpl implements UserService {
             }
         }
        return dbUser;
+    }
+
+    /**
+     * insert
+     * @return
+     */
+    @Override
+    public boolean PSDoInsert(User user) {
+        return userDao.PDDoInsert(user);
+
+    }
+
+    @Override
+    public boolean PSDoDelete(int id) {
+        return userDao.PDDoDelete(id);
     }
 }

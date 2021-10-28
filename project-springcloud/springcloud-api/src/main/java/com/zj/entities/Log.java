@@ -16,11 +16,13 @@ public class Log {
     private String url;
     private String module;
     private Date starttime;
+    private String oper;
 
-    public Log(String username, String url, String module, Date starttime) {
+    public Log(String username, String url, String module, Date starttime,String oper) {
         this.username = username;
         this.url = url;
         this.module = module;
         this.starttime = starttime;
+        this.oper = oper;
     }
 }

@@ -35,4 +35,15 @@ public class UserController {
     }
 
 
+    @PutMapping("insert")
+    public boolean doInsert(User user){
+        return userService.PSDoInsert(user);
+    }
+
+    @DeleteMapping("delete")
+    public boolean doDelete(int id){
+        return  userService.PSDoDelete( id);
+    }
+
+
 }
