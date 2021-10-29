@@ -4,9 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/cloud-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/gatewag/pom.xml" />
         <option value="$USER_HOME$/Desktop/cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewag/pom.xml" />
+        <option value="$PROJECT_DIR$/other/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

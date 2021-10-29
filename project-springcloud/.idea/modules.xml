@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/springboot-作业/cloud/cloud.iml" filepath="$USER_HOME$/Desktop/springboot-作业/cloud/cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloud-parent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/springboot-作业/cloud/day_10_6/day_10_6.iml" filepath="$USER_HOME$/Desktop/springboot-作业/cloud/day_10_6/day_10_6.iml" />
       <module fileurl="file://$PROJECT_DIR$/gatewag/gatewag.iml" filepath="$PROJECT_DIR$/gatewag/gatewag.iml" />
       <module fileurl="file://$PROJECT_DIR$/other/other.iml" filepath="$PROJECT_DIR$/other/other.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-api/springcloud-api.iml" filepath="$PROJECT_DIR$/springcloud-api/springcloud-api.iml" />

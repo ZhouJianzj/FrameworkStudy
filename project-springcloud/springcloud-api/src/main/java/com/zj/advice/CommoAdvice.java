@@ -42,7 +42,7 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
     }
 
     @Override
-    public Object beforeBodyWrite(Object o,
+    public Object beforeBodyWrite(Object body,
                                   MethodParameter methodParameter,
                                   MediaType mediaType,
                                   Class<? extends HttpMessageConverter<?>> aClass,
@@ -52,42 +52,25 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
 
 
 
+        System.out.println("========================已经进入advice");
         ServletServerHttpRequest request = (ServletServerHttpRequest) serverHttpRequest;
         HttpServletRequest res = request.getServletRequest();
+        //获取登录之后的共享用户对象的名字，（redis session 实现）
         HttpSession session = res.getSession(false);
-        CommonResponse<Object> response = new CommonResponse<Object>(200,"没有登录！");
-        //确认模块
-        String module = verifyModule(res.getRequestURI());
+        String username = "";
+        if (session != null){
+            User user = (User) session.getAttribute("user");
+            username =user.getUsername();
+        }
+        String requestURI = res.getRequestURI();
         String method = res.getMethod();
-        System.out.println("======================================================");
-        System.out.println(module);
-        System.out.println(method);
-        System.out.println("======================================================");
+        String module = verifyModule(requestURI);
 
-      // 没有登录就返回直接返回,不会记录日志
-        if (null == session){
-            response.setMsg("没有登录！");
-            response.setStatus(400);
-            return response;
-        }
-
-        //默认的响应对象
-        if (null == o){
-            //没有就执行响应一个初始的响应
-            response.setMsg("响应为null");
-            return  response;
-        }else  {
-            //如果是一个普通的数据对象，就传入统一响应对象中去
-            response.setMsg("正常响应！");
-            response.setData(o);
-        }
-        //获取用户username
-        User user = (User) session.getAttribute("user");
-        String username = user.getUsername();
-        //数据库插入
-        logDao.logInsert(new Log(username,res.getRequestURI(),module,new Date(),method));
-
-        return response;
+        //日志
+        logDao.logInsert(new Log(username,requestURI,module,new Date(),method));
+        //设置统一响应体
+        CommonResponse<Object> o = new CommonResponse<Object>(200,method,body);
+        return o;
     }
 
     /**

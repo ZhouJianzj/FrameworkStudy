@@ -6,13 +6,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
+import java.util.List;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class User implements Serializable {
     Integer id;
     String username;
     String password;
-    String token;
+    String salt;
+    String phone;
+    List<Role> roles;
+    String toke;
 }
