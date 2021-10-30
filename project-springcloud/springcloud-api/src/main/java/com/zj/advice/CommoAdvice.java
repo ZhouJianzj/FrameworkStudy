@@ -6,7 +6,9 @@ import com.zj.entities.CommonResponse;
 import com.zj.entities.Log;
 import com.zj.entities.User;
 import org.springframework.core.MethodParameter;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
@@ -70,6 +72,9 @@ public class CommoAdvice implements ResponseBodyAdvice<Object> {
         logDao.logInsert(new Log(username,requestURI,module,new Date(),method));
         //设置统一响应体
         CommonResponse<Object> o = new CommonResponse<Object>(200,method,body);
+
+//        ResponseEntity<Object> objectResponseEntity = new ResponseEntity<Object>(body,HttpStatus.ACCEPTED);
+//        return objectResponseEntity;
         return o;
     }
 

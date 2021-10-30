@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/springcloud-api/pom.xml" />
         <option value="$PROJECT_DIR$/user/pom.xml" />
         <option value="$USER_HOME$/Desktop/springboot-作业/cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/../yml/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrixboard/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -19,6 +22,10 @@
         <option value="$USER_HOME$/Desktop/cloud/pom.xml" />
         <option value="$USER_HOME$/Desktop/cloud/provider-dept01/pom.xml" />
         <option value="$USER_HOME$/Desktop/cloud/provider-dept02/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/cloud-api/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/provider-dept01/pom.xml" />
+        <option value="$USER_HOME$/Desktop/springboot-作业/cloud/provider-dept02/pom.xml" />
       </set>
     </option>
   </component>

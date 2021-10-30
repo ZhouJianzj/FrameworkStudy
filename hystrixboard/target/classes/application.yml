@@ -1,0 +1,9 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: yml
+#    熔断器仪表盘需要监视的主机ip
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: localhost
