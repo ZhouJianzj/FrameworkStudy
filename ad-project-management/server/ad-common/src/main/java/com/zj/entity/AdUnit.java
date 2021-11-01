@@ -30,6 +30,9 @@ public class AdUnit {
     @Basic
     @Column(name = "unit_status",nullable = false)
     private Integer unitStatus;
+    /**
+     * 广告展示位置
+     */
     @Basic
     @Column (name = "position_type",nullable = false)
     private Integer positionType;
