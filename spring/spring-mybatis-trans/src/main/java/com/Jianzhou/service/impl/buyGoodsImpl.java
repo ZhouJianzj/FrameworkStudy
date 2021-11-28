@@ -30,25 +30,26 @@ import org.springframework.transaction.annotation.Transactional;
 //)
 public class buyGoodsImpl implements buyGoods {
     @Autowired
-    private SaleDao saleDao ;
+    private SaleDao saleDao;
     @Autowired
     private GoodDao goodDao;
+
     @Override
     public int buy(Integer gId, Integer sNum) {
-        Sale sale = new Sale(gId,sNum);
+        Sale sale = new Sale(gId, sNum);
         saleDao.doInsert(sale);
         int haveNum = goodDao.doSelect(gId);
         //自定义的异常的
-        if (haveNum == 0){
+        if (haveNum == 0) {
             throw new myException("该编号为" + gId + "的商品没有库存了！");
-        }else if (haveNum < sNum){
+        } else if (haveNum < sNum) {
             throw new myException("该编号为" + gId + "的商品库存不足！");
         }
 
-        int i = goodDao.doUpdate(gId,(haveNum - sNum));
+        int i = goodDao.doUpdate(gId, (haveNum - sNum));
         System.out.println(
-                "卖出商品编号 ：" + gId + "   " + "数量：" + sNum + "\n"+
-                "库存：" + goodDao.doSelect(gId)
+                "卖出商品编号 ：" + gId + "   " + "数量：" + sNum + "\n" +
+                        "库存：" + goodDao.doSelect(gId)
         );
         return i;
     }

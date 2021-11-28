@@ -17,7 +17,7 @@
         <property name="dataSource" ref="myDataSource"/>
         <property name="configLocation" value="classpath:mybaties.xml"/>
     </bean>
-<!--给创建好的dao层接口实现类对象放到spring容器中去-->
+    <!--给创建好的dao层接口实现类对象放到spring容器中去-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactoryBean"/>
         <property name="basePackage" value="com.zj.dao"/>

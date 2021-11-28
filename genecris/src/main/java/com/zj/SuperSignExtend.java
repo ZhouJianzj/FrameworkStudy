@@ -16,7 +16,6 @@ public class SuperSignExtend {
 //        cats.addAll(miniCats);
 
 
-
         SuperSignExtend.showDown(cats);
         SuperSignExtend.showDown(animals);
 //      SuperSignExtend.showDown(miniCats);
@@ -26,10 +25,11 @@ public class SuperSignExtend {
 
     /**
      * 使用extends 的方式指定上限，高于上限的则会添加不上去
+     *
      * @param arrayList
      * @param <T>
      */
-    public static <T>void showUp (ArrayList<? extends Cat> arrayList){
+    public static <T> void showUp(ArrayList<? extends Cat> arrayList) {
 //        这里不可以直接的添加指定子类或者上线类
 //        arrayList.add(new Cat());
 //        arrayList.add(new MiniCat());
@@ -40,20 +40,27 @@ public class SuperSignExtend {
 
     /**
      * 指定下限，泛型的实参只能是下限或者是下限的父类
+     *
      * @param arrayList
      * @param <T>
      */
-    public static <T> void showDown(ArrayList<? super Cat> arrayList){
+    public static <T> void showDown(ArrayList<? super Cat> arrayList) {
 //        里面可以添加下限以及下限的子类，但是不可以添加下限的父类
         arrayList.add(new Cat());
         arrayList.add(new MiniCat());
 //        arrayList.add(new Animals());
 
-        for (int i = 0; i < arrayList.size() ; i++) {
+        for (int i = 0; i < arrayList.size(); i++) {
             System.out.println(arrayList.get(i));
         }
     }
 }
-class Animals{}
-class Cat extends Animals{}
-class MiniCat extends Cat{}
+
+class Animals {
+}
+
+class Cat extends Animals {
+}
+
+class MiniCat extends Cat {
+}

@@ -15,16 +15,16 @@ public class Controller {
     private RestTemplate restTemplate;
 
     @RequestMapping("one")
-     @HystrixCommand
-    public String one(){
-        String url  = "http://localhost:8085/one";
-        return  "one----------->" + restTemplate.getForObject(url,String.class);
+    @HystrixCommand
+    public String one() {
+        String url = "http://localhost:8085/one";
+        return "one----------->" + restTemplate.getForObject(url, String.class);
     }
 
     @RequestMapping("two")
     @HystrixCommand
-    public String two(){
-        String url  = "http://localhost:8085/two";
-        return  "two----------->" + restTemplate.getForObject(url,String.class);
+    public String two() {
+        String url = "http://localhost:8085/two";
+        return "two----------->" + restTemplate.getForObject(url, String.class);
     }
 }

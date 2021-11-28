@@ -14,7 +14,8 @@ public class TestTreeSet {
     }
 
 }
-class Parent{
+
+class Parent {
     public String name;
 
     public Parent() {
@@ -24,35 +25,40 @@ class Parent{
         this.name = name;
     }
 }
-class childOne extends Parent{
+
+class childOne extends Parent {
     public Integer age;
 
     public childOne(Integer age) {
         this.age = age;
     }
 }
-class childTwo extends childOne{
+
+class childTwo extends childOne {
     public Integer level;
 
     public childTwo(Integer age) {
         super(age);
     }
 }
-class ComparatorParent implements Comparator<Parent>{
+
+class ComparatorParent implements Comparator<Parent> {
 
     @Override
     public int compare(Parent o1, Parent o2) {
         return o1.name.compareTo(o2.name);
     }
 }
-class ComparatorChildOne implements Comparator<childOne>{
+
+class ComparatorChildOne implements Comparator<childOne> {
 
     @Override
     public int compare(childOne o1, childOne o2) {
         return o1.age - o2.age;
     }
 }
-class ComparetorChildTwo implements  Comparator<childTwo>{
+
+class ComparetorChildTwo implements Comparator<childTwo> {
     @Override
     public int compare(childTwo o1, childTwo o2) {
         return o1.level - o2.level;

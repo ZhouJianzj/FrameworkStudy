@@ -11,8 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-        <div align="center" >
-            <p>${ex}</p>
-        </div>
+<div align="center">
+    <p>${ex}</p>
+</div>
 </body>
 </html>

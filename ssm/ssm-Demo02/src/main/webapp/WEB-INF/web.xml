@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    
-<!--配置中央调度器DispatcherServlet-->
+
+    <!--配置中央调度器DispatcherServlet-->
     <servlet>
         <servlet-name>dispatcherServlet</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -21,7 +21,7 @@
         <url-pattern>*.do</url-pattern>
     </servlet-mapping>
 
-<!--注册监听器创建Spring容器-->
+    <!--注册监听器创建Spring容器-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:config/Spring.xml</param-value>
@@ -29,7 +29,7 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-<!--字符集过滤器-->
+    <!--字符集过滤器-->
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

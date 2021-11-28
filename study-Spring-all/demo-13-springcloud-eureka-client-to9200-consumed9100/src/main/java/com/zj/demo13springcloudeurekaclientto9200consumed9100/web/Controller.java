@@ -12,13 +12,15 @@ import javax.annotation.Resource;
 public class Controller {
     @Resource
     private RestTemplate restTemplate;
+
     @RequestMapping("test")
-    public String test(){
-        ResponseEntity<String> forEntity = restTemplate.getForEntity("http://demo-12-springcloud-eureka-client-to9100/test",String.class);
+    public String test() {
+        ResponseEntity<String> forEntity = restTemplate.getForEntity("http://demo-12-springcloud-eureka-client-to9100/test", String.class);
         return "client on 9500 消费了" + forEntity.getBody();
     }
+
     @RequestMapping("zj")
-    public String zJ(){
+    public String zJ() {
         return "zhoujian";
     }
 }

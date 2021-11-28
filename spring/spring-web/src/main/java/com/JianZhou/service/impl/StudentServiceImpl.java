@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 public class StudentServiceImpl implements StudentService {
     @Autowired
     private StudentDao studentDao;
+
     @Override
     public int doStudentInsert(Student student) {
         return studentDao.insertStudent(student);

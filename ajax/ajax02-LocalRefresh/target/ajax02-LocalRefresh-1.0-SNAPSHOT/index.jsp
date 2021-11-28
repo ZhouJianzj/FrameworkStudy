@@ -22,11 +22,12 @@
         //发送异步请求
         xmlHttpRequest.send()
     }
+
 </script>
 <body>
 <div align="center">
     <h2>BIM</h2>
-   身高（m）:<input type="text" id="h"><br>
+    身高（m）:<input type="text" id="h"><br>
     体重（kg):<input type="text" id="w"><br>
     <button onclick="doajax()">提交</button>
     <p>展示异步请求处理过来的数据</p>

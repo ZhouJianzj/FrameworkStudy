@@ -10,6 +10,6 @@ public class HelloXiaoAiImpl implements Hello {
 
     @Override
     public String sayHello(String name) {
-       return  "你好：" + name;
+        return "你好：" + name;
     }
 }

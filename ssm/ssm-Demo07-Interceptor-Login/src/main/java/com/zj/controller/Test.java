@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class Test {
     @RequestMapping("some.do")
-    public ModelAndView doSome(){
+    public ModelAndView doSome() {
         ModelAndView mv = new ModelAndView();
         mv.setViewName("show");
         return mv;

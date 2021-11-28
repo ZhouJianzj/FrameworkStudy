@@ -11,7 +11,7 @@ public class Controller {
     RestTemplate restTemplate = new RestTemplate();
 
     @RequestMapping("test")
-    public String test(){
+    public String test() {
         return restTemplate.getForObject("http://011-eureka-zuul/test", String.class);
     }
 }

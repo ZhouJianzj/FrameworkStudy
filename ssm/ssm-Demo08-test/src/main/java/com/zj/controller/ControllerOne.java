@@ -17,9 +17,9 @@ public class ControllerOne {
     private StuService stuService;
 
     @RequestMapping(value = "/find")
-    public void find(int id){
+    public void find(int id) {
         List<Stu> list = stuService.serviceFind(id);
-        for (Stu l : list){
+        for (Stu l : list) {
             System.out.println(l.toString());
         }
     }

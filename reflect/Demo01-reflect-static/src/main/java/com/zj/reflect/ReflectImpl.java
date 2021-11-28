@@ -16,7 +16,7 @@ public class ReflectImpl {
 //        获取方法，需要填写的是厂商的方法名字，和参数类型
         Method sayHello = hello.getClass().getMethod("sayHello", String.class);
 //        执行指定的类中的方法，并且传递参数
-        sayHello.invoke(hello,"周健");
+        sayHello.invoke(hello, "周健");
 
     }
 }

@@ -9,6 +9,7 @@ import java.util.List;
 public interface UserDao {
     /**
      * 添加用户
+     *
      * @param user
      * @return
      */
@@ -16,6 +17,7 @@ public interface UserDao {
 
     /**
      * 修改用户
+     *
      * @param user
      * @return
      */
@@ -23,6 +25,7 @@ public interface UserDao {
 
     /**
      * 删除用户
+     *
      * @param uuid
      * @return
      */
@@ -30,6 +33,7 @@ public interface UserDao {
 
     /**
      * 查询单个用户信息
+     *
      * @param uuid
      * @return
      */
@@ -37,6 +41,7 @@ public interface UserDao {
 
     /**
      * 查询全部用户信息
+     *
      * @return
      */
     public List<User> getAll();
@@ -44,6 +49,7 @@ public interface UserDao {
 
     /**
      * 根据用户名密码查询个人信息
+     *
      * @param userName 用户名
      * @param password 密码信息
      * @return

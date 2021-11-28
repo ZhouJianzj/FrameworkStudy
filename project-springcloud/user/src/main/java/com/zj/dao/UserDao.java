@@ -11,7 +11,7 @@ import org.apache.ibatis.annotations.Select;
 @Mapper
 public interface UserDao {
     @Select("select * from t_user where username = #{username} and password = #{password}")
-    User PDDoLogin( User user);
+    User PDDoLogin(User user);
 
     @Insert("insert into t_user(username,password) values(#{username},#{password})")
     boolean PDDoInsert(User user);

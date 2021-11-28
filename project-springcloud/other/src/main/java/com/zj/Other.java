@@ -11,6 +11,6 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableRedisHttpSession
 public class Other {
     public static void main(String[] args) {
-        SpringApplication.run(Other.class,args);
+        SpringApplication.run(Other.class, args);
     }
 }

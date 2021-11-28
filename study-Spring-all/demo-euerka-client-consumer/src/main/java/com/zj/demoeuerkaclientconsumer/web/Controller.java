@@ -11,10 +11,10 @@ import javax.annotation.Resource;
 public class Controller {
 
     @Resource
-    private RestTemplate restTemplate ;
+    private RestTemplate restTemplate;
 
     @RequestMapping("testZuul")
-    public String testZuul (){
-        return  restTemplate.getForObject("http://demo-eureka-client-zuul/consumer/testZuul",String.class);
+    public String testZuul() {
+        return restTemplate.getForObject("http://demo-eureka-client-zuul/consumer/testZuul", String.class);
     }
 }

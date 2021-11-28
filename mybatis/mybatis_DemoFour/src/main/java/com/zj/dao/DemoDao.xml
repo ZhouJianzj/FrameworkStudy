@@ -7,11 +7,11 @@
         select
         bookName,
         bookauth as author,
-        gender  ,
+        gender ,
         bookPrice,
         bookType,
         bookDesc
-        from   book
+        from book
     </select>
 
 </mapper>

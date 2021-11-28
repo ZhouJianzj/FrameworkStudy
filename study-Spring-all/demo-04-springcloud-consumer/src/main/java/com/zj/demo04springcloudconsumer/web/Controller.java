@@ -15,7 +15,7 @@ public class Controller {
     private RestTemplate restTemplate;
 
     @RequestMapping("/test")
-    public String test(){
+    public String test() {
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://localhost:8080/test", String.class);
 
         System.out.println(forEntity.getStatusCode());

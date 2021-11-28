@@ -6,7 +6,7 @@ public interface StudentDao {
     /**
      * 查询学生
      */
-   public abstract List selectMethod();
+    public abstract List selectMethod();
 
 
 }

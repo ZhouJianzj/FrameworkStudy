@@ -12,20 +12,22 @@ import org.springframework.web.servlet.ModelAndView;
 public class GoabelException {
     /**
      * 异常处理器
+     *
      * @param exception NameException
      * @return ModelAndView
      */
     @ExceptionHandler(NameException.class)
-    public ModelAndView handledNameException(Exception exception){
+    public ModelAndView handledNameException(Exception exception) {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("ex",exception);
+        mv.addObject("ex", exception);
         mv.setViewName("excepti on");
         return mv;
     }
+
     @ExceptionHandler(AgeException.class)
-    public ModelAndView handledAgeException(Exception exception){
+    public ModelAndView handledAgeException(Exception exception) {
         ModelAndView mv = new ModelAndView();
-        mv.addObject("ex",exception);
+        mv.addObject("ex", exception);
         mv.setViewName("exception");
         return mv;
     }

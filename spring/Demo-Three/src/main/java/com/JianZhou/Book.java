@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class Book {
     //使用value注解可以不需要写set方法，这样赋值是不需要通过set方法实现的
     @Value(value = "1001")
-    private  int id;
+    private int id;
     @Value(value = "周健")
     private String name;
 

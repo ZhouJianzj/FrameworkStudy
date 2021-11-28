@@ -22,29 +22,28 @@ import java.util.Date;
 public class UserController {
 
     @Autowired
-    private UserService userService ;
+    private UserService userService;
 
     @PostMapping("/login")
-    public User PCDoLogin(@RequestBody User user, HttpServletRequest request){
-        return  userService.PSDoLogin(user,request);
+    public User PCDoLogin(@RequestBody User user, HttpServletRequest request) {
+        return userService.PSDoLogin(user, request);
     }
 
     @GetMapping("/noLogin")
-    public Data PCDoNoLogin(){
-        return new Data("zhoujian","yangzhou");
+    public Data PCDoNoLogin() {
+        return new Data("zhoujian", "yangzhou");
     }
 
 
     @PutMapping("insert")
-    public boolean doInsert(User user){
+    public boolean doInsert(User user) {
         return userService.PSDoInsert(user);
     }
 
     @DeleteMapping("delete")
-    public boolean doDelete(int id){
-        return  userService.PSDoDelete( id);
+    public boolean doDelete(int id) {
+        return userService.PSDoDelete(id);
     }
-
 
 
 }

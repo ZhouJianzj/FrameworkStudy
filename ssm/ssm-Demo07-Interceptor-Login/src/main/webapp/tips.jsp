@@ -11,6 +11,6 @@
     <title>error</title>
 </head>
 <body>
-error  name  is   not   zhoujian
+error name is not zhoujian
 </body>
 </html>

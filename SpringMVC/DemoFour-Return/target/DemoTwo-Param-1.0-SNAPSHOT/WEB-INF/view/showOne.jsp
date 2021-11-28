@@ -12,8 +12,8 @@
 </head>
 <body>
 <p>信息： <br>
-名字：${userName} <br>
-年龄：${userAge}</p>
+    名字：${userName} <br>
+    年龄：${userAge}</p>
 
 </body>
 </html>

@@ -11,8 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class StudentController {
     @Autowired
     private StudentService studentService;
+
     @RequestMapping(value = "findStu")
-    public void findStu(Integer id){
+    public void findStu(Integer id) {
         Student stu = studentService.findStu(id);
         System.out.println(stu.getId() + " " + stu.getName());
 //        实验的时候会出现404错误，是应为没有配置跳转的页面，看控制台就有数据了

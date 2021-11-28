@@ -1,7 +1,7 @@
 package com.itheima.controller.results;
 
 public class Code {
-//    操作结果编码
+    //    操作结果编码
     public static final Integer SAVE_OK = 20011;
     public static final Integer UPDATE_OK = 20021;
     public static final Integer DELETE_OK = 20031;

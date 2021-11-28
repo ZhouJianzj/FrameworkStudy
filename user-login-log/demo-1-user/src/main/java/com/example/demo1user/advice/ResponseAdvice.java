@@ -39,37 +39,40 @@ public class ResponseAdvice implements ResponseBodyAdvice<Object> {
         ServletServerHttpRequest request = (ServletServerHttpRequest) serverHttpRequest;
         HttpServletRequest res = request.getServletRequest();
         //获取登录之后的共享用户对象的名字，（redis session 实现）
-         HttpSession session = res.getSession(false);
+        HttpSession session = res.getSession(false);
         String username = "";
-        if (session != null){
+        if (session != null) {
             User user = (User) session.getAttribute("user");
-            username =user.getUsername();
+            username = user.getUsername();
         }
         String requestURI = res.getRequestURI();
         String method = res.getMethod();
         String module = verifyModule(requestURI);
 
         //日志
-        logDao.logInsert(new Log(username,requestURI,module,new Date(),method));
+        logDao.logInsert(new Log(username, requestURI, module, new Date(), method));
         //设置统一响应体
-        CommonResponse<Object> o = new CommonResponse<Object>(200,method,body);
+        CommonResponse<Object> o = new CommonResponse<Object>(200, method, body);
         return o;
     }
 
     /**
      * 模块确认
+     *
      * @param requestURI
      * @return
      */
-    String verifyModule(String requestURI ){
+    String verifyModule(String requestURI) {
         //  /user/noLogin
         int end = requestURI.indexOf('/', 1);
         String substring = requestURI.substring(1, end);
         String module = null;
-        switch (substring){
-            case "user" : module = "用户模块";
+        switch (substring) {
+            case "user":
+                module = "用户模块";
                 break;
-            case "other" : module = "别的模块";
+            case "other":
+                module = "别的模块";
                 break;
         }
         return module;

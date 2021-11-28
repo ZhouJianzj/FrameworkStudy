@@ -9,7 +9,7 @@ public interface StudentService {
     Student findStu(Integer id);
 
     /**
-     * @return  查询学生的数量
+     * @return 查询学生的数量
      */
     Integer findStuNum();
 }

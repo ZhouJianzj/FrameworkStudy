@@ -3,11 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
-<!--    设置查看日志-->
+    <!--    设置查看日志-->
     <settings>
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
-<!--    default 写的是你要使用的数据库-->
+    <!--    default 写的是你要使用的数据库-->
     <environments default="managerSystem">
 
         <!--数据库的配置,可以配置多个数据库如测试使用的,id是数据库的名字-->
@@ -16,7 +16,7 @@
             <transactionManager type="JDBC"/>
             <!--数据源,Pooled是连接池-->
             <dataSource type="POOLED">
-            <!--数据库的账户信息-->
+                <!--数据库的账户信息-->
                 <property name="driver" value="com.mysql.jdbc.Driver"/>
                 <property name="url" value="jdbc:mysql://127.0.0.1:3306/managersystem"/>
                 <property name="username" value="root"/>

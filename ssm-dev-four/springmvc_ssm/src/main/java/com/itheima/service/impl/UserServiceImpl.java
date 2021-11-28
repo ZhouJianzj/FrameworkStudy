@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 @Service
 public class UserServiceImpl implements UserService {
 
@@ -36,14 +37,14 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public PageInfo<User> getAll(int page,int size) {
-        PageHelper.startPage(page,size);
+    public PageInfo<User> getAll(int page, int size) {
+        PageHelper.startPage(page, size);
         List<User> all = userDao.getAll();
         return new PageInfo<User>(all);
     }
 
     @Override
     public User login(String userName, String password) {
-        return userDao.getByUserNameAndPassword(userName,password);
+        return userDao.getByUserNameAndPassword(userName, password);
     }
 }

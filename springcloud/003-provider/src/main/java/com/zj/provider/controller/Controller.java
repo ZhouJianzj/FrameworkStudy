@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @RequestMapping("test")
-    public String doTest(){
+    public String doTest() {
         return "eureka 集群下的服务提供者";
     }
 }

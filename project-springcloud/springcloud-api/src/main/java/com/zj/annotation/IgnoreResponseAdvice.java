@@ -11,6 +11,7 @@ import java.lang.annotation.Target;
  * Target:可以使用在方法上面和类上
  * Retention:运行时候
  * IgnoreResponseAdvice:忽略使用响应增强的
+ *
  * @author zhoujian
  */
 @Target({ElementType.TYPE, ElementType.METHOD})

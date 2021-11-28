@@ -10,9 +10,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class User {
 
-   private Integer uuid;
-   private String userName;
-   private Integer password;
-   private String realName;
+    private Integer uuid;
+    private String userName;
+    private Integer password;
+    private String realName;
 
 }

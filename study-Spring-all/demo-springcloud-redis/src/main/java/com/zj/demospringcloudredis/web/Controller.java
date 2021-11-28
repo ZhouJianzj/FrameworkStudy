@@ -12,10 +12,10 @@ import javax.annotation.Resource;
 public class Controller {
 
     @Resource
-    private RedisTemplate<Object ,Object> redisTemplate;
+    private RedisTemplate<Object, Object> redisTemplate;
 
     @RequestMapping("testRedis")
-    public String testRedis (){
+    public String testRedis() {
 //        Set keys = redisTemplate.keys("*");
 //        keys.forEach(key -> System.out.println(key));
 

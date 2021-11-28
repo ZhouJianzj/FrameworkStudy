@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    
-<!--    注册 中央调度器也就是springMVC的容器-->
+
+    <!--    注册 中央调度器也就是springMVC的容器-->
     <servlet>
         <servlet-name>mySpringmvcDispatcher</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -19,7 +19,7 @@
         <!--使用/需要配置静态资源处理器-->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
-<!--    注册监听器也就是配置 spring容器-->
+    <!--    注册监听器也就是配置 spring容器-->
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:Spring.xml</param-value>
@@ -27,7 +27,7 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
-<!--    字符集过滤器-->
+    <!--    字符集过滤器-->
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

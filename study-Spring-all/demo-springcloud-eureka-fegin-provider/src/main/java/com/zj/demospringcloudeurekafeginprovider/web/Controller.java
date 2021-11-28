@@ -1,7 +1,6 @@
 package com.zj.demospringcloudeurekafeginprovider.web;
 
 
-
 import com.zj.demospringcloudeurekafeginprovider.model.User;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,39 +15,39 @@ import java.util.Map;
 public class Controller {
 
     @RequestMapping("test1")
-    public String test(){
-        System.out.println(10/0);
+    public String test() {
+        System.out.println(10 / 0);
         return "test1----服务提供者";
     }
 
 
     @RequestMapping("testParams")
-    public String testParams(String name ,Integer id){
-       return  name + "---" + id;
+    public String testParams(String name, Integer id) {
+        return name + "---" + id;
     }
 
     @RequestMapping("testObject")
-    public String testObject(@RequestBody  User user){
-        return  user.getName() + "---" + user.getId();
+    public String testObject(@RequestBody User user) {
+        return user.getName() + "---" + user.getId();
 
     }
 
     @RequestMapping("testMap")
-    public String testMap(@RequestBody Map<String ,String> map){
-        return  map.get("name") + "---" + map.get("id");
+    public String testMap(@RequestBody Map<String, String> map) {
+        return map.get("name") + "---" + map.get("id");
 
     }
 
     @RequestMapping("testReturnObject")
-    public User testReturnObject(){
-        return  new User("zhoujian",1);
+    public User testReturnObject() {
+        return new User("zhoujian", 1);
     }
 
     @RequestMapping("testReturnList")
-    public List<User> testReturnList(){
+    public List<User> testReturnList() {
         ArrayList<User> users = new ArrayList<User>();
-        users.add(new User("zhoujian",2));
-        users.add(new User("zhoujian",1));
-        return  users;
+        users.add(new User("zhoujian", 2));
+        users.add(new User("zhoujian", 1));
+        return users;
     }
 }

@@ -7,6 +7,6 @@ public class Uuid {
         UUID uuid = UUID.randomUUID();
         System.out.println(uuid);
         String str = uuid.randomUUID().toString();
-        System.out.println(str.replaceAll("-",""));
+        System.out.println(str.replaceAll("-", ""));
     }
 }

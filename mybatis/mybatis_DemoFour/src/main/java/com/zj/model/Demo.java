@@ -5,13 +5,13 @@ package com.zj.model;
  */
 public class Demo {
     private int id;
-    private String  bookName;
-//    改变属性名字
+    private String bookName;
+    //    改变属性名字
     private String author;
-    private int     gender  ;
-    private Double  bookPrice;
-    private String  bookType;
-    private String  bookDesc;
+    private int gender;
+    private Double bookPrice;
+    private String bookType;
+    private String bookDesc;
 
     public Demo() {
     }

@@ -12,8 +12,8 @@
 </head>
 <body>
 <p>学生信息： <br>
-名字：${name} <br>
-年龄：${age}</p>
+    名字：${name} <br>
+    年龄：${age}</p>
 
 </body>
 </html>

@@ -18,21 +18,23 @@ import java.util.List;
 public class StudentController {
     @Resource
     private StudentService studentService;
+
     @RequestMapping("studentAdd.do")
-    public ModelAndView doAddStudent(Student student){
+    public ModelAndView doAddStudent(Student student) {
         ModelAndView modelAndView = new ModelAndView();
         int i = studentService.addStudent(student);
-        if (i>=1){
-            modelAndView.addObject("tips","注册成功！" + i);
-        }else {
-            modelAndView.addObject("tips","注册失败！");
+        if (i >= 1) {
+            modelAndView.addObject("tips", "注册成功！" + i);
+        } else {
+            modelAndView.addObject("tips", "注册失败！");
         }
         modelAndView.setViewName("show");
         return modelAndView;
     }
+
     @RequestMapping("studentFind.do")
     @ResponseBody
-    public List<Student> findStudent(){
+    public List<Student> findStudent() {
         return studentService.findStudents();
     }
 }

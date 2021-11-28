@@ -14,8 +14,9 @@ import javax.annotation.Resource;
 public class Controller {
     @Resource
     private RestTemplate restTemplate;
+
     @RequestMapping("test")
-    public String doTest(){
+    public String doTest() {
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://003-provider/test", String.class);
 
         return "eureka 集群下的服务消费者" + "-------------" + forEntity.getBody();

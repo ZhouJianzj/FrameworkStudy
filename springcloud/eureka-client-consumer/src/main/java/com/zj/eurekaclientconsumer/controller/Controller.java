@@ -14,8 +14,9 @@ import javax.annotation.Resource;
 public class Controller {
     @Resource
     private RestTemplate restTemplate;
+
     @RequestMapping("test")
-    public String doTest(){
+    public String doTest() {
 //        当中的url使用的是服务提供者的服务 名称
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://eureka-client-provider/test", String.class);
         String body = forEntity.getBody();

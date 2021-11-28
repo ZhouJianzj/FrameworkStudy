@@ -11,11 +11,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  */
 
 @Configuration
-public class IntecepterConfigureation  implements WebMvcConfigurer {
+public class IntecepterConfigureation implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        String [] addPathPatterns = {"/**"};
-        String [] excludePathPatterns = {
+        String[] addPathPatterns = {"/**"};
+        String[] excludePathPatterns = {
                 "/login"
         };
         registry.addInterceptor(new InterceptorHandler())

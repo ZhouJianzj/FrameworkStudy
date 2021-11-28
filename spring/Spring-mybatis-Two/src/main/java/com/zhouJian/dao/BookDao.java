@@ -6,6 +6,7 @@ import java.util.List;
 
 
 public interface BookDao {
-   List<Book> doSelect();
-   int doInsert(Book book);
+    List<Book> doSelect();
+
+    int doInsert(Book book);
 }

@@ -13,7 +13,9 @@
                 <td>age:</td>
                 <td><input type="text" name="age"></td>
             </tr>
-            <tr><td><input type="submit" value="submit"></td></tr>
+            <tr>
+                <td><input type="submit" value="submit"></td>
+            </tr>
         </table>
     </form>
 </div>

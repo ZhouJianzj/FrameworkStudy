@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 public interface UserService {
     /**
      * 添加用户
+     *
      * @param user
      * @return
      */
@@ -17,6 +18,7 @@ public interface UserService {
 
     /**
      * 修改用户
+     *
      * @param user
      * @return
      */
@@ -25,6 +27,7 @@ public interface UserService {
 
     /**
      * 删除用户
+     *
      * @param uuid
      * @return
      */
@@ -33,6 +36,7 @@ public interface UserService {
 
     /**
      * 查询单个用户信息
+     *
      * @param uuid
      * @return
      */
@@ -40,15 +44,17 @@ public interface UserService {
 
     /**
      * 查询全部用户信息
+     *
      * @return
      */
     public PageInfo<User> getAll(int page, int size);
 
     /**
      * 根据用户名密码进行登录
+     *
      * @param userName
      * @param password
      * @return
      */
-    public User login(String userName,String password);
+    public User login(String userName, String password);
 }

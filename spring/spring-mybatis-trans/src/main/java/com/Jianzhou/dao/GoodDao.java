@@ -17,5 +17,5 @@ public interface GoodDao {
      * 更新
      */
     @Update("update goods set num = #{saleNum} where id = #{gId}")
-    int doUpdate(@Param("gId") Integer gId ,@Param("saleNum")Integer saleNum);
+    int doUpdate(@Param("gId") Integer gId, @Param("saleNum") Integer saleNum);
 }

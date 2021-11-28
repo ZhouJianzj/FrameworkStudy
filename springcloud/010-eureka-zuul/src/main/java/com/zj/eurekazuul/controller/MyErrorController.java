@@ -19,7 +19,7 @@ public class MyErrorController implements ErrorController {
 
     @RequestMapping("/error")
     @ResponseBody
-    public String error(){
+    public String error() {
         ZuulException throwable = (ZuulException) RequestContext.getCurrentContext().getThrowable();
         return throwable.nStatusCode + throwable.getMessage() + "================";
     }

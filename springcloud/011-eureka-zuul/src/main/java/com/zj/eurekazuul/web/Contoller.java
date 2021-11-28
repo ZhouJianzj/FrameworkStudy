@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Contoller {
 
     @RequestMapping("gate")
-    public String gateway(){
+    public String gateway() {
         return "网关的控制器";
     }
 }

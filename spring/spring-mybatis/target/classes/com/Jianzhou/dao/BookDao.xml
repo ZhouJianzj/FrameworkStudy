@@ -10,7 +10,7 @@
     </select>
 
 
-    <insert id="insertBook" >
+    <insert id="insertBook">
         insert into book values(#{id},#{name})
     </insert>
 </mapper>

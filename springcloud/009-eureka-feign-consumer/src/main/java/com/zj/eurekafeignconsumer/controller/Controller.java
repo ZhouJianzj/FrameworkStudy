@@ -17,11 +17,10 @@ public class Controller {
     private Server server;
 
     /**
-     *
-     * @return  演示声明式服务调用
+     * @return 演示声明式服务调用
      */
     @RequestMapping("/doTest")
-    public String doTest(){
+    public String doTest() {
 
         String s = server.testFeign();
         return "使用feign的服务消费者8081--------" + s;
@@ -29,40 +28,44 @@ public class Controller {
 
     /**
      * 演示的是简单类型的参数传递
+     *
      * @return
      */
     @RequestMapping("/doTestParam")
-    public String doTestParam(){
+    public String doTestParam() {
         String param = server.testFeignParam("zhoujian");
-        return "使用feign的服务消费者8081--------"  + param ;
+        return "使用feign的服务消费者8081--------" + param;
     }
 
     /**
      * 演示的是对象类型的参数传递
+     *
      * @return
      */
     @RequestMapping("/doTestParamObject")
-    public String doTestParamObject(){
+    public String doTestParamObject() {
         String zhoujian = server.testFeignParamObject(new User("zhoujian", 22));
-        return  zhoujian;
+        return zhoujian;
     }
 
     /**
      * 演示的是对象类型的返回值
+     *
      * @return
      */
     @RequestMapping("/doTestReturnObject")
-    public String doTestReturnObject(){
+    public String doTestReturnObject() {
         User user = server.testReturnUser();
         return user.getName();
     }
 
     /**
      * 演示的是list类型的返回值
+     *
      * @return
      */
     @RequestMapping("/doTestReturnList")
-    public String doTestReturnList(){
+    public String doTestReturnList() {
         List<User> users = server.testReturnList();
         return users.toString();
     }

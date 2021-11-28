@@ -9,7 +9,7 @@ import java.util.stream.Stream;
  */
 public class ArrayStream {
     public static void main(String[] args) {
-        Integer[] integers = {1,23,3,1,2,1,1,4,5,6};
+        Integer[] integers = {1, 23, 3, 1, 2, 1, 1, 4, 5, 6};
 
 //        forEach里面的lambda表达式可以使用System.out::println来代替
         //可以使用Arrays.stream方法来将数组转换成流的形式
@@ -20,6 +20,6 @@ public class ArrayStream {
 //        使用Stream.of()方法将数组转换成流
         Stream.of(integers)
                 .distinct()
-                .forEach(System.out:: println);
+                .forEach(System.out::println);
     }
 }

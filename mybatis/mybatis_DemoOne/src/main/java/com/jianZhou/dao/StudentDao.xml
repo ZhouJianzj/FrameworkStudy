@@ -3,15 +3,15 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-    <!--sql的mapper  也就是映射-->
-    <!--书写dao层文件中的具体类全定限位置-->
+<!--sql的mapper  也就是映射-->
+<!--书写dao层文件中的具体类全定限位置-->
 <mapper namespace="com.jianZhou.dao.StudentDao">
     <!--    id为接口中的方法名    结果类型resultType写查询返回集合中对象的类型的全定限位置-->
     <select id="selectMethod" resultType="com.jianZhou.entity.Student">
         select * from student order by id;
     </select>
     <!--    上面的标签根据里面的查询语句不同使用不同的标签-->
-    <insert id="insertMethod" >
-        insert  into students value (#{id},#{name},#{address})
+    <insert id="insertMethod">
+        insert into students value (#{id},#{name},#{address})
     </insert>
 </mapper>

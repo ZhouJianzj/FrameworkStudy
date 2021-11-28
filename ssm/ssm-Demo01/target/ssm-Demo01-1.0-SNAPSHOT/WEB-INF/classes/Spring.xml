@@ -3,12 +3,12 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
-<!--容器中有services dao 工具类-->
+    <!--容器中有services dao 工具类-->
 
-<!--第一步配置好Mybatis三个对象，连接池、sqlSessionFactory、getMapping-->
+    <!--第一步配置好Mybatis三个对象，连接池、sqlSessionFactory、getMapping-->
     <!--配置连接池-->
     <bean id="druid" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
-            destroy-method="close">
+          destroy-method="close">
         <!--也可以使用配置文件的形式去配置数据库的相关信息
                 <context:property-placeholder location="classpath:jdbc.properties"/>
          -->
@@ -28,6 +28,6 @@
         <property name="basePackage" value="com.dao"/>
     </bean>
 
-<!--配置注解扫描器-->
+    <!--配置注解扫描器-->
     <context:component-scan base-package="com.services"/>
 </beans>

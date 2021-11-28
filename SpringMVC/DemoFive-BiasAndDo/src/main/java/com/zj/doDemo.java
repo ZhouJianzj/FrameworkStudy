@@ -25,12 +25,11 @@ import java.util.List;
 @Controller
 @RequestMapping(value = "/test")
 public class doDemo {
-/**
- 当使用的是 /的时候就不需要使用.do了
- *
- */
+    /**
+     * 当使用的是 /的时候就不需要使用.do了
+     */
     @RequestMapping(value = "some.do")
-    public ModelAndView someDo(String name,Integer age) {
+    public ModelAndView someDo(String name, Integer age) {
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("name", name);
         modelAndView.addObject("age", age);

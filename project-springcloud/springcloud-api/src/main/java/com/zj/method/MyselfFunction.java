@@ -12,15 +12,16 @@ public class MyselfFunction {
 
     /**
      * 接口作为参数，调用接口的方法但是接口的方法没有重写，具体的从写在函数式代码块中
+     *
      * @param myInterface
      * @return
      */
-    public static String execute(MyInterface<String> myInterface){
+    public static String execute(MyInterface<String> myInterface) {
         String str = "zhoujian";
         return myInterface.execute(str);
     }
 }
 
-interface MyInterface<T>{
+interface MyInterface<T> {
     public T execute(T t);
 }

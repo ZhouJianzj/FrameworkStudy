@@ -14,14 +14,15 @@ import javax.servlet.http.HttpSession;
 public class Controller {
     /**
      * 登录之后才能访问，session共享实现一个用户的数据一致
+     *
      * @return
      */
     @GetMapping("/test")
-    public User test(HttpServletRequest request){
+    public User test(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
         User user = null;
-        if (null != session){
-             user = (User) session.getAttribute("user");
+        if (null != session) {
+            user = (User) session.getAttribute("user");
         }
         return user;
     }

@@ -8,25 +8,25 @@
         http://www.springframework.org/schema/context
         https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-<!--   组件扫描-->
+    <!--   组件扫描-->
     <context:component-scan base-package="com.zj"/>
-<!--   视图解析器，为了安全把文件放到WEB-INF/view下面，为了简化“WEB-INF/view/XXXX.jsp”代码的重复编写-->
+    <!--   视图解析器，为了安全把文件放到WEB-INF/view下面，为了简化“WEB-INF/view/XXXX.jsp”代码的重复编写-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <!--前缀        -->
+        <!--前缀        -->
         <property name="prefix" value="/WEB-INF/view/"/>
-    <!--后缀    -->
+        <!--后缀    -->
         <property name="suffix" value=".jsp"/>
     </bean>
 
-<!--   加入数据转换注解驱动也就是ObjectMapping对象的writeStringAsJson()，可以将java对象转换成json、text、xml等，
-        主意的是HttpMessageConverter接口的众多的实现类 -->
+    <!--   加入数据转换注解驱动也就是ObjectMapping对象的writeStringAsJson()，可以将java对象转换成json、text、xml等，
+            主意的是HttpMessageConverter接口的众多的实现类 -->
     <mvc:annotation-driven/>
-<!--    当使用的是“/”来处理servlet-mapping 的 url 时候需要使用到静态文件的时候中央调度其没有对应的控制器对象来处理
-        所以内部会使用请求转发机制来派遣给tomcat默认的default-servlet静态的资源请求处理处理
-        方法一和方法二只能存在一个-->
+    <!--    当使用的是“/”来处理servlet-mapping 的 url 时候需要使用到静态文件的时候中央调度其没有对应的控制器对象来处理
+            所以内部会使用请求转发机制来派遣给tomcat默认的default-servlet静态的资源请求处理处理
+            方法一和方法二只能存在一个-->
 
     <!--第一种办法-->
-<!--    <mvc:default-servlet-handler/>-->
+    <!--    <mvc:default-servlet-handler/>-->
 
     <!--第二种办法 ，SpringMVC3.0以上版本才可以的
         mapping 表示的是访问静  地址  **表示的是表示Html目录的所以资源

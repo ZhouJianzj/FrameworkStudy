@@ -7,8 +7,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Date;
 
-public class  MyInterceptor  implements HandlerInterceptor {
-    private  long start;
+public class MyInterceptor implements HandlerInterceptor {
+    private long start;
+
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         System.out.println("请求之前执行，请求被拦截了，controller对象就不会执行！\n作用：实现拦截");
@@ -19,10 +20,10 @@ public class  MyInterceptor  implements HandlerInterceptor {
 
     @Override
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {
-       System.out.println("controller对象执行完成执行！\n作用：就是可以修改ModelAndView中的参数，决定最终的参数");
+        System.out.println("controller对象执行完成执行！\n作用：就是可以修改ModelAndView中的参数，决定最终的参数");
 //       演示:数据增强
         assert modelAndView != null;
-        modelAndView.addObject("date",new Date());
+        modelAndView.addObject("date", new Date());
     }
 
     @Override

@@ -3,7 +3,7 @@ package com.jianZhou.dao;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-public class MyProxy  implements InvocationHandler {
+public class MyProxy implements InvocationHandler {
     Object object;
 
     public MyProxy() {
@@ -15,7 +15,7 @@ public class MyProxy  implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        if (object != null){
+        if (object != null) {
             doOne();
             Object invoke = method.invoke(object, args);
             doTwo();
@@ -23,10 +23,12 @@ public class MyProxy  implements InvocationHandler {
         }
         return null;
     }
-    public void doOne(){
+
+    public void doOne() {
         System.out.println("----------------------");
     }
-    public void doTwo(){
+
+    public void doTwo() {
         System.out.println("+++++++++++++++++++++++");
     }
 }

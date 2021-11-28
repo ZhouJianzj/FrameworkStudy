@@ -1,7 +1,6 @@
 package com.zj.entity;
 
 
-
 import java.io.Serializable;
 
 /**

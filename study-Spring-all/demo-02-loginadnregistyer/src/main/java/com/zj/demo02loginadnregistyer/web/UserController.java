@@ -15,21 +15,21 @@ public class UserController {
     private UserServer userServer;
 
     /**
-     *
      * @param user
      * @return
      */
     @RequestMapping("/login")
-    public User cLogin(User user){
+    public User cLogin(User user) {
         return userServer.sLogin(user);
     }
+
     @RequestMapping("/register")
-    public Boolean cRegister(User user){
+    public Boolean cRegister(User user) {
         return userServer.sRegist(user);
     }
 
     @RequestMapping("/s")
-    public List<User> selectAll(){
+    public List<User> selectAll() {
         return userServer.select();
     }
 }

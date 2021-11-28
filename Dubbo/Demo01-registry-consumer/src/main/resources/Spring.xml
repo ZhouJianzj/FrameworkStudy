@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
-    <dubbo:application name="consumer" />
-<!--    注册中心-->
+    <dubbo:application name="consumer"/>
+    <!--    注册中心-->
     <dubbo:registry address="zookeeper://localhost:2181"/>
-<!--    与之前相比没有  url-->
-    <dubbo:reference id="studentService" interface="com.zj.service.StudentService" />
+    <!--    与之前相比没有  url-->
+    <dubbo:reference id="studentService" interface="com.zj.service.StudentService"/>
 </beans>

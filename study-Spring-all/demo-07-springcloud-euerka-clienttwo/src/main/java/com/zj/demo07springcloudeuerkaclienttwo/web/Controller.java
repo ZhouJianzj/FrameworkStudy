@@ -14,14 +14,14 @@ public class Controller {
     private RestTemplate restTemplate;
 
     @RequestMapping("test")
-    public String testAction(){
+    public String testAction() {
         ResponseEntity<String> forEntity = restTemplate.
                 getForEntity("http://springcloud-eureka-clientone/test", String.class);
         return "eureka client two request------->" + forEntity.getBody();
     }
 
     @RequestMapping("zj")
-    public String doTestAction(){
-        return  "zhoujian";
+    public String doTestAction() {
+        return "zhoujian";
     }
 }

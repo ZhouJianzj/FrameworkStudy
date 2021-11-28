@@ -8,17 +8,16 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
 /**
  * Hello world!
- *
  */
-public class App 
-{
-    public static void main( String[] args ) throws IOException {
+public class App {
+    public static void main(String[] args) throws IOException {
         InputStream mybatisConfig = Resources.getResourceAsStream("MybatisConfig.xml");
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(mybatisConfig);
         SqlSession sqlSession = sqlSessionFactory.openSession();
@@ -26,7 +25,7 @@ public class App
 //        书写分页代码
         Page<Object> objects = PageHelper.startPage(1, 2);
         List<Demo> list = mapper.selectBook();
-        for (Demo demo:list){
+        for (Demo demo : list) {
             System.out.println(demo);
         }
         sqlSession.close();

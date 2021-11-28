@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 
 
 //@RestControllerAdvice
-public class Advice  implements ResponseBodyAdvice {
+public class Advice implements ResponseBodyAdvice {
     @Override
     public boolean supports(MethodParameter methodParameter, Class aClass) {
         return true;
@@ -29,7 +29,6 @@ public class Advice  implements ResponseBodyAdvice {
         ServletServerHttpRequest request = (ServletServerHttpRequest) serverHttpRequest;
         HttpServletRequest servletRequest = request.getServletRequest();
         HttpMethod method = request.getMethod();
-
 
 
         return o;

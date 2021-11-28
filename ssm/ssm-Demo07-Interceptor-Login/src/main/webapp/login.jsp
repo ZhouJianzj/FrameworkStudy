@@ -11,8 +11,8 @@
     <title>登录</title>
 </head>
 <body>
-    <%
-        session.setAttribute("name","zhoujian");
-    %>
+<%
+    session.setAttribute("name", "zhoujian");
+%>
 </body>
 </html>

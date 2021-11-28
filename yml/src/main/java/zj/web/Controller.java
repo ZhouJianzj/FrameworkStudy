@@ -10,28 +10,25 @@ public class Controller {
 
 
     @GetMapping("/")
-    public String test(){
+    public String test() {
         return "test";
     }
 
 
     @GetMapping("testSentinel")
-    public String testSentinel(){
+    public String testSentinel() {
         return "sentinel测试成功！";
     }
 
     @GetMapping("testHystrix")
     @HystrixCommand(fallbackMethod = "fallbackMethod")
-    public String testHystrix(){
-        System.out.println(10/0);
+    public String testHystrix() {
+        System.out.println(10 / 0);
         return "hystrix测试成功！";
     }
 
 
-
-
-
-    public String fallbackMethod(){
+    public String fallbackMethod() {
         return "服务熔断了";
     }
 }

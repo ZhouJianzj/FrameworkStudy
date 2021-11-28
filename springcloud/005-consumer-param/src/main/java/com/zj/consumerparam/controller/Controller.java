@@ -20,64 +20,68 @@ public class Controller {
      * 这里需要注意的是当服务的提供者返回的list集合的泛型无论是什么样的类型，
      * spring都不会去转换，服务的消费者都不会获取到预先指定好的泛型,
      * 反而是LinkedHashMap类型的对象
+     *
      * @return
      */
-    @RequestMapping(value ="doList")
-    public List doList(){
+    @RequestMapping(value = "doList")
+    public List doList() {
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<List> forEntity = restTemplate.getForEntity("http://localhost:8081/doList", List.class);
         List body = forEntity.getBody();
-        for (Object user:body) {
+        for (Object user : body) {
             System.out.println(user.getClass() + "=======");
         }
         return body;
     }
+
     /**
      * 使用数组的形式传递参数
+     *
      * @return
      */
     @RequestMapping("doArray")
-    public User doArray(){
+    public User doArray() {
         RestTemplate restTemplate = new RestTemplate();
 //        url中使用占位符的形式，里面的数字就是数组中的元素下标
         String url = "http://localhost:8081/doArray?id={0}&name={1}&age={2}";
-        Object[] param = {001,"zhoujian",22};
+        Object[] param = {001, "zhoujian", 22};
 
-        ResponseEntity<User> forEntity = restTemplate.getForEntity(url, User.class,param);
+        ResponseEntity<User> forEntity = restTemplate.getForEntity(url, User.class, param);
         return forEntity.getBody();
 
     }
 
     /**
      * 使用map的方式传递参数
+     *
      * @return
      */
     @RequestMapping("doMap")
-    public  String doMap(){
+    public String doMap() {
         RestTemplate restTemplate = new RestTemplate();
 
         HashMap hashMap = new HashMap();
-        hashMap.put("id","001");
-        hashMap.put("name","zhoujian");
-        hashMap.put("age","22");
+        hashMap.put("id", "001");
+        hashMap.put("name", "zhoujian");
+        hashMap.put("age", "22");
         String url = "http://localhost:8081/doList?id={id}&name={name}&age={age}";
 
-        ResponseEntity<String> forEntity = restTemplate.getForEntity(url,String.class,hashMap);
-        return  forEntity.getBody();
+        ResponseEntity<String> forEntity = restTemplate.getForEntity(url, String.class, hashMap);
+        return forEntity.getBody();
     }
 
     /**
-     *
      * 是因为我们使用的是getForEntity()
+     *
      * @return
      */
     @RequestMapping("doReturnUser")
-    public String doReturnUser(){
+    public String doReturnUser() {
         RestTemplate restTemplate = new RestTemplate();
         String url = "http://localhost:8081/doReturn?id={0}&name={1}&age={2}";
-        Object[] param = {001,"zhoujian",22};
+        Object[] param = {001, "zhoujian", 22};
 
-        ResponseEntity<User> forEntity = restTemplate.getForEntity(url, User.class,param);
+        ResponseEntity<User> forEntity = restTemplate.getForEntity(url, User.class, param);
         User body = forEntity.getBody();
         System.out.println(body.getName());
         return body.toString();
@@ -86,13 +90,14 @@ public class Controller {
 
     /**
      * 演示的是使用getForObject()方法返回的直接是返回的服务提供者返回的对象而不是 ResponseEntity
+     *
      * @return
      */
     @RequestMapping("doReturnGetForObject")
-    public String doReturnGetForObject(){
+    public String doReturnGetForObject() {
         RestTemplate restTemplate = new RestTemplate();
         String url = "http://localhost:8081/doReturnGetForObject?id={0}&name={1}&age={2}";
-        Object[] param = {001,"zhoujian",22};
+        Object[] param = {001, "zhoujian", 22};
 
         User forObject = restTemplate.getForObject(url, User.class, param);
         return forObject.toString();
@@ -100,49 +105,52 @@ public class Controller {
 
     /**
      * 演示使用post发送请求 postForEntity,里面的参数是有讲究的，是有返回值的
+     *
      * @return
      */
     @RequestMapping("doPostForEntity")
-    public String doPostForEntity(){
+    public String doPostForEntity() {
         RestTemplate restTemplate = new RestTemplate();
-        LinkedMultiValueMap lM= new LinkedMultiValueMap();
-        lM.add("id","001");
-        lM.add("name","zhoujian");
-        lM.add("age","22");
-        ResponseEntity<User> objectResponseEntity = restTemplate.postForEntity("http://localhost:8081/doPostForEntity",lM,User.class);
+        LinkedMultiValueMap lM = new LinkedMultiValueMap();
+        lM.add("id", "001");
+        lM.add("name", "zhoujian");
+        lM.add("age", "22");
+        ResponseEntity<User> objectResponseEntity = restTemplate.postForEntity("http://localhost:8081/doPostForEntity", lM, User.class);
         return objectResponseEntity.getBody().toString();
     }
 
     /**
      * 演示put方法 ，使用的是post发送的请求没有返回值，非必要不使用这个方法
+     *
      * @return
      */
     @RequestMapping("doPut")
-    public String doPut(){
+    public String doPut() {
         RestTemplate restTemplate = new RestTemplate();
 //        put请求和服务提供者之间传递的参数只能是这样
-        LinkedMultiValueMap lM= new LinkedMultiValueMap();
-        lM.add("id","001");
-        lM.add("name","zhoujian");
-        lM.add("age","22");
+        LinkedMultiValueMap lM = new LinkedMultiValueMap();
+        lM.add("id", "001");
+        lM.add("name", "zhoujian");
+        lM.add("age", "22");
 //        参数的传递
-        restTemplate.put("http://localhost:8081/doPut",lM);
+        restTemplate.put("http://localhost:8081/doPut", lM);
         return "put方法以post方式发送请求没有返回值非必要不使用";
     }
 
     /**
      * 演示使用delete发送请求，是以get方式发送的也是没有返回值的，非必要的不使用
+     *
      * @return
      */
     @RequestMapping("doDelete")
-    public String doDelete(){
+    public String doDelete() {
         RestTemplate restTemplate = new RestTemplate();
-        Map lM= new HashMap();
-        lM.put("id","001");
-        lM.put("name","zhoujian");
-        lM.put("age","22");
-        restTemplate.delete("http://localhost:8081/doDelete?id={id}&name={name}&age={age}",lM);
-        return  "delete方式以get方式发送请求没有返回值非必要不使用";
+        Map lM = new HashMap();
+        lM.put("id", "001");
+        lM.put("name", "zhoujian");
+        lM.put("age", "22");
+        restTemplate.delete("http://localhost:8081/doDelete?id={id}&name={name}&age={age}", lM);
+        return "delete方式以get方式发送请求没有返回值非必要不使用";
     }
 
 

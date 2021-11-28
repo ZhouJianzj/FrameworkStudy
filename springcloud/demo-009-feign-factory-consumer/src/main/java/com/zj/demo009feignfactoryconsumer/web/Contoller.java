@@ -13,8 +13,8 @@ public class Contoller {
     private Service service;
 
     @RequestMapping("test")
-    public String test(){
-        return "consumer---"+  service.serviceTest();
+    public String test() {
+        return "consumer---" + service.serviceTest();
     }
 }
 

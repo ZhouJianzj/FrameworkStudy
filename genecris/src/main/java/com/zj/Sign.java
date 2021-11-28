@@ -11,7 +11,8 @@ public class Sign<T> {
         this.t = t;
     }
 }
-class TestSign{
+
+class TestSign {
     public static void main(String[] args) {
         Sign<String> stringSign = new Sign<>();
         stringSign.setT("zhoujian");
@@ -26,10 +27,11 @@ class TestSign{
 
     /**
      * 通配符，代表的是实参例如 String  Integer 什么的
+     *
      * @param sign
      * @return
      */
-    public static  Object show(Sign<?> sign){
+    public static Object show(Sign<?> sign) {
         Object t = sign.getT();
         return t;
     }

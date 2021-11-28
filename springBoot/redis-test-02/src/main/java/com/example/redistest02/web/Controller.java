@@ -10,15 +10,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @Autowired
-    private RedisTemplate<Object,Object> redisTemplate;
+    private RedisTemplate<Object, Object> redisTemplate;
 
     @RequestMapping("test")
-    public String testRedis(){
+    public String testRedis() {
 //        redisTemplate.opsForValue().set("name","zhoujian");
 //        System.out.println("=================" + redisTemplate.getClass().getName());
 //        redisTemplate.opsForValue().get("name");
 //        System.out.println("=================");
-        redisTemplate.opsForValue().set("1","+++++");
+        redisTemplate.opsForValue().set("1", "+++++");
 
         return (String) redisTemplate.opsForValue().get("name");
     }

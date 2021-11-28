@@ -7,7 +7,7 @@ import org.apache.ibatis.session.SqlSession;
 
 import java.util.List;
 
-public class StudentDaoImple  implements StudentDao {
+public class StudentDaoImple implements StudentDao {
     @Override
     public List<Student> selectMethod() {
         //自己的工具类获取sqlSession对象

@@ -11,8 +11,9 @@ import javax.annotation.Resource;
 public class Controller {
     @Resource
     private RestTemplate restTemplate;
+
     @RequestMapping("test")
-    public String test(){
+    public String test() {
         ResponseEntity<String> forEntity = restTemplate.getForEntity("http://004-loadbalance-provider/test", String.class);
 
         return forEntity.getBody();

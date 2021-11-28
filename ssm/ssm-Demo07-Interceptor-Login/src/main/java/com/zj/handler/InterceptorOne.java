@@ -11,9 +11,9 @@ public class InterceptorOne implements HandlerInterceptor {
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         String name = "";
 //        获取session中的name
-        name = (String)request.getSession().getAttribute("name");
-        if (!("zhoujian".equals(name))){
-            request.getRequestDispatcher("/tips.jsp").forward(request,response);
+        name = (String) request.getSession().getAttribute("name");
+        if (!("zhoujian".equals(name))) {
+            request.getRequestDispatcher("/tips.jsp").forward(request, response);
             return false;
         }
         return true;

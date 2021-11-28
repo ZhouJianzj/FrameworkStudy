@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<br><br><br><br><br><br><br><br>
+<table  align="center" border="1px">
+    <tr>
+        <td>id</td>
+        <td>本地文件名称</td>
+        <td>文件所在组</td>
+        <td>文件远程名称</td>
+        <td>文件大小</td>
+        <td>文件类型</td>
+        <td colspan="3">文件操作</td>
+    </tr>
+    <tr th:each="file:${files}">
+        <td th:text="${file.id}"></td>
+        <td th:text="${file.fileLocalName}">1</td>
+        <td th:text="${file.fileGroup}">1</td>
+        <td th:text="${file.fileRemoteName}">1</td>
+        <td th:text="${file.fileSize}">1</td>
+        <td th:text="${file.fileType}">1</td>
+        <td>
+            <span th:if="${file.fileRemoteName == null || file.fileRemoteName == ''}">
+                <a th:href="@{|/upload/${file.id}|}">上传</a>
+            </span>
+        </td>
+        <td>
+            <span th:if="${file.fileRemoteName != null || file.fileRemoteName != ''}">
+                <a th:href="@{|/download|}">删除</a>
+            </span>
+        </td>
+        <td>
+            <span th:if="${file.fileRemoteName != null || file.fileRemoteName != ''}">
+                <a th:href="@{|/delete|}">删除</a>
+            </span>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

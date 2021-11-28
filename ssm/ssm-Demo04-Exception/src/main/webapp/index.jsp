@@ -12,7 +12,9 @@
             <td>age:</td>
             <td><input type="text" name="age" id="age"></td>
         </tr>
-        <tr><td><input type="submit" value="submit"></td></tr>
+        <tr>
+            <td><input type="submit" value="submit"></td>
+        </tr>
     </table>
 </form>
 <input type="button" id="button1" value="ajax"/>
@@ -35,6 +37,7 @@
             })
         })
     })
+
 </script>
 </body>
 </html>

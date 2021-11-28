@@ -22,4 +22,10 @@ public class StuController {
         System.out.println(id);
         return studentService.selectStu(id);
     }
+
+    @RequestMapping("addList")
+    public void insertUserList() {
+        studentService.insertService();
+    }
+
 }

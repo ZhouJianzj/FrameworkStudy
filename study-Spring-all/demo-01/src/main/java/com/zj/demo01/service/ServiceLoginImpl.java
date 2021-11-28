@@ -12,12 +12,12 @@ public class ServiceLoginImpl implements ServiceLogin {
 
     @Override
     public boolean checkLogin(String psd, String name) {
-        String select = daoLogin.select(psd,name);
+        String select = daoLogin.select(psd, name);
         System.out.println("==================================" + select);
 
-        if ("1".equals(select)){
+        if ("1".equals(select)) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }

@@ -15,39 +15,39 @@ public class Controller {
     private Server server;
 
     @RequestMapping("test1")
-    public String testController(){
+    public String testController() {
         return "test----消费者-----" + server.testServer();
     }
 
     @RequestMapping("testParams")
-    public String testParams(String name,Integer id){
+    public String testParams(String name, Integer id) {
         return "消费者------" + server.testParams(name, id);
     }
 
     @RequestMapping("testObject")
-    public String testObject(){
-        User user = new User("zhoujian",001);
-        return "消费者-----"+ server.testObject(user);
+    public String testObject() {
+        User user = new User("zhoujian", 001);
+        return "消费者-----" + server.testObject(user);
     }
 
     @RequestMapping("testMap")
-    public String testMap(){
+    public String testMap() {
         Map<String, String> stringStringHashMap = new HashMap<String, String>();
-        stringStringHashMap.put("name","zhoujian");
-        stringStringHashMap.put("id","001");
-        return "消费者-----"+ server.testMap(stringStringHashMap);
+        stringStringHashMap.put("name", "zhoujian");
+        stringStringHashMap.put("id", "001");
+        return "消费者-----" + server.testMap(stringStringHashMap);
     }
 
 
     @RequestMapping("testReturnObject")
-    public User testReturnObject(){
+    public User testReturnObject() {
         return server.testReturnObject();
     }
 
     @RequestMapping("testReturnList")
-    public List testReturnList(){
+    public List testReturnList() {
         List<User> list = server.testReturnList();
-        for (User user:list){
+        for (User user : list) {
             System.out.println(user.toString());
         }
 

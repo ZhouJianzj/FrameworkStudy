@@ -15,7 +15,7 @@ public class ParentTwo<T> {
 /**
  * 当子类不是一个泛型类的时候，父类的泛型必须指定
  */
-class ChildTwo extends ParentOne<String>{
+class ChildTwo extends ParentOne<String> {
     @Override
     public String getT() {
         return super.getT();

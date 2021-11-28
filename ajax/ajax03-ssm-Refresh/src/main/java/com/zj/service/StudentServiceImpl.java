@@ -16,17 +16,18 @@ import java.util.List;
 public class StudentServiceImpl implements StudentService {
     @Resource
     private StudentDao studentDao;
+
     @Override
     public Student findStudent(int id) {
         Student student = null;
         List<Student> students = studentDao.selectStudent(id);
         Iterator<Student> iterator = students.iterator();
-        if(students.isEmpty()){
+        if (students.isEmpty()) {
             student = new Student();
             student.setName("无数据");
             student.setAge(0);
-        }else {
-            while(iterator.hasNext()){
+        } else {
+            while (iterator.hasNext()) {
                 student = iterator.next();
             }
         }

@@ -2,9 +2,8 @@ package entity;
 
 public class Student {
     private int id;
-    private String name ;
+    private String name;
     private School school;
-
 
 
     public Student() {
@@ -40,7 +39,6 @@ public class Student {
     public void setSchool(School school) {
         this.school = school;
     }
-
 
 
     @Override

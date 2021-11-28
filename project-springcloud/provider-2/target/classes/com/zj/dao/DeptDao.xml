@@ -3,7 +3,7 @@
 <mapper namespace="com.zj.dao.DeptDao">
 
     <select id="daoSelectDept" resultType="com.zj.entities.Dept">
-        select  * from dept ;
+        select * from dept ;
     </select>
 
 </mapper>

@@ -7,6 +7,8 @@ import java.util.List;
 
 public interface UserServer {
     User sLogin(User user);
+
     Boolean sRegist(User user);
+
     List<User> select();
 }

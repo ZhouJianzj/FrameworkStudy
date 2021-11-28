@@ -13,9 +13,10 @@ import javax.annotation.Resource;
 public class StudentContro {
     @Resource
     private StudentService stuSer;
+
     @RequestMapping(value = "findStu")
-    public void findStu(){
+    public void findStu() {
         Student stu = stuSer.findStu(1001, "周健");
-        System.out.println(stu.getId() +  " " + stu.getName());
+        System.out.println(stu.getId() + " " + stu.getName());
     }
 }

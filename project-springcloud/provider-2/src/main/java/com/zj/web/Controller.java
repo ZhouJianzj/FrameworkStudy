@@ -1,4 +1,5 @@
 package com.zj.web;
+
 import com.zj.entities.User;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @PostMapping("/login")
-    public User PCDoLogin(@RequestBody User user){
+    public User PCDoLogin(@RequestBody User user) {
         return user;
     }
 

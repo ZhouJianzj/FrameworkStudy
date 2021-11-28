@@ -21,17 +21,17 @@ public class BusinessException extends RuntimeException {
         this.code = code;
     }
 
-    public BusinessException(String message, Throwable cause,Integer code) {
+    public BusinessException(String message, Throwable cause, Integer code) {
         super(message, cause);
         this.code = code;
     }
 
-    public BusinessException(Throwable cause,Integer code) {
+    public BusinessException(Throwable cause, Integer code) {
         super(cause);
         this.code = code;
     }
 
-    public BusinessException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace,Integer code) {
+    public BusinessException(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace, Integer code) {
         super(message, cause, enableSuppression, writableStackTrace);
         this.code = code;
     }

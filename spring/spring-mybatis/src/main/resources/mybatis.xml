@@ -7,10 +7,10 @@
     <settings>
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
-<!--    &lt;!&ndash;    为这个包下的所有的类取别名&ndash;&gt;-->
-<!--    <typeAliases>-->
-<!--        <package name="com.Jianzhou.entites"/>-->
-<!--    </typeAliases>-->
+    <!--    &lt;!&ndash;    为这个包下的所有的类取别名&ndash;&gt;-->
+    <!--    <typeAliases>-->
+    <!--        <package name="com.Jianzhou.entites"/>-->
+    <!--    </typeAliases>-->
     <mappers>
         <!--        也可以是package name  这个包下的所有xml文件都可以找到-->
         <package name="com.Jianzhou.dao"/>

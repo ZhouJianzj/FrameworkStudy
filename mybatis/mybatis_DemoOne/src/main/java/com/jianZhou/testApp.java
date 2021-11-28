@@ -32,7 +32,7 @@ public class testApp {
             //工厂打开会话讨论生产什么
             SqlSession sqlSession = factory.openSession();
             //需要的材料，也就是之前写好的xml文件，需要以namespace形式加点加id
-            String sqlId = "com.jianZhou.dao.StudentDao" +"." + "selectMethod";
+            String sqlId = "com.jianZhou.dao.StudentDao" + "." + "selectMethod";
             //材料有了就开始生产了,得出结果
             List<Student> students = sqlSession.selectList(sqlId);
             //循环遍历

@@ -11,14 +11,14 @@ import javax.annotation.Resource;
 public class Controller {
 
     @RequestMapping("one")
-    public String one(){
+    public String one() {
 
-        return  "one--provider" ;
+        return "one--provider";
     }
 
     @RequestMapping("two")
-    public String two(){
-        System.out.println(10/0);
-        return  "two--provider" ;
+    public String two() {
+        System.out.println(10 / 0);
+        return "two--provider";
     }
 }

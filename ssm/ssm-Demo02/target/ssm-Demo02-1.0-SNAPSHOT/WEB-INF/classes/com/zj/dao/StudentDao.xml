@@ -5,11 +5,11 @@
 <mapper namespace="com.zj.dao.StudentDao">
 
     <select id="selectStudents" resultType="Student">
-       select id,name,age from student order by id desc
+        select id,name,age from student order by id desc
     </select>
 
 
-     <insert id="insertStudent" parameterType="Student" >
-         insert into student(name,age) values(#{name},#{age})
-     </insert>
+    <insert id="insertStudent" parameterType="Student">
+        insert into student(name,age) values(#{name},#{age})
+    </insert>
 </mapper>

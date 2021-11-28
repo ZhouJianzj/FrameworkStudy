@@ -1,6 +1,6 @@
 package com.zj.exception;
 
-public class AgeException extends MyException{
+public class AgeException extends MyException {
 
     public AgeException() {
         super();

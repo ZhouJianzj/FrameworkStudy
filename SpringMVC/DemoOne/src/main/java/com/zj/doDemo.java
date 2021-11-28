@@ -7,10 +7,10 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class doDemo {
     @RequestMapping(value = "some.do")
-    public ModelAndView doSome(){
+    public ModelAndView doSome() {
         System.out.println("==============================");
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("doLoading","Loading........!");
+        modelAndView.addObject("doLoading", "Loading........!");
 //        当配置视图解析器的话就可以直接使用文件的名字来,如下：
         modelAndView.setViewName("showTwo");
 

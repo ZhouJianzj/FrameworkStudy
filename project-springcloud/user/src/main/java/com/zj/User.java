@@ -12,7 +12,7 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableRedisHttpSession
 public class User {
     public static void main(String[] args) {
-        SpringApplication.run(User.class,args);
+        SpringApplication.run(User.class, args);
     }
 
 }

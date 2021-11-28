@@ -13,7 +13,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <mvc:interceptors>
-<!--        第一个拦截器-->
+        <!--        第一个拦截器-->
         <mvc:interceptor>
             <mvc:mapping path="/**"/>
             <bean class="com.zj.handler.InterceptorOne"/>

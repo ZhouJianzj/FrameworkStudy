@@ -27,7 +27,6 @@
     </servlet-mapping>
 
 
-
     <welcome-file-list>
         <welcome-file>doDemo.jsp</welcome-file>
     </welcome-file-list>

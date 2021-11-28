@@ -24,7 +24,9 @@
             <td>年龄：</td>
             <td><input type="text" name="age"></td>
         </tr>
-        <tr><td><input type="submit" value="提交"></td></tr>
+        <tr>
+            <td><input type="submit" value="提交"></td>
+        </tr>
     </table>
 </form>
 </body>

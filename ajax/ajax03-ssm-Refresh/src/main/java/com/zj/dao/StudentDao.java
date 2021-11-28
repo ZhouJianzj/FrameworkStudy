@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Select;
 import java.util.List;
 
 public interface StudentDao {
-    @Select("select name,age from student where id = #{id}" )
+    @Select("select name,age from student where id = #{id}")
     @ResultType(Student.class)
     public List<Student> selectStudent(Integer id);
 }

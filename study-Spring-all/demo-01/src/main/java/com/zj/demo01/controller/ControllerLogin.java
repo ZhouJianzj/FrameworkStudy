@@ -15,28 +15,33 @@ import javax.annotation.Resource;
 public class ControllerLogin {
     @Resource
     private ServiceLoginImpl serviceLogin;
+
     /**
      * 展示页面
+     *
      * @return
      */
     @RequestMapping(value = "/show")
-    public String show(){
+    public String show() {
         return "login.html";
-    };
+    }
+
+    ;
 
     /**
      * 获取传递来的数据
+     *
      * @param username
      * @param password
      * @return
      */
     @RequestMapping("/login")
-    public String doLogin(String username,String password){
+    public String doLogin(String username, String password) {
         System.out.println(username + "===>" + password);
         boolean b = serviceLogin.checkLogin(password, username);
-        if (b){
+        if (b) {
             return "redirect:/success.html";
-        }else {
+        } else {
             return "redirect:/error.html";
         }
     }

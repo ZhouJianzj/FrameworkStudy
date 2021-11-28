@@ -6,16 +6,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-<context:component-scan base-package="com.zj"/>
+    <context:component-scan base-package="com.zj"/>
 
-<!--   视图解析器，为了安全把文件放到WEB-INF/view下面，为了简化“WEB-INF/view/XXXX.jsp”代码的重复编写-->
+    <!--   视图解析器，为了安全把文件放到WEB-INF/view下面，为了简化“WEB-INF/view/XXXX.jsp”代码的重复编写-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-    <!--前缀        -->
+        <!--前缀        -->
         <property name="prefix" value="/WEB-INF/view/"/>
-    <!--后缀    -->
+        <!--后缀    -->
         <property name="suffix" value=".jsp"/>
     </bean>
-<!--   使用中央调度器的静态资源文件处理器-->
-<mvc:default-servlet-handler/>
+    <!--   使用中央调度器的静态资源文件处理器-->
+    <mvc:default-servlet-handler/>
     <mvc:annotation-driven/>
 </beans>

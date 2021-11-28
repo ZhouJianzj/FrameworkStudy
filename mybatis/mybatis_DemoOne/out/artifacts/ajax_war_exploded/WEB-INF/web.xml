@@ -11,7 +11,7 @@
         <servlet-name>BMIServlet</servlet-name>
         <url-pattern>/bmi</url-pattern>
     </servlet-mapping>
-<!--    局部刷新-->
+    <!--    局部刷新-->
     <servlet>
         <servlet-name>JuBuShuaXinServlet</servlet-name>
         <servlet-class>controller.JuBuShuaXinServlet</servlet-class>

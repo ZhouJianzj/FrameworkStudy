@@ -20,7 +20,7 @@ public class TestOne {
      * spring 的复习
      */
     @Test
-    public void TestBookNew(){
+    public void TestBookNew() {
         String config = "Spring.xml";
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         Object book = ac.getBean("book");
@@ -29,6 +29,7 @@ public class TestOne {
 
     /**
      * mybatis的复习
+     *
      * @throws IOException
      */
     @Test
@@ -44,6 +45,7 @@ public class TestOne {
         books.forEach(book -> System.out.println(book));
 
     }
+
     @Test
     public void testdoInsert() throws IOException {
         String config = "mybatis.xml";

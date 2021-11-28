@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class Stu {
-    private  int id;
+    private int id;
     private String name;
     private int age;
 

@@ -16,6 +16,7 @@ import java.io.PrintWriter;
 public class StudentController {
     @Resource
     private StudentService studentService;
+
     @RequestMapping("findStudent")
     @ResponseBody
     public Student doAjax(HttpServletResponse response, HttpServletRequest request) throws IOException {

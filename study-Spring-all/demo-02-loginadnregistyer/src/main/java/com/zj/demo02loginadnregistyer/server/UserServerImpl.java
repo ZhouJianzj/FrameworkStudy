@@ -23,11 +23,10 @@ public class UserServerImpl implements UserServer {
     @Override
     public Boolean sRegist(User user) {
 //        Integer类型的数据没有传值的时候为null，String类型没有传值的时候为 “”
-        if (user.getUserName() == "" || user.getPassword() == null || user.getRealName() == ""  )
-        {
+        if (user.getUserName() == "" || user.getPassword() == null || user.getRealName() == "") {
             return false;
-        }else {
-           return userDao.dRegister(user);
+        } else {
+            return userDao.dRegister(user);
         }
     }
 

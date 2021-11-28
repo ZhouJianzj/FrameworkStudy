@@ -11,20 +11,20 @@
     <title>全局刷新</title>
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
 <center>
     <form action="/myWeb/bmi" method="get">
-        <table >
+        <table>
             <%
                 String bmi = (String) request.getAttribute("Bmi");
-                if (bmi != null){
+                if (bmi != null) {
             %>
             <tr>
                 <td>
-                   健康状态：<%=bmi%>
+                    健康状态：<%=bmi%>
                 </td>
             </tr>
             <%

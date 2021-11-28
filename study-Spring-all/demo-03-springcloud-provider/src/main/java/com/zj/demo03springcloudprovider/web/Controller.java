@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 public class Controller {
 
     @RequestMapping("/test")
-    public String test(){
+    public String test() {
 
         return "springcloud的服务提供者";
     }

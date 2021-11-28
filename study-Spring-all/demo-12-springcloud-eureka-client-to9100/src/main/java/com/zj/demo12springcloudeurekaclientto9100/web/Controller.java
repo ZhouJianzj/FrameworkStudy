@@ -12,7 +12,7 @@ import javax.annotation.Resource;
 public class Controller {
 
     @RequestMapping("test")
-    public String test(){
-       return "client on 9400";
+    public String test() {
+        return "client on 9400";
     }
 }

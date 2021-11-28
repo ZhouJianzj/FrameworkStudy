@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @RequestMapping("test")
-    public String test(){
+    public String test() {
 //        制造错误实现服务出现问题，出发服务消费者的熔断器工作
-        System.out.println(10/0);
+        System.out.println(10 / 0);
         return "服务的提供者";
     }
 
@@ -24,8 +24,8 @@ public class Controller {
 
 
     @RequestMapping("test02")
-    public String test02(){
-        System.out.println(10/0);
+    public String test02() {
+        System.out.println(10 / 0);
         return "服务的提供者";
     }
 }

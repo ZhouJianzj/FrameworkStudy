@@ -54,7 +54,7 @@
     <build>
         <finalName>demo</finalName>
         <plugins>
-                                                                                                                                                                                                            <!--版本原因，需要添加的是这个插件-->
+            <!--版本原因，需要添加的是这个插件-->
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.0.0</version>

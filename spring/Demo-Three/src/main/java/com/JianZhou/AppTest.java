@@ -24,12 +24,12 @@ public class AppTest {
     }
 
 }
+
 /**
- *
- 现在 需要对接口实现类添加方法，在不修改代码的前提下
+ * 现在 需要对接口实现类添加方法，在不修改代码的前提下
  */
-class Test implements InvocationHandler{
-    private Object target ;
+class Test implements InvocationHandler {
+    private Object target;
 
     public Test() {
     }
@@ -43,10 +43,10 @@ class Test implements InvocationHandler{
         Object invoke = null;
         //之前对象方法前所需要的添加的方法
         System.out.println("doOther方法之前执行的方法");
-        if ("doSome".equals(method.getName())){
+        if ("doSome".equals(method.getName())) {
             invoke = method.invoke(target, args);
             System.out.println("====================");
-        }else {
+        } else {
             invoke = method.invoke(target, args);
         }
         //之前对象方法之后所需要添加的方法

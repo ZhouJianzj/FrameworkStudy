@@ -10,7 +10,7 @@
         select * from user
     </select>
 
-    <insert id="dRegister" parameterType="user"  >
+    <insert id="dRegister" parameterType="user">
         insert into user(userName,password,realName) values (#{userName},#{password},#{realName});
     </insert>
 

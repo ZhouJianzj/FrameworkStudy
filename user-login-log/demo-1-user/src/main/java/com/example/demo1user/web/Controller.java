@@ -22,12 +22,12 @@ public class Controller {
     private Server server;
 
     @RequestMapping("test")
-    public Data test(){
-        return new Data("zhoujian","yangzhou");
+    public Data test() {
+        return new Data("zhoujian", "yangzhou");
     }
 
     @PostMapping("login")
-    public User userLogin(@RequestBody User user, HttpServletRequest request){
-        return server.userLoginServer(user,request);
+    public User userLogin(@RequestBody User user, HttpServletRequest request) {
+        return server.userLoginServer(user, request);
     }
 }

@@ -39,7 +39,7 @@ public class insertStudentService extends HttpServlet {
 //            wac = (WebApplicationContext)attribute;
 //        }
         //方法三：推荐使用 框架提供的方法
-        ServletContext sc= getServletContext();
+        ServletContext sc = getServletContext();
         wac = WebApplicationContextUtils.getRequiredWebApplicationContext(sc);
         StudentService studentService = (StudentService) wac.getBean("studentService");
         int i = studentService.doStudentInsert(new Student(Integer.parseInt(id), name, Integer.parseInt(age)));

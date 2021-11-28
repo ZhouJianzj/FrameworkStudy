@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @RequestMapping("test")
-    public String test(){
+    public String test() {
         return "eureka client one";
     }
 }

@@ -12,7 +12,7 @@ public class ClassStu {
     private int id;
     @Value("软件班")
     private String name;
-   @Resource(name = "stu")
+    @Resource(name = "stu")
     private Student student;
 
     @Override

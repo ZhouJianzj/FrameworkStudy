@@ -12,7 +12,7 @@ public class Configs {
 
     @Bean
     @LoadBalanced
-    public RestTemplate newRestTemplate(){
+    public RestTemplate newRestTemplate() {
         return new RestTemplate();
     }
 

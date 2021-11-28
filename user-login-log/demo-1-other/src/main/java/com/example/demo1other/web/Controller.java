@@ -15,9 +15,9 @@ import javax.servlet.http.HttpSession;
 public class Controller {
 
     @RequestMapping("test")
-    public String test(HttpServletRequest request){
+    public String test(HttpServletRequest request) {
         HttpSession session = request.getSession(false);
-        if (null != session){
+        if (null != session) {
             System.out.println(session.getAttribute("user") + "===================获取user");
         }
         return "测试gateway成功！";

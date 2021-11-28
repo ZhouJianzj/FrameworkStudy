@@ -4,15 +4,15 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 
 <configuration>
-<!--    配置mybatis的日志-->
+    <!--    配置mybatis的日志-->
     <settings>
         <setting name="logImpl" value="STDOUT_LOGGING"/>
     </settings>
-<!--    分页插件-->
+    <!--    分页插件-->
     <plugins>
         <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
     </plugins>
-<!--    环境配置-->
+    <!--    环境配置-->
     <environments default="databaseOne_managerSystem">
         <environment id="databaseOne_managerSystem">
             <transactionManager type="JDBC"/>
@@ -24,9 +24,9 @@
             </dataSource>
         </environment>
     </environments>
-<!--    指定映射器需要寻找的xml文件-->
+    <!--    指定映射器需要寻找的xml文件-->
     <mappers>
         <package name="com.zj.dao"/>
     </mappers>
-    
+
 </configuration>

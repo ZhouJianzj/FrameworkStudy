@@ -9,6 +9,7 @@ public class ProxyName implements InvocationHandler {
     public ProxyName(Object o) {
         this.o = o;
     }
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object invoke = method.invoke(o, args);

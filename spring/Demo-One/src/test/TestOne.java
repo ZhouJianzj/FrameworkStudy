@@ -6,13 +6,14 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class TestOne {
     @Test
-public void test01(){
+    public void test01() {
         //  一原先的方法去创建对象，实现了接口的方法
         someService someService = new someServiceImple();
         someService.doMethod();
     }
+
     @Test
-    public void test02(){
+    public void test02() {
         //  使用spring框架创建对象
         //spring获取配置文件
         String config = "ConfigSpring.xml";

@@ -10,7 +10,7 @@
     <build>
 
         <resources>
-<!--            编译指定的文件-->
+            <!--            编译指定的文件-->
             <resource>
                 <directory>src/main/java</directory>
                 <includes>
@@ -19,8 +19,6 @@
                 </includes>
             </resource>
         </resources>
-
-
 
 
         <plugins>
@@ -46,7 +44,6 @@
             <version>3.5.1</version>
         </dependency>
     </dependencies>
-
 
 
 </project>

@@ -14,6 +14,6 @@ import org.springframework.session.data.redis.config.annotation.web.http.EnableR
 @EnableRedisHttpSession
 public class Consumer {
     public static void main(String[] args) {
-        SpringApplication.run(Consumer.class,args);
+        SpringApplication.run(Consumer.class, args);
     }
 }

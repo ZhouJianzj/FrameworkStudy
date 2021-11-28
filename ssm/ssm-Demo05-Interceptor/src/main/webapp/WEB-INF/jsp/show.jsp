@@ -11,10 +11,10 @@
     <title>Title</title>
 </head>
 <body>
-    <div align="center">
-        姓名：${name}<br>
-        年龄：${age}<br>
-        时间:${date}
-    </div>
+<div align="center">
+    姓名：${name}<br>
+    年龄：${age}<br>
+    时间:${date}
+</div>
 </body>
 </html>

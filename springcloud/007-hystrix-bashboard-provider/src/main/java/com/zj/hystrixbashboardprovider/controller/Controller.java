@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @RequestMapping("doTest")
-    public String doTest(){
+    public String doTest() {
         return "服务的提供者";
     }
 }

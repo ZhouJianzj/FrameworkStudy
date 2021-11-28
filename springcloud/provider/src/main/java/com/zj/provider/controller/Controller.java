@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @RequestMapping("test")
-    public String doTest(){
+    public String doTest() {
         return "第一个spring cloud 服务提供者";
     }
 }

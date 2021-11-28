@@ -5,11 +5,12 @@ import com.zj.eurekafeignconsumer.server.Server;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
+
 @Component
 public class MyHystrix implements Server {
     @Override
     public String testFeign() {
-        return "熔断器熔断了" ;
+        return "熔断器熔断了";
     }
 
     @Override

@@ -3,9 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
-<!--  里面有控制器对象等-->
+    <!--  里面有控制器对象等-->
     <!--使用的是tomcat自身的defaultServlet处理静态资源文件的-->
-<!--    <mvc:default-servlet-handler/>-->
+    <!--    <mvc:default-servlet-handler/>-->
     <!--组件扫描-->
     <context:component-scan base-package="com.controller"/>
     <!--注解驱动-->

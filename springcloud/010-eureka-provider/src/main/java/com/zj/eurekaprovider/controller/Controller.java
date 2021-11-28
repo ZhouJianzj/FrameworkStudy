@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
     @RequestMapping("one")
-    public String one(){
+    public String one() {
         return "provider  execute one";
     }
 }

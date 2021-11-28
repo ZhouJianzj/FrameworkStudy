@@ -12,7 +12,9 @@
             <td>年龄：</td>
             <td><input type="text" name="age"></td>
         </tr>
-        <tr><td><input type="submit" value="forward请求转发"></td></tr>
+        <tr>
+            <td><input type="submit" value="forward请求转发"></td>
+        </tr>
     </table>
 </form>
 <form action="doRedirect.do" method="get">
@@ -25,7 +27,9 @@
             <td>年龄：</td>
             <td><input type="text" name="age"></td>
         </tr>
-        <tr><td><input type="submit" value="redirect重定向"></td></tr>
+        <tr>
+            <td><input type="submit" value="redirect重定向"></td>
+        </tr>
     </table>
 </form>
 </body>

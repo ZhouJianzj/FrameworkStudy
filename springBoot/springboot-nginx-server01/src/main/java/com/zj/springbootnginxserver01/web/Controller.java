@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 public class Controller {
 
     @RequestMapping("/show")
-    public ModelAndView show(HttpServletRequest request){
+    public ModelAndView show(HttpServletRequest request) {
         ModelAndView modelAndView = new ModelAndView("show");
         return modelAndView.addObject("port", request.getServerPort());
     }

@@ -16,7 +16,7 @@
     </environments>
 
     <mappers>
-<!--扫描dao包下的所有的xml文件-->
-   <package name="com.zhouJian.dao"/>
+        <!--扫描dao包下的所有的xml文件-->
+        <package name="com.zhouJian.dao"/>
     </mappers>
 </configuration>

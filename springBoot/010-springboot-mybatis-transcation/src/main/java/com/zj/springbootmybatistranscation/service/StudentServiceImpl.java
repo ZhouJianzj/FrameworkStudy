@@ -14,6 +14,7 @@ public class StudentServiceImpl implements StudentService {
 
     /**
      * 在没有rollbackFor = Exception.class 默认只会出现 runtimerexception才回滚
+     *
      * @param student
      * @return
      */

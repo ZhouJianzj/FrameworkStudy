@@ -3,10 +3,10 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.zhouJian.dao.BookDao">
-<!--下面的返回值类型要是泛型里的数据类型-->
-   <select id="doSelect" resultType="com.zhouJian.entities.Book">
-       select * from book
-   </select>
+    <!--下面的返回值类型要是泛型里的数据类型-->
+    <select id="doSelect" resultType="com.zhouJian.entities.Book">
+        select * from book
+    </select>
 
 
     <insert id="doInsert">

@@ -11,17 +11,19 @@ import org.springframework.web.servlet.ModelAndView;
 public class StudentController {
     @Autowired
     private StudentService studentServiceImpl;
-    @RequestMapping( "studentAdd")
-    public ModelAndView doStudentAdd(String name,Integer age){
+
+    @RequestMapping("studentAdd")
+    public ModelAndView doStudentAdd(String name, Integer age) {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("num",studentServiceImpl.addStudent(new Student(name,age)));
+        modelAndView.addObject("num", studentServiceImpl.addStudent(new Student(name, age)));
         modelAndView.setViewName("show");
         return modelAndView;
     }
+
     @RequestMapping("studentFind")
-    public ModelAndView doStudentFind(){
+    public ModelAndView doStudentFind() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.addObject("list",studentServiceImpl.findStudents());
+        modelAndView.addObject("list", studentServiceImpl.findStudents());
         modelAndView.setViewName("showTwo");
         return modelAndView;
     }

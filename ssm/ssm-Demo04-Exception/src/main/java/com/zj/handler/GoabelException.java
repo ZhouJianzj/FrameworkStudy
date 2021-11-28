@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 
-
 @ControllerAdvice
 public class GoabelException {
     /**
      * 异常处理器
+     *
      * @param exception NameException
      * @return ModelAndView
      */
@@ -23,10 +23,11 @@ public class GoabelException {
 //        return mv;
 //    }
     @ResponseBody
-    public String handledNameException(Exception exception){
+    public String handledNameException(Exception exception) {
         System.out.println(exception.getMessage());
         return exception.getMessage();
     }
+
     @ExceptionHandler(AgeException.class)
 //    public ModelAndView handledAgeException(Exception exception){
 //        ModelAndView mv = new ModelAndView();
@@ -35,7 +36,7 @@ public class GoabelException {
 //        return mv;
 //    }
     @ResponseBody
-    public Object  handleAgeException(Exception exception){
+    public Object handleAgeException(Exception exception) {
         System.out.println(exception.getMessage());
         return exception.getMessage();
     }

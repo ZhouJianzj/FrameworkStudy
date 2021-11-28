@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 public class Conifg {
     @Bean
     @LoadBalanced
-    public RestTemplate nR(){
+    public RestTemplate nR() {
         return new RestTemplate();
     }
 }

@@ -15,14 +15,14 @@ import java.io.Serializable;
 /**
  * 统一响应体
  */
-public class CommonResponse<T>   implements Serializable   {
+public class CommonResponse<T> implements Serializable {
 
     private Integer status;
     private String msg;
 
     private T data;
 
-    public CommonResponse(Integer status ,String msg){
+    public CommonResponse(Integer status, String msg) {
         this.status = status;
         this.msg = msg;
     }

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @PostMapping("/login")
-    public boolean login(){
+    public boolean login() {
         return true;
     }
 }

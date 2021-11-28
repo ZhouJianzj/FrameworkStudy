@@ -15,15 +15,17 @@ public interface StudentDao {
     /**
      * 查询学生
      */
-     List<Student> selectMethod();
+    List<Student> selectMethod();
+
     /**
      * 插入
      */
     int insertMethod(Student student);
+
     /**
      * 更新, mybatis.xml文件中的变量与@param（id）中的id一样
      */
-    int updateMethod(@Param("id")int id, @Param("name")String name);
+    int updateMethod(@Param("id") int id, @Param("name") String name);
 
 }
 

@@ -10,6 +10,7 @@ import java.io.InputStream;
 
 public class MybatisUtils {
     private static SqlSessionFactory factory = null;
+
     static {
         try {
             String config = "mybatis.xml";
@@ -21,6 +22,7 @@ public class MybatisUtils {
         }
 
     }
+
     /**
      * 获取sqlSession
      */

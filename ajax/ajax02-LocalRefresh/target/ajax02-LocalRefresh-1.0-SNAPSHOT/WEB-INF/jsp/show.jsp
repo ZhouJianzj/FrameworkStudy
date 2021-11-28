@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-   <div align="center">${msg}</div>
+<div align="center">${msg}</div>
 </body>
 </html>

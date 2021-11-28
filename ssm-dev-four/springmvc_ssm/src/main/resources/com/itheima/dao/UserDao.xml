@@ -6,7 +6,8 @@
 
     <!--添加-->
     <insert id="save" parameterType="user">
-        insert into user(userName,password,realName,gender,birthday)values(#{userName},#{password},#{realName},#{gender},#{birthday})
+        insert into
+        user(userName,password,realName,gender,birthday)values(#{userName},#{password},#{realName},#{gender},#{birthday})
     </insert>
 
     <!--删除-->
@@ -16,7 +17,9 @@
 
     <!--修改-->
     <update id="update" parameterType="user">
-        update user set userName=#{userName},password=#{password},realName=#{realName},gender=#{gender},birthday=#{birthday} where uuid=#{uuid}
+        update user set
+        userName=#{userName},password=#{password},realName=#{realName},gender=#{gender},birthday=#{birthday} where
+        uuid=#{uuid}
     </update>
 
     <!--查询单个-->
@@ -30,7 +33,7 @@
     </select>
 
     <!--登录-->
-    <select id="getByUserNameAndPassword" resultType="user" >
+    <select id="getByUserNameAndPassword" resultType="user">
         select * from user where userName=#{userName} and password=#{password}
     </select>
 

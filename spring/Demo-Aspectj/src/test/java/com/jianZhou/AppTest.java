@@ -1,7 +1,6 @@
 package com.jianZhou;
 
 
-
 import com.jianZhou.service.SomeServices;
 
 import org.junit.Test;
@@ -13,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class AppTest {
     @Test
-        public void testAspectJ(){
+    public void testAspectJ() {
         String config = "Beans.xml";
         ApplicationContext ac = new ClassPathXmlApplicationContext(config);
         //获取目标对象

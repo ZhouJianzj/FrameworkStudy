@@ -24,5 +24,5 @@ public interface StudentDao {
 
     @Select("select *  from student where id = #{id}")
     @ResultType(Student.class)
-     Student select(@Param(value = "id") Integer id);
+    Student select(@Param(value = "id") Integer id);
 }

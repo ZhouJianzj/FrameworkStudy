@@ -14,7 +14,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
-<!--    声明HandleInterceptor-->
+    <!--    声明HandleInterceptor-->
     <mvc:interceptors>
         <!--可以配置多个拦截器-->
         <mvc:interceptor>

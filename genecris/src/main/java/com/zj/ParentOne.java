@@ -14,9 +14,10 @@ public class ParentOne<T> {
 
 /**
  * 子类要和父类的泛型一致
+ *
  * @param <T>
  */
-class ChildOne<T,E>  extends ParentOne<T>{
+class ChildOne<T, E> extends ParentOne<T> {
     @Override
     public T getT() {
         return super.getT();

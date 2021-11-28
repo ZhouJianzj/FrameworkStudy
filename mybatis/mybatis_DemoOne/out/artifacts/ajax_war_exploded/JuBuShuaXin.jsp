@@ -24,12 +24,13 @@
             xmlHttp.send()
         }
 
+
     </script>
 </head>
 <body>
-        <span>这是一个局部刷新</span>
-        <div>
-            <input type="button" value="局部刷新" onclick="doAjax()">
-        </div>
+<span>这是一个局部刷新</span>
+<div>
+    <input type="button" value="局部刷新" onclick="doAjax()">
+</div>
 </body>
 </html>

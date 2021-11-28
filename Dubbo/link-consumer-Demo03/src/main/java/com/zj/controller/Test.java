@@ -7,15 +7,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-
-
 @Controller
 public class Test {
     private StudentService studentService;
 
 
     @RequestMapping(value = "/test")
-    public void doTest(){
+    public void doTest() {
         System.out.println(studentService.findStu(1001).getName());
         System.out.println(studentService.findStuNum());
     }

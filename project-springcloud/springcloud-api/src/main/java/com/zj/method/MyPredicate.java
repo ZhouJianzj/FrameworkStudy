@@ -9,7 +9,7 @@ public class MyPredicate {
 
 
     public static void main(String[] args) {
-        Predicate<String>  predicate = res ->res.equals("123");
+        Predicate<String> predicate = res -> res.equals("123");
         System.out.println(predicate.test("123"));
     }
 }

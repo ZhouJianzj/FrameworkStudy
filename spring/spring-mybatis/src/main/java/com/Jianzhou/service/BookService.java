@@ -6,7 +6,8 @@ import java.util.List;
 
 public interface BookService {
     /**
-     *  调用增加操作
+     * 调用增加操作
+     *
      * @param book
      * @return
      */
@@ -14,6 +15,7 @@ public interface BookService {
 
     /**
      * 调用检索操作
+     *
      * @return
      */
     List<Book> doSelect();

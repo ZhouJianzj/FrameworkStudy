@@ -12,7 +12,7 @@ public class Controller {
 
 
     @RequestMapping("testZuul")
-    public String testZuul (){
-        return  "provider provided server.....";
+    public String testZuul() {
+        return "provider provided server.....";
     }
 }

@@ -5,16 +5,16 @@
 
 
     <bean id="student" class="entity.Student" autowire="byType">
-    <!-- 先调用构造方法，在去调用的是对象的set方法 ，方法里面的代码是自己定义的也可以是赋值操作  -->
+        <!-- 先调用构造方法，在去调用的是对象的set方法 ，方法里面的代码是自己定义的也可以是赋值操作  -->
         <property name="id" value="1002"/>
-       <property name="name" value="zhoujian"/>
+        <property name="name" value="zhoujian"/>
 
     </bean>
 
-<!--    <bean id="school" class="entity.School">-->
-<!--        <property name="name" value="大学"/>-->
-<!--        <property name="address" value="南京"/>-->
-<!--    </bean>-->
+    <!--    <bean id="school" class="entity.School">-->
+    <!--        <property name="name" value="大学"/>-->
+    <!--        <property name="address" value="南京"/>-->
+    <!--    </bean>-->
 
     <bean id="schoolSmall" class="entity.SchoolSmall">
         <property name="name" value="小学"/>

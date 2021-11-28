@@ -13,8 +13,10 @@ public class Erasure {
         System.out.println(t.getType().getSimpleName());
     }
 }
-class ErasureExtend<T >{
-  public T t;
+
+class ErasureExtend<T> {
+    public T t;
 }
-class ErasureSuper<E>{
+
+class ErasureSuper<E> {
 }
