@@ -1,6 +1,7 @@
 package com.zj.springbootdubbossmconsumer.web;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import jdk.nashorn.internal.ir.annotations.Reference;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;

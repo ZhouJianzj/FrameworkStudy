@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)http://39.101.177.93:8080/csy.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 用来禁止浏览器缓存，使得每次请求test.html都从服务器下载最新版本 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="format-detection" content="telephone=yes">
+
+    <link rel="stylesheet" href="请假_files/bh-lib.min.css">
+    <link rel="stylesheet" href="请假_files/iconfont.css">
+    <link rel="stylesheet" href="请假_files/iconfont(1).css">
+    <link rel="stylesheet" href="请假_files/style.css">
+    <link rel="stylesheet" href="请假_files/mob.css">
+    <link rel="stylesheet" href="请假_files/skin.css">
+    <link rel="stylesheet" href="请假_files/style.min.css">
+    <link rel="stylesheet" href="请假_files/cropper.min.css">
+    <style type="text/css">
+        .emapm-form input,
+        .emapm-form span,
+        .emapm-form textarea {
+            font-family: PingFang SC, Microsoft YaHei, Times New Roman
+        }
+
+        .emapm-form .mint-cell-group>.emapm-item .mint-cell:first-child .mint-cell-wrapper {
+            border-top: .5px solid #e8e8e8
+        }
+
+        .emapm-form .mint-cell .mint-cell-value {
+            padding: 8px 0
+        }
+
+        .emapm-form .select-value {
+            text-align: left
+        }
+
+        .emapm-item {
+            position: relative
+        }
+
+        .emapm-item .mint-field .mint-cell-value.mt-color-grey-lv3 input {
+            color: inherit
+        }
+
+        .emapm-form .mint-cell-group .emapm-item:first-child .mint-cell-wrapper {
+            border-top: none
+        }
+
+        .emapm-form .mint-cell-group-title {
+            padding: 12px 20px
+        }
+
+        .emapm-form input::-webkit-input-placeholder {
+            font-weight: 400 !important
+        }
+
+        .emapm-form input:-moz-placeholder,
+        .emapm-form input::-moz-placeholder {
+            font-weight: 400 !important
+        }
+
+        .emapm-form input:-ms-input-placeholder {
+            font-weight: 400 !important
+        }
+
+        .emapm-form input,
+        .emapm-form input:focus {
+            font-weight: 400 !important
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group-title {
+            padding: 16px 20px;
+            font-size: 16px;
+            line-height: 16px;
+            color: #1e2329;
+            background-color: #fff !important
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group .mint-cell-group-content .emapm-item .mint-cell {
+            min-height: 0;
+            padding: 6px 0
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group .mint-cell-group-content .emapm-item .mint-cell .mint-cell-wrapper {
+            border-top-style: none;
+            font-size: 14px
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell .mint-cell-value {
+            padding: 0
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell .mint-cell-value .em-select-value,
+        .emapm-form.emapm-form-readonly .mint-cell .mint-cell-value .mt-cell-diy-span {
+            color: #1e2329 !important
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group-content {
+            padding-bottom: 10px
+        }
+
+        .emapm-form.emapm-form-readonly .mint-hairline--top-bottom:after {
+            border-bottom-width: 1px;
+            border-top-width: 0;
+            border-color: #e8e8e8
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group .emap-cellgroup-hastitle+.mint-cell-group-content .emapm-item:first-child {
+            padding-top: 10px;
+            border-top: 1px solid #f4f4f4
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group .emap-cellgroup-notitle {
+            padding: 0
+        }
+
+        .emapm-form.emapm-form-readonly .mint-cell-group .emap-cellgroup-notitle+.mint-cell-group-content .emapm-item:first-child {
+            padding-top: 16px
+        }
+
+        .emapm-form.emapm-form-readonly .em-select-value,
+        .emapm-form.emapm-form-readonly .mt-cell-diy-span {
+            line-height: 16px
+        }
+
+        .emapm-form.emapm-form-readonly .emapm-divide {
+            height: 10px;
+            border-bottom: 1px solid #f4f4f4
+        }
+    </style>
+    <title>请假</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="请假_files/iconfont(2).css">
+    <link rel="stylesheet" href="请假_files/zhouli.css">
+    <link rel="stylesheet" href="请假_files/index.css">
+    <div id="app">
+        <!---->
+        <div>
+            <div class="mint-layout-container pjbcydyxy">
+                <div class="mint-layout-container pjavwx8zi"></div>
+                <div class="mint-layout-container tjavtsl6c">
+                    <div class="mint-layout-spacing sjakx3nec" style="height: 15px;"></div>
+                    <div class="mint-layout-container cjarutg5r">
+                        <div class="mint-hr" style="background: rgb(232, 232, 232);"></div>
+<!--                        <div class="mint-layout-container sfxj-class" style=""><img src="do_files/icon_ok.png"-->
+<!--                                alt="已销假" style="width: 25px; position: relative; left: 20px; top: 6px;"> <span-->
+<!--                                id="sfxj">已销假</span></div>-->
+                        <div class="emapm-form emapm-form-readonly">
+                            <div class="emapm-items">
+                                <div class="mint-cell-group mt-bg-lv2">
+                                    <div class="mint-cell-group-title mt-color-grey-lv3 emap-cellgroup-hastitle emap-cellgroup-hastitle">
+                                        基础信息</div>
+                                    <div class="mint-cell-group-content mint-hairline--top-bottom mt-bg-white mt-bColor-after-grey-lv5">
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">学号</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">2002932330
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">姓名</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">周健</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">性别</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">男</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">电话</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">18852099661
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">学院</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">计算机与软件学院</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">班级</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">软件2076_移动开发
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">现在年级</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">2020</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">班主任姓名</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">杨静丽</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">班主任电话</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">13851506825
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">住宿地址</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">
+                                                                仙林校区梧桐苑2栋618室5床</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="emapm-form emapm-form-readonly">
+                            <div class="emapm-items">
+                                <div class="mint-cell-group mt-bg-lv2">
+                                    <!---->
+                                    <div class="mint-cell-group-content mint-hairline--top-bottom mt-bg-white mt-bColor-after-grey-lv5">
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假类型</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">事假（不离宁）
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item" style="display: none;">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假性质</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3"></div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假日期</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3" id="qingjiariqichang">2021-12-22 07:00 至 2021-12-12 21:00</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item" style="display: none;">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假开始日期</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item" style="display: none;">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假结束日期</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假天数</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">3</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">是否校内住宿</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">否</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div class="__em-textarea __em-textarea-readonly"><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">请假事由</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <span class="mt-color-grey-lv3 mt-cell-diy-span">事假回家</span>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item" style="display: none;">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">学生编号</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">2002932303
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item" style="display: none;">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">审核状态</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">已通过</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-70a07590="" data-v-3a68f5e4="" class="bh-upload-wrap emapm-uploa-imgs" host="http://zhxg.niit.edu.cn" value-align="normal"><a data-v-70a07590="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">证明材料</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px);"><span style="line-height: initial; word-break: break-all;"></span>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <div data-v-70a07590="">
+                                                    <!---->
+                                                </div>
+                                                <div data-v-70a07590="" class="mint-actionsheet mt-bg-transparent" style="display: none;">
+                                                    <ul class="mint-actionsheet-list" style="margin-bottom: 4px;">
+                                                        <li class="mint-actionsheet-listitem mt-color-grey mt-bg-white mt-bColor-grey-lv5">
+                                                            拍照</li>
+                                                        <li class="mint-actionsheet-listitem mt-color-grey mt-bg-white mt-bColor-grey-lv5">
+                                                            从相册中选择</li>
+                                                    </ul><a class="mint-actionsheet-button mt-btn-default mt-color-grey">取消</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">手机号</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">18852099661
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">是否占用上课时间</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">否</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div data-v-01cabbf9=""><a data-v-01cabbf9="" class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">是否出校</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">是</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">出校去向(省市县)</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">江苏省/南京市/栖霞区
+                                                            </div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">出校具体地址</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3">江苏省南京市栖霞区</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">拟返校时间</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3" id="fanxiaoshijian">2021-12-12 21:00</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                                <!---->
+                                            </div>
+                                        </div>
+                                        <div class="emapm-item">
+                                            <div><a class="mint-cell mt-bg-white mt-bColor-grey-lv5">
+                                                    <!---->
+                                                    <div class="mint-cell-left"></div>
+                                                    <div class="mint-cell-wrapper mt-bColor-grey-lv5 mint-cell-no-bottom-line" style="padding-right: 20px;">
+                                                        <div class="mint-cell-title" style="flex: 1 1 96px; min-width: 96px;">
+                                                            <!---->
+                                                            <!----><span class="mint-cell-text mt-color-grey-lv3">申请时间</span>
+                                                            <!---->
+                                                        </div>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
+                                                            <div class="em-select-value mt-color-grey-lv3" id="shenqingshijian">2021-12-22 07:00</div>
+                                                        </div>
+                                                        <!---->
+                                                    </div>
+                                                    <div class="mint-cell-right"></div>
+                                                </a>
+                                                <!---->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mint-hr" style="background: rgb(232, 232, 232);"></div>
+                        <div class="mint-layout-spacing sjakx3i5n" style="height: 15px;"></div>
+                        <div class="mint-layout-container bh-bg-color-light cjas1u9dg">
+                            <div class="mint-hr" style="background: rgb(232, 232, 232);"></div>
+                            <div class="mint-layout-container" style="padding: 16px 20px !important;">
+                                <div class="mint-layout-lr">
+                                    <div position="left" class="mint-layout-lr-item mint-layout-container">
+                                        <div class="mint-text mt-color-default">审核流程</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mint-hr OCjas22nkj" style="background: rgb(232, 232, 232);"></div>
+                            <div class="OCjauorj8v mint-steps mt-bg-white mint-steps--vertical" selected="selected">
+                                <!---->
+                                <div class="mint-steps__items mint-steps__items--alone" style="padding-left: 150px;">
+                                    <div class="mint-step bh-color-gray-3 mint-step--vertical mint-step--finish mt-color-grey-lv4">
+                                        <div class="mint-step__circle-container mt-bg-lv3"><i class="mint-icon mint-icon-checked iconfont icon-wancheng mt-color-primary"></i>
+                                        </div>
+                                        <div class="mint-step__time mt-color-grey-lv4">
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default" id="tijiaoshenqing">2021-12-22 07:00</div>
+                                        </div>
+                                        <div class="mint-step__title">
+                                            提交申请
+                                            <span class="bh-color-warning">
+
+                                            </span>
+                                        </div>
+                                        <div class="mint-step__line mt-bg-grey-lv6"></div>
+                                    </div>
+                                    <div class="mint-step bh-color-gray-3 mint-step--vertical mint-step--finish mt-color-grey-lv4">
+                                        <div class="mint-step__circle-container mt-bg-lv3"><i class="mint-icon mint-icon-checked iconfont icon-wancheng mt-color-primary"></i>
+                                        </div>
+                                        <div class="mint-step__time mt-color-grey-lv4">
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default"></div>
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default" id="banzhuren">2021-12-22 08:10</div>
+                                        </div>
+                                        <div class="mint-step__title">
+                                            班主任审核
+                                            <span class="bh-color-warning">
+
+                                            </span>
+                                            <div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">
+                                                    通过
+                                                </div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">审核人：杨静丽</div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">
+                                                    <pre>审核意见：审核通过</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mint-step__line mt-bg-grey-lv6"></div>
+                                    </div>
+                                    <div class="mint-step bh-color-gray-3 mint-step--vertical mint-step--finish mt-color-grey-lv4">
+                                        <div class="mint-step__circle-container mt-bg-lv3"><i class="mint-icon mint-icon-checked iconfont icon-wancheng mt-color-primary"></i>
+                                        </div>
+                                        <div class="mint-step__time mt-color-grey-lv4">
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default"></div>
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default">2021-12-10
+                                                08:56:01
+                                            </div>
+                                        </div>
+                                        <div class="mint-step__title">
+                                            学院辅导员审核
+                                            <span class="bh-color-warning"></span>
+                                            <div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">
+                                                    通过
+                                                </div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">审核人：蔡伟</div>
+                                                <div class="mint-text OCjaunojrix mt-color-default">
+                                                    <pre>审核意见：审核通过</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mint-step__line mt-bg-grey-lv6"></div>
+                                    </div>
+                                    <div class="mint-step bh-color-gray-3 mint-step--vertical mint-step--finish mt-color-grey-lv4" text="结束">
+                                        <div class="mint-step__circle-container mt-bg-lv3"><i class="mint-icon mint-icon-checked iconfont icon-wancheng mt-color-primary"></i>
+                                        </div>
+                                        <div class="mint-step__time mt-color-grey-lv4"></div>
+                                        <div class="mint-step__title">结束</div>
+                                        <div class="mint-step__line mt-bg-grey-lv6"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!---->
+                        </div>
+                    </div>
+                </div>
+                <div class="mint-layout-spacing sjakx3i5n" style="height: 15px;"></div>
+                <div class="mint-layout-container sjal0wkw6 OPjbcyeo3s" style="display: none;"><button class="mint-button OSjal0ykai OPjbcyeo3t mt-btn-primary mint-button--normal" text="重新申请">
+                        <!---->重新申请
+                    </button></div>
+                <div class="mint-layout-container sjal0wkw6"><button class="mint-button OSjal0ykai OPjbcyeo3t mt-btn-default mint-button--normal" text="定位销假">
+                        <!---->定位销假
+                    </button></div>
+                <div class="mint-layout-container sjal0wkw6 OPjbcyeo3s" style=""><button class="mint-button OSjal0ykai OPjbcyeo3t mt-btn-primary mint-button--normal" text="打印">
+                        <!---->打印
+                    </button></div>
+                <div class="mint-layout-spacing sjakx3i5n" style="height: 15px;"></div>
+            </div>
+        </div>
+        <div id="xsfw_yypjDiv" class="xsfwpjmob-nav" style="display: none;">
+            <div class="xsfwpjmob-nav-icon"><img src="请假_files/pingjia.png"></div>
+        </div>
+    </div>
+
+
+    <script src="请假_files/jquery-3.4.1.min.js"></script>
+    <script src="请假_files/zhouli.js"></script>
+
+
+    <script type="text/javascript" src="请假_files/api"></script><script src="请假_files/getscript"></script>
+    <script src="请假_files/getscript(1)"></script>
+    <div class="mint-indicator" style="display: none;">
+        <div class="mint-indicator-wrapper" style="padding: 15px;"><span class="mint-indicator-spin">
+                <div class="mint-spinner-snake" style="border-top-color: rgb(214, 214, 214); border-left-color: rgb(214, 214, 214); border-bottom-color: rgb(214, 214, 214); height: 32px; width: 32px;">
+                </div>
+            </span><span class="mint-indicator-text" style="display: none;"></span></div>
+        <div class="mint-indicator-mask"></div>
+    </div>
+<script >
+    function dateFormat(fmt, date) {
+        let ret;
+        const opt = {
+            "Y+": date.getFullYear().toString(),        // 年
+            "m+": (date.getMonth() + 1).toString(),     // 月
+            "d+": date.getDate().toString(),            // 日
+            "H+": date.getHours().toString(),           // 时
+            "M+": date.getMinutes().toString(),         // 分
+            "S+": date.getSeconds().toString()          // 秒
+            // 有其他格式化字符需求可以继续添加，必须转化成字符串
+        };
+        for (let k in opt) {
+            ret = new RegExp("(" + k + ")").exec(fmt);
+            if (ret) {
+                fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+            };
+        };
+        return fmt;
+    }
+    let date = new Date()
+    console.log(dateFormat("YYYY-mm-dd HH:MM", date))
+    document.getElementById("qingjiariqichang").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00 至 "+"2021-12-25 21:00"
+    document.getElementById("fanxiaoshijian").innerText= "2021-12-25 21:00"
+    document.getElementById("shenqingshijian").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00"
+    document.getElementById("banzhuren").innerText= dateFormat("YYYY-mm-dd", date)+" 08:10"
+    document.getElementById("tijiaoshenqing").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00"
+</script>
+
+
+<div class="xl-chrome-ext-bar" id="xl_chrome_ext_{4DB361DE-01F7-4376-B494-639E489D19ED}" style="display: none;">
+      <div class="xl-chrome-ext-bar__logo"></div>
+
+      <a id="xl_chrome_ext_download" href="javascript:;" class="xl-chrome-ext-bar__option">下载视频</a>
+      <a id="xl_chrome_ext_close" href="javascript:;" class="xl-chrome-ext-bar__close"></a>
+    </div></body></html>
