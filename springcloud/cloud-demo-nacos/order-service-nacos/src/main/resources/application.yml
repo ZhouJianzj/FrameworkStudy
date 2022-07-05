@@ -9,6 +9,7 @@ spring:
 #      nacos的分级存储，服务-集群-实例
       discovery:
         cluster-name: hz
+        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
 
   datasource:
     url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false

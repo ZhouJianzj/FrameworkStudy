@@ -9,8 +9,7 @@ spring:
 #      nacos的分级存储，服务-集群-实例
       discovery:
         cluster-name: hz
-
-
+        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
 
   datasource:
     url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false
@@ -33,7 +32,7 @@ ribbon:
     enabled: true # 开启饥饿加载
     clients: userServer # 指定对userservice这个服务饥饿加载
 
-#    设置userService服务的负载均衡策略
+#    设置userService服务的负载均衡策略，才能实现nacos的分级存储功能
 userServer:
   ribbon:
     NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则，这个规则优先会寻找与自己同集群的服务
