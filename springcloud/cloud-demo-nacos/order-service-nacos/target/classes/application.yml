@@ -1,8 +1,17 @@
 server:
-  port: 8080
+  port: 8084
 spring:
   application:
     name: orderServer
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+#      nacos的分级存储，服务-集群-实例
+      discovery:
+        cluster-name: hz
+
+
+
   datasource:
     url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false
     username: root
@@ -18,14 +27,14 @@ logging:
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
 
-#配置注册中心的地址，将自己注册到注册中心去
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
-
 #改变ribbon的懒加载
 ribbon:
   eager-load:
     enabled: true # 开启饥饿加载
     clients: userServer # 指定对userservice这个服务饥饿加载
+
+#    设置userService服务的负载均衡策略
+userServer:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule # 负载均衡规则，这个规则优先会寻找与自己同集群的服务
+
