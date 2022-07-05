@@ -209,7 +209,7 @@
                                                             <!---->
                                                         </div>
                                                         <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
-                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3">男</div>
+                                                            <div data-v-01cabbf9="" class="em-select-value mt-color-grey-lv3" id="xingbie">男</div>
                                                         </div>
                                                         <!---->
                                                     </div>
@@ -230,7 +230,7 @@
                                                             <!---->
                                                         </div>
                                                         <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
-                                                            <div class="em-select-value mt-color-grey-lv3">18852099661
+                                                            <div class="em-select-value mt-color-grey-lv3" id="iphone">18862572509
                                                             </div>
                                                         </div>
                                                         <!---->
@@ -355,8 +355,8 @@
                                                             <!---->
                                                         </div>
                                                         <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
-                                                            <div class="em-select-value mt-color-grey-lv3">
-                                                                仙林校区梧桐苑2栋618室5床</div>
+                                                            <div class="em-select-value mt-color-grey-lv3" id="address">
+                                                                仙林校区海棠苑2栋540室4床</div>
                                                         </div>
                                                         <!---->
                                                     </div>
@@ -492,7 +492,7 @@
                                                             <!---->
                                                         </div>
                                                         <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
-                                                            <div class="em-select-value mt-color-grey-lv3">3</div>
+                                                            <div class="em-select-value mt-color-grey-lv3" id="qinjiatianshu">1</div>
                                                         </div>
                                                         <!---->
                                                     </div>
@@ -533,7 +533,7 @@
                                                             <!---->
                                                         </div>
                                                         <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px); justify-content: normal;">
-                                                            <span class="mt-color-grey-lv3 mt-cell-diy-span">实习期间放假回“小家”</span>
+                                                            <span class="mt-color-grey-lv3 mt-cell-diy-span" id="qingjialiyou">事假,回家</span>
                                                         </div>
                                                         <!---->
                                                     </div>
@@ -594,11 +594,16 @@
                                                             <!----><span class="mint-cell-text mt-color-grey-lv3">证明材料</span>
                                                             <!---->
                                                         </div>
-                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px);"><span style="line-height: initial; word-break: break-all;"></span>
+                                                        <div class="mint-cell-value mt-color-grey-lv3" style="flex: 1 1 calc(100% - 96px);"><span style="line-height: initial; word-break: break-all;">
+<!--                                                             <img src="1.jpg" >-->
+                                                        </span>
+
                                                         </div>
                                                         <!---->
                                                     </div>
-                                                    <div class="mint-cell-right"></div>
+                                                    <div class="mint-cell-right">
+
+                                                    </div>
                                                 </a>
                                                 <!---->
                                                 <div data-v-70a07590="">
@@ -822,7 +827,7 @@
                                         </div>
                                         <div class="mint-step__time mt-color-grey-lv4">
                                             <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default"></div>
-                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default">2022-2-26 08:56:01
+                                            <div class="mint-text bh-color-gray-4 OCjaunojrmr mt-color-default" id="fudaoyuanshenhetime">2022-02-28 08:56:01
                                             </div>
                                         </div>
                                         <div class="mint-step__title">
@@ -840,6 +845,8 @@
                                         </div>
                                         <div class="mint-step__line mt-bg-grey-lv6"></div>
                                     </div>
+
+
                                     <div class="mint-step bh-color-gray-3 mint-step--vertical mint-step--finish mt-color-grey-lv4" text="结束">
                                         <div class="mint-step__circle-container mt-bg-lv3"><i class="mint-icon mint-icon-checked iconfont icon-wancheng mt-color-primary"></i>
                                         </div>
@@ -886,32 +893,62 @@
         <div class="mint-indicator-mask"></div>
     </div>
 <script >
-<!--    function dateFormat(fmt, date) {-->
-<!--        let ret;-->
-<!--        const opt = {-->
-<!--            "Y+": date.getFullYear().toString(),        // 年-->
-<!--            "m+": (date.getMonth() + 1).toString(),     // 月-->
-<!--            "d+": date.getDate().toString(),            // 日-->
-<!--            "H+": date.getHours().toString(),           // 时-->
-<!--            "M+": date.getMinutes().toString(),         // 分-->
-<!--            "S+": date.getSeconds().toString()          // 秒-->
-<!--            // 有其他格式化字符需求可以继续添加，必须转化成字符串-->
-<!--        };-->
-<!--        for (let k in opt) {-->
-<!--            ret = new RegExp("(" + k + ")").exec(fmt);-->
-<!--            if (ret) {-->
-<!--                fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))-->
-<!--            };-->
-<!--        };-->
-<!--        return fmt;-->
-<!--    }-->
-<!--    let date = new Date()-->
-<!--    console.log(dateFormat("YYYY-mm-dd HH:MM", date))-->
-<!--    document.getElementById("qingjiariqichang").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00 至 "+"2021-12-25 21:00"-->
-<!--    document.getElementById("fanxiaoshijian").innerText= "2022-2-28 21:00"-->
-<!--    document.getElementById("shenqingshijian").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00"-->
-<!--    document.getElementById("banzhuren").innerText= dateFormat("YYYY-mm-dd", date)+" 08:10"-->
-<!--    document.getElementById("tijiaoshenqing").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00"-->
+    function dateFormat(fmt, date) {
+        let ret;
+        const opt = {
+            "Y+": date.getFullYear().toString(),        // 年
+            "m+": (date.getMonth() + 1).toString(),     // 月
+            "d+": date.getDate().toString(),            // 日
+            "H+": date.getHours().toString(),           // 时
+            "M+": date.getMinutes().toString(),         // 分
+            "S+": date.getSeconds().toString()          // 秒
+            // 有其他格式化字符需求可以继续添加，必须转化成字符串
+        };
+        for (let k in opt) {
+            ret = new RegExp("(" + k + ")").exec(fmt);
+            if (ret) {
+                fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
+            };
+        };
+        return fmt;
+    }
+    let date = new Date()
+
+    console.log(dateFormat("YYYY-mm-dd HH:MM", date))
+
+<!--返校时间-->
+    document.getElementById("fanxiaoshijian").innerText= "2022-03-07 21:00"
+
+<!--请假日期   时间段-->
+    document.getElementById("qingjiariqichang").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00 至 "+ " 2022-03-07 21:00"
+
+
+
+    document.getElementById("iphone").innerText= "18761855621"
+    document.getElementById("address").innerText= "仙林校区梧桐苑2栋618室5床"
+
+<!--    自己申请时间-->
+    document.getElementById("shenqingshijian").innerText= dateFormat("YYYY-mm-dd", date)+" 07:00:40"
+
+<!--    自己提交时间-->
+     document.getElementById("tijiaoshenqing").innerText= dateFormat("YYYY-mm-dd", date)
+
+<!--    班主任审批时间-->
+    document.getElementById("banzhuren").innerText= dateFormat("YYYY-mm-dd", date)+" 07:10:40"
+
+<!--    辅导员审批时间-->
+    document.getElementById("fudaoyuanshenhetime").innerText= dateFormat("YYYY-mm-dd", date)+" 08:10:09"
+
+<!--    请假天数-->
+    document.getElementById("qinjiatianshu").innerText= "4"
+
+<!--    请假理由-->
+   document.getElementById("qingjialiyou").innerText= "事假，回家。"
+
+<!--   性别-->
+    document.getElementById("xingbie").innerText= "男"
+
+
 </script>
 
 
