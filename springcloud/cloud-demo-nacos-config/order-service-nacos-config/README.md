@@ -1,0 +1,1 @@
+config.properties解决控制台No URLs will be polled as dynamic configuration sources.问题的

@@ -9,8 +9,10 @@ spring:
 #      nacos的分级存储，服务-集群-实例
       discovery:
         cluster-name: hz
-        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
-
+#     指定不同的命名空间达到服务隔离，同一个命名空间下的服务才可以访问
+#        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
+#     表示是否为零时实例
+        ephemeral: false
   datasource:
     url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false
     username: root
