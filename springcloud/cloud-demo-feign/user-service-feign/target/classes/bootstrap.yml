@@ -1,0 +1,16 @@
+spring:
+  application:
+#    nacos配置中心中的配置文件命名方式为 name-profile-fileExtension,也就是下面的配置
+    name: userServer #服务名称
+  profiles:
+    active: dev #开发环境
+  cloud:
+    nacos:
+#      nacos集群
+      discovery:
+        cluster-name: hz
+      server-addr: localhost:80
+      config:
+        file-extension: yaml #配置中心中的文件后缀
+
+
