@@ -44,14 +44,16 @@ public class OrderController {
 
     }
 
+    /**
+     *方法二:热加载nacos配置中心中的配置
+     */
     @Autowired
     private ConfigProperties configProperties;
     /**
      *
      */
     @GetMapping("nowTwo")
-    public String getNowTwo(){
-        return configProperties.getDateformat();
-
+    public ConfigProperties getNowTwo(){
+        return configProperties;
     }
 }

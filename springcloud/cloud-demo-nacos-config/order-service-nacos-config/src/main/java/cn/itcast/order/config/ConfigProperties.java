@@ -13,4 +13,5 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "pattern")
 public class ConfigProperties {
     private String dateformat;
+    private  String name;
 }

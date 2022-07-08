@@ -1,1 +1,3 @@
-config.properties解决控制台No URLs will be polled as dynamic configuration sources.问题的
+- config.properties解决控制台No URLs will be polled as dynamic configuration sources.问题的
+- nacos配置中心配置的热加载两种方案
+- nacos配置中心的两个配置文件，带有环境的和不带环境的共享配置文件，优先级是环境优先其次是共享配置再其次是本地配置文件

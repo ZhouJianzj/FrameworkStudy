@@ -24,4 +24,6 @@ ribbon:
   eager-load:
     enabled: true # 开启饥饿加载
     clients: userServer # 指定对userservice这个服务饥饿加载
+pattern:
+  name: 本地配置文件
 
