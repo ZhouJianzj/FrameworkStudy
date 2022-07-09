@@ -12,6 +12,7 @@
         <module>user-service-feign</module>
         <module>order-service-feign</module>
         <module>feign-api</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
 
