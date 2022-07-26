@@ -6,15 +6,39 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:80
+#      解决CORS问题的,跨域问题是浏览器阻止用户向服务发送不同源或者同源端口不同的请求的
     gateway:
+      globalcors: # 全局的跨域处理
+#       解决options请求被拦截问题,这里的options请求类型是浏览器询问服务器是否应许该用户访问
+        add-to-simple-url-handler-mapping: true
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: # 允许哪些前端网站的跨域请求
+              - "http://localhost:8090"
+              - "http://www.leyou.com"
+            allowedMethods: # 允许的跨域ajax的请求方式
+              - "GET"
+              - "POST"
+              - "DELETE"
+              - "PUT"
+              - "OPTIONS"
+            allowedHeaders: "*" # 允许在请求中携带的头信息
+            allowCredentials: true # 是否允许携带cookie
+            maxAge: 360000 # 这次跨域检测的有效期
       routes:
         - id: user-server
           uri: lb://userServer
           predicates:
             - Path=/user/**
+#          filters:
+#            - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
         - id: order-server
           uri: lb://orderServer
           predicates:
             - Path=/order/**
+#          filters:
+#            - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
+      default-filters:
+        - AddRequestHeader=Truth, Itcast is freaking awesome! # 添加请求头
 
 

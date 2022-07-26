@@ -1,0 +1,5 @@
+- gateway的路由
+- gateway配置文件中的指定路由的filters和全局默认的defaultFilters
+- gateway中GlobalFilter中自定filter的使用
+- gateway中三种过滤器的执行顺序,全局默认> 路由过滤器> 自定义过滤器
+- gateway中CORS策略的实践
