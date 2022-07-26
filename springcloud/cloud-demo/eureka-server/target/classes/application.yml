@@ -1,0 +1,19 @@
+server:
+  port: 10086
+spring:
+  application:
+    name: eurekaServer
+
+  cloud:
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+
+#    eureka 服务会将自己注册进去，
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+#      取消eureka 服务将自己注册进去
+#    register-with-eureka: false

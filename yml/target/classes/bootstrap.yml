@@ -1,0 +1,29 @@
+#server:
+#  port: 8081
+#spring:
+#  application:
+#    name: yml
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#    sentinel:
+#      transport:
+#        port: 8719
+#        dashboard: localhost:8080
+##        健康检查机制开放熔断器流 方便给熔断器仪表盘实现监视
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: hystrix.stream
+#使用远程的配置管理
+#     data id
+spring:
+  application:
+    name: useyml
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yml

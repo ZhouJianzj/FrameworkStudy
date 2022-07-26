@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mybatis_demo_foreach.dao.Dao">
+
+<!--    传递来的集合中的对象全路径，方法体中需要使用@Param注解标识-->
+  <insert id="insertList" parameterType="com.example.mybatis_demo_foreach.entity.Student">
+    insert into student(id,name)
+    values
+        <foreach collection="students" item="student" separator=",">
+             (#{student.id},#{student.name})
+        </foreach>
+  </insert>
+
+</mapper>

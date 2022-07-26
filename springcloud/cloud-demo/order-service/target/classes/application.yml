@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: orderServer
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false
+    username: root
+    password: 123321
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: cn.itcast.order.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    cn.itcast: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
+
+#配置注册中心的地址，将自己注册到注册中心去
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+
+#改变ribbon的懒加载
+ribbon:
+  eager-load:
+    enabled: true # 开启饥饿加载
+    clients: userServer # 指定对userservice这个服务饥饿加载
