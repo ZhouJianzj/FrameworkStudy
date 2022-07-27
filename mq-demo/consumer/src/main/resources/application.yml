@@ -1,3 +1,10 @@
-logging:
-  pattern:
-    dateformat: MM-dd HH:mm:ss:SSS
+spring:
+  rabbitmq:
+    host: 8.142.74.249 # 主机名
+    port: 5672 # 端口
+    virtual-host: / # 虚拟主机
+    username: user # 用户名
+    password: password # 密码
+    listener:
+      simple:
+        prefetch: 1 #每个consumer只预取一个，这样可以实现能者多劳

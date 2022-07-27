@@ -14,11 +14,11 @@ public class PublisherTest {
         // 1.建立连接
         ConnectionFactory factory = new ConnectionFactory();
         // 1.1.设置连接参数，分别是：主机名、端口号、vhost、用户名、密码
-        factory.setHost("192.168.150.101");
+        factory.setHost("8.142.74.249");
         factory.setPort(5672);
         factory.setVirtualHost("/");
-        factory.setUsername("itcast");
-        factory.setPassword("123321");
+        factory.setUsername("user");
+        factory.setPassword("password");
         // 1.2.建立连接
         Connection connection = factory.newConnection();
 
@@ -26,7 +26,7 @@ public class PublisherTest {
         Channel channel = connection.createChannel();
 
         // 3.创建队列
-        String queueName = "simple.queue";
+            String queueName = "simple.queue";
         channel.queueDeclare(queueName, false, false, false, null);
 
         // 4.发送消息
