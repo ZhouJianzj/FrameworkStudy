@@ -24,13 +24,13 @@ public class PublisherTest {
     @Test
     public void testSendMessageToFanoutExchange(){
         // 队列名称
-        String queueName = "simple.queue";
+        String exchangeName = "direct.exchange";
         // 消息
-        String message = "hello, spring amqp——————!";
+        String message = "hello, spring amqp!___";
         // 发送消息
-        for (int i = 0; i < 50; i++) {
-            rabbitTemplate.convertAndSend(queueName,message + i);
-        }
+        String key = "yellow";
+            rabbitTemplate.convertAndSend(exchangeName,key,message + key );
+
     }
 
 }

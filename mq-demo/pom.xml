@@ -12,6 +12,10 @@
         <module>consumer</module>
         <module>consumer-rabbitTemplate</module>
         <module>publisher-rabbitTemplate</module>
+        <module>consumer-router-exchange</module>
+        <module>publisher-router-exchange</module>
+        <module>publisher-topic-exchange</module>
+        <module>consumer-topic-exchange</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -1,0 +1,1 @@
+- rabbitMq的routing工作模式
