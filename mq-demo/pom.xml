@@ -10,6 +10,8 @@
     <modules>
         <module>publisher</module>
         <module>consumer</module>
+        <module>consumer-rabbitTemplate</module>
+        <module>publisher-rabbitTemplate</module>
     </modules>
     <packaging>pom</packaging>
 

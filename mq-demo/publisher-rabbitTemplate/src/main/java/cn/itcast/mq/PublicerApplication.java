@@ -1,12 +1,11 @@
 package cn.itcast.mq;
 
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PublisherApplication {
+public class PublicerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(PublisherApplication.class);
+        SpringApplication.run(PublicerApplication.class);
     }
 }

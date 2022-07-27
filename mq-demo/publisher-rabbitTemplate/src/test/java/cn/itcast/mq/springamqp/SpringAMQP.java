@@ -15,17 +15,6 @@ public class SpringAMQP {
     private RabbitTemplate rabbitTemplate;
 
     @Test
-    public void testSpringAMQP(){
-        // 队列名称
-        String queueName = "simple.queue";
-        // 消息
-        String message = "hello, spring amqp——————!";
-        // 发送消息
-        for (int i = 0; i < 50; i++) {
-            rabbitTemplate.convertAndSend(queueName, message + i);
-        }
-    }
-    @Test
     public void testSendMessageToFanoutExchange(){
         // 队列名称
         String exchange = "fanoutExchange";
