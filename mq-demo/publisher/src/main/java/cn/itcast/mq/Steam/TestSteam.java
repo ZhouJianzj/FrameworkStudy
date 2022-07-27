@@ -65,6 +65,7 @@ public class TestSteam {
             System.out.println("成绩：" + entry.getKey() + " 人数：" + entry.getValue().size());
         }
 
+//        算数运算
         DoubleSummaryStatistics doubleSummaryStatistics = list.stream()
                 .filter(user -> null != user.getScore())
                 .mapToDouble(User::getScore).summaryStatistics();
@@ -78,6 +79,11 @@ public class TestSteam {
         System.out.println(count1);
         System.out.println(sum);
         System.out.println(average);
+
+
+        // 并行流 使用
+        long count2 = list.parallelStream().filter(p -> null != p.getScore()).count();
+        System.out.println("并行流处理参加考试的学生人数：" + count2);
     }
 
 
