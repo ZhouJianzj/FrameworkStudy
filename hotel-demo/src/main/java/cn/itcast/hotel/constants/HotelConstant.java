@@ -13,11 +13,12 @@ public class HotelConstant {
             "      },\n" +
             "      \"name\":{\n" +
             "        \"type\": \"text\",\n" +
-            "        \"analyzer\": \"ik_max_word\"\n" +
+            "        \"analyzer\": \"ik_max_word\",\n" +
+            "        \"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"address\":{\n" +
             "        \"type\": \"keyword\",\n" +
-            "        \"index\": false\n" +
+            "        \"index\": \"false\"\n" +
             "      },\n" +
             "      \"price\":{\n" +
             "        \"type\": \"integer\"\n" +
@@ -29,23 +30,27 @@ public class HotelConstant {
             "        \"type\": \"keyword\"\n" +
             "      },\n" +
             "      \"city\":{\n" +
-            "        \"type\": \"keyword\"\n" +
+            "        \"type\": \"keyword\",\"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"star_name\":{\n" +
-            "        \"type\": \"keyword\"\n" +
+            "        \"type\": \"keyword\",\"copy_to\": \"all\"\n" +
             "      },\n" +
             "      \"business\":{\n" +
             "        \"type\": \"text\",\n" +
-            "        \"index\": false\n" +
+            "        \"index\": \"false\"\n" +
             "      },\n" +
             "      \"location\":{\n" +
             "        \"type\": \"geo_point\",\n" +
-            "        \"index\": false\n" +
+            "        \"index\": \"false\"\n" +
             "      },\n" +
             "      \"pic\":{\n" +
-            "        \"type\": \"keyword\"\n" +
-            "        , \"index\": false\n" +
+            "        \"type\": \"keyword\",\n" +
+            "        \"index\": \"false\"\n" +
             "      },\n" +
+            "      \"all\":{\n" +
+            "        \"type\": \"text\",\n" +
+            "        \"analyzer\": \"ik_max_word\"\n" +
+            "      }\n" +
             "    }\n" +
             "  }\n" +
             "}";
