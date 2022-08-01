@@ -24,6 +24,10 @@ import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.search.SearchHit;
 import org.elasticsearch.search.SearchHits;
+import org.elasticsearch.search.aggregations.Aggregation;
+import org.elasticsearch.search.aggregations.AggregationBuilders;
+import org.elasticsearch.search.aggregations.Aggregations;
+import org.elasticsearch.search.aggregations.bucket.terms.Terms;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightBuilder;
 import org.elasticsearch.search.fetch.subphase.highlight.HighlightField;
 import org.elasticsearch.search.sort.SortOrder;
@@ -309,7 +313,6 @@ class HotelDemoApplicationTests {
     }
 
 
-
     /**
      * 查询排序
      *
@@ -342,4 +345,34 @@ class HotelDemoApplicationTests {
         }
 
     }
+
+
+    @Test
+    void testAggregations() throws IOException {
+
+        SearchRequest request = new SearchRequest("hotel");
+        request.source().size(0);
+        request.source().aggregation(AggregationBuilders
+                //指定聚合类型并且命名为brandAggregation
+                .terms("brandAggregation")
+                //需要聚合的字段
+                .field("brand").
+                size(10)
+                //字聚合 min stats max avg
+                .subAggregation(AggregationBuilders
+                        .stats("scoreAggregation")
+                        .field("score")));
+        SearchResponse response = restHighLevelClient.search(request, RequestOptions.DEFAULT);
+
+        Aggregations aggregations = response.getAggregations();
+        //需要转换一下类型
+        Terms termsAggregation = aggregations.get("brandAggregation");
+        List<? extends Terms.Bucket> buckets = termsAggregation.getBuckets();
+        for (Terms.Bucket bucket : buckets) {
+            System.out.println(bucket.getKeyAsString());
+        }
+
+    }
+
+
 }

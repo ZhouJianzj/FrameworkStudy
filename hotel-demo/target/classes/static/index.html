@@ -17,7 +17,7 @@
       <div class="logo">
         <img src="./img/heima.png" alt="1"/>
         <span>
-          <div class="logo-ch">黑马旅游</div>
+          <div class="logo-ch">旅游</div>
           <div class="logo-en">www.itheima.com</div>
         </span>
       </div>
@@ -246,16 +246,16 @@
           zoomToAccuracy: true,   //定位成功后是否自动调整地图视野到定位点
         });
 
-        // AMap.Event.addListener(geolocation, 'complete', result => {
-        //   if (this.params.page !== 1) {
-        //     this.params.page = 1;
-        //     this.loc = result.position.lat + ", " + result.position.lng;
-        //   } else {
-        //     this.searchByMap(result.position.lat + ", " + result.position.lng);
-        //   }
-        //
-        // });//返回定位信息
-        // AMap.Event.addListener(geolocation, 'error', err => console.log(err));      //返回定位出错信息
+        AMap.Event.addListener(geolocation, 'complete', result => {
+          if (this.params.page !== 1) {
+            this.params.page = 1;
+            this.loc = result.position.lat + ", " + result.position.lng;
+          } else {
+            this.searchByMap(result.position.lat + ", " + result.position.lng);
+          }
+
+        });//返回定位信息
+        AMap.Event.addListener(geolocation, 'error', err => console.log(err));      //返回定位出错信息
       });
 
       let oDiv = document.querySelector(".map-box"),
