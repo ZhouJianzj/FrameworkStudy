@@ -325,7 +325,8 @@ class HotelDemoApplicationTests {
                         boolQuery()
                         .must(QueryBuilders.matchQuery("brand", "如家"))
                         .filter(QueryBuilders.rangeQuery("price").lte("150"))
-                ).highlighter(new HighlightBuilder().field("name").requireFieldMatch(false))
+                )
+                .highlighter(new HighlightBuilder().field("name").requireFieldMatch(false))
                 .from(0)
                 .size(2);
         SearchResponse response = restHighLevelClient.search(request, RequestOptions.DEFAULT);
