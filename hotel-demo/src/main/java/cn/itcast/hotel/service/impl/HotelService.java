@@ -9,12 +9,17 @@ import cn.itcast.hotel.service.IHotelService;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.lucene.search.BooleanQuery;
+import org.elasticsearch.action.delete.DeleteRequest;
+import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.search.SearchRequest;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.client.indices.CreateIndexRequest;
+import org.elasticsearch.client.indices.CreateIndexResponse;
 import org.elasticsearch.common.geo.GeoPoint;
 import org.elasticsearch.common.unit.DistanceUnit;
+import org.elasticsearch.common.xcontent.XContentType;
 import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
 import org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilder;
@@ -31,11 +36,16 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import static cn.itcast.hotel.constants.HotelConstant.MapDSL;
+
 @Service
 public class HotelService extends ServiceImpl<HotelMapper, Hotel> implements IHotelService {
 
     @Autowired
     private RestHighLevelClient client;
+
+    @Autowired
+    private IHotelService iHotelService;
 
     @Override
     public PageResult search(QueryParams queryParams) throws IOException {
@@ -106,6 +116,48 @@ public class HotelService extends ServiceImpl<HotelMapper, Hotel> implements IHo
 
         //处理结果集
         return extracted(response);
+    }
+
+    /**
+     * 数据删除业务
+     * @param id
+     */
+    @Override
+    public void deleteById(String id) {
+
+        try {
+            DeleteRequest request = new DeleteRequest("hotel", id);
+            client.delete(request, RequestOptions.DEFAULT);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    /**
+     * 数据跟新/添加业务
+     * @param id
+     */
+    @Override
+    public void insertById(String id) {
+
+        try {
+            //1.根据id从数据库中查询对应的hotel
+            HotelDoc hotelDoc = new HotelDoc( iHotelService.getById(id));
+
+            //2.创建es请求
+            IndexRequest request = new IndexRequest("hotel").id(id);
+
+            //3.编写DSL
+            request.source(JSON.toJSONString(hotelDoc), XContentType.JSON);
+
+            //4.es客户端发送请求
+            client.index(request, RequestOptions.DEFAULT);
+
+        } catch (IOException e) {
+            throw  new RuntimeException(e);
+        }
+
     }
 
 

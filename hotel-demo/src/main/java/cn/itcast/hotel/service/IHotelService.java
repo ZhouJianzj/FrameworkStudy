@@ -10,4 +10,7 @@ import java.io.IOException;
 public interface IHotelService extends IService<Hotel> {
     PageResult search(QueryParams queryParams) throws IOException;
 
+    void deleteById(String id);
+
+    void insertById(String id);
 }
