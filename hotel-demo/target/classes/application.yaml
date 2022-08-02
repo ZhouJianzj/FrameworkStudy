@@ -6,6 +6,17 @@ spring:
     username: root
     password: 123321
     driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 10.90.254.246 # 主机名
+    port: 5672 # 端口
+    virtual-host: / # 虚拟主机
+    username: itcast # 用户名
+    password: 123321 # 密码
+    listener:
+      simple:
+        prefetch: 1 #每个consumer只预取一个，这样可以实现能者多劳
+
+
 logging:
   level:
     cn.itcast: debug
