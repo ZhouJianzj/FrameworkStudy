@@ -1,0 +1,35 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: userServer
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud-user?useSSL=false
+    username: root
+    password: 123321
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        cluster-name: hz
+#        表示是否为零时实例
+        ephemeral: false
+#   配置sentinel控制台
+    sentinel:
+      transport:
+#        port: 8719
+        dashboard: 127.0.0.1:8080
+#      eager: true
+#      enabled: true
+#      filter:
+#        url-patterns: /**
+mybatis:
+  type-aliases-package: cn.itcast.user.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    cn.itcast: debug
+  pattern:
+    dateformat: MM-dd HH:mm:ss:SSS
