@@ -6,7 +6,7 @@ spring:
     active: dev #开发环境
   cloud:
     nacos:
-#      nacos集群
+#        nacos集群
       discovery:
         cluster-name: hz
       server-addr: localhost:80
