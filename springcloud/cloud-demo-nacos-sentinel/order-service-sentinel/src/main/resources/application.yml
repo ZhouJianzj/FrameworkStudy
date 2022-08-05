@@ -19,7 +19,9 @@ spring:
       transport:
 #        port: 8719
         dashboard: 127.0.0.1:8080
-#      enabled: true # 是否开启。默认为 true 开启
+#     默认是限流controller，关闭之后会监视带有SentinelResource
+      web-context-unify: false
+  #      enabled: true # 是否开启。默认为 true 开启
 #      eager: true # 是否饥饿加载。默认为 false 关闭
 #      filter:
 #        url-patterns: /**

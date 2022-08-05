@@ -6,13 +6,29 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848
-#      nacos的分级存储，服务-集群-实例
+      #      nacos的分级存储，服务-集群-实例
       discovery:
         cluster-name: hz
-#     指定不同的命名空间达到服务隔离，同一个命名空间下的服务才可以访问
-#        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
-#     表示是否为零时实例
+        #     指定不同的命名空间达到服务隔离，同一个命名空间下的服务才可以访问
+        #        namespace: 950d45c4-c488-4372-bc09-c0b454593d6e
+        #     表示是否为零时实例
         ephemeral: false
+
+    #   配置sentinel控制台
+    sentinel:
+      transport:
+#        port: 8719
+        dashboard: 127.0.0.1:8080
+#     默认是限流controller，关闭之后会监视带有SentinelResource
+      web-context-unify: false
+  #      enabled: true # 是否开启。默认为 true 开启
+#      eager: true # 是否饥饿加载。默认为 false 关闭
+#      filter:
+#        url-patterns: /**
+
+
+
+
   datasource:
     url: jdbc:mysql://localhost:3306/cloud-order?useSSL=false
     username: root
@@ -27,6 +43,10 @@ logging:
     cn.itcast: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+
+
+
+
 
 #改变ribbon的懒加载
 ribbon:
