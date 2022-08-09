@@ -1,5 +1,6 @@
 package cn.itcast.order;
 
+
 import cn.itcast.clients.UserClient;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;

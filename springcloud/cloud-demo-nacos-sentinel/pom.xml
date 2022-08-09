@@ -11,6 +11,8 @@
     <modules>
         <module>user-service-sentinel</module>
         <module>order-service-sentinel</module>
+        <module>feign-api-sentinel</module>
+        <module>gateway</module>
     </modules>
     <packaging>pom</packaging>
 
