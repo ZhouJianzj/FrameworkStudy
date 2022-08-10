@@ -19,9 +19,16 @@ spring:
       transport:
 #        port: 8719
         dashboard: 127.0.0.1:8080
-#     默认是限流controller，关闭之后会监视带有SentinelResource
-      web-context-unify: false
-  #      enabled: true # 是否开启。默认为 true 开启
+      web-context-unify: false # 默认是限流controller，关闭之后会监视带有SentinelResource
+      datasource:
+        flow:
+          nacos:
+            server-addr: localhost:8848 # nacos地址
+            dataId: orderservice-flow-rules
+            groupId: SENTINEL_GROUP
+            rule-type: flow # 还可以是：degrade、authority、param-flow
+
+#      enabled: true # 是否开启。默认为 true 开启
 #      eager: true # 是否饥饿加载。默认为 false 关闭
 #      filter:
 #        url-patterns: /**

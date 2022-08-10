@@ -12,6 +12,11 @@
     <artifactId>order-service-sentinel</artifactId>
 
     <dependencies>
+<!--        sentinel监听nacos使用的，为了实时获取sentinel控制台的规则变更-->
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
+        </dependency>
 
         <!-- fegin客户端依赖-->
         <dependency>
