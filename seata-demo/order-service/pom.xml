@@ -24,6 +24,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
         <!--seata starter 采用1.4.2版本-->
         <dependency>
             <groupId>io.seata</groupId>
