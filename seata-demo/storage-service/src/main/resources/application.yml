@@ -36,6 +36,6 @@ seata:
   service:
     vgroup-mapping: # 事务组与TC服务cluster的映射关系
       seata-demo: default
-
   #  seata的XA工作模式
-  data-source-proxy-mode: XA
+#  data-source-proxy-mode: XA
+  data-source-proxy-mode: AT  #  seata的AT工作模式，需要往TC服务数据库中添加全局锁表和每个业务模块数据库中添undo_log表
