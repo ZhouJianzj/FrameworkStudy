@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: cn.itcast.mq.helloworld.PublisherTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 7.01 s <<< FAILURE! - in cn.itcast.mq.helloworld.PublisherTest
+testSendMessage  Time elapsed: 2.489 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at cn.itcast.mq.helloworld.PublisherTest.testSendMessage(PublisherTest.java:34)
+
+testSendMessageToFanoutExchange  Time elapsed: 2.256 s  <<< ERROR!
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: connect
+	at cn.itcast.mq.helloworld.PublisherTest.testSendMessageToFanoutExchange(PublisherTest.java:68)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at cn.itcast.mq.helloworld.PublisherTest.testSendMessageToFanoutExchange(PublisherTest.java:68)
+
