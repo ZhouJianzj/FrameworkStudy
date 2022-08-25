@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Controller {
 
-    @Autowired
-    private User user;
+//    @Autowired
+//    private User user;
 
     @RequestMapping("/hello")
     public String hello() {
