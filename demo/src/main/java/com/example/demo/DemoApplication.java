@@ -33,8 +33,14 @@ public class DemoApplication {
 //        System.out.println(execute);
 //    }
 
+
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(DemoApplication.class, args);
+        UserService userService = run.getBean(UserService.class);
+
+        userService.selectUserAll()
+                .stream()
+                .forEach(user -> System.out.println(user.getId() + "--" + user.getName() + "--" + user.getAge()));
     }
 
 

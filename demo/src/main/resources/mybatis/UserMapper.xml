@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.demo.mapper.UserMapper">
+<mapper namespace="com.example.demo.mapper.UserMapper" >
+    <resultMap id="um" type="user">
+        <constructor>
+            <idArg column="id" javaType="int"/>
+            <arg column="name"  javaType="string"/>
+            <arg column="age" javaType="int"/>
+        </constructor>
+    </resultMap>
 
-<select id="selectAllUser" resultType="user">
-    select * from user
-</select>
+
+    <select id="selectAllUser" resultType="user">
+        select *
+        from user
+    </select>
 
 </mapper>

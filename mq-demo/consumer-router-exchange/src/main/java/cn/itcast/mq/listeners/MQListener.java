@@ -36,4 +36,6 @@ public class MQListener {
     public void queueTwo(String message){
         System.out.println("queueTwo----->" + message);
     }
+
+
 }
